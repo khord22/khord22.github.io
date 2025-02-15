@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/XC3-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>XC3 visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/XC3-files/logo.png" />
+	<img class="preload-hidden" src="/sets/VGE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/XC3-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="VGE-spoiler"><img src="sets/VGE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="XC3-spoiler"><img src="sets/XC3-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/XC3-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img data-alt_src="sets\XC3-files\img\21_MW01 Z_back.png" alt="sets\XC3-files\img\21_MW01 Z_front.png" id="21_MW01 Z" data-flag="@XD" onclick="openSidebar('21_MW01 Z',false)"><button class="flip-btn" onclick="imgFlip('21_MW01 Z')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\60_MU01 Guernica Vandham.png" id="60_MU01 Guernica Vandham" data-flag="@X" onclick="openSidebar('60_MU01 Guernica Vandham',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\99_MB01 Eunie_back.png" alt="sets\XC3-files\img\99_MB01 Eunie_front.png" id="99_MB01 Eunie" data-flag="@XD" onclick="openSidebar('99_MB01 Eunie',false)"><button class="flip-btn" onclick="imgFlip('99_MB01 Eunie')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\138_MR01 Noah_back.png" alt="sets\XC3-files\img\138_MR01 Noah_front.png" id="138_MR01 Noah" data-flag="@XD" onclick="openSidebar('138_MR01 Noah',false)"><button class="flip-btn" onclick="imgFlip('138_MR01 Noah')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\177_MG01 Sena_back.png" alt="sets\XC3-files\img\177_MG01 Sena_front.png" id="177_MG01 Sena" data-flag="@XD" onclick="openSidebar('177_MG01 Sena',false)"><button class="flip-btn" onclick="imgFlip('177_MG01 Sena')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\22_MW02 Seraphic Ceratinia_back.png" alt="sets\XC3-files\img\22_MW02 Seraphic Ceratinia_front.png" id="22_MW02 Seraphic Ceratinia" data-flag="@XD" onclick="openSidebar('22_MW02 Seraphic Ceratinia',false)"><button class="flip-btn" onclick="imgFlip('22_MW02 Seraphic Ceratinia')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\61_MU02 Levialord Empireo_back.png" alt="sets\XC3-files\img\61_MU02 Levialord Empireo_front.png" id="61_MU02 Levialord Empireo" data-flag="@XD" onclick="openSidebar('61_MU02 Levialord Empireo',false)"><button class="flip-btn" onclick="imgFlip('61_MU02 Levialord Empireo')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\100_MB02 Perilwing Ryuho_back.png" alt="sets\XC3-files\img\100_MB02 Perilwing Ryuho_front.png" id="100_MB02 Perilwing Ryuho" data-flag="@XD" onclick="openSidebar('100_MB02 Perilwing Ryuho',false)"><button class="flip-btn" onclick="imgFlip('100_MB02 Perilwing Ryuho')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\139_MR02 Dreadwyrm Nizoont_back.png" alt="sets\XC3-files\img\139_MR02 Dreadwyrm Nizoont_front.png" id="139_MR02 Dreadwyrm Nizoont" data-flag="@XD" onclick="openSidebar('139_MR02 Dreadwyrm Nizoont',false)"><button class="flip-btn" onclick="imgFlip('139_MR02 Dreadwyrm Nizoont')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\178_MG02 Kilocorn Grandeps_back.png" alt="sets\XC3-files\img\178_MG02 Kilocorn Grandeps_front.png" id="178_MG02 Kilocorn Grandeps" data-flag="@XD" onclick="openSidebar('178_MG02 Kilocorn Grandeps',false)"><button class="flip-btn" onclick="imgFlip('178_MG02 Kilocorn Grandeps')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\23_RW01 Crys, Seers Tutor_back.png" alt="sets\XC3-files\img\23_RW01 Crys, Seers Tutor_front.png" id="23_RW01 Crys, Seers Tutor" data-flag="@XD" onclick="openSidebar('23_RW01 Crys, Seers Tutor',false)"><button class="flip-btn" onclick="imgFlip('23_RW01 Crys, Seers Tutor')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\62_RU01 Lady Alexandria.png" id="62_RU01 Lady Alexandria" data-flag="@X" onclick="openSidebar('62_RU01 Lady Alexandria',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\101_RB01 Colony 11 Raven.png" id="101_RB01 Colony 11 Raven" data-flag="@X" onclick="openSidebar('101_RB01 Colony 11 Raven',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\140_RR01 Wrathfist Ghondor.png" id="140_RR01 Wrathfist Ghondor" data-flag="@X" onclick="openSidebar('140_RR01 Wrathfist Ghondor',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\179_RG01 Nopon Registrar.png" id="179_RG01 Nopon Registrar" data-flag="@X" onclick="openSidebar('179_RG01 Nopon Registrar',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\24_RW02 Mio's Homecoming.png" id="24_RW02 Mios Homecoming" data-flag="@X" onclick="openSidebar('24_RW02 Mios Homecoming',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\63_RU02 Lost Mentor.png" id="63_RU02 Lost Mentor" data-flag="@X" onclick="openSidebar('63_RU02 Lost Mentor',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\102_RB02 The Real Enemy_back.png" alt="sets\XC3-files\img\102_RB02 The Real Enemy_front.png" id="102_RB02 The Real Enemy" data-flag="@XD" onclick="openSidebar('102_RB02 The Real Enemy',true)"><button class="flip-btn" onclick="imgFlip('102_RB02 The Real Enemy')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\141_RR02 All We're Good For_back.png" alt="sets\XC3-files\img\141_RR02 All We're Good For_front.png" id="141_RR02 All Were Good For" data-flag="@XD" onclick="openSidebar('141_RR02 All Were Good For',true)"><button class="flip-btn" onclick="imgFlip('141_RR02 All Were Good For')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\180_RG02 Protect the Stone_back.png" alt="sets\XC3-files\img\180_RG02 Protect the Stone_front.png" id="180_RG02 Protect the Stone" data-flag="@XD" onclick="openSidebar('180_RG02 Protect the Stone',true)"><button class="flip-btn" onclick="imgFlip('180_RG02 Protect the Stone')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\25_RW03 Flash Fencer_back.png" alt="sets\XC3-files\img\25_RW03 Flash Fencer_front.png" id="25_RW03 Flash Fencer" data-flag="@XD" onclick="openSidebar('25_RW03 Flash Fencer',false)"><button class="flip-btn" onclick="imgFlip('25_RW03 Flash Fencer')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\64_RU03 Masked Agnus Queen.png" id="64_RU03 Masked Agnus Queen" data-flag="@X" onclick="openSidebar('64_RU03 Masked Agnus Queen',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\103_RB03 The Annihilator.png" id="103_RB03 The Annihilator" data-flag="@X" onclick="openSidebar('103_RB03 The Annihilator',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\142_RR03 Inosabers.png" id="142_RR03 Inosabers" data-flag="@X" onclick="openSidebar('142_RR03 Inosabers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\181_RG03 Become Ouroboros.png" id="181_RG03 Become Ouroboros" data-flag="@X" onclick="openSidebar('181_RG03 Become Ouroboros',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\26_RW04 Agnus Off-Seeing.png" id="26_RW04 Agnus Off-Seeing" data-flag="@X" onclick="openSidebar('26_RW04 Agnus Off-Seeing',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\65_RU04 Consul Y.png" id="65_RU04 Consul Y" data-flag="@X" onclick="openSidebar('65_RU04 Consul Y',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\104_RB04 See Your Demise.png" id="104_RB04 See Your Demise" data-flag="@X" onclick="openSidebar('104_RB04 See Your Demise',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\143_RR04 Smoldering Cammuravi.png" id="143_RR04 Smoldering Cammuravi" data-flag="@X" onclick="openSidebar('143_RR04 Smoldering Cammuravi',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\182_RG04 Inscrutable Teach.png" id="182_RG04 Inscrutable Teach" data-flag="@X" onclick="openSidebar('182_RG04 Inscrutable Teach',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\27_RW05 Mio's Diary.png" id="27_RW05 Mios Diary" data-flag="@X" onclick="openSidebar('27_RW05 Mios Diary',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\66_RU05 The Weight of Life.png" id="66_RU05 The Weight of Life" data-flag="@X" onclick="openSidebar('66_RU05 The Weight of Life',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\105_RB05 Full Metal Jaguar.png" id="105_RB05 Full Metal Jaguar" data-flag="@X" onclick="openSidebar('105_RB05 Full Metal Jaguar',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\144_RR05 Flame Clock.png" id="144_RR05 Flame Clock" data-flag="@X" onclick="openSidebar('144_RR05 Flame Clock',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\183_RG05 Travelling Pals.png" id="183_RG05 Travelling Pals" data-flag="@X" onclick="openSidebar('183_RG05 Travelling Pals',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\28_RW06 Monica Vandham.png" id="28_RW06 Monica Vandham" data-flag="@X" onclick="openSidebar('28_RW06 Monica Vandham',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\67_RU06 Dawnhero Isurd.png" id="67_RU06 Dawnhero Isurd" data-flag="@X" onclick="openSidebar('67_RU06 Dawnhero Isurd',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\106_RB06 Segiri, No. 7.png" id="106_RB06 Segiri, No. 7" data-flag="@X" onclick="openSidebar('106_RB06 Segiri, No. 7',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\145_RR06.png" id="145_RR06" data-flag="@X" onclick="openSidebar('145_RR06',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\184_RG06 Mu Proudbanner.png" id="184_RG06 Mu Proudbanner" data-flag="@X" onclick="openSidebar('184_RG06 Mu Proudbanner',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\29_RW07 Consul X.png" id="29_RW07 Consul X" data-flag="@X" onclick="openSidebar('29_RW07 Consul X',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\68_RU07 Improved Fabrication.png" id="68_RU07 Improved Fabrication" data-flag="@X" onclick="openSidebar('68_RU07 Improved Fabrication',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\107_RB07 Avenger of the Colony.png" id="107_RB07 Avenger of the Colony" data-flag="@X" onclick="openSidebar('107_RB07 Avenger of the Colony',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\146_RR07.png" id="146_RR07" data-flag="@X" onclick="openSidebar('146_RR07',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\185_RG07.png" id="185_RG07" data-flag="@X" onclick="openSidebar('185_RG07',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\30_UW01 Young Armu.png" id="30_UW01 Young Armu" data-flag="@X" onclick="openSidebar('30_UW01 Young Armu',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\69_UU01 Cave Wisp.png" id="69_UU01 Cave Wisp" data-flag="@X" onclick="openSidebar('69_UU01 Cave Wisp',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\108_UB01 Sacrificial Soldier.png" id="108_UB01 Sacrificial Soldier" data-flag="@X" onclick="openSidebar('108_UB01 Sacrificial Soldier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\147_UR01 Skittering Pippito.png" id="147_UR01 Skittering Pippito" data-flag="@X" onclick="openSidebar('147_UR01 Skittering Pippito',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\186_UG01 Nomad Rhinon.png" id="186_UG01 Nomad Rhinon" data-flag="@X" onclick="openSidebar('186_UG01 Nomad Rhinon',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\31_UW02 Li Garte Prisoners.png" id="31_UW02 Li Garte Prisoners" data-flag="@X" onclick="openSidebar('31_UW02 Li Garte Prisoners',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\70_UU02 Defender Unit.png" id="70_UU02 Defender Unit" data-flag="@X" onclick="openSidebar('70_UU02 Defender Unit',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\109_UB02 Horrifying Levnis.png" id="109_UB02 Horrifying Levnis" data-flag="@X" onclick="openSidebar('109_UB02 Horrifying Levnis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\148_UR02 Teach's Professionals.png" id="148_UR02 Teachs Professionals" data-flag="@X" onclick="openSidebar('148_UR02 Teachs Professionals',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\187_UG02 Eroding Caterpile.png" id="187_UG02 Eroding Caterpile" data-flag="@X" onclick="openSidebar('187_UG02 Eroding Caterpile',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\32_UW03 Last-Stand Avis.png" id="32_UW03 Last-Stand Avis" data-flag="@X" onclick="openSidebar('32_UW03 Last-Stand Avis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\71_UU03 Nopon Cartographer.png" id="71_UU03 Nopon Cartographer" data-flag="@X" onclick="openSidebar('71_UU03 Nopon Cartographer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\110_UB03 Armuvore Aligo.png" id="110_UB03 Armuvore Aligo" data-flag="@X" onclick="openSidebar('110_UB03 Armuvore Aligo',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\149_UR03 Fueled Feris.png" id="149_UR03 Fueled Feris" data-flag="@X" onclick="openSidebar('149_UR03 Fueled Feris',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\188_UG03 Take the Space_back.png" alt="sets\XC3-files\img\188_UG03 Take the Space_front.png" id="188_UG03 Take the Space" data-flag="@XD" onclick="openSidebar('188_UG03 Take the Space',true)"><button class="flip-btn" onclick="imgFlip('188_UG03 Take the Space')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\33_UW04 Gamma Training Avis.png" id="33_UW04 Gamma Training Avis" data-flag="@X" onclick="openSidebar('33_UW04 Gamma Training Avis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\72_UU04 Bunez Vollgull.png" id="72_UU04 Bunez Vollgull" data-flag="@X" onclick="openSidebar('72_UU04 Bunez Vollgull',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\111_UB04 Flame-Hungry Soldiers.png" id="111_UB04 Flame-Hungry Soldiers" data-flag="@X" onclick="openSidebar('111_UB04 Flame-Hungry Soldiers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\150_UR04 Entrenched Testudo.png" id="150_UR04 Entrenched Testudo" data-flag="@X" onclick="openSidebar('150_UR04 Entrenched Testudo',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\189_UG04 Igna Sentry.png" id="189_UG04 Igna Sentry" data-flag="@X" onclick="openSidebar('189_UG04 Igna Sentry',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\34_UW05 Cooking Class_back.png" alt="sets\XC3-files\img\34_UW05 Cooking Class_front.png" id="34_UW05 Cooking Class" data-flag="@XD" onclick="openSidebar('34_UW05 Cooking Class',false)"><button class="flip-btn" onclick="imgFlip('34_UW05 Cooking Class')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\73_UU05 Tactical Lepus.png" id="73_UU05 Tactical Lepus" data-flag="@X" onclick="openSidebar('73_UU05 Tactical Lepus',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\112_UB05 Origin Construct.png" id="112_UB05 Origin Construct" data-flag="@X" onclick="openSidebar('112_UB05 Origin Construct',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\151_UR05 Control Drive.png" id="151_UR05 Control Drive" data-flag="@X" onclick="openSidebar('151_UR05 Control Drive',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\190_UG05 Natural Differences_back.png" alt="sets\XC3-files\img\190_UG05 Natural Differences_front.png" id="190_UG05 Natural Differences" data-flag="@XD" onclick="openSidebar('190_UG05 Natural Differences',true)"><button class="flip-btn" onclick="imgFlip('190_UG05 Natural Differences')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\35_UW06 Honored Moramora.png" id="35_UW06 Honored Moramora" data-flag="@X" onclick="openSidebar('35_UW06 Honored Moramora',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\74_UU06 Crafty Nopon_back.png" alt="sets\XC3-files\img\74_UU06 Crafty Nopon_front.png" id="74_UU06 Crafty Nopon" data-flag="@XD" onclick="openSidebar('74_UU06 Crafty Nopon',false)"><button class="flip-btn" onclick="imgFlip('74_UU06 Crafty Nopon')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\113_UB06 Cavern Aracnos.png" id="113_UB06 Cavern Aracnos" data-flag="@X" onclick="openSidebar('113_UB06 Cavern Aracnos',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\152_UR06 Igna Sharpshooter.png" id="152_UR06 Igna Sharpshooter" data-flag="@X" onclick="openSidebar('152_UR06 Igna Sharpshooter',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\191_UG06 Immovable Gonzales.png" id="191_UG06 Immovable Gonzales" data-flag="@X" onclick="openSidebar('191_UG06 Immovable Gonzales',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\36_UW07 Legarre Marrin.png" id="36_UW07 Legarre Marrin" data-flag="@X" onclick="openSidebar('36_UW07 Legarre Marrin',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\75_UU07 Troubadour Class_back.png" alt="sets\XC3-files\img\75_UU07 Troubadour Class_front.png" id="75_UU07 Troubadour Class" data-flag="@XD" onclick="openSidebar('75_UU07 Troubadour Class',false)"><button class="flip-btn" onclick="imgFlip('75_UU07 Troubadour Class')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\114_UB07 Commander Class_back.png" alt="sets\XC3-files\img\114_UB07 Commander Class_front.png" id="114_UB07 Commander Class" data-flag="@XD" onclick="openSidebar('114_UB07 Commander Class',false)"><button class="flip-btn" onclick="imgFlip('114_UB07 Commander Class')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\153_UR07 Avis Charge Leader.png" id="153_UR07 Avis Charge Leader" data-flag="@X" onclick="openSidebar('153_UR07 Avis Charge Leader',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\192_UG07 Evolving Blant.png" id="192_UG07 Evolving Blant" data-flag="@X" onclick="openSidebar('192_UG07 Evolving Blant',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\37_UW08 Off-Seer's Flute.png" id="37_UW08 Off-Seers Flute" data-flag="@X" onclick="openSidebar('37_UW08 Off-Seers Flute',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\76_UU08 Disinformation Centurion.png" id="76_UU08 Disinformation Centurion" data-flag="@X" onclick="openSidebar('76_UU08 Disinformation Centurion',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\115_UB08 Cruel Murder.png" id="115_UB08 Cruel Murder" data-flag="@X" onclick="openSidebar('115_UB08 Cruel Murder',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\154_UR08 Greyhair Shot.png" id="154_UR08 Greyhair Shot" data-flag="@X" onclick="openSidebar('154_UR08 Greyhair Shot',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\193_UG08 Armu Tenders.png" id="193_UG08 Armu Tenders" data-flag="@X" onclick="openSidebar('193_UG08 Armu Tenders',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\38_UW09 Internal Malfunction_back.png" alt="sets\XC3-files\img\38_UW09 Internal Malfunction_front.png" id="38_UW09 Internal Malfunction" data-flag="@XD" onclick="openSidebar('38_UW09 Internal Malfunction',true)"><button class="flip-btn" onclick="imgFlip('38_UW09 Internal Malfunction')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\77_UU09 Turn to Ether.png" id="77_UU09 Turn to Ether" data-flag="@X" onclick="openSidebar('77_UU09 Turn to Ether',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\116_UB09 Liberation of Omega_back.png" alt="sets\XC3-files\img\116_UB09 Liberation of Omega_front.png" id="116_UB09 Liberation of Omega" data-flag="@XD" onclick="openSidebar('116_UB09 Liberation of Omega',true)"><button class="flip-btn" onclick="imgFlip('116_UB09 Liberation of Omega')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\155_UR09 Assult on Origin_back.png" alt="sets\XC3-files\img\155_UR09 Assult on Origin_front.png" id="155_UR09 Assult on Origin" data-flag="@XD" onclick="openSidebar('155_UR09 Assult on Origin',true)"><button class="flip-btn" onclick="imgFlip('155_UR09 Assult on Origin')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\194_UG09 Search For New Paths.png" id="194_UG09 Search For New Paths" data-flag="@X" onclick="openSidebar('194_UG09 Search For New Paths',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\39_UW10 Broken Cycle.png" id="39_UW10 Broken Cycle" data-flag="@X" onclick="openSidebar('39_UW10 Broken Cycle',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\78_UU10 Sudden Despair.png" id="78_UU10 Sudden Despair" data-flag="@X" onclick="openSidebar('78_UU10 Sudden Despair',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\117_UB10 Annihilation Event_back.png" alt="sets\XC3-files\img\117_UB10 Annihilation Event_front.png" id="117_UB10 Annihilation Event" data-flag="@XD" onclick="openSidebar('117_UB10 Annihilation Event',true)"><button class="flip-btn" onclick="imgFlip('117_UB10 Annihilation Event')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\156_UR10 Soulhacker Class_back.png" alt="sets\XC3-files\img\156_UR10 Soulhacker Class_front.png" id="156_UR10 Soulhacker Class" data-flag="@XD" onclick="openSidebar('156_UR10 Soulhacker Class',false)"><button class="flip-btn" onclick="imgFlip('156_UR10 Soulhacker Class')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\195_UG10 Lapadarist Class_back.png" alt="sets\XC3-files\img\195_UG10 Lapadarist Class_front.png" id="195_UG10 Lapadarist Class" data-flag="@XD" onclick="openSidebar('195_UG10 Lapadarist Class',false)"><button class="flip-btn" onclick="imgFlip('195_UG10 Lapadarist Class')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\40_UW11 Fall of a Consoul_back.png" alt="sets\XC3-files\img\40_UW11 Fall of a Consoul_front.png" id="40_UW11 Fall of a Consoul" data-flag="@XD" onclick="openSidebar('40_UW11 Fall of a Consoul',true)"><button class="flip-btn" onclick="imgFlip('40_UW11 Fall of a Consoul')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\79_UU11 Freezing Blade_back.png" alt="sets\XC3-files\img\79_UU11 Freezing Blade_front.png" id="79_UU11 Freezing Blade" data-flag="@XD" onclick="openSidebar('79_UU11 Freezing Blade',false)"><button class="flip-btn" onclick="imgFlip('79_UU11 Freezing Blade')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\118_UB11 Ruins of Anamnesis.png" id="118_UB11 Ruins of Anamnesis" data-flag="@X" onclick="openSidebar('118_UB11 Ruins of Anamnesis',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\157_UR11 Stand in Opposition_back.png" alt="sets\XC3-files\img\157_UR11 Stand in Opposition_front.png" id="157_UR11 Stand in Opposition" data-flag="@XD" onclick="openSidebar('157_UR11 Stand in Opposition',true)"><button class="flip-btn" onclick="imgFlip('157_UR11 Stand in Opposition')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\196_UG11 Offseers Respite.png" id="196_UG11 Offseers Respite" data-flag="@X" onclick="openSidebar('196_UG11 Offseers Respite',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\41_UX01 Consul U_back.png" alt="sets\XC3-files\img\41_UX01 Consul U_front.png" id="41_UX01 Consul U" data-flag="@XD" onclick="openSidebar('41_UX01 Consul U',false)"><button class="flip-btn" onclick="imgFlip('41_UX01 Consul U')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\80_UX02 Consul Q_back.png" alt="sets\XC3-files\img\80_UX02 Consul Q_front.png" id="80_UX02 Consul Q" data-flag="@XD" onclick="openSidebar('80_UX02 Consul Q',false)"><button class="flip-btn" onclick="imgFlip('80_UX02 Consul Q')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\119_UX03 Consul V_back.png" alt="sets\XC3-files\img\119_UX03 Consul V_front.png" id="119_UX03 Consul V" data-flag="@XD" onclick="openSidebar('119_UX03 Consul V',false)"><button class="flip-btn" onclick="imgFlip('119_UX03 Consul V')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\158_UX04 Consul R_back.png" alt="sets\XC3-files\img\158_UX04 Consul R_front.png" id="158_UX04 Consul R" data-flag="@XD" onclick="openSidebar('158_UX04 Consul R',false)"><button class="flip-btn" onclick="imgFlip('158_UX04 Consul R')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\197_UX05 Consul G_back.png" alt="sets\XC3-files\img\197_UX05 Consul G_front.png" id="197_UX05 Consul G" data-flag="@XD" onclick="openSidebar('197_UX05 Consul G',false)"><button class="flip-btn" onclick="imgFlip('197_UX05 Consul G')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\3_CW01 Nopon Vigilant.png" id="3_CW01 Nopon Vigilant" data-flag="@X" onclick="openSidebar('3_CW01 Nopon Vigilant',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\42_CU01 Mondo Bird.png" id="42_CU01 Mondo Bird" data-flag="@X" onclick="openSidebar('42_CU01 Mondo Bird',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\81_CB01 Moebius Soldier.png" id="81_CB01 Moebius Soldier" data-flag="@X" onclick="openSidebar('81_CB01 Moebius Soldier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\120_CR01 Stillbreaker Levnis.png" id="120_CR01 Stillbreaker Levnis" data-flag="@X" onclick="openSidebar('120_CR01 Stillbreaker Levnis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\159_CG01 Caravan Mapper.png" id="159_CG01 Caravan Mapper" data-flag="@X" onclick="openSidebar('159_CG01 Caravan Mapper',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\4_CW02 Prom Flier.png" id="4_CW02 Prom Flier" data-flag="@X" onclick="openSidebar('4_CW02 Prom Flier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\43_CU02 Scavenging Crustip.png" id="43_CU02 Scavenging Crustip" data-flag="@X" onclick="openSidebar('43_CU02 Scavenging Crustip',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\82_CB02 Machine Assassin.png" id="82_CB02 Machine Assassin" data-flag="@X" onclick="openSidebar('82_CB02 Machine Assassin',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\121_CR02 Gamma Trainee.png" id="121_CR02 Gamma Trainee" data-flag="@X" onclick="openSidebar('121_CR02 Gamma Trainee',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\160_CG02 Crystaline Ropl.png" id="160_CG02 Crystaline Ropl" data-flag="@X" onclick="openSidebar('160_CG02 Crystaline Ropl',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\5_CW03 Nopon Emblazoner.png" id="5_CW03 Nopon Emblazoner" data-flag="@X" onclick="openSidebar('5_CW03 Nopon Emblazoner',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\44_CU03 Glimmerbell.png" id="44_CU03 Glimmerbell" data-flag="@X" onclick="openSidebar('44_CU03 Glimmerbell',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\83_CB03 Fuming Blant.png" id="83_CB03 Fuming Blant" data-flag="@X" onclick="openSidebar('83_CB03 Fuming Blant',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\122_CR03 City Rifleman.png" id="122_CR03 City Rifleman" data-flag="@X" onclick="openSidebar('122_CR03 City Rifleman',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\161_CG03 Nopon Guide.png" id="161_CG03 Nopon Guide" data-flag="@X" onclick="openSidebar('161_CG03 Nopon Guide',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\6_CW04 Agnus Scout.png" id="6_CW04 Agnus Scout" data-flag="@X" onclick="openSidebar('6_CW04 Agnus Scout',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\45_CU04 Nopon Supplier.png" id="45_CU04 Nopon Supplier" data-flag="@X" onclick="openSidebar('45_CU04 Nopon Supplier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\84_CB04 Rotten Caterpile.png" id="84_CB04 Rotten Caterpile" data-flag="@X" onclick="openSidebar('84_CB04 Rotten Caterpile',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\123_CR04 Manned Avis.png" id="123_CR04 Manned Avis" data-flag="@X" onclick="openSidebar('123_CR04 Manned Avis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\162_CG04 Nopon Stack.png" id="162_CG04 Nopon Stack" data-flag="@X" onclick="openSidebar('162_CG04 Nopon Stack',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\7_CW05 Exhausted Smith.png" id="7_CW05 Exhausted Smith" data-flag="@X" onclick="openSidebar('7_CW05 Exhausted Smith',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\46_CU05 Distracting Flier.png" id="46_CU05 Distracting Flier" data-flag="@X" onclick="openSidebar('46_CU05 Distracting Flier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\85_CB05 Merrosh Rhogul.png" id="85_CB05 Merrosh Rhogul" data-flag="@X" onclick="openSidebar('85_CB05 Merrosh Rhogul',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\124_CR05 Reef Scrounger.png" id="124_CR05 Reef Scrounger" data-flag="@X" onclick="openSidebar('124_CR05 Reef Scrounger',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\163_CG05 Shielder Igna.png" id="163_CG05 Shielder Igna" data-flag="@X" onclick="openSidebar('163_CG05 Shielder Igna',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\8_CW06 Auto Avis.png" id="8_CW06 Auto Avis" data-flag="@X" onclick="openSidebar('8_CW06 Auto Avis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\47_CU06 Colony Iota Agent.png" id="47_CU06 Colony Iota Agent" data-flag="@X" onclick="openSidebar('47_CU06 Colony Iota Agent',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\86_CB06 Kevesi Off-Seer.png" id="86_CB06 Kevesi Off-Seer" data-flag="@X" onclick="openSidebar('86_CB06 Kevesi Off-Seer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\125_CR06 Accellerated Testudo.png" id="125_CR06 Accellerated Testudo" data-flag="@X" onclick="openSidebar('125_CR06 Accellerated Testudo',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\164_CG06 Erythia Merigna.png" id="164_CG06 Erythia Merigna" data-flag="@X" onclick="openSidebar('164_CG06 Erythia Merigna',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\9_CW07 Nopon Collector.png" id="9_CW07 Nopon Collector" data-flag="@X" onclick="openSidebar('9_CW07 Nopon Collector',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\48_CU07 Intel Disruptor.png" id="48_CU07 Intel Disruptor" data-flag="@X" onclick="openSidebar('48_CU07 Intel Disruptor',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\87_CB07 Masked Construct.png" id="87_CB07 Masked Construct" data-flag="@X" onclick="openSidebar('87_CB07 Masked Construct',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\126_CR07 Lighting Garaffa.png" id="126_CR07 Lighting Garaffa" data-flag="@X" onclick="openSidebar('126_CR07 Lighting Garaffa',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\165_CG07 Gromrice Farmer.png" id="165_CG07 Gromrice Farmer" data-flag="@X" onclick="openSidebar('165_CG07 Gromrice Farmer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\10_CW08 Agnian Off-Seer.png" id="10_CW08 Agnian Off-Seer" data-flag="@X" onclick="openSidebar('10_CW08 Agnian Off-Seer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\49_CU08 Battlefield Scrapper.png" id="49_CU08 Battlefield Scrapper" data-flag="@X" onclick="openSidebar('49_CU08 Battlefield Scrapper',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\88_CB08 Undying Soldiers.png" id="88_CB08 Undying Soldiers" data-flag="@X" onclick="openSidebar('88_CB08 Undying Soldiers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\127_CR08 Soldier's Blade.png" id="127_CR08 Soldiers Blade" data-flag="@X" onclick="openSidebar('127_CR08 Soldiers Blade',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\166_CG08 Indebted Tinkerer.png" id="166_CG08 Indebted Tinkerer" data-flag="@X" onclick="openSidebar('166_CG08 Indebted Tinkerer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\11_CW09 Agnian Tactician.png" id="11_CW09 Agnian Tactician" data-flag="@X" onclick="openSidebar('11_CW09 Agnian Tactician',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\50_CU09 Rusty Levnis.png" id="50_CU09 Rusty Levnis" data-flag="@X" onclick="openSidebar('50_CU09 Rusty Levnis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\89_CB09 Off-Seer Unit.png" id="89_CB09 Off-Seer Unit" data-flag="@X" onclick="openSidebar('89_CB09 Off-Seer Unit',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\128_CR09 Jingoistic Gigantus.png" id="128_CR09 Jingoistic Gigantus" data-flag="@X" onclick="openSidebar('128_CR09 Jingoistic Gigantus',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\167_CG09 Highlands Anlood.png" id="167_CG09 Highlands Anlood" data-flag="@X" onclick="openSidebar('167_CG09 Highlands Anlood',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\12_CW10 Agnus Duoblade.png" id="12_CW10 Agnus Duoblade" data-flag="@X" onclick="openSidebar('12_CW10 Agnus Duoblade',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\51_CU10 Collectapedia Request.png" id="51_CU10 Collectapedia Request" data-flag="@X" onclick="openSidebar('51_CU10 Collectapedia Request',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\90_CB10 Silver-Rank Soldiers.png" id="90_CB10 Silver-Rank Soldiers" data-flag="@X" onclick="openSidebar('90_CB10 Silver-Rank Soldiers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\129_CR10 Origin Dragon.png" id="129_CR10 Origin Dragon" data-flag="@X" onclick="openSidebar('129_CR10 Origin Dragon',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\168_CG10 Bloom Camill.png" id="168_CG10 Bloom Camill" data-flag="@X" onclick="openSidebar('168_CG10 Bloom Camill',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\13_CW11 Ruga Quadwing.png" id="13_CW11 Ruga Quadwing" data-flag="@X" onclick="openSidebar('13_CW11 Ruga Quadwing',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\52_CU11 Ether Leak.png" id="52_CU11 Ether Leak" data-flag="@X" onclick="openSidebar('52_CU11 Ether Leak',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\91_CB11 Fuel the Flame Clock.png" id="91_CB11 Fuel the Flame Clock" data-flag="@X" onclick="openSidebar('91_CB11 Fuel the Flame Clock',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\130_CR11 Fall in Flames.png" id="130_CR11 Fall in Flames" data-flag="@X" onclick="openSidebar('130_CR11 Fall in Flames',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\169_CG11 Titanic Behemoth.png" id="169_CG11 Titanic Behemoth" data-flag="@X" onclick="openSidebar('169_CG11 Titanic Behemoth',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\14_CW12 Nopon Traders.png" id="14_CW12 Nopon Traders" data-flag="@X" onclick="openSidebar('14_CW12 Nopon Traders',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\53_CU12 Pulsating Ether Cylinder.png" id="53_CU12 Pulsating Ether Cylinder" data-flag="@X" onclick="openSidebar('53_CU12 Pulsating Ether Cylinder',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\92_CB12 Wither Embers.png" id="92_CB12 Wither Embers" data-flag="@X" onclick="openSidebar('92_CB12 Wither Embers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\131_CR12 Klaboom.png" id="131_CR12 Klaboom" data-flag="@X" onclick="openSidebar('131_CR12 Klaboom',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\170_CG12 Tranquil Strike.png" id="170_CG12 Tranquil Strike" data-flag="@X" onclick="openSidebar('170_CG12 Tranquil Strike',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\15_CW13 Drained Embers.png" id="15_CW13 Drained Embers" data-flag="@X" onclick="openSidebar('15_CW13 Drained Embers',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\54_CU13 Shackles of Royalty.png" id="54_CU13 Shackles of Royalty" data-flag="@X" onclick="openSidebar('54_CU13 Shackles of Royalty',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\93_CB13 Cut Time.png" id="93_CB13 Cut Time" data-flag="@X" onclick="openSidebar('93_CB13 Cut Time',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\132_CR13 Ether Cannon Volley.png" id="132_CR13 Ether Cannon Volley" data-flag="@X" onclick="openSidebar('132_CR13 Ether Cannon Volley',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\171_CG13 Lapidarist's Boon.png" id="171_CG13 Lapidarists Boon" data-flag="@X" onclick="openSidebar('171_CG13 Lapidarists Boon',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\16_CW14 Stalemate.png" id="16_CW14 Stalemate" data-flag="@X" onclick="openSidebar('16_CW14 Stalemate',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\55_CU14 Hidden Knowledge.png" id="55_CU14 Hidden Knowledge" data-flag="@X" onclick="openSidebar('55_CU14 Hidden Knowledge',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\94_CB14 Homecoming Finale.png" id="94_CB14 Homecoming Finale" data-flag="@X" onclick="openSidebar('94_CB14 Homecoming Finale',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\133_CR14 Blade Swap.png" id="133_CR14 Blade Swap" data-flag="@X" onclick="openSidebar('133_CR14 Blade Swap',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\172_CG14 Burst of Ether.png" id="172_CG14 Burst of Ether" data-flag="@X" onclick="openSidebar('172_CG14 Burst of Ether',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\17_CW15 Final Homecoming.png" id="17_CW15 Final Homecoming" data-flag="@X" onclick="openSidebar('17_CW15 Final Homecoming',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\56_CU15 Guard Blade.png" id="56_CU15 Guard Blade" data-flag="@X" onclick="openSidebar('56_CU15 Guard Blade',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\95_CB15 Spark of Hope.png" id="95_CB15 Spark of Hope" data-flag="@X" onclick="openSidebar('95_CB15 Spark of Hope',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\134_CR15 Ether Fabricator.png" id="134_CR15 Ether Fabricator" data-flag="@X" onclick="openSidebar('134_CR15 Ether Fabricator',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\173_CG15 Explore.png" id="173_CG15 Explore" data-flag="@X" onclick="openSidebar('173_CG15 Explore',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\18_CW16 Break and Topple.png" id="18_CW16 Break and Topple" data-flag="@X" onclick="openSidebar('18_CW16 Break and Topple',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\57_CU16 Escape Levnis.png" id="57_CU16 Escape Levnis" data-flag="@X" onclick="openSidebar('57_CU16 Escape Levnis',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\96_CB16 Veteran Recuitment.png" id="96_CB16 Veteran Recuitment" data-flag="@X" onclick="openSidebar('96_CB16 Veteran Recuitment',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\135_CR16 Leg Frame_back.png" alt="sets\XC3-files\img\135_CR16 Leg Frame_front.png" id="135_CR16 Leg Frame" data-flag="@XD" onclick="openSidebar('135_CR16 Leg Frame',false)"><button class="flip-btn" onclick="imgFlip('135_CR16 Leg Frame')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\174_CG16 Broken Bond.png" id="174_CG16 Broken Bond" data-flag="@X" onclick="openSidebar('174_CG16 Broken Bond',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\19_CW17 Medicart.png" id="19_CW17 Medicart" data-flag="@X" onclick="openSidebar('19_CW17 Medicart',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\58_CU17 Targeting Iris_back.png" alt="sets\XC3-files\img\58_CU17 Targeting Iris_front.png" id="58_CU17 Targeting Iris" data-flag="@XD" onclick="openSidebar('58_CU17 Targeting Iris',false)"><button class="flip-btn" onclick="imgFlip('58_CU17 Targeting Iris')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\97_CB17 Smothering Miasma.png" id="97_CB17 Smothering Miasma" data-flag="@X" onclick="openSidebar('97_CB17 Smothering Miasma',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\136_CR17 Built to Smash.png" id="136_CR17 Built to Smash" data-flag="@X" onclick="openSidebar('136_CR17 Built to Smash',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\175_CG17 Nature's Tactics.png" id="175_CG17 Natures Tactics" data-flag="@X" onclick="openSidebar('175_CG17 Natures Tactics',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\20_CW19 Empty Flames.png" id="20_CW19 Empty Flames" data-flag="@X" onclick="openSidebar('20_CW19 Empty Flames',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\59_CU18 Distant Transfer.png" id="59_CU18 Distant Transfer" data-flag="@X" onclick="openSidebar('59_CU18 Distant Transfer',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\98_CB18 Heated by the Clock.png" id="98_CB18 Heated by the Clock" data-flag="@X" onclick="openSidebar('98_CB18 Heated by the Clock',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\137_CR18 Liberation of Colony 4.png" id="137_CR18 Liberation of Colony 4" data-flag="@X" onclick="openSidebar('137_CR18 Liberation of Colony 4',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\176_CG18 Etherchannel Cliff.png" id="176_CG18 Etherchannel Cliff" data-flag="@X" onclick="openSidebar('176_CG18 Etherchannel Cliff',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\200_RM01 Taion_back.png" alt="sets\XC3-files\img\200_RM01 Taion_front.png" id="200_RM01 Taion" data-flag="@XD" onclick="openSidebar('200_RM01 Taion',false)"><button class="flip-btn" onclick="imgFlip('200_RM01 Taion')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\201_RM02 Masked Kevesi Queen.png" id="201_RM02 Masked Kevesi Queen" data-flag="@X" onclick="openSidebar('201_RM02 Masked Kevesi Queen',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\202_RM03 N_back.png" alt="sets\XC3-files\img\202_RM03 N_front.png" id="202_RM03 N" data-flag="@XD" onclick="openSidebar('202_RM03 N',false)"><button class="flip-btn" onclick="imgFlip('202_RM03 N')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\209_RM10 Lanz_back.png" alt="sets\XC3-files\img\209_RM10 Lanz_front.png" id="209_RM10 Lanz" data-flag="@XD" onclick="openSidebar('209_RM10 Lanz',false)"><button class="flip-btn" onclick="imgFlip('209_RM10 Lanz')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\204_RM05 Mio_back.png" alt="sets\XC3-files\img\204_RM05 Mio_front.png" id="204_RM05 Mio" data-flag="@XD" onclick="openSidebar('204_RM05 Mio',false)"><button class="flip-btn" onclick="imgFlip('204_RM05 Mio')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\221_UM01 Smith's Hammer_back.png" alt="sets\XC3-files\img\221_UM01 Smith's Hammer_front.png" id="221_UM01 Smiths Hammer" data-flag="@XD" onclick="openSidebar('221_UM01 Smiths Hammer',false)"><button class="flip-btn" onclick="imgFlip('221_UM01 Smiths Hammer')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\217_UM01 Leave In Isolation.png" id="217_UM01 Leave In Isolation" data-flag="@X" onclick="openSidebar('217_UM01 Leave In Isolation',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\213_UM01 Ember Eater.png" id="213_UM01 Ember Eater" data-flag="@X" onclick="openSidebar('213_UM01 Ember Eater',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\220_UM01 Reluctant Soldier.png" id="220_UM01 Reluctant Soldier" data-flag="@X" onclick="openSidebar('220_UM01 Reluctant Soldier',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\219_UM01 Nopon Caravan_back.png" alt="sets\XC3-files\img\219_UM01 Nopon Caravan_front.png" id="219_UM01 Nopon Caravan" data-flag="@XD" onclick="openSidebar('219_UM01 Nopon Caravan',false)"><button class="flip-btn" onclick="imgFlip('219_UM01 Nopon Caravan')"></button></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\205_RM06 Ashera, Undying Blade.png" id="205_RM06 Ashera, Undying Blade" data-flag="@X" onclick="openSidebar('205_RM06 Ashera, Undying Blade',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\207_RM08 Stalker Class_back.png" alt="sets\XC3-files\img\207_RM08 Stalker Class_front.png" id="207_RM08 Stalker Class" data-flag="@XD" onclick="openSidebar('207_RM08 Stalker Class',false)"><button class="flip-btn" onclick="imgFlip('207_RM08 Stalker Class')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\198_MX03 Nia, Queen of Agnus.png" id="198_MX03 Nia, Queen of Agnus" data-flag="@X" onclick="openSidebar('198_MX03 Nia, Queen of Agnus',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\206_RM07 Riku, Master Smith.png" id="206_RM07 Riku, Master Smith" data-flag="@X" onclick="openSidebar('206_RM07 Riku, Master Smith',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\199_MX04 Melia, Queen of Keves.png" id="199_MX04 Melia, Queen of Keves" data-flag="@X" onclick="openSidebar('199_MX04 Melia, Queen of Keves',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\211_RX08 Choose The Now_back.png" alt="sets\XC3-files\img\211_RX08 Choose The Now_front.png" id="211_RX08 Choose The Now" data-flag="@XD" onclick="openSidebar('211_RX08 Choose The Now',false)"><button class="flip-btn" onclick="imgFlip('211_RX08 Choose The Now')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\216_UM01 Igna Bellower.png" id="216_UM01 Igna Bellower" data-flag="@X" onclick="openSidebar('216_UM01 Igna Bellower',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\203_RM04 Joran, Fallen Friend_back.png" alt="sets\XC3-files\img\203_RM04 Joran, Fallen Friend_front.png" id="203_RM04 Joran, Fallen Friend" data-flag="@XD" onclick="openSidebar('203_RM04 Joran, Fallen Friend',false)"><button class="flip-btn" onclick="imgFlip('203_RM04 Joran, Fallen Friend')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\218_UM01 Mechafriend_back.png" alt="sets\XC3-files\img\218_UM01 Mechafriend_front.png" id="218_UM01 Mechafriend" data-flag="@XD" onclick="openSidebar('218_UM01 Mechafriend',false)"><button class="flip-btn" onclick="imgFlip('218_UM01 Mechafriend')"></button></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\208_RM09 Shanaia, Lost Candidate_back.png" alt="sets\XC3-files\img\208_RM09 Shanaia, Lost Candidate_front.png" id="208_RM09 Shanaia, Lost Candidate" data-flag="@XD" onclick="openSidebar('208_RM09 Shanaia, Lost Candidate',false)"><button class="flip-btn" onclick="imgFlip('208_RM09 Shanaia, Lost Candidate')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\215_UM01 Grave to Cradle.png" id="215_UM01 Grave to Cradle" data-flag="@X" onclick="openSidebar('215_UM01 Grave to Cradle',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\214_UM01 Everchanging View.png" id="214_UM01 Everchanging View" data-flag="@X" onclick="openSidebar('214_UM01 Everchanging View',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\212_UM01 Aggy and Oggy.png" id="212_UM01 Aggy and Oggy" data-flag="@X" onclick="openSidebar('212_UM01 Aggy and Oggy',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\210_RX07 Song of Creation.png" id="210_RX07 Song of Creation" data-flag="@X" onclick="openSidebar('210_RX07 Song of Creation',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\1_MX02 Nopon Archsage.png" id="1_MX02 Nopon Archsage" data-flag="@X" onclick="openSidebar('1_MX02 Nopon Archsage',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\2_MX05 Limits of the Land.png" id="2_MX05 Limits of the Land" data-flag="@X" onclick="openSidebar('2_MX05 Limits of the Land',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\227_MX01 Lucky Seven.png" id="227_MX01 Lucky Seven" data-flag="@X" onclick="openSidebar('227_MX01 Lucky Seven',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\228_RX06 Origin.png" id="228_RX06 Origin" data-flag="@X" onclick="openSidebar('228_RX06 Origin',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\229_UA01 City Recovery Unit.png" id="229_UA01 City Recovery Unit" data-flag="@X" onclick="openSidebar('229_UA01 City Recovery Unit',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\230_UA02 Rejuvenation Accelerator.png" id="230_UA02 Rejuvenation Accelerator" data-flag="@X" onclick="openSidebar('230_UA02 Rejuvenation Accelerator',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\231_UA03 Hovering Gyrinus.png" id="231_UA03 Hovering Gyrinus" data-flag="@X" onclick="openSidebar('231_UA03 Hovering Gyrinus',false)"></div>
+			<div class="container"><img data-alt_src="sets\XC3-files\img\232_UA04 City Munitions_back.png" alt="sets\XC3-files\img\232_UA04 City Munitions_front.png" id="232_UA04 City Munitions" data-flag="@XD" onclick="openSidebar('232_UA04 City Munitions',false)"><button class="flip-btn" onclick="imgFlip('232_UA04 City Munitions')"></button></div>
+			<div class="container"><img alt="sets\XC3-files\img\233_UA05 Farmed Produce.png" id="233_UA05 Farmed Produce" data-flag="@X" onclick="openSidebar('233_UA05 Farmed Produce',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\222_CA01 Pilgrim's Eye.png" id="222_CA01 Pilgrims Eye" data-flag="@X" onclick="openSidebar('222_CA01 Pilgrims Eye',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\223_CA02 Automaton Sentry.png" id="223_CA02 Automaton Sentry" data-flag="@X" onclick="openSidebar('223_CA02 Automaton Sentry',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\224_CA03 City Troop Transport.png" id="224_CA03 City Troop Transport" data-flag="@X" onclick="openSidebar('224_CA03 City Troop Transport',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\225_CA04 Agnian Assult Blade.png" id="225_CA04 Agnian Assult Blade" data-flag="@X" onclick="openSidebar('225_CA04 Agnian Assult Blade',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\226_CA05 City Recovery Ship.png" id="226_CA05 City Recovery Ship" data-flag="@X" onclick="openSidebar('226_CA05 City Recovery Ship',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\240_RX01 Colony Gamma.png" id="240_RX01 Colony Gamma" data-flag="@X" onclick="openSidebar('240_RX01 Colony Gamma',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\241_RX02 Colony Lambda.png" id="241_RX02 Colony Lambda" data-flag="@X" onclick="openSidebar('241_RX02 Colony Lambda',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\242_RX03 Colony 11.png" id="242_RX03 Colony 11" data-flag="@X" onclick="openSidebar('242_RX03 Colony 11',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\243_RX04 Colony 30.png" id="243_RX04 Colony 30" data-flag="@X" onclick="openSidebar('243_RX04 Colony 30',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\244_RX05 Colony Tau.png" id="244_RX05 Colony Tau" data-flag="@X" onclick="openSidebar('244_RX05 Colony Tau',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\249_UL05 Millick Meadows.png" id="249_UL05 Millick Meadows" data-flag="@X" onclick="openSidebar('249_UL05 Millick Meadows',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\248_UL04 Erythia Sea.png" id="248_UL04 Erythia Sea" data-flag="@X" onclick="openSidebar('248_UL04 Erythia Sea',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\247_UL03 N'ohm Wetlands.png" id="247_UL03 Nohm Wetlands" data-flag="@X" onclick="openSidebar('247_UL03 Nohm Wetlands',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\246_UL02 Eagus Wilderness.png" id="246_UL02 Eagus Wilderness" data-flag="@X" onclick="openSidebar('246_UL02 Eagus Wilderness',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\245_UL01 Maktha Wildwood.png" id="245_UL01 Maktha Wildwood" data-flag="@X" onclick="openSidebar('245_UL01 Maktha Wildwood',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\234_CL01 Transcendent Retreat.png" id="234_CL01 Transcendent Retreat" data-flag="@X" onclick="openSidebar('234_CL01 Transcendent Retreat',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\235_CL02 Flowing Pools.png" id="235_CL02 Flowing Pools" data-flag="@X" onclick="openSidebar('235_CL02 Flowing Pools',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\236_CL03 Kevesi Throne Room.png" id="236_CL03 Kevesi Throne Room" data-flag="@X" onclick="openSidebar('236_CL03 Kevesi Throne Room',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\237_CL04 Syra Hovering Reefs.png" id="237_CL04 Syra Hovering Reefs" data-flag="@X" onclick="openSidebar('237_CL04 Syra Hovering Reefs',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\238_CL05 Lower Maktha Wildwood.png" id="238_CL05 Lower Maktha Wildwood" data-flag="@X" onclick="openSidebar('238_CL05 Lower Maktha Wildwood',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\239_CL06 Swordmarch.png" id="239_CL06 Swordmarch" data-flag="@X" onclick="openSidebar('239_CL06 Swordmarch',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\250_Plains.png" id="250_Plains" data-flag="@X" onclick="openSidebar('250_Plains',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\251_Island.png" id="251_Island" data-flag="@X" onclick="openSidebar('251_Island',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\252_Swamp.png" id="252_Swamp" data-flag="@X" onclick="openSidebar('252_Swamp',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\253_Mountain.png" id="253_Mountain" data-flag="@X" onclick="openSidebar('253_Mountain',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\254_Forest.png" id="254_Forest" data-flag="@X" onclick="openSidebar('254_Forest',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\2t_XC3 Elemental.png" id="2t_XC3 Elemental" data-flag="@X" onclick="openSidebar('2t_XC3 Elemental',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\3t_XC3 Soldier.png" id="3t_XC3 Soldier" data-flag="@X" onclick="openSidebar('3t_XC3 Soldier',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\4t_XC3 Beast.png" id="4t_XC3 Beast" data-flag="@X" onclick="openSidebar('4t_XC3 Beast',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\5t_XC3 Nopon.png" id="5t_XC3 Nopon" data-flag="@X" onclick="openSidebar('5t_XC3 Nopon',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\6t_XC3 Construct.png" id="6t_XC3 Construct" data-flag="@X" onclick="openSidebar('6t_XC3 Construct',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\7t_Treasure.png" id="7t_Treasure" data-flag="@X" onclick="openSidebar('7t_Treasure',false)"></div>
+			<div class="container"><img alt="sets\XC3-files\img\1t_Chronicles of Aionios Draft Archetypes.png" id="1t_Chronicles of Aionios Draft Archetypes" data-flag="@X" onclick="openSidebar('1t_Chronicles of Aionios Draft Archetypes',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>

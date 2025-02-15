@@ -3494,3 +3494,23 @@
 10 The Eldest Reborn
 10 Torch Song
 10 Vile Requiem
+[LandSlot(1)]
+10 UL03 Ruins of Olgal
+10 CL05 Choir Loft
+10 CL04 Vocalists Round
+10 CL03 Reverberant Shore
+10 CL02 Anechoic Chamber
+10 CL01 Crumbling Stage
+10 UL01 Accoustic Hall
+10 UL02 Bubbling Ruins
+10 RL01 Open Air Theater
+10 RL02 Shoreline Theater
+10 RL04 Skylight Theater
+10 RL06
+10 RL03 Earthbound Theater
+10 RL05 Rooted Theater
+10 Forest
+10 Island
+10 Mountain
+10 Plains
+10 Swamp

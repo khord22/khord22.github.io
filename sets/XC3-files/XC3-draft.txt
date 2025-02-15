@@ -1,0 +1,3451 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "CW01 Nopon Vigilant",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature  — Nopon ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/3_CW01 Nopon Vigilant.png"
+			}
+		},
+		{
+			"name": "CW02 Prom Flier",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Elemental Insect ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/4_CW02 Prom Flier.png"
+			}
+		},
+		{
+			"name": "CW03 Nopon Emblazoner",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Nopon Advisor ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/5_CW03 Nopon Emblazoner.png"
+			}
+		},
+		{
+			"name": "CW04 Agnus Scout",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/6_CW04 Agnus Scout.png"
+			}
+		},
+		{
+			"name": "CW05 Exhausted Smith",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Nopon Artificer ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/7_CW05 Exhausted Smith.png"
+			}
+		},
+		{
+			"name": "CW06 Auto Avis",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/8_CW06 Auto Avis.png"
+			}
+		},
+		{
+			"name": "CW07 Nopon Collector",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Nopon ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/9_CW07 Nopon Collector.png"
+			}
+		},
+		{
+			"name": "CW08 Agnian Off-Seer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/10_CW08 Agnian Off-Seer.png"
+			}
+		},
+		{
+			"name": "CW09 Agnian Tactician",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/11_CW09 Agnian Tactician.png"
+			}
+		},
+		{
+			"name": "UW04 Gamma Training Avis",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/33_UW04 Gamma Training Avis.png"
+			}
+		},
+		{
+			"name": "CW11 Ruga Quadwing",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/13_CW11 Ruga Quadwing.png"
+			}
+		},
+		{
+			"name": "CW12 Nopon Traders",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Nopon Construct ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/14_CW12 Nopon Traders.png"
+			}
+		},
+		{
+			"name": "CW13 Drained Embers",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/15_CW13 Drained Embers.png"
+			}
+		},
+		{
+			"name": "CW14 Stalemate",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/16_CW14 Stalemate.png"
+			}
+		},
+		{
+			"name": "CW15 Final Homecoming",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/17_CW15 Final Homecoming.png"
+			}
+		},
+		{
+			"name": "CL01 Transcendent Retreat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/234_CL01 Transcendent Retreat.png"
+			}
+		},
+		{
+			"name": "CW17 Medicart",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/19_CW17 Medicart.png"
+			}
+		},
+		{
+			"name": "UW09 Internal Malfunction",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Battle — Siege ",
+			"collector_number": "38",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/38_UW09 Internal Malfunction_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/38_UW09 Internal Malfunction_front.png"
+			}
+		},
+		{
+			"name": "CW16 Break and Topple",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/18_CW16 Break and Topple.png"
+			}
+		},
+		{
+			"name": "CU01 Mondo Bird",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Bird Construct ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/42_CU01 Mondo Bird.png"
+			}
+		},
+		{
+			"name": "CU02 Scavenging Crustip",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Crab ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/43_CU02 Scavenging Crustip.png"
+			}
+		},
+		{
+			"name": "CU03 Glimmerbell",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elemental Jellyfish ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/44_CU03 Glimmerbell.png"
+			}
+		},
+		{
+			"name": "CU04 Nopon Supplier",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Nopon ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/45_CU04 Nopon Supplier.png"
+			}
+		},
+		{
+			"name": "CU05 Distracting Flier",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Insect ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/46_CU05 Distracting Flier.png"
+			}
+		},
+		{
+			"name": "CU06 Colony Iota Agent",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/47_CU06 Colony Iota Agent.png"
+			}
+		},
+		{
+			"name": "CU07 Intel Disruptor",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/48_CU07 Intel Disruptor.png"
+			}
+		},
+		{
+			"name": "CU08 Battlefield Scrapper",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/49_CU08 Battlefield Scrapper.png"
+			}
+		},
+		{
+			"name": "CU09 Rusty Levnis",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/50_CU09 Rusty Levnis.png"
+			}
+		},
+		{
+			"name": "CL02 Flowing Pools",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/235_CL02 Flowing Pools.png"
+			}
+		},
+		{
+			"name": "CU11 Ether Leak",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/52_CU11 Ether Leak.png"
+			}
+		},
+		{
+			"name": "CU12 Pulsating Ether Cylinder",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/53_CU12 Pulsating Ether Cylinder.png"
+			}
+		},
+		{
+			"name": "CU13 Shackles of Royalty",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/54_CU13 Shackles of Royalty.png"
+			}
+		},
+		{
+			"name": "CU14 Hidden Knowledge",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/55_CU14 Hidden Knowledge.png"
+			}
+		},
+		{
+			"name": "CU15 Guard Blade",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/56_CU15 Guard Blade.png"
+			}
+		},
+		{
+			"name": "CU16 Escape Levnis",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/57_CU16 Escape Levnis.png"
+			}
+		},
+		{
+			"name": "CU17 Targeting Iris",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "58",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/58_CU17 Targeting Iris_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/58_CU17 Targeting Iris_front.png"
+			}
+		},
+		{
+			"name": "CU18 Distant Transfer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/59_CU18 Distant Transfer.png"
+			}
+		},
+		{
+			"name": "CU10 Collectapedia Request",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/51_CU10 Collectapedia Request.png"
+			}
+		},
+		{
+			"name": "CB01 Moebius Soldier",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/81_CB01 Moebius Soldier.png"
+			}
+		},
+		{
+			"name": "CB02 Machine Assassin",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Assassin ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/82_CB02 Machine Assassin.png"
+			}
+		},
+		{
+			"name": "CB03 Fuming Blant",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Plant ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/83_CB03 Fuming Blant.png"
+			}
+		},
+		{
+			"name": "CB04 Rotten Caterpile",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Beast ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/84_CB04 Rotten Caterpile.png"
+			}
+		},
+		{
+			"name": "CB05 Merrosh Rhogul",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/85_CB05 Merrosh Rhogul.png"
+			}
+		},
+		{
+			"name": "CB06 Kevesi Off-Seer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Nopon Bard ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/86_CB06 Kevesi Off-Seer.png"
+			}
+		},
+		{
+			"name": "CB07 Masked Construct",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/87_CB07 Masked Construct.png"
+			}
+		},
+		{
+			"name": "CB08 Undying Soldiers",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/88_CB08 Undying Soldiers.png"
+			}
+		},
+		{
+			"name": "CB09 Off-Seer Unit",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/89_CB09 Off-Seer Unit.png"
+			}
+		},
+		{
+			"name": "CB10 Silver-Rank Soldiers",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/90_CB10 Silver-Rank Soldiers.png"
+			}
+		},
+		{
+			"name": "CB11 Fuel the Flame Clock",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/91_CB11 Fuel the Flame Clock.png"
+			}
+		},
+		{
+			"name": "CB12 Wither Embers",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/92_CB12 Wither Embers.png"
+			}
+		},
+		{
+			"name": "CB13 Cut Time",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/93_CB13 Cut Time.png"
+			}
+		},
+		{
+			"name": "CB14 Homecoming Finale",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/94_CB14 Homecoming Finale.png"
+			}
+		},
+		{
+			"name": "CB15 Spark of Hope",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/95_CB15 Spark of Hope.png"
+			}
+		},
+		{
+			"name": "CB16 Veteran Recuitment",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/96_CB16 Veteran Recuitment.png"
+			}
+		},
+		{
+			"name": "CB17 Smothering Miasma",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/97_CB17 Smothering Miasma.png"
+			}
+		},
+		{
+			"name": "CB18 Heated by the Clock",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/98_CB18 Heated by the Clock.png"
+			}
+		},
+		{
+			"name": "CL03 Kevesi Throne Room",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/236_CL03 Kevesi Throne Room.png"
+			}
+		},
+		{
+			"name": "CR01 Stillbreaker Levnis",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/120_CR01 Stillbreaker Levnis.png"
+			}
+		},
+		{
+			"name": "CR02 Gamma Trainee",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/121_CR02 Gamma Trainee.png"
+			}
+		},
+		{
+			"name": "CR03 City Rifleman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/122_CR03 City Rifleman.png"
+			}
+		},
+		{
+			"name": "CR04 Manned Avis",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/123_CR04 Manned Avis.png"
+			}
+		},
+		{
+			"name": "CR05 Reef Scrounger",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Lizard Warrior ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/124_CR05 Reef Scrounger.png"
+			}
+		},
+		{
+			"name": "CR06 Accellerated Testudo",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/125_CR06 Accellerated Testudo.png"
+			}
+		},
+		{
+			"name": "CR07 Lighting Garaffa",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental Beast ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/126_CR07 Lighting Garaffa.png"
+			}
+		},
+		{
+			"name": "CR08 Soldier's Blade",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/127_CR08 Soldier's Blade.png"
+			}
+		},
+		{
+			"name": "CR09 Jingoistic Gigantus",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Giant Ape ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/128_CR09 Jingoistic Gigantus.png"
+			}
+		},
+		{
+			"name": "CR10 Origin Dragon",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/129_CR10 Origin Dragon.png"
+			}
+		},
+		{
+			"name": "CR11 Fall in Flames",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/130_CR11 Fall in Flames.png"
+			}
+		},
+		{
+			"name": "CR12 Klaboom",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/131_CR12 Klaboom.png"
+			}
+		},
+		{
+			"name": "CR13 Ether Cannon Volley",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/132_CR13 Ether Cannon Volley.png"
+			}
+		},
+		{
+			"name": "CL04 Syra Hovering Reefs",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/237_CL04 Syra Hovering Reefs.png"
+			}
+		},
+		{
+			"name": "CR15 Ether Fabricator",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/134_CR15 Ether Fabricator.png"
+			}
+		},
+		{
+			"name": "CR16 Leg Frame",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "135",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/135_CR16 Leg Frame_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/135_CR16 Leg Frame_front.png"
+			}
+		},
+		{
+			"name": "CR17 Built to Smash",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/136_CR17 Built to Smash.png"
+			}
+		},
+		{
+			"name": "CR18 Liberation of Colony 4",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/137_CR18 Liberation of Colony 4.png"
+			}
+		},
+		{
+			"name": "CR14 Blade Swap",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/133_CR14 Blade Swap.png"
+			}
+		},
+		{
+			"name": "CG01 Caravan Mapper",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Nopon Advisor ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/159_CG01 Caravan Mapper.png"
+			}
+		},
+		{
+			"name": "CG02 Crystaline Ropl",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Lizard Beast ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/160_CG02 Crystaline Ropl.png"
+			}
+		},
+		{
+			"name": "CG03 Nopon Guide",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Nopon Scout ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/161_CG03 Nopon Guide.png"
+			}
+		},
+		{
+			"name": "CG04 Nopon Stack",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Nopon ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/162_CG04 Nopon Stack.png"
+			}
+		},
+		{
+			"name": "CG05 Shielder Igna",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Lizard Warrior ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/163_CG05 Shielder Igna.png"
+			}
+		},
+		{
+			"name": "CG06 Erythia Merigna",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Merfolk Lizard Scout ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/164_CG06 Erythia Merigna.png"
+			}
+		},
+		{
+			"name": "CG07 Gromrice Farmer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Peasant ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/165_CG07 Gromrice Farmer.png"
+			}
+		},
+		{
+			"name": "CG08 Indebted Tinkerer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Nopon ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/166_CG08 Indebted Tinkerer.png"
+			}
+		},
+		{
+			"name": "CG09 Highlands Anlood",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Goat ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/167_CG09 Highlands Anlood.png"
+			}
+		},
+		{
+			"name": "CG10 Bloom Camill",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Elemental Beast ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/168_CG10 Bloom Camill.png"
+			}
+		},
+		{
+			"name": "CG11 Titanic Behemoth",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Giant Beast ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/169_CG11 Titanic Behemoth.png"
+			}
+		},
+		{
+			"name": "CG12 Tranquil Strike",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/170_CG12 Tranquil Strike.png"
+			}
+		},
+		{
+			"name": "CG13 Lapidarist's Boon",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/171_CG13 Lapidarist's Boon.png"
+			}
+		},
+		{
+			"name": "CG14 Burst of Ether",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/172_CG14 Burst of Ether.png"
+			}
+		},
+		{
+			"name": "CG15 Explore",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/173_CG15 Explore.png"
+			}
+		},
+		{
+			"name": "CG16 Broken Bond",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/174_CG16 Broken Bond.png"
+			}
+		},
+		{
+			"name": "CG17 Nature's Tactics",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/175_CG17 Nature's Tactics.png"
+			}
+		},
+		{
+			"name": "CG18 Etherchannel Cliff",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/176_CG18 Etherchannel Cliff.png"
+			}
+		},
+		{
+			"name": "CL05 Lower Maktha Wildwood",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/238_CL05 Lower Maktha Wildwood.png"
+			}
+		},
+		{
+			"name": "UW01 Young Armu",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/30_UW01 Young Armu.png"
+			}
+		},
+		{
+			"name": "UW02 Li Garte Prisoners",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/31_UW02 Li Garte Prisoners.png"
+			}
+		},
+		{
+			"name": "UW03 Last-Stand Avis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/32_UW03 Last-Stand Avis.png"
+			}
+		},
+		{
+			"name": "CW10 Agnus Duoblade",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/12_CW10 Agnus Duoblade.png"
+			}
+		},
+		{
+			"name": "UW05 Cooking Class",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Class ",
+			"collector_number": "34",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/34_UW05 Cooking Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/34_UW05 Cooking Class_front.png"
+			}
+		},
+		{
+			"name": "UW06 Honored Moramora",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/35_UW06 Honored Moramora.png"
+			}
+		},
+		{
+			"name": "UW07 Legarre Marrin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Fish ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/36_UW07 Legarre Marrin.png"
+			}
+		},
+		{
+			"name": "UW08 Off-Seer's Flute",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/37_UW08 Off-Seer's Flute.png"
+			}
+		},
+		{
+			"name": "CW19 Empty Flames",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/20_CW19 Empty Flames.png"
+			}
+		},
+		{
+			"name": "UW10 Broken Cycle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/39_UW10 Broken Cycle.png"
+			}
+		},
+		{
+			"name": "UW11 Fall of a Consoul",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Battle — Siege ",
+			"collector_number": "40",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/40_UW11 Fall of a Consoul_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/40_UW11 Fall of a Consoul_front.png"
+			}
+		},
+		{
+			"name": "UU01 Cave Wisp",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Insect ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/69_UU01 Cave Wisp.png"
+			}
+		},
+		{
+			"name": "UU02 Defender Unit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Construct Soldier ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/70_UU02 Defender Unit.png"
+			}
+		},
+		{
+			"name": "UU03 Nopon Cartographer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Nopon Scout ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/71_UU03 Nopon Cartographer.png"
+			}
+		},
+		{
+			"name": "UU04 Bunez Vollgull",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/72_UU04 Bunez Vollgull.png"
+			}
+		},
+		{
+			"name": "UU05 Tactical Lepus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/73_UU05 Tactical Lepus.png"
+			}
+		},
+		{
+			"name": "UU06 Crafty Nopon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Nopon Artificer ",
+			"collector_number": "74",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/74_UU06 Crafty Nopon_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/74_UU06 Crafty Nopon_front.png"
+			}
+		},
+		{
+			"name": "UU07 Troubadour Class",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Class ",
+			"collector_number": "75",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/75_UU07 Troubadour Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/75_UU07 Troubadour Class_front.png"
+			}
+		},
+		{
+			"name": "UU08 Disinformation Centurion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/76_UU08 Disinformation Centurion.png"
+			}
+		},
+		{
+			"name": "UU09 Turn to Ether",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/77_UU09 Turn to Ether.png"
+			}
+		},
+		{
+			"name": "UU10 Sudden Despair",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/78_UU10 Sudden Despair.png"
+			}
+		},
+		{
+			"name": "UU11 Freezing Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "79",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/79_UU11 Freezing Blade_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/79_UU11 Freezing Blade_front.png"
+			}
+		},
+		{
+			"name": "UB01 Sacrificial Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/108_UB01 Sacrificial Soldier.png"
+			}
+		},
+		{
+			"name": "UB02 Horrifying Levnis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/109_UB02 Horrifying Levnis.png"
+			}
+		},
+		{
+			"name": "UB03 Armuvore Aligo",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Lizard Shark ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/110_UB03 Armuvore Aligo.png"
+			}
+		},
+		{
+			"name": "UB04 Flame-Hungry Soldiers",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/111_UB04 Flame-Hungry Soldiers.png"
+			}
+		},
+		{
+			"name": "UB05 Origin Construct",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/112_UB05 Origin Construct.png"
+			}
+		},
+		{
+			"name": "UB06 Cavern Aracnos",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spider ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/113_UB06 Cavern Aracnos.png"
+			}
+		},
+		{
+			"name": "UB07 Commander Class",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Class ",
+			"collector_number": "114",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/114_UB07 Commander Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/114_UB07 Commander Class_front.png"
+			}
+		},
+		{
+			"name": "UB08 Cruel Murder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/115_UB08 Cruel Murder.png"
+			}
+		},
+		{
+			"name": "UB09 Liberation of Omega",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Battle — Siege ",
+			"collector_number": "116",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/116_UB09 Liberation of Omega_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/116_UB09 Liberation of Omega_front.png"
+			}
+		},
+		{
+			"name": "UB10 Annihilation Event",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Battle — Siege ",
+			"collector_number": "117",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/117_UB10 Annihilation Event_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/117_UB10 Annihilation Event_front.png"
+			}
+		},
+		{
+			"name": "UB11 Ruins of Anamnesis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/118_UB11 Ruins of Anamnesis.png"
+			}
+		},
+		{
+			"name": "UR01 Skittering Pippito",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental Stoat ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/147_UR01 Skittering Pippito.png"
+			}
+		},
+		{
+			"name": "UR02 Teach's Professionals",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Pilot ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/148_UR02 Teach's Professionals.png"
+			}
+		},
+		{
+			"name": "UR03 Fueled Feris",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Wolf ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/149_UR03 Fueled Feris.png"
+			}
+		},
+		{
+			"name": "UR04 Entrenched Testudo",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/150_UR04 Entrenched Testudo.png"
+			}
+		},
+		{
+			"name": "UR05 Control Drive",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/151_UR05 Control Drive.png"
+			}
+		},
+		{
+			"name": "UR06 Igna Sharpshooter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard Archer ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/152_UR06 Igna Sharpshooter.png"
+			}
+		},
+		{
+			"name": "UR07 Avis Charge Leader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/153_UR07 Avis Charge Leader.png"
+			}
+		},
+		{
+			"name": "UR08 Greyhair Shot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/154_UR08 Greyhair Shot.png"
+			}
+		},
+		{
+			"name": "UR09 Assult on Origin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Battle — Siege ",
+			"collector_number": "155",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/155_UR09 Assult on Origin_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/155_UR09 Assult on Origin_front.png"
+			}
+		},
+		{
+			"name": "UR10 Soulhacker Class",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Class ",
+			"collector_number": "156",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/156_UR10 Soulhacker Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/156_UR10 Soulhacker Class_front.png"
+			}
+		},
+		{
+			"name": "UR11 Stand in Opposition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Battle — Siege ",
+			"collector_number": "157",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/157_UR11 Stand in Opposition_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/157_UR11 Stand in Opposition_front.png"
+			}
+		},
+		{
+			"name": "UG01 Nomad Rhinon",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Rhino ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/186_UG01 Nomad Rhinon.png"
+			}
+		},
+		{
+			"name": "UG02 Eroding Caterpile",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Insect ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/187_UG02 Eroding Caterpile.png"
+			}
+		},
+		{
+			"name": "UG03 Take the Space",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Battle — Siege ",
+			"collector_number": "188",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/188_UG03 Take the Space_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/188_UG03 Take the Space_front.png"
+			}
+		},
+		{
+			"name": "UG04 Igna Sentry",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Lizard Archer ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/189_UG04 Igna Sentry.png"
+			}
+		},
+		{
+			"name": "UG05 Natural Differences",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Battle — Siege ",
+			"collector_number": "190",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/190_UG05 Natural Differences_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/190_UG05 Natural Differences_front.png"
+			}
+		},
+		{
+			"name": "UG06 Immovable Gonzales",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Creature — Giant Ape ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/191_UG06 Immovable Gonzales.png"
+			}
+		},
+		{
+			"name": "UG07 Evolving Blant",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Plant ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/192_UG07 Evolving Blant.png"
+			}
+		},
+		{
+			"name": "UG08 Armu Tenders",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Nopon Citizen ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/193_UG08 Armu Tenders.png"
+			}
+		},
+		{
+			"name": "UG09 Search For New Paths",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/194_UG09 Search For New Paths.png"
+			}
+		},
+		{
+			"name": "UG10 Lapadarist Class",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Class ",
+			"collector_number": "195",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/195_UG10 Lapadarist Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/195_UG10 Lapadarist Class_front.png"
+			}
+		},
+		{
+			"name": "UG11 Offseers Respite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/196_UG11 Offseers Respite.png"
+			}
+		},
+		{
+			"name": "RW01 Crys, Seers Tutor",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Bard ",
+			"collector_number": "23",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/23_RW01 Crys, Seers Tutor_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/23_RW01 Crys, Seers Tutor_front.png"
+			}
+		},
+		{
+			"name": "RW02 Mio's Homecoming",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/24_RW02 Mio's Homecoming.png"
+			}
+		},
+		{
+			"name": "RW03 Flash Fencer",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Class ",
+			"collector_number": "25",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/25_RW03 Flash Fencer_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/25_RW03 Flash Fencer_front.png"
+			}
+		},
+		{
+			"name": "RW04 Agnus Off-Seeing",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/26_RW04 Agnus Off-Seeing.png"
+			}
+		},
+		{
+			"name": "RW05 Mio's Diary",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/27_RW05 Mio's Diary.png"
+			}
+		},
+		{
+			"name": "RW06 Monica Vandham",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/28_RW06 Monica Vandham.png"
+			}
+		},
+		{
+			"name": "RW07 Consul X",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Moebius Advisor ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/29_RW07 Consul X.png"
+			}
+		},
+		{
+			"name": "RU01 Lady Alexandria",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/62_RU01 Lady Alexandria.png"
+			}
+		},
+		{
+			"name": "RU02 Lost Mentor",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/63_RU02 Lost Mentor.png"
+			}
+		},
+		{
+			"name": "RU03 Masked Agnus Queen",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Artifact Creature — Construct Noble ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/64_RU03 Masked Agnus Queen.png"
+			}
+		},
+		{
+			"name": "RU04 Consul Y",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Moebius Advisor ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/65_RU04 Consul Y.png"
+			}
+		},
+		{
+			"name": "RU05 The Weight of Life",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/66_RU05 The Weight of Life.png"
+			}
+		},
+		{
+			"name": "RU06 Dawnhero Isurd",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/67_RU06 Dawnhero Isurd.png"
+			}
+		},
+		{
+			"name": "RU07 Improved Fabrication",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/68_RU07 Improved Fabrication.png"
+			}
+		},
+		{
+			"name": "RB01 Colony 11 Raven",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/101_RB01 Colony 11 Raven.png"
+			}
+		},
+		{
+			"name": "RB02 The Real Enemy",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Battle — Siege ",
+			"collector_number": "102",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/102_RB02 The Real Enemy_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/102_RB02 The Real Enemy_front.png"
+			}
+		},
+		{
+			"name": "RB03 The Annihilator",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/103_RB03 The Annihilator.png"
+			}
+		},
+		{
+			"name": "RB04 See Your Demise",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/104_RB04 See Your Demise.png"
+			}
+		},
+		{
+			"name": "RB05 Full Metal Jaguar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/105_RB05 Full Metal Jaguar.png"
+			}
+		},
+		{
+			"name": "RB06 Segiri, No. 7",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Pilot ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/106_RB06 Segiri, No. 7.png"
+			}
+		},
+		{
+			"name": "RB07 Avenger of the Colony",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/107_RB07 Avenger of the Colony.png"
+			}
+		},
+		{
+			"name": "RR01 Wrathfist Ghondor",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Legendary Creature — Human Monk ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/140_RR01 Wrathfist Ghondor.png"
+			}
+		},
+		{
+			"name": "RR02 All We're Good For",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Battle — Siege ",
+			"collector_number": "141",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/141_RR02 All We're Good For_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/141_RR02 All We're Good For_front.png"
+			}
+		},
+		{
+			"name": "RR03 Inosabers",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Artifact Enchantment — Equipment Class ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/142_RR03 Inosabers.png"
+			}
+		},
+		{
+			"name": "RR04 Smoldering Cammuravi",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Elemental Human ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/143_RR04 Smoldering Cammuravi.png"
+			}
+		},
+		{
+			"name": "RR05 Flame Clock",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/144_RR05 Flame Clock.png"
+			}
+		},
+		{
+			"name": "RR06",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/145_RR06.png"
+			}
+		},
+		{
+			"name": "RR07",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/146_RR07.png"
+			}
+		},
+		{
+			"name": "RG01 Nopon Registrar",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Nopon Citizen ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/179_RG01 Nopon Registrar.png"
+			}
+		},
+		{
+			"name": "RG02 Protect the Stone",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Battle — Siege ",
+			"collector_number": "180",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/180_RG02 Protect the Stone_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/180_RG02 Protect the Stone_front.png"
+			}
+		},
+		{
+			"name": "RG03 Become Ouroboros",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/181_RG03 Become Ouroboros.png"
+			}
+		},
+		{
+			"name": "RG04 Inscrutable Teach",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/182_RG04 Inscrutable Teach.png"
+			}
+		},
+		{
+			"name": "RG05 Travelling Pals",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Pilot ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/183_RG05 Travelling Pals.png"
+			}
+		},
+		{
+			"name": "RG06 Mu Proudbanner",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/184_RG06 Mu Proudbanner.png"
+			}
+		},
+		{
+			"name": "RG07",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/185_RG07.png"
+			}
+		},
+		{
+			"name": "MW01 Z",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Planeswalker — Z ",
+			"collector_number": "21",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/21_MW01 Z_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/21_MW01 Z_front.png"
+			}
+		},
+		{
+			"name": "MW02 Seraphic Ceratinia",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Creature — Elder Archon ",
+			"collector_number": "22",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/22_MW02 Seraphic Ceratinia_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/22_MW02 Seraphic Ceratinia_front.png"
+			}
+		},
+		{
+			"name": "MU02 Levialord Empireo",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Creature — Elder Serpent ",
+			"collector_number": "61",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/61_MU02 Levialord Empireo_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/61_MU02 Levialord Empireo_front.png"
+			}
+		},
+		{
+			"name": "MR02 Dreadwyrm Nizoont",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}{R}",
+			"type": "Creature — Elder Dragon ",
+			"collector_number": "139",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/139_MR02 Dreadwyrm Nizoont_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/139_MR02 Dreadwyrm Nizoont_front.png"
+			}
+		},
+		{
+			"name": "MB01 Eunie",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Angel Soldier ",
+			"collector_number": "99",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/99_MB01 Eunie_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/99_MB01 Eunie_front.png"
+			}
+		},
+		{
+			"name": "MB02 Perilwing Ryuho",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Creature — Elder Bird ",
+			"collector_number": "100",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/100_MB02 Perilwing Ryuho_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/100_MB02 Perilwing Ryuho_front.png"
+			}
+		},
+		{
+			"name": "MR01 Noah",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "138",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/138_MR01 Noah_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/138_MR01 Noah_front.png"
+			}
+		},
+		{
+			"name": "MG01 Sena",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Elemental Soldier ",
+			"collector_number": "177",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/177_MG01 Sena_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/177_MG01 Sena_front.png"
+			}
+		},
+		{
+			"name": "MG02 Kilocorn Grandeps",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Creature — Elder Beast ",
+			"collector_number": "178",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/178_MG02 Kilocorn Grandeps_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/178_MG02 Kilocorn Grandeps_front.png"
+			}
+		},
+		{
+			"name": "MU01 Guernica Vandham",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/60_MU01 Guernica Vandham.png"
+			}
+		},
+		{
+			"name": "UM01 Smith's Hammer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "221",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/221_UM01 Smith's Hammer_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/221_UM01 Smith's Hammer_front.png"
+			}
+		},
+		{
+			"name": "UM01 Leave In Isolation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Instant",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/217_UM01 Leave In Isolation.png"
+			}
+		},
+		{
+			"name": "UM01 Ember Eater",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Moebius ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/213_UM01 Ember Eater.png"
+			}
+		},
+		{
+			"name": "UM01 Reluctant Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/220_UM01 Reluctant Soldier.png"
+			}
+		},
+		{
+			"name": "UM01 Nopon Caravan",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Artifact",
+			"collector_number": "219",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/219_UM01 Nopon Caravan_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/219_UM01 Nopon Caravan_front.png"
+			}
+		},
+		{
+			"name": "UM01 Grave to Cradle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Instant",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/215_UM01 Grave to Cradle.png"
+			}
+		},
+		{
+			"name": "UM01 Mechafriend",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Artifact Creature — Construct ",
+			"collector_number": "218",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/218_UM01 Mechafriend_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/218_UM01 Mechafriend_front.png"
+			}
+		},
+		{
+			"name": "UM01 Igna Bellower",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Lizard Bard ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/216_UM01 Igna Bellower.png"
+			}
+		},
+		{
+			"name": "UM01 Aggy and Oggy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/212_UM01 Aggy and Oggy.png"
+			}
+		},
+		{
+			"name": "UM01 Everchanging View",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/214_UM01 Everchanging View.png"
+			}
+		},
+		{
+			"name": "RM01 Taion",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "200",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/200_RM01 Taion_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/200_RM01 Taion_front.png"
+			}
+		},
+		{
+			"name": "RM02 Masked Kevesi Queen",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Artifact Creature — Construct Noble ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/201_RM02 Masked Kevesi Queen.png"
+			}
+		},
+		{
+			"name": "RM03 N",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Moebius ",
+			"collector_number": "202",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/202_RM03 N_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/202_RM03 N_front.png"
+			}
+		},
+		{
+			"name": "RM04 Joran, Fallen Friend",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "203",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/203_RM04 Joran, Fallen Friend_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/203_RM04 Joran, Fallen Friend_front.png"
+			}
+		},
+		{
+			"name": "RM05 Mio",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Cat Soldier ",
+			"collector_number": "204",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/204_RM05 Mio_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/204_RM05 Mio_front.png"
+			}
+		},
+		{
+			"name": "RM06 Ashera, Undying Blade",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/205_RM06 Ashera, Undying Blade.png"
+			}
+		},
+		{
+			"name": "RM07 Riku, Master Smith",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Nopon Artificer ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/206_RM07 Riku, Master Smith.png"
+			}
+		},
+		{
+			"name": "RM08 Stalker Class",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment — Class ",
+			"collector_number": "207",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/207_RM08 Stalker Class_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/207_RM08 Stalker Class_front.png"
+			}
+		},
+		{
+			"name": "RM09 Shanaia, Lost Candidate",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "208",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/208_RM09 Shanaia, Lost Candidate_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/208_RM09 Shanaia, Lost Candidate_front.png"
+			}
+		},
+		{
+			"name": "RM10 Lanz",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Artifact Creature — Human Soldier ",
+			"collector_number": "209",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/209_RM10 Lanz_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/209_RM10 Lanz_front.png"
+			}
+		},
+		{
+			"name": "UA02 Rejuvenation Accelerator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/230_UA02 Rejuvenation Accelerator.png"
+			}
+		},
+		{
+			"name": "CA02 Automaton Sentry",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/223_CA02 Automaton Sentry.png"
+			}
+		},
+		{
+			"name": "CA03 City Troop Transport",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/224_CA03 City Troop Transport.png"
+			}
+		},
+		{
+			"name": "CA04 Agnian Assult Blade",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/225_CA04 Agnian Assult Blade.png"
+			}
+		},
+		{
+			"name": "CA05 City Recovery Ship",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/226_CA05 City Recovery Ship.png"
+			}
+		},
+		{
+			"name": "UA01 City Recovery Unit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/229_UA01 City Recovery Unit.png"
+			}
+		},
+		{
+			"name": "CA01 Pilgrim's Eye",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Thoptor ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/222_CA01 Pilgrim's Eye.png"
+			}
+		},
+		{
+			"name": "UA03 Hovering Gyrinus",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/231_UA03 Hovering Gyrinus.png"
+			}
+		},
+		{
+			"name": "UA04 City Munitions",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "232",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/232_UA04 City Munitions_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/232_UA04 City Munitions_front.png"
+			}
+		},
+		{
+			"name": "UA05 Farmed Produce",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Food ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/233_UA05 Farmed Produce.png"
+			}
+		},
+		{
+			"name": "CL06 Swordmarch",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/239_CL06 Swordmarch.png"
+			}
+		},
+		{
+			"name": "UL01 Maktha Wildwood",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/245_UL01 Maktha Wildwood.png"
+			}
+		},
+		{
+			"name": "UL02 Eagus Wilderness",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/246_UL02 Eagus Wilderness.png"
+			}
+		},
+		{
+			"name": "UL03 N'ohm Wetlands",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/247_UL03 N'ohm Wetlands.png"
+			}
+		},
+		{
+			"name": "UL04 Erythia Sea",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/248_UL04 Erythia Sea.png"
+			}
+		},
+		{
+			"name": "UL05 Millick Meadows",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/249_UL05 Millick Meadows.png"
+			}
+		},
+		{
+			"name": "RX01 Colony Gamma",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land — Vehicle ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/240_RX01 Colony Gamma.png"
+			}
+		},
+		{
+			"name": "RX02 Colony Lambda",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land — Vehicle ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/241_RX02 Colony Lambda.png"
+			}
+		},
+		{
+			"name": "RX03 Colony 11",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land — Vehicle ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/242_RX03 Colony 11.png"
+			}
+		},
+		{
+			"name": "RX04 Colony 30",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land — Vehicle ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/243_RX04 Colony 30.png"
+			}
+		},
+		{
+			"name": "RX05 Colony Tau",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land — Vehicle ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/244_RX05 Colony Tau.png"
+			}
+		},
+		{
+			"name": "UX01 Consul U",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "41",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/41_UX01 Consul U_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/41_UX01 Consul U_front.png"
+			}
+		},
+		{
+			"name": "UX02 Consul Q",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "80",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/80_UX02 Consul Q_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/80_UX02 Consul Q_front.png"
+			}
+		},
+		{
+			"name": "UX03 Consul V",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "119",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/119_UX03 Consul V_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/119_UX03 Consul V_front.png"
+			}
+		},
+		{
+			"name": "UX04 Consul R",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "158",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/158_UX04 Consul R_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/158_UX04 Consul R_front.png"
+			}
+		},
+		{
+			"name": "UX05 Consul G",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "197",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/197_UX05 Consul G_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/197_UX05 Consul G_front.png"
+			}
+		},
+		{
+			"name": "RX06 Origin",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/228_RX06 Origin.png"
+			}
+		},
+		{
+			"name": "RX07 Song of Creation",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/210_RX07 Song of Creation.png"
+			}
+		},
+		{
+			"name": "RX08 Choose The Now",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "211",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://khord22.github.io/sets/XC3-files/img/211_RX08 Choose The Now_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/211_RX08 Choose The Now_front.png"
+			}
+		},
+		{
+			"name": "MX01 Lucky Seven",
+			"rarity": "mythic",
+			"mana_cost": "{1}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/227_MX01 Lucky Seven.png"
+			}
+		},
+		{
+			"name": "MX02 Nopon Archsage",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Creature — Nopon God ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/1_MX02 Nopon Archsage.png"
+			}
+		},
+		{
+			"name": "MX03 Nia, Queen of Agnus",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Planeswalker — Nia ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/198_MX03 Nia, Queen of Agnus.png"
+			}
+		},
+		{
+			"name": "MX04 Melia, Queen of Keves",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Melia ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/199_MX04 Melia, Queen of Keves.png"
+			}
+		},
+		{
+			"name": "MX05 Limits of the Land",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/2_MX05 Limits of the Land.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/250_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/251_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/252_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/253_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/254_Forest.png"
+			}
+		},
+		{
+			"name": "Chronicles of Aionios Draft Archetypes",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/1_Chronicles of Aionios Draft Archetypes.png"
+			}
+		},
+		{
+			"name": "XC3 Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/6_XC3 Construct.png"
+			}
+		},
+		{
+			"name": "XC3 Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/3_XC3 Soldier.png"
+			}
+		},
+		{
+			"name": "XC3 Nopon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Nopon ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/5_XC3 Nopon.png"
+			}
+		},
+		{
+			"name": "XC3 Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Beast ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/4_XC3 Beast.png"
+			}
+		},
+		{
+			"name": "XC3 Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/2_XC3 Elemental.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://khord22.github.io/sets/XC3-files/img/7_Treasure.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 RW01 Crys, Seers Tutor
+2 RW02 Mio's Homecoming
+2 RW03 Flash Fencer
+2 RW04 Agnus Off-Seeing
+2 RW05 Mio's Diary
+2 RW06 Monica Vandham
+2 RW07 Consul X
+2 RU01 Lady Alexandria
+2 RU02 Lost Mentor
+2 RU03 Masked Agnus Queen
+2 RU04 Consul Y
+2 RU05 The Weight of Life
+2 RU06 Dawnhero Isurd
+2 RU07 Improved Fabrication
+2 RB01 Colony 11 Raven
+2 RB02 The Real Enemy
+2 RB03 The Annihilator
+2 RB04 See Your Demise
+2 RB05 Full Metal Jaguar
+2 RB06 Segiri, No. 7
+2 RB07 Avenger of the Colony
+2 RR01 Wrathfist Ghondor
+2 RR02 All We're Good For
+2 RR03 Inosabers
+2 RR04 Smoldering Cammuravi
+2 RR05 Flame Clock
+2 RR06
+2 RR07
+2 RG01 Nopon Registrar
+2 RG02 Protect the Stone
+2 RG03 Become Ouroboros
+2 RG04 Inscrutable Teach
+2 RG05 Travelling Pals
+2 RG06 Mu Proudbanner
+2 RG07
+2 RM01 Taion
+2 RM02 Masked Kevesi Queen
+2 RM03 N
+2 RM04 Joran, Fallen Friend
+2 RM05 Mio
+2 RM06 Ashera, Undying Blade
+2 RM07 Riku, Master Smith
+2 RM08 Stalker Class
+2 RM09 Shanaia, Lost Candidate
+2 RM10 Lanz
+2 RX01 Colony Gamma
+2 RX02 Colony Lambda
+2 RX03 Colony 11
+2 RX04 Colony 30
+2 RX05 Colony Tau
+2 RX06 Origin
+2 RX07 Song of Creation
+2 RX08 Choose The Now
+1 MW01 Z
+1 MW02 Seraphic Ceratinia
+1 MU02 Levialord Empireo
+1 MR02 Dreadwyrm Nizoont
+1 MB01 Eunie
+1 MB02 Perilwing Ryuho
+1 MR01 Noah
+1 MG01 Sena
+1 MG02 Kilocorn Grandeps
+1 MU01 Guernica Vandham
+1 MX01 Lucky Seven
+1 MX02 Nopon Archsage
+1 MX03 Nia, Queen of Agnus
+1 MX04 Melia, Queen of Keves
+1 MX05 Limits of the Land
+[UncommonSlot(3)]
+9 UW04 Gamma Training Avis
+9 UW09 Internal Malfunction
+9 UW01 Young Armu
+9 UW02 Li Garte Prisoners
+9 UW03 Last-Stand Avis
+9 UW05 Cooking Class
+9 UW06 Honored Moramora
+9 UW07 Legarre Marrin
+9 UW08 Off-Seer's Flute
+9 UW10 Broken Cycle
+9 UW11 Fall of a Consoul
+9 UU01 Cave Wisp
+9 UU02 Defender Unit
+9 UU03 Nopon Cartographer
+9 UU04 Bunez Vollgull
+9 UU05 Tactical Lepus
+9 UU06 Crafty Nopon
+9 UU07 Troubadour Class
+9 UU08 Disinformation Centurion
+9 UU09 Turn to Ether
+9 UU10 Sudden Despair
+9 UU11 Freezing Blade
+9 UB01 Sacrificial Soldier
+9 UB02 Horrifying Levnis
+9 UB03 Armuvore Aligo
+9 UB04 Flame-Hungry Soldiers
+9 UB05 Origin Construct
+9 UB06 Cavern Aracnos
+9 UB07 Commander Class
+9 UB08 Cruel Murder
+9 UB09 Liberation of Omega
+9 UB10 Annihilation Event
+9 UB11 Ruins of Anamnesis
+9 UR01 Skittering Pippito
+9 UR02 Teach's Professionals
+9 UR03 Fueled Feris
+9 UR04 Entrenched Testudo
+9 UR05 Control Drive
+9 UR06 Igna Sharpshooter
+9 UR07 Avis Charge Leader
+9 UR08 Greyhair Shot
+9 UR09 Assult on Origin
+9 UR10 Soulhacker Class
+9 UR11 Stand in Opposition
+9 UG01 Nomad Rhinon
+9 UG02 Eroding Caterpile
+9 UG03 Take the Space
+9 UG04 Igna Sentry
+9 UG05 Natural Differences
+9 UG06 Immovable Gonzales
+9 UG07 Evolving Blant
+9 UG08 Armu Tenders
+9 UG09 Search For New Paths
+9 UG10 Lapadarist Class
+9 UG11 Offseers Respite
+9 UM01 Smith's Hammer
+9 UM01 Leave In Isolation
+9 UM01 Ember Eater
+9 UM01 Reluctant Soldier
+9 UM01 Nopon Caravan
+9 UM01 Grave to Cradle
+9 UM01 Mechafriend
+9 UM01 Igna Bellower
+9 UM01 Aggy and Oggy
+9 UM01 Everchanging View
+9 UA02 Rejuvenation Accelerator
+9 UA01 City Recovery Unit
+9 UA03 Hovering Gyrinus
+9 UA04 City Munitions
+9 UA05 Farmed Produce
+9 UL01 Maktha Wildwood
+9 UL02 Eagus Wilderness
+9 UL03 N'ohm Wetlands
+9 UL04 Erythia Sea
+9 UL05 Millick Meadows
+9 UX01 Consul U
+9 UX02 Consul Q
+9 UX03 Consul V
+9 UX04 Consul R
+9 UX05 Consul G
+[CommonSlot(7)]
+30 CW01 Nopon Vigilant
+30 CW02 Prom Flier
+30 CW03 Nopon Emblazoner
+30 CW04 Agnus Scout
+30 CW05 Exhausted Smith
+30 CW06 Auto Avis
+30 CW07 Nopon Collector
+30 CW08 Agnian Off-Seer
+30 CW09 Agnian Tactician
+30 CW11 Ruga Quadwing
+30 CW12 Nopon Traders
+30 CW13 Drained Embers
+30 CW14 Stalemate
+30 CW15 Final Homecoming
+30 CL01 Transcendent Retreat
+30 CW17 Medicart
+30 CW16 Break and Topple
+30 CU01 Mondo Bird
+30 CU02 Scavenging Crustip
+30 CU03 Glimmerbell
+30 CU04 Nopon Supplier
+30 CU05 Distracting Flier
+30 CU06 Colony Iota Agent
+30 CU07 Intel Disruptor
+30 CU08 Battlefield Scrapper
+30 CU09 Rusty Levnis
+30 CL02 Flowing Pools
+30 CU11 Ether Leak
+30 CU12 Pulsating Ether Cylinder
+30 CU13 Shackles of Royalty
+30 CU14 Hidden Knowledge
+30 CU15 Guard Blade
+30 CU16 Escape Levnis
+30 CU17 Targeting Iris
+30 CU18 Distant Transfer
+30 CU10 Collectapedia Request
+30 CB01 Moebius Soldier
+30 CB02 Machine Assassin
+30 CB03 Fuming Blant
+30 CB04 Rotten Caterpile
+30 CB05 Merrosh Rhogul
+30 CB06 Kevesi Off-Seer
+30 CB07 Masked Construct
+30 CB08 Undying Soldiers
+30 CB09 Off-Seer Unit
+30 CB10 Silver-Rank Soldiers
+30 CB11 Fuel the Flame Clock
+30 CB12 Wither Embers
+30 CB13 Cut Time
+30 CB14 Homecoming Finale
+30 CB15 Spark of Hope
+30 CB16 Veteran Recuitment
+30 CB17 Smothering Miasma
+30 CB18 Heated by the Clock
+30 CL03 Kevesi Throne Room
+30 CR01 Stillbreaker Levnis
+30 CR02 Gamma Trainee
+30 CR03 City Rifleman
+30 CR04 Manned Avis
+30 CR05 Reef Scrounger
+30 CR06 Accellerated Testudo
+30 CR07 Lighting Garaffa
+30 CR08 Soldier's Blade
+30 CR09 Jingoistic Gigantus
+30 CR10 Origin Dragon
+30 CR11 Fall in Flames
+30 CR12 Klaboom
+30 CR13 Ether Cannon Volley
+30 CL04 Syra Hovering Reefs
+30 CR15 Ether Fabricator
+30 CR16 Leg Frame
+30 CR17 Built to Smash
+30 CR18 Liberation of Colony 4
+30 CR14 Blade Swap
+30 CG01 Caravan Mapper
+30 CG02 Crystaline Ropl
+30 CG03 Nopon Guide
+30 CG04 Nopon Stack
+30 CG05 Shielder Igna
+30 CG06 Erythia Merigna
+30 CG07 Gromrice Farmer
+30 CG08 Indebted Tinkerer
+30 CG09 Highlands Anlood
+30 CG10 Bloom Camill
+30 CG11 Titanic Behemoth
+30 CG12 Tranquil Strike
+30 CG13 Lapidarist's Boon
+30 CG14 Burst of Ether
+30 CG15 Explore
+30 CG16 Broken Bond
+30 CG17 Nature's Tactics
+30 CG18 Etherchannel Cliff
+30 CL05 Lower Maktha Wildwood
+30 CW10 Agnus Duoblade
+30 CW19 Empty Flames
+30 CA02 Automaton Sentry
+30 CA03 City Troop Transport
+30 CA04 Agnian Assult Blade
+30 CA05 City Recovery Ship
+30 CA01 Pilgrim's Eye
+30 CL06 Swordmarch
+[WildcardSlot(2)]
+10 CW01 Nopon Vigilant
+10 CW02 Prom Flier
+10 CW03 Nopon Emblazoner
+10 CW04 Agnus Scout
+10 CW05 Exhausted Smith
+10 CW06 Auto Avis
+10 CW07 Nopon Collector
+10 CW08 Agnian Off-Seer
+10 CW09 Agnian Tactician
+10 UW04 Gamma Training Avis
+10 CW11 Ruga Quadwing
+10 CW12 Nopon Traders
+10 CW13 Drained Embers
+10 CW14 Stalemate
+10 CW15 Final Homecoming
+10 CL01 Transcendent Retreat
+10 CW17 Medicart
+10 UW09 Internal Malfunction
+10 CW16 Break and Topple
+10 CU01 Mondo Bird
+10 CU02 Scavenging Crustip
+10 CU03 Glimmerbell
+10 CU04 Nopon Supplier
+10 CU05 Distracting Flier
+10 CU06 Colony Iota Agent
+10 CU07 Intel Disruptor
+10 CU08 Battlefield Scrapper
+10 CU09 Rusty Levnis
+10 CL02 Flowing Pools
+10 CU11 Ether Leak
+10 CU12 Pulsating Ether Cylinder
+10 CU13 Shackles of Royalty
+10 CU14 Hidden Knowledge
+10 CU15 Guard Blade
+10 CU16 Escape Levnis
+10 CU17 Targeting Iris
+10 CU18 Distant Transfer
+10 CU10 Collectapedia Request
+10 CB01 Moebius Soldier
+10 CB02 Machine Assassin
+10 CB03 Fuming Blant
+10 CB04 Rotten Caterpile
+10 CB05 Merrosh Rhogul
+10 CB06 Kevesi Off-Seer
+10 CB07 Masked Construct
+10 CB08 Undying Soldiers
+10 CB09 Off-Seer Unit
+10 CB10 Silver-Rank Soldiers
+10 CB11 Fuel the Flame Clock
+10 CB12 Wither Embers
+10 CB13 Cut Time
+10 CB14 Homecoming Finale
+10 CB15 Spark of Hope
+10 CB16 Veteran Recuitment
+10 CB17 Smothering Miasma
+10 CB18 Heated by the Clock
+10 CL03 Kevesi Throne Room
+10 CR01 Stillbreaker Levnis
+10 CR02 Gamma Trainee
+10 CR03 City Rifleman
+10 CR04 Manned Avis
+10 CR05 Reef Scrounger
+10 CR06 Accellerated Testudo
+10 CR07 Lighting Garaffa
+10 CR08 Soldier's Blade
+10 CR09 Jingoistic Gigantus
+10 CR10 Origin Dragon
+10 CR11 Fall in Flames
+10 CR12 Klaboom
+10 CR13 Ether Cannon Volley
+10 CL04 Syra Hovering Reefs
+10 CR15 Ether Fabricator
+10 CR16 Leg Frame
+10 CR17 Built to Smash
+10 CR18 Liberation of Colony 4
+10 CR14 Blade Swap
+10 CG01 Caravan Mapper
+10 CG02 Crystaline Ropl
+10 CG03 Nopon Guide
+10 CG04 Nopon Stack
+10 CG05 Shielder Igna
+10 CG06 Erythia Merigna
+10 CG07 Gromrice Farmer
+10 CG08 Indebted Tinkerer
+10 CG09 Highlands Anlood
+10 CG10 Bloom Camill
+10 CG11 Titanic Behemoth
+10 CG12 Tranquil Strike
+10 CG13 Lapidarist's Boon
+10 CG14 Burst of Ether
+10 CG15 Explore
+10 CG16 Broken Bond
+10 CG17 Nature's Tactics
+10 CG18 Etherchannel Cliff
+10 CL05 Lower Maktha Wildwood
+10 UW01 Young Armu
+10 UW02 Li Garte Prisoners
+10 UW03 Last-Stand Avis
+10 CW10 Agnus Duoblade
+10 UW05 Cooking Class
+10 UW06 Honored Moramora
+10 UW07 Legarre Marrin
+10 UW08 Off-Seer's Flute
+10 CW19 Empty Flames
+10 UW10 Broken Cycle
+10 UW11 Fall of a Consoul
+10 UU01 Cave Wisp
+10 UU02 Defender Unit
+10 UU03 Nopon Cartographer
+10 UU04 Bunez Vollgull
+10 UU05 Tactical Lepus
+10 UU06 Crafty Nopon
+10 UU07 Troubadour Class
+10 UU08 Disinformation Centurion
+10 UU09 Turn to Ether
+10 UU10 Sudden Despair
+10 UU11 Freezing Blade
+10 UB01 Sacrificial Soldier
+10 UB02 Horrifying Levnis
+10 UB03 Armuvore Aligo
+10 UB04 Flame-Hungry Soldiers
+10 UB05 Origin Construct
+10 UB06 Cavern Aracnos
+10 UB07 Commander Class
+10 UB08 Cruel Murder
+10 UB09 Liberation of Omega
+10 UB10 Annihilation Event
+10 UB11 Ruins of Anamnesis
+10 UR01 Skittering Pippito
+10 UR02 Teach's Professionals
+10 UR03 Fueled Feris
+10 UR04 Entrenched Testudo
+10 UR05 Control Drive
+10 UR06 Igna Sharpshooter
+10 UR07 Avis Charge Leader
+10 UR08 Greyhair Shot
+10 UR09 Assult on Origin
+10 UR10 Soulhacker Class
+10 UR11 Stand in Opposition
+10 UG01 Nomad Rhinon
+10 UG02 Eroding Caterpile
+10 UG03 Take the Space
+10 UG04 Igna Sentry
+10 UG05 Natural Differences
+10 UG06 Immovable Gonzales
+10 UG07 Evolving Blant
+10 UG08 Armu Tenders
+10 UG09 Search For New Paths
+10 UG10 Lapadarist Class
+10 UG11 Offseers Respite
+10 RW01 Crys, Seers Tutor
+10 RW02 Mio's Homecoming
+10 RW03 Flash Fencer
+10 RW04 Agnus Off-Seeing
+10 RW05 Mio's Diary
+10 RW06 Monica Vandham
+10 RW07 Consul X
+10 RU01 Lady Alexandria
+10 RU02 Lost Mentor
+10 RU03 Masked Agnus Queen
+10 RU04 Consul Y
+10 RU05 The Weight of Life
+10 RU06 Dawnhero Isurd
+10 RU07 Improved Fabrication
+10 RB01 Colony 11 Raven
+10 RB02 The Real Enemy
+10 RB03 The Annihilator
+10 RB04 See Your Demise
+10 RB05 Full Metal Jaguar
+10 RB06 Segiri, No. 7
+10 RB07 Avenger of the Colony
+10 RR01 Wrathfist Ghondor
+10 RR02 All We're Good For
+10 RR03 Inosabers
+10 RR04 Smoldering Cammuravi
+10 RR05 Flame Clock
+10 RR06
+10 RR07
+10 RG01 Nopon Registrar
+10 RG02 Protect the Stone
+10 RG03 Become Ouroboros
+10 RG04 Inscrutable Teach
+10 RG05 Travelling Pals
+10 RG06 Mu Proudbanner
+10 RG07
+10 MW01 Z
+10 MW02 Seraphic Ceratinia
+10 MU02 Levialord Empireo
+10 MR02 Dreadwyrm Nizoont
+10 MB01 Eunie
+10 MB02 Perilwing Ryuho
+10 MR01 Noah
+10 MG01 Sena
+10 MG02 Kilocorn Grandeps
+10 MU01 Guernica Vandham
+10 UM01 Smith's Hammer
+10 UM01 Leave In Isolation
+10 UM01 Ember Eater
+10 UM01 Reluctant Soldier
+10 UM01 Nopon Caravan
+10 UM01 Grave to Cradle
+10 UM01 Mechafriend
+10 UM01 Igna Bellower
+10 UM01 Aggy and Oggy
+10 UM01 Everchanging View
+10 RM01 Taion
+10 RM02 Masked Kevesi Queen
+10 RM03 N
+10 RM04 Joran, Fallen Friend
+10 RM05 Mio
+10 RM06 Ashera, Undying Blade
+10 RM07 Riku, Master Smith
+10 RM08 Stalker Class
+10 RM09 Shanaia, Lost Candidate
+10 RM10 Lanz
+10 UA02 Rejuvenation Accelerator
+10 CA02 Automaton Sentry
+10 CA03 City Troop Transport
+10 CA04 Agnian Assult Blade
+10 CA05 City Recovery Ship
+10 UA01 City Recovery Unit
+10 CA01 Pilgrim's Eye
+10 UA03 Hovering Gyrinus
+10 UA04 City Munitions
+10 UA05 Farmed Produce
+10 CL06 Swordmarch
+10 UL01 Maktha Wildwood
+10 UL02 Eagus Wilderness
+10 UL03 N'ohm Wetlands
+10 UL04 Erythia Sea
+10 UL05 Millick Meadows
+10 RX01 Colony Gamma
+10 RX02 Colony Lambda
+10 RX03 Colony 11
+10 RX04 Colony 30
+10 RX05 Colony Tau
+10 UX01 Consul U
+10 UX02 Consul Q
+10 UX03 Consul V
+10 UX04 Consul R
+10 UX05 Consul G
+10 RX06 Origin
+10 RX07 Song of Creation
+10 RX08 Choose The Now
+10 MX01 Lucky Seven
+10 MX02 Nopon Archsage
+10 MX03 Nia, Queen of Agnus
+10 MX04 Melia, Queen of Keves
+10 MX05 Limits of the Land

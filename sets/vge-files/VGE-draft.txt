@@ -441,13 +441,13 @@
 			}
 		},
 		{
-			"name": "CR09 Decide the Setlist",
+			"name": "CR09 Set the Setlist",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery ",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/103_CR09 Decide the Setlist.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/103_CR09 Set the Setlist.png"
 			}
 		},
 		{
@@ -2061,23 +2061,23 @@
 			}
 		},
 		{
-			"name": "RL01",
+			"name": "RL01 Open Air Theater",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/263_RL01.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/263_RL01 Open Air Theater.png"
 			}
 		},
 		{
-			"name": "RL02",
+			"name": "RL02 Shoreline Theater",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/264_RL02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/264_RL02 Shoreline Theater.png"
 			}
 		},
 		{
@@ -2171,13 +2171,13 @@
 			}
 		},
 		{
-			"name": "RL04",
+			"name": "RL04 Skylight Theater",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/266_RL04.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/266_RL04 Skylight Theater.png"
 			}
 		},
 		{
@@ -2331,13 +2331,13 @@
 			}
 		},
 		{
-			"name": "RBG01 Doubler",
+			"name": "RBG01 Early Echoes",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/172_RBG01 Doubler.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/172_RBG01 Early Echoes.png"
 			}
 		},
 		{
@@ -2441,13 +2441,13 @@
 			}
 		},
 		{
-			"name": "RUR01 Claine",
+			"name": "RUR01 Claine, Belting Siren",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Siren Warrior ",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/186_RUR01 Claine.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/186_RUR01 Claine, Belting Siren.png"
 			}
 		},
 		{
@@ -2581,23 +2581,23 @@
 			}
 		},
 		{
-			"name": "RL03",
+			"name": "RL03 Earthbound Theater",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/265_RL03.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/265_RL03 Earthbound Theater.png"
 			}
 		},
 		{
-			"name": "RL05",
+			"name": "RL05 Rooted Theater",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/267_RL05.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/267_RL05 Rooted Theater.png"
 			}
 		},
 		{
@@ -2959,8 +2959,6 @@
 2 RRW01
 2 RRW02
 2 RGU02
-2 RL01
-2 RL02
 2 RC01 The Mumur Awakened
 2 RWUBRG01
 2 RB01 Gisa, Grave Ringer
@@ -2969,8 +2967,6 @@
 2 RBG05 Swallow the Ruins
 2 RG02
 2 RG04
-2 RL04
-2 RL06
 2 RR02
 2 RU01
 2 RU05
@@ -2979,7 +2975,7 @@
 2 RWB02 Killian, Lyricist
 2 RB03
 2 RB05
-2 RBG01 Doubler
+2 RBG01 Early Echoes
 2 RBG02
 2 RG01
 2 RGU04
@@ -2990,7 +2986,7 @@
 2 RRW05
 2 RU03
 2 RU04
-2 RUR01 Claine
+2 RUR01 Claine, Belting Siren
 2 RUR04 Showmanship
 2 RW01
 2 RW02
@@ -3004,8 +3000,6 @@
 2 RG05
 2 RGU01 Yisan
 2 RGU03
-2 RL03
-2 RL05
 2 RR04
 2 RRW04
 2 RU02
@@ -3167,7 +3161,7 @@
 30 CR06 Echo of Embers
 30 CR07 Flaming Resolution
 30 CR08 Crooning Stage
-30 CR09 Decide the Setlist
+30 CR09 Set the Setlist
 30 CR10 Accelerando
 30 CG01 Hearty Chanter
 30 CG02 Climbing Moss
@@ -3257,7 +3251,7 @@
 10 CR06 Echo of Embers
 10 CR07 Flaming Resolution
 10 CR08 Crooning Stage
-10 CR09 Decide the Setlist
+10 CR09 Set the Setlist
 10 UR09 Lonely Whispering
 10 UR10 Lightning Belt
 10 CR10 Accelerando
@@ -3416,8 +3410,8 @@
 10 MG02
 10 MGU01
 10 RGU02
-10 RL01
-10 RL02
+10 RL01 Open Air Theater
+10 RL02 Shoreline Theater
 10 RC01 The Mumur Awakened
 10 RWUBRG01
 10 RB01 Gisa, Grave Ringer
@@ -3427,7 +3421,7 @@
 10 RG02
 10 RG04
 10 MGU02
-10 RL04
+10 RL04 Skylight Theater
 10 RL06
 10 MR02
 10 RR02
@@ -3443,7 +3437,7 @@
 10 RWB02 Killian, Lyricist
 10 RB03
 10 RB05
-10 RBG01 Doubler
+10 RBG01 Early Echoes
 10 RBG02
 10 RG01
 10 RGU04
@@ -3454,7 +3448,7 @@
 10 RRW05
 10 RU03
 10 RU04
-10 RUR01 Claine
+10 RUR01 Claine, Belting Siren
 10 RUR04 Showmanship
 10 RW01
 10 RW02
@@ -3468,8 +3462,8 @@
 10 RG05
 10 RGU01 Yisan
 10 RGU03
-10 RL03
-10 RL05
+10 RL03 Earthbound Theater
+10 RL05 Rooted Theater
 10 RR04
 10 RRW04
 10 RU02
@@ -3500,17 +3494,3 @@
 10 The Eldest Reborn
 10 Torch Song
 10 Vile Requiem
-[LandSlot(1)]
-10 UL03 Ruins of Olgal
-10 CL05 Choir Loft
-10 CL04 Vocalists Round
-10 CL03 Reverberant Shore
-10 CL02 Anechoic Chamber
-10 CL01 Crumbling Stage
-10 UL01 Accoustic Hall
-10 UL02 Bubbling Ruins
-10 Forest
-10 Island
-10 Mountain
-10 Plains
-10 Swamp

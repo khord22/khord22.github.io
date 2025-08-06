@@ -1,1 +1,9 @@
-﻿{"sets": [{"set_code": "VGE", "set_name": "Voc-Gal Echoes", "formats": ""}]}
+﻿{
+    "sets": [
+        {
+            "set_code": "VGE",
+            "set_name": "Voc-Gal Echoes",
+            "formats": ""
+        }
+    ]
+}

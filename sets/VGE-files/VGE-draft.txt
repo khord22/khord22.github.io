@@ -615,9 +615,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Spirit Knight",
-			"collector_number": "209",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/209_UWB04 Breathless Knight.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/204_UWB04 Breathless Knight.png"
 			}
 		},
 		{
@@ -625,9 +625,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Instant",
-			"collector_number": "224",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/224_CWB06 Permanent Caesura.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/219_CWB06 Permanent Caesura.png"
 			}
 		},
 		{
@@ -635,9 +635,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "223",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/223_CWB05 Short-Lived Soloist.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/218_CWB05 Short-Lived Soloist.png"
 			}
 		},
 		{
@@ -645,9 +645,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/B}{W/B}",
 			"type": "Creature — Human Bard",
-			"collector_number": "222",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/222_CWB04 Understudied Soloist.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/217_CWB04 Understudied Soloist.png"
 			}
 		},
 		{
@@ -675,9 +675,9 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Creature — Spirit",
-			"collector_number": "216",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/216_CRW04 Countros Assailant.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/211_CRW04 Countros Assailant.png"
 			}
 		},
 		{
@@ -685,9 +685,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Dwarf Shaman",
-			"collector_number": "201",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/201_URW04 Songwrapped Chanter.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/196_URW04 Songwrapped Chanter.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}{R/W}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "217",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/217_CRW05 Countros Figurehead.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/212_CRW05 Countros Figurehead.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R/W}{R/W}",
 			"type": "Enchantment — Saga",
-			"collector_number": "218",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/218_CRW06 Shattering Song.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/213_CRW06 Shattering Song.png"
 			}
 		},
 		{
@@ -745,9 +745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Enchantment",
-			"collector_number": "197",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/197_UGU04 Center of the Ruins.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/192_UGU04 Center of the Ruins.png"
 			}
 		},
 		{
@@ -755,9 +755,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}{G/U}",
 			"type": "Creature — Siren",
-			"collector_number": "213",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/213_CGU04 Murmur Echoer.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/208_CGU04 Murmur Echoer.png"
 			}
 		},
 		{
@@ -765,9 +765,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "214",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/214_CGU05 Olgal Murmur Leader.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/209_CGU05 Olgal Murmur Leader.png"
 			}
 		},
 		{
@@ -775,9 +775,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G/U}{G/U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "215",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/215_CGU06 Suddenstar's Gift.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/210_CGU06 Suddenstar's Gift.png"
 			}
 		},
 		{
@@ -785,9 +785,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "211",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/211_CBG05 Reoccuring Terror.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/206_CBG05 Reoccuring Terror.png"
 			}
 		},
 		{
@@ -795,9 +795,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B/G}{B/G}",
 			"type": "Creature — Beast",
-			"collector_number": "210",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/210_CBG04 Song-Calmed Beast.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/205_CBG04 Song-Calmed Beast.png"
 			}
 		},
 		{
@@ -815,9 +815,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "193",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/193_UBG04 Murmur Harnesser.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/188_UBG04 Murmur Harnesser.png"
 			}
 		},
 		{
@@ -835,9 +835,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "220",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/220_CUR05 Rampaging Bellower.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/215_CUR05 Rampaging Bellower.png"
 			}
 		},
 		{
@@ -845,9 +845,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U/R}{U/R}",
 			"type": "Creature — Serpent",
-			"collector_number": "219",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/219_CUR04 Snapjaw Serpent.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/214_CUR04 Snapjaw Serpent.png"
 			}
 		},
 		{
@@ -855,9 +855,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{R}",
 			"type": "Creature — Siren",
-			"collector_number": "205",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/205_UUR04 Olgal Song-Seer.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/200_UUR04 Olgal Song-Seer.png"
 			}
 		},
 		{
@@ -875,9 +875,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Creature — Human Bard",
-			"collector_number": "202",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/202_UUR01 Copycat Composer.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/197_UUR01 Copycat Composer.png"
 			}
 		},
 		{
@@ -885,9 +885,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/R}{U/R}",
 			"type": "Enchantment — Saga",
-			"collector_number": "221",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/221_CUR06 Da Cappa al Coda.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/216_CUR06 Da Cappa al Coda.png"
 			}
 		},
 		{
@@ -895,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}{B/G}",
 			"type": "Instant",
-			"collector_number": "212",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/212_CBG06 Descending Line.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/207_CBG06 Descending Line.png"
 			}
 		},
 		{
@@ -1165,9 +1165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Vampire Warlock",
-			"collector_number": "190",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/190_UBG01 Leaser of Inspiriation.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/185_UBG01 Leaser of Inspiriation.png"
 			}
 		},
 		{
@@ -1175,9 +1175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Enchantment",
-			"collector_number": "191",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/191_UBG02 False Finale.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/186_UBG02 False Finale.png"
 			}
 		},
 		{
@@ -1185,9 +1185,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Noble",
-			"collector_number": "192",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/192_UBG03 Obliesse, Tear Queller.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/187_UBG03 Obliesse, Tear Queller.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "206",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/206_UWB01 Harsh Critic.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/201_UWB01 Harsh Critic.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "207",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/207_UWB02 Immortal's Lament.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/202_UWB02 Immortal's Lament.png"
 			}
 		},
 		{
@@ -1325,9 +1325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Enchantment Creature — Spirit",
-			"collector_number": "208",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/208_UWB03 Belia, Whispersinger.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/203_UWB03 Belia, Whispersinger.png"
 			}
 		},
 		{
@@ -1445,9 +1445,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "198",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/198_URW01 Angel of Recovery.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/193_URW01 Angel of Recovery.png"
 			}
 		},
 		{
@@ -1455,9 +1455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "199",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/199_URW02 Sustained Belting.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/194_URW02 Sustained Belting.png"
 			}
 		},
 		{
@@ -1465,9 +1465,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Cat Bard Druid",
-			"collector_number": "200",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/200_URW03 Kitt Kanto, on Tour.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/195_URW03 Kitt Kanto, on Tour.png"
 			}
 		},
 		{
@@ -1585,9 +1585,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Siren",
-			"collector_number": "194",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/194_UGU01 Dowsing Couple.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/189_UGU01 Dowsing Couple.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "195",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/195_UGU02 Call and Response.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/190_UGU02 Call and Response.png"
 			}
 		},
 		{
@@ -1605,9 +1605,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Snake Elf Bard",
-			"collector_number": "196",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/196_UGU03 Sennai, Songclade's Start.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/191_UGU03 Sennai, Songclade's Start.png"
 			}
 		},
 		{
@@ -1735,9 +1735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Instant",
-			"collector_number": "203",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/203_UUR02 Downbeat.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/198_UUR02 Downbeat.png"
 			}
 		},
 		{
@@ -1745,9 +1745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Devil Bard",
-			"collector_number": "204",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/204_UUR03 Leit, Maritime Motif.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/199_UUR03 Leit, Maritime Motif.png"
 			}
 		},
 		{
@@ -1854,20 +1854,20 @@
 			"name": "MW01 Privledged Performer",
 			"rarity": "mythic",
 			"mana_cost": "{W}{W}{W}",
-			"type": "Creature",
+			"type": "Creature — Angel Noble",
 			"collector_number": "20",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/20_MW01 Privledged Performer.png"
 			}
 		},
 		{
-			"name": "RW05 Rare Saga",
+			"name": "RW05 Recovered Tale",
 			"rarity": "rare",
-			"mana_cost": "{W}",
+			"mana_cost": "{3}{W}{W}",
 			"type": "Enchantment — Saga",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/27_RW05 Rare Saga.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/27_RW05 Recovered Tale.png"
 			}
 		},
 		{
@@ -1875,19 +1875,19 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "232",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/232_RWB03 Mortal Wish.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/231_RWB03 Mortal Wish.png"
 			}
 		},
 		{
-			"name": "MWB02",
+			"name": "MWB02 Murmuring Mourner",
 			"rarity": "mythic",
-			"mana_cost": "{W}{B}",
-			"type": "",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Enchantment Creature — Spirit",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/170_MWB02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/170_MWB02 Murmuring Mourner.png"
 			}
 		},
 		{
@@ -1921,13 +1921,13 @@
 			}
 		},
 		{
-			"name": "RUR05",
+			"name": "RUR05 Gastal Requiem",
 			"rarity": "rare",
-			"mana_cost": "{U}{R}",
-			"type": "",
-			"collector_number": "185",
+			"mana_cost": "{1}{U/R}{U/R}",
+			"type": "Sorcery",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/185_RUR05.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/230_RUR05 Gastal Requiem.png"
 			}
 		},
 		{
@@ -1941,33 +1941,33 @@
 			}
 		},
 		{
-			"name": "MB02",
+			"name": "MB02 Trench Siren",
 			"rarity": "mythic",
-			"mana_cost": "{B}",
-			"type": "",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Creature — Siren Demon",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/79_MB02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/79_MB02 Trench Siren.png"
 			}
 		},
 		{
-			"name": "MBG01 Decreshh Director",
+			"name": "MBG01 Nollik, Decreshh Director",
 			"rarity": "mythic",
-			"mana_cost": "{B}{G}",
+			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Bard",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/162_MBG01 Decreshh Director.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/162_MBG01 Nollik, Decreshh Director.png"
 			}
 		},
 		{
-			"name": "MBG02",
+			"name": "MBG02 Finalesong Clade",
 			"rarity": "mythic",
-			"mana_cost": "{B}{G}",
-			"type": "",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Elf",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/163_MBG02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/163_MBG02 Finalesong Clade.png"
 			}
 		},
 		{
@@ -1995,19 +1995,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Siren",
-			"collector_number": "178",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/178_RRW01 Phoenix Siren.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/176_RRW01 Phoenix Siren.png"
 			}
 		},
 		{
-			"name": "RRW02 Boros Aura",
+			"name": "RRW02 Aura of Stardom",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Enchantment — Aura",
-			"collector_number": "179",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/179_RRW02 Boros Aura.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/177_RRW02 Aura of Stardom.png"
 			}
 		},
 		{
@@ -2015,9 +2015,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R/G}{G/W}",
 			"type": "Legendary Planeswalker — Tacenda",
-			"collector_number": "225",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/225_MG01 Tacenda Verlasen.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/220_MG01 Tacenda Verlasen.png"
 			}
 		},
 		{
@@ -2041,13 +2041,13 @@
 			}
 		},
 		{
-			"name": "RGU02",
+			"name": "RGU05 Amonkheti Requiem",
 			"rarity": "rare",
-			"mana_cost": "{G}{U}",
-			"type": "",
-			"collector_number": "175",
+			"mana_cost": "{1}{G/U}{G/U}",
+			"type": "Sorcery",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/175_RGU02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/226_RGU05 Amonkheti Requiem.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "189",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/189_RWUBRG01.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/184_RWUBRG01.png"
 			}
 		},
 		{
@@ -2115,19 +2115,19 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}{B/G}{G}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "227",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/227_RBG03 Pledge of Silence.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/222_RBG03 Pledge of Silence.png"
 			}
 		},
 		{
-			"name": "RBG05 Swallow the Ruins",
+			"name": "RBG04 Swallow the Ruins",
 			"rarity": "rare",
 			"mana_cost": "{B}{B}{B/G}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "228",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/228_RBG05 Swallow the Ruins.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/223_RBG04 Swallow the Ruins.png"
 			}
 		},
 		{
@@ -2141,23 +2141,23 @@
 			}
 		},
 		{
-			"name": "RG04 Rare Enchantment",
+			"name": "RG04 Ends of the Earth",
 			"rarity": "rare",
-			"mana_cost": "{G}",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/140_RG04 Rare Enchantment.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/140_RG04 Ends of the Earth.png"
 			}
 		},
 		{
-			"name": "MGU02",
+			"name": "MGU02 Doubling Shanty",
 			"rarity": "mythic",
 			"mana_cost": "{G}{G/U}{U}",
 			"type": "Sorcery",
-			"collector_number": "226",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/226_MGU02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/221_MGU02 Doubling Shanty.png"
 			}
 		},
 		{
@@ -2181,13 +2181,13 @@
 			}
 		},
 		{
-			"name": "MR02",
+			"name": "MR02 Spirit Siren",
 			"rarity": "mythic",
-			"mana_cost": "{R}",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment Creature — Spirit Siren",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/108_MR02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/108_MR02 Spirit Siren.png"
 			}
 		},
 		{
@@ -2211,13 +2211,13 @@
 			}
 		},
 		{
-			"name": "MRW02",
+			"name": "MRW02 Fallen Voices",
 			"rarity": "mythic",
-			"mana_cost": "{R}{W}",
-			"type": "",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment Creature — Spirit",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/166_MRW02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/166_MRW02 Fallen Voices.png"
 			}
 		},
 		{
@@ -2245,9 +2245,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{U}{U/R}{R}{R}",
 			"type": "Enchantment — Saga",
-			"collector_number": "231",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/231_RUR03 Rondelli Pledge.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/229_RUR03 Rondelli Pledge.png"
 			}
 		},
 		{
@@ -2261,23 +2261,23 @@
 			}
 		},
 		{
-			"name": "RW03 Rare Spell",
+			"name": "RW03 Practice Room",
 			"rarity": "rare",
-			"mana_cost": "{W}",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/25_RW03 Rare Spell.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/25_RW03 Practice Room.png"
 			}
 		},
 		{
-			"name": "MW02",
+			"name": "MW02 Strict Rehearser",
 			"rarity": "mythic",
-			"mana_cost": "{W}",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bard",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/21_MW02.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/21_MW02 Strict Rehearser.png"
 			}
 		},
 		{
@@ -2295,29 +2295,29 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Human Warlock",
-			"collector_number": "187",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/187_RWB02 Killian, Lyricist.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/183_RWB02 Killian, Lyricist.png"
 			}
 		},
 		{
 			"name": "RB03 Rare Permanent",
 			"rarity": "rare",
-			"mana_cost": "{B}",
-			"type": "",
+			"mana_cost": "{2}{B}{B}{B}{B}",
+			"type": "Enchantment Creature — Spirit",
 			"collector_number": "82",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/82_RB03 Rare Permanent.png"
 			}
 		},
 		{
-			"name": "RB05 Rare Saga",
+			"name": "RB05 Funeral Dirge",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/84_RB05 Rare Saga.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/84_RB05 Funeral Dirge.png"
 			}
 		},
 		{
@@ -2355,39 +2355,39 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{G}{G/U}{U}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "229",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/229_RGU04 Tremolos Pledge.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/225_RGU04 Tremolos Pledge.png"
 			}
 		},
 		{
-			"name": "RGU05",
+			"name": "RGU02 Whispering Titan",
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{U}",
 			"type": "Creature — Giant Bard",
-			"collector_number": "177",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/177_RGU05.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/174_RGU02 Whispering Titan.png"
 			}
 		},
 		{
-			"name": "RR03 Red Aura",
+			"name": "RR03 Catchy Tune",
 			"rarity": "rare",
-			"mana_cost": "{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Enchantment — Aura",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/111_RR03 Red Aura.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/111_RR03 Catchy Tune.png"
 			}
 		},
 		{
-			"name": "RR05 Rare Saga",
+			"name": "RR05 Murmuring Flames",
 			"rarity": "rare",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Enchantment — Saga",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/113_RR05 Rare Saga.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/113_RR05 Murmuring Flames.png"
 			}
 		},
 		{
@@ -2395,19 +2395,19 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{R}{R/W}{W}{W}",
 			"type": "Enchantment — Saga",
-			"collector_number": "230",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/230_RRW03 Countros Pledge.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/227_RRW03 Countros Pledge.png"
 			}
 		},
 		{
-			"name": "RRW05",
+			"name": "RRW05 Mirran Requiem",
 			"rarity": "rare",
-			"mana_cost": "{R}{W}",
-			"type": "",
-			"collector_number": "181",
+			"mana_cost": "{1}{R/W}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/181_RRW05.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/228_RRW05 Mirran Requiem.png"
 			}
 		},
 		{
@@ -2435,9 +2435,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Siren Warrior",
-			"collector_number": "182",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/182_RUR01 Claine, Belting Siren.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/179_RUR01 Claine, Belting Siren.png"
 			}
 		},
 		{
@@ -2445,69 +2445,69 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Instant",
-			"collector_number": "184",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/184_RUR04 Salvia's Showmanship.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/181_RUR04 Salvia's Showmanship.png"
 			}
 		},
 		{
-			"name": "RW01 White Aura",
+			"name": "RW01 Untouchable Stardom",
 			"rarity": "rare",
-			"mana_cost": "{W}",
+			"mana_cost": "{4}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/23_RW01 White Aura.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/23_RW01 Untouchable Stardom.png"
 			}
 		},
 		{
-			"name": "RW02 Rare Big Creature",
+			"name": "RW02 Olgal Valkyrie",
 			"rarity": "rare",
-			"mana_cost": "{W}",
-			"type": "",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Creature — Angel",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/24_RW02 Rare Big Creature.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/24_RW02 Olgal Valkyrie.png"
 			}
 		},
 		{
-			"name": "RWB01",
+			"name": "RWB01 Soaring Conductor",
 			"rarity": "rare",
-			"mana_cost": "{W}{B}",
-			"type": "",
-			"collector_number": "186",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Enchantment Creature — Angel Advisor",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/186_RWB01.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/182_RWB01 Soaring Conductor.png"
 			}
 		},
 		{
-			"name": "RWB05",
+			"name": "RWB05 Tolvadan Requiem",
 			"rarity": "rare",
-			"mana_cost": "{W}{B}",
-			"type": "",
-			"collector_number": "188",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Sorcery",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/188_RWB05.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/233_RWB05 Tolvadan Requiem.png"
 			}
 		},
 		{
-			"name": "RB04 Rare Spell",
+			"name": "RB04 Knowledge from Silence",
 			"rarity": "rare",
-			"mana_cost": "{B}",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/83_RB04 Rare Spell.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/83_RB04 Knowledge from Silence.png"
 			}
 		},
 		{
-			"name": "RBG04",
+			"name": "RBG05 Skallan Requiem",
 			"rarity": "rare",
-			"mana_cost": "{B}{G}",
-			"type": "",
-			"collector_number": "173",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/173_RBG04.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/224_RBG05 Skallan Requiem.png"
 			}
 		},
 		{
@@ -2541,13 +2541,13 @@
 			}
 		},
 		{
-			"name": "RG05 Rare Saga",
+			"name": "RG05 The Oldest Story",
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/141_RG05 Rare Saga.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/141_RG05 The Oldest Story.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Legendary Creature — Human Rogue Bard",
-			"collector_number": "174",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/174_RGU01 Yisan.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/173_RGU01 Yisan.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Enchantment — Saga",
-			"collector_number": "176",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/176_RGU03 [Name's] Compound Duple.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/175_RGU03 [Name's] Compound Duple.png"
 			}
 		},
 		{
@@ -2591,13 +2591,13 @@
 			}
 		},
 		{
-			"name": "RR04 Rare Spell",
+			"name": "RR04 Rapid Reading",
 			"rarity": "rare",
-			"mana_cost": "{R}",
-			"type": "",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Instant",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/112_RR04 Rare Spell.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/112_RR04 Rapid Reading.png"
 			}
 		},
 		{
@@ -2605,19 +2605,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Noble Bard",
-			"collector_number": "180",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/180_RRW04 Crowd Pleaser.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/178_RRW04 Crowd Pleaser.png"
 			}
 		},
 		{
-			"name": "RU02 Rare Creature",
+			"name": "RU02 Amplification Construct",
 			"rarity": "rare",
-			"mana_cost": "{U}",
-			"type": "",
+			"mana_cost": "{2/C}{U}",
+			"type": "Artifact Creature — Construct",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/53_RU02 Rare Creature.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/53_RU02 Amplification Construct.png"
 			}
 		},
 		{
@@ -2625,9 +2625,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "Artifact",
-			"collector_number": "183",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/183_RUR02 Siren Seabed.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/180_RUR02 Siren Seabed.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{W}{W/B}{B}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "233",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/233_RWB04 Soloists Pledge.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/232_RWB04 Soloists Pledge.png"
 			}
 		},
 		{
@@ -2964,25 +2964,25 @@
 
 [rare(1)]
 	1 MW01 Privledged Performer
-	2 RW05 Rare Saga
+	2 RW05 Recovered Tale
 	2 RWB03 Mortal Wish
-	1 MWB02
+	1 MWB02 Murmuring Mourner
 	1 MU01 Ancestral Tale
 	1 MU02
 	1 MUR01 Rondelli Royalty
-	2 RUR05
+	2 RUR05 Gastal Requiem
 	1 MB01 Olgal Demon
-	1 MB02
-	1 MBG01 Decreshh Director
-	1 MBG02
+	1 MB02 Trench Siren
+	1 MBG01 Nollik, Decreshh Director
+	1 MBG02 Finalesong Clade
 	1 MR01 Crowd Amplification
 	2 RR01 Totentanz, Murmur Maginifier
 	2 RRW01 Phoenix Siren
-	2 RRW02 Boros Aura
+	2 RRW02 Aura of Stardom
 	1 MG01 Tacenda Verlasen
 	1 MG02 The Murmursong Score
 	1 MGU01 Tremolos Tutor
-	2 RGU02
+	2 RGU05 Amonkheti Requiem
 	2 RL01 Open Air Theater
 	2 RL02 Shoreline Theater
 	2 RC01 The Mumur Awakened
@@ -2990,56 +2990,56 @@
 	2 RB01 Gisa, Grave Ringer
 	2 RB02 Rune-Cursed Poet
 	2 RBG03 Pledge of Silence
-	2 RBG05 Swallow the Ruins
+	2 RBG04 Swallow the Ruins
 	2 RG02 Murmurskunk
-	2 RG04 Rare Enchantment
-	1 MGU02
+	2 RG04 Ends of the Earth
+	1 MGU02 Doubling Shanty
 	2 RL04 Skylight Theater
 	2 RL06 The World Stage
-	1 MR02
+	1 MR02 Spirit Siren
 	2 RR02 Salvia, Poetic Outfitter
 	1 MRW01 Countros Conductor
-	1 MRW02
+	1 MRW02 Fallen Voices
 	2 RU01 Song Song
 	2 RU05 Song of Blue Yonder
 	2 RUR03 Rondelli Pledge
 	1 MUR02 Sing Con Vivace
-	2 RW03 Rare Spell
-	1 MW02
+	2 RW03 Practice Room
+	1 MW02 Strict Rehearser
 	1 MWB01 Soloist Primo
 	2 RWB02 Killian, Lyricist
 	2 RB03 Rare Permanent
-	2 RB05 Rare Saga
+	2 RB05 Funeral Dirge
 	2 RBG01 Early Echoes
 	2 RBG02 Muse of the Ruins
 	2 RG01 Spirit of the Composer
 	2 RGU04 Tremolos Pledge
-	2 RGU05
-	2 RR03 Red Aura
-	2 RR05 Rare Saga
+	2 RGU02 Whispering Titan
+	2 RR03 Catchy Tune
+	2 RR05 Murmuring Flames
 	2 RRW03 Countros Pledge
-	2 RRW05
+	2 RRW05 Mirran Requiem
 	2 RU03 Siren Titan
 	2 RU04 Lost in Whispers
 	2 RUR01 Claine, Belting Siren
 	2 RUR04 Salvia's Showmanship
-	2 RW01 White Aura
-	2 RW02 Rare Big Creature
-	2 RWB01
-	2 RWB05
-	2 RB04 Rare Spell
-	2 RBG04
+	2 RW01 Untouchable Stardom
+	2 RW02 Olgal Valkyrie
+	2 RWB01 Soaring Conductor
+	2 RWB05 Tolvadan Requiem
+	2 RB04 Knowledge from Silence
+	2 RBG05 Skallan Requiem
 	2 RC02 Book of Forgotten Songs
 	2 RC03 Count Off
 	2 RG03 Past Inspiration
-	2 RG05 Rare Saga
+	2 RG05 The Oldest Story
 	2 RGU01 Yisan
 	2 RGU03 [Name's] Compound Duple
 	2 RL03 Earthbound Theater
 	2 RL05 Rooted Theater
-	2 RR04 Rare Spell
+	2 RR04 Rapid Reading
 	2 RRW04 Crowd Pleaser
-	2 RU02 Rare Creature
+	2 RU02 Amplification Construct
 	2 RUR02 Siren Seabed
 	2 RW04 Wailing Whisps
 	2 RWB04 Soloists Pledge
@@ -3416,25 +3416,25 @@
 	6 UL01 Accoustic Hall
 	6 UL02 Bubbling Ruins
 	1 MW01 Privledged Performer
-	2 RW05 Rare Saga
+	2 RW05 Recovered Tale
 	2 RWB03 Mortal Wish
-	1 MWB02
+	1 MWB02 Murmuring Mourner
 	1 MU01 Ancestral Tale
 	1 MU02
 	1 MUR01 Rondelli Royalty
-	2 RUR05
+	2 RUR05 Gastal Requiem
 	1 MB01 Olgal Demon
-	1 MB02
-	1 MBG01 Decreshh Director
-	1 MBG02
+	1 MB02 Trench Siren
+	1 MBG01 Nollik, Decreshh Director
+	1 MBG02 Finalesong Clade
 	1 MR01 Crowd Amplification
 	2 RR01 Totentanz, Murmur Maginifier
 	2 RRW01 Phoenix Siren
-	2 RRW02 Boros Aura
+	2 RRW02 Aura of Stardom
 	1 MG01 Tacenda Verlasen
 	1 MG02 The Murmursong Score
 	1 MGU01 Tremolos Tutor
-	2 RGU02
+	2 RGU05 Amonkheti Requiem
 	2 RL01 Open Air Theater
 	2 RL02 Shoreline Theater
 	2 RC01 The Mumur Awakened
@@ -3442,56 +3442,56 @@
 	2 RB01 Gisa, Grave Ringer
 	2 RB02 Rune-Cursed Poet
 	2 RBG03 Pledge of Silence
-	2 RBG05 Swallow the Ruins
+	2 RBG04 Swallow the Ruins
 	2 RG02 Murmurskunk
-	2 RG04 Rare Enchantment
-	1 MGU02
+	2 RG04 Ends of the Earth
+	1 MGU02 Doubling Shanty
 	2 RL04 Skylight Theater
 	2 RL06 The World Stage
-	1 MR02
+	1 MR02 Spirit Siren
 	2 RR02 Salvia, Poetic Outfitter
 	1 MRW01 Countros Conductor
-	1 MRW02
+	1 MRW02 Fallen Voices
 	2 RU01 Song Song
 	2 RU05 Song of Blue Yonder
 	2 RUR03 Rondelli Pledge
 	1 MUR02 Sing Con Vivace
-	2 RW03 Rare Spell
-	1 MW02
+	2 RW03 Practice Room
+	1 MW02 Strict Rehearser
 	1 MWB01 Soloist Primo
 	2 RWB02 Killian, Lyricist
 	2 RB03 Rare Permanent
-	2 RB05 Rare Saga
+	2 RB05 Funeral Dirge
 	2 RBG01 Early Echoes
 	2 RBG02 Muse of the Ruins
 	2 RG01 Spirit of the Composer
 	2 RGU04 Tremolos Pledge
-	2 RGU05
-	2 RR03 Red Aura
-	2 RR05 Rare Saga
+	2 RGU02 Whispering Titan
+	2 RR03 Catchy Tune
+	2 RR05 Murmuring Flames
 	2 RRW03 Countros Pledge
-	2 RRW05
+	2 RRW05 Mirran Requiem
 	2 RU03 Siren Titan
 	2 RU04 Lost in Whispers
 	2 RUR01 Claine, Belting Siren
 	2 RUR04 Salvia's Showmanship
-	2 RW01 White Aura
-	2 RW02 Rare Big Creature
-	2 RWB01
-	2 RWB05
-	2 RB04 Rare Spell
-	2 RBG04
+	2 RW01 Untouchable Stardom
+	2 RW02 Olgal Valkyrie
+	2 RWB01 Soaring Conductor
+	2 RWB05 Tolvadan Requiem
+	2 RB04 Knowledge from Silence
+	2 RBG05 Skallan Requiem
 	2 RC02 Book of Forgotten Songs
 	2 RC03 Count Off
 	2 RG03 Past Inspiration
-	2 RG05 Rare Saga
+	2 RG05 The Oldest Story
 	2 RGU01 Yisan
 	2 RGU03 [Name's] Compound Duple
 	2 RL03 Earthbound Theater
 	2 RL05 Rooted Theater
-	2 RR04 Rare Spell
+	2 RR04 Rapid Reading
 	2 RRW04 Crowd Pleaser
-	2 RU02 Rare Creature
+	2 RU02 Amplification Construct
 	2 RUR02 Siren Seabed
 	2 RW04 Wailing Whisps
 	2 RWB04 Soloists Pledge
@@ -3684,25 +3684,25 @@
 	15 UL01 Accoustic Hall
 	15 UL02 Bubbling Ruins
 	4 MW01 Privledged Performer
-	7 RW05 Rare Saga
+	7 RW05 Recovered Tale
 	7 RWB03 Mortal Wish
-	4 MWB02
+	4 MWB02 Murmuring Mourner
 	4 MU01 Ancestral Tale
 	4 MU02
 	4 MUR01 Rondelli Royalty
-	7 RUR05
+	7 RUR05 Gastal Requiem
 	4 MB01 Olgal Demon
-	4 MB02
-	4 MBG01 Decreshh Director
-	4 MBG02
+	4 MB02 Trench Siren
+	4 MBG01 Nollik, Decreshh Director
+	4 MBG02 Finalesong Clade
 	4 MR01 Crowd Amplification
 	7 RR01 Totentanz, Murmur Maginifier
 	7 RRW01 Phoenix Siren
-	7 RRW02 Boros Aura
+	7 RRW02 Aura of Stardom
 	4 MG01 Tacenda Verlasen
 	4 MG02 The Murmursong Score
 	4 MGU01 Tremolos Tutor
-	7 RGU02
+	7 RGU05 Amonkheti Requiem
 	7 RL01 Open Air Theater
 	7 RL02 Shoreline Theater
 	7 RC01 The Mumur Awakened
@@ -3710,56 +3710,56 @@
 	7 RB01 Gisa, Grave Ringer
 	7 RB02 Rune-Cursed Poet
 	7 RBG03 Pledge of Silence
-	7 RBG05 Swallow the Ruins
+	7 RBG04 Swallow the Ruins
 	7 RG02 Murmurskunk
-	7 RG04 Rare Enchantment
-	4 MGU02
+	7 RG04 Ends of the Earth
+	4 MGU02 Doubling Shanty
 	7 RL04 Skylight Theater
 	7 RL06 The World Stage
-	4 MR02
+	4 MR02 Spirit Siren
 	7 RR02 Salvia, Poetic Outfitter
 	4 MRW01 Countros Conductor
-	4 MRW02
+	4 MRW02 Fallen Voices
 	7 RU01 Song Song
 	7 RU05 Song of Blue Yonder
 	7 RUR03 Rondelli Pledge
 	4 MUR02 Sing Con Vivace
-	7 RW03 Rare Spell
-	4 MW02
+	7 RW03 Practice Room
+	4 MW02 Strict Rehearser
 	4 MWB01 Soloist Primo
 	7 RWB02 Killian, Lyricist
 	7 RB03 Rare Permanent
-	7 RB05 Rare Saga
+	7 RB05 Funeral Dirge
 	7 RBG01 Early Echoes
 	7 RBG02 Muse of the Ruins
 	7 RG01 Spirit of the Composer
 	7 RGU04 Tremolos Pledge
-	7 RGU05
-	7 RR03 Red Aura
-	7 RR05 Rare Saga
+	7 RGU02 Whispering Titan
+	7 RR03 Catchy Tune
+	7 RR05 Murmuring Flames
 	7 RRW03 Countros Pledge
-	7 RRW05
+	7 RRW05 Mirran Requiem
 	7 RU03 Siren Titan
 	7 RU04 Lost in Whispers
 	7 RUR01 Claine, Belting Siren
 	7 RUR04 Salvia's Showmanship
-	7 RW01 White Aura
-	7 RW02 Rare Big Creature
-	7 RWB01
-	7 RWB05
-	7 RB04 Rare Spell
-	7 RBG04
+	7 RW01 Untouchable Stardom
+	7 RW02 Olgal Valkyrie
+	7 RWB01 Soaring Conductor
+	7 RWB05 Tolvadan Requiem
+	7 RB04 Knowledge from Silence
+	7 RBG05 Skallan Requiem
 	7 RC02 Book of Forgotten Songs
 	7 RC03 Count Off
 	7 RG03 Past Inspiration
-	7 RG05 Rare Saga
+	7 RG05 The Oldest Story
 	7 RGU01 Yisan
 	7 RGU03 [Name's] Compound Duple
 	7 RL03 Earthbound Theater
 	7 RL05 Rooted Theater
-	7 RR04 Rare Spell
+	7 RR04 Rapid Reading
 	7 RRW04 Crowd Pleaser
-	7 RU02 Rare Creature
+	7 RU02 Amplification Construct
 	7 RUR02 Siren Seabed
 	7 RW04 Wailing Whisps
 	7 RWB04 Soloists Pledge

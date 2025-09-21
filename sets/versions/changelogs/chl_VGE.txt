@@ -1,4 +1,816 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+RW05 Recovered Tale added.
+MWB02 Murmuring Mourner added.
+RUR05 Gastal Requiem added.
+MB02 Trench Siren added.
+MBG01 Nollik, Decreshh Director added.
+MBG02 Finalesong Clade added.
+RRW02 Aura of Stardom added.
+RGU05 Amonkheti Requiem added.
+RBG04 Swallow the Ruins added.
+RG04 Ends of the Earth added.
+MGU02 Doubling Shanty added.
+MR02 Spirit Siren added.
+MRW02 Fallen Voices added.
+RW03 Practice Room added.
+MW02 Strict Rehearser added.
+RB05 Funeral Dirge added.
+RGU02 Whispering Titan added.
+RR03 Catchy Tune added.
+RR05 Murmuring Flames added.
+RRW05 Mirran Requiem added.
+RW01 Untouchable Stardom added.
+RW02 Olgal Valkyrie added.
+RWB01 Soaring Conductor added.
+RWB05 Tolvadan Requiem added.
+RB04 Knowledge from Silence added.
+RBG05 Skallan Requiem added.
+RG05 The Oldest Story added.
+RR04 Rapid Reading added.
+RU02 Amplification Construct added.
+
+RW05 Rare Saga removed.
+MWB02 removed.
+RUR05 removed.
+MB02 removed.
+MBG01 Decreshh Director removed.
+MBG02 removed.
+RRW02 Boros Aura removed.
+RGU02 removed.
+RBG05 Swallow the Ruins removed.
+RG04 Rare Enchantment removed.
+MGU02 removed.
+MR02 removed.
+MRW02 removed.
+RW03 Rare Spell removed.
+MW02 removed.
+RB05 Rare Saga removed.
+RGU05 removed.
+RR03 Red Aura removed.
+RR05 Rare Saga removed.
+RRW05 removed.
+RW01 White Aura removed.
+RW02 Rare Big Creature removed.
+RWB01 removed.
+RWB05 removed.
+RB04 Rare Spell removed.
+RBG04 removed.
+RG05 Rare Saga removed.
+RR04 Rare Spell removed.
+RU02 Rare Creature removed.
+
+CW01 Backup Singer
+
+CW02 Mute Healer
+
+CW03 Countros Soprano
+
+CW04 Amphiteater Listener
+rules_text: When Amphiteater Listener dies, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => When Amphiteater Listener dies, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CW05 Overeager Audience
+
+CW06 Countros Ringer
+
+CW07 Echo of Delight
+
+CW08 Resolute Melody
+
+CW09 Imprison Composer
+
+CW10 Accoustic Reflections
+
+CW11 Even Stars Fall
+
+UW09 Dynamic Dynamics
+
+CU01 Rondelli Recruiter
+
+CU02 Olgal Shore Guardian
+rules_text: Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+When Olgal Shore Guardian enters, you may pay {2}. If you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+When Olgal Shore Guardian enters, you may pay {2}. If you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CU03 Mistral Singer
+
+CU04 Phase Inverter
+
+CU05 Echo of Complexity
+
+CU06 Auditioning Canon
+
+CU07 Dream Songs
+
+UU09 Delayed Performance
+rules_text: Return target spell to its owners hand unless they pay {2}. If they do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Return target spell to its owners hand unless they pay {2}. If they do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CU09 Thirst for Meaning
+
+CU10 Performers Only
+
+CU11 Tuck within Harmony
+rules_text: The owner of target nonland permanent puts it on the top or bottom of their library, then they create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => The owner of target nonland permanent puts it on the top or bottom of their library, then they create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CU08 Reminiscent Tune
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i]
+
+CB01 Decreshh Revenant
+
+CB02 Subtle Silencer
+
+CB03 Mourning Soliliquist
+rules_text: {B}{B}, Pay 2 life: Create a Murmur token. Activate only if an enchantment left the battlefield this turn, and only once each turn as a sorcery. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => {B}{B}, Pay 2 life: Create a Murmur token. Activate only if an enchantment left the battlefield this turn, and only once each turn as a sorcery. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CB04 Caller of Ravens
+
+CB05 Finale Reveler
+
+CB06 Echo of Silence
+
+CB07 Call of the Cruel
+
+CB08 Write Your Requiem
+
+CB09 Discordant Ditty
+
+CB10 Cut to Silence
+
+CB11 Life's Echo
+rules_text: Enchant creature
+When enchanted creature dies, choose one — 
+• Return it to the battlefield, except it's an enchantment in addition to its other types.
+• You lose 2 life, create a Murmur token, surveil 1. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Enchant creature
+When enchanted creature dies, choose one — 
+• Return it to the battlefield, except it's an enchantment in addition to its other types.
+• You lose 2 life, create a Murmur token, surveil 1. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+UB09 Unending Melody
+
+CR01 Vivace Vocalist
+
+CR02 Dwarven Forge-Chanter
+
+CR03 Scorned Diva
+
+CR04 Cadence Contralto
+
+CR05 Siren Hunter
+
+CR06 Echo of Embers
+
+CR07 Flaming Resolution
+
+CR08 Crooning Stage
+
+CR09 Set the Setlist
+
+UR09 Lonely Whispering
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Lonely Whispering deals 1 damage to each creature and planeswalker.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Lonely Whispering deals 1 damage to each creature and planeswalker.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Lonely Whispering deals 1 damage to each creature and planeswalker.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Lonely Whispering deals 1 damage to each creature and planeswalker.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+​
+
+UR10 Lightning Belt
+
+CR10 Accelerando
+
+CG01 Hearty Chanter
+
+CG02 Climbing Moss
+
+CG03 Harmony Essence
+
+CG04 Storykeeper
+rules_text: When Storykeeper enters, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => When Storykeeper enters, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CG07 Nature's Duet
+
+CG06 Echo of Family
+rules_text: Whenever Echo of Family attacks, you may pay {1}{UB} and sacrifice a nontoken enchantment you control. If you do draw a card, then create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Whenever Echo of Family attacks, you may pay {1}{UB} and sacrifice a nontoken enchantment you control. If you do draw a card, then create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CG05 Doubletime Diva
+
+CG08 Follow the Murmur
+rules_text: Search your library for a basic land card, put it into your hand, then shuffle.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Search your library for a basic land card, put it into your hand, then shuffle.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CG09 Echoed Ambush
+
+CG10 Modal Harmonization
+
+UG09 Embrace the Murmur
+
+CG11 Step Back
+
+CWB01 Grave Requiem
+
+UWB04 Breathless Knight
+
+CWB06 Permanent Caesura
+
+CWB05 Short-Lived Soloist
+
+CWB04 Understudied Soloist
+
+CWB02 Choir of Spirits
+rules_text: Vigilance
+{CW}{CB}, Discard CWB02 Choir of Spirits: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Vigilance
+{CW}{CB}, Discard CWB02 Choir of Spirits: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CRW01 Sparkling Finale
+
+CRW04 Countros Assailant
+
+URW04 Songwrapped Chanter
+
+CRW05 Countros Figurehead
+
+CRW06 Shattering Song
+
+CRW02 Ottava Angel
+
+CGU01 Shoreline Sonicist
+
+CGU02 Mycosong Dryad
+
+UGU04 Center of the Ruins
+
+CGU04 Murmur Echoer
+rules_text: Whenever you cast your second spell each turn, you may tap an untapped creature you control, if you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Whenever you cast your second spell each turn, you may tap an untapped creature you control, if you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CGU05 Olgal Murmur Leader
+rules_text: Whenever CGU05 Olgal Murmur Leader deals combat damage to a player, you may pay {1}, if you do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Whenever CGU05 Olgal Murmur Leader deals combat damage to a player, you may pay {1}, if you do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CGU06 Suddenstar's Gift
+
+CBG05 Reoccuring Terror
+
+CBG04 Song-Calmed Beast
+
+CBG02 Olgal Researcher
+
+UBG04 Murmur Harnesser
+
+CBG01 Gathering Whispers
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+​
+
+CUR05 Rampaging Bellower
+
+CUR04 Snapjaw Serpent
+
+UUR04 Olgal Song-Seer
+
+CUR02 Grandstaff Genius
+
+UUR01 Copycat Composer
+
+CUR06 Da Cappa al Coda
+
+CBG06 Descending Line
+
+CC03 Requiem Automata
+
+CC02 Composition Inspector
+
+CC06 Soaring Melody
+
+CC01 Prismite
+
+CC04 Crumbling Ruin
+
+UC05 Recovered Scores
+
+UC06 Olgal's Calling
+
+CC07 Standard Repertoire
+
+UC07 Mnemonic Tune
+
+UL03 Ruins of Olgal
+
+CL05 Choir Loft
+rules_text: Choir Loft enters tapped unless you pay {C}.
+{T}: Add {R}, or {W}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Choir Loft enters tapped unless you pay {C}.
+{T}: Add {R}, or {W}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CL04 Vocalists Round
+rules_text: Vocalists Round enters tapped unless you pay {C}.
+{T}: Add {U}, or {R}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Vocalists Round enters tapped unless you pay {C}.
+{T}: Add {U}, or {R}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CL03 Reverberant Shore
+rules_text: Reverberant Shore enters tapped unless you pay {C}.
+{T}: Add {G}, or {U}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Reverberant Shore enters tapped unless you pay {C}.
+{T}: Add {G}, or {U}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CL02 Anechoic Chamber
+rules_text: Anechoic Chamber enters tapped unless you pay {C}.
+{T}: Add {B}, or {G}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Anechoic Chamber enters tapped unless you pay {C}.
+{T}: Add {B}, or {G}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+CL01 Crumbling Stage
+rules_text: Crumbling Stage enters tapped unless you pay {C}.
+{T}: Add {W}, or {B}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Crumbling Stage enters tapped unless you pay {C}.
+{T}: Add {W}, or {B}.
+{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+Siren
+
+Wall
+
+Elemental
+
+UW01 Whining Whisps
+rules_text: Flying
+When Whining Whisps enters, you may return another nonland permanent you control to your hand. If you do, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Flying
+When Whining Whisps enters, you may return another nonland permanent you control to your hand. If you do, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+UB02 Encore Sibyl
+
+UW03 Polyphonist
+
+UB04 Subito Slicer
+
+UB05 Hungering Spite
+
+UB06 Go for the Throat
+
+UB07 Ascending Bassline
+
+UB08 Entombing Chant
+
+UBG01 Leaser of Inspiriation
+
+UBG02 False Finale
+
+UBG03 Obliesse, Tear Queller
+
+UWB04 Maestro of Whims
+
+UWB05 Worst Critique
+
+UWB06 Lethal Lead
+
+UU01 Drifting Looter
+
+UW02 Accoustic Resonator
+
+UB03 Shadow of the Fallen
+
+UW04 Ruin-Delving Quartet
+
+UW05 Musicologist
+
+UW06 Stable Resolution
+
+UW07 Debut Disapproval
+
+UW08 Sudden Savior
+
+UWB01 Harsh Critic
+
+UWB02 Immortal's Lament
+
+UWB03 Belia, Whispersinger
+
+URW04 Raging Spirit
+
+UBG05 Call the Chorus
+rules_text: Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+{2}, Exile UBG05 Call the Chorus from your graveyard: Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+{2}, Exile UBG05 Call the Chorus from your graveyard: Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+UBG06 Mentromone Meister
+
+UB01 Devout Husher
+
+UU02 Spellsong Soprano
+
+UR03 Tempting Siren
+
+UG04 Unsung Corpse
+rules_text: When Unsung Corpse enters, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+{2}{C}: Put a +1/+1 counter on each creature you control. => When Unsung Corpse enters, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+{2}{C}: Put a +1/+1 counter on each creature you control. Activate only as a sorcery.
+
+UR05 Firedancer
+
+UR06 Sirens Temptation
+
+UR07 Spoils of Olgal
+
+UR08 Hymn of Sin
+
+URW01 Angel of Recovery
+
+URW02 Sustained Belting
+
+URW03 Kitt Kanto, on Tour
+
+UBG04 Olgal Zealot
+
+URW05 Blessings of the Crowd
+
+URW06 Dynamic Lead
+
+UR04 Motif Igniter
+
+UR02 Lonesome Siren
+
+UU03 Spellshaper Siren
+
+UR01 Inspiration Bottler
+
+UU05 Practiced Auditioner
+
+UG06 Reclamation Surge
+
+UG07 Medley of The Past
+
+UG08 Swelling Force
+
+UGU01 Dowsing Couple
+
+UGU02 Call and Response
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens.
+
+UGU03 Sennai, Songclade's Start
+rules_text: Murmurs you control have “{2I} — Put a +1/+1 counter on target creature you control.” in addition to its other abilities. => Murmurs you control have “{2ch} — Put a +1/+1 counter on target creature you control.” in addition to its other abilities.
+
+UUR04 Scouting Siren
+
+UGU05 Rearrange
+
+UUR05 Siren Choir
+
+UG01 Ruins Scaler
+
+UG02 Composed Mercenary
+
+UG03 Story Taster
+
+UU04 Drowner of Ships
+
+UG05 Crowd Instigator
+
+UU06 Siren Song
+
+UU07 Songbird Swarms
+
+UU08 Permanent Temptation
+
+CUR01 Self-Assuring Siren
+
+UUR02 Downbeat
+
+UUR03 Leit, Maritime Motif
+
+UGU04 Crestbreak Hydra
+
+UUR06 Clever Serpent
+
+UGU06 Swelling Awakener
+
+UC01 Screeching Machine
+
+UC03 Aural-Core Automaton
+
+UC02 Salvager of Ruin
+
+UC08 Siren's Ship
+
+UC04 Olgal Guardian
+
+UL01 Accoustic Hall
+
+UL02 Bubbling Ruins
+
+MW01 Privledged Performer
+type: Creature => Creature — Angel Noble
+
+RWB03 Mortal Wish
+
+MU01 Ancestral Tale
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+You may pay {U} or discard a card, if you do put a lore counter on target Saga you control.
+Draw three cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV — You may pay {U} or discard a card, if you do put a lore counter on target Saga you control.
+Draw three cards.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+You may pay {U} or discard a card, if you do put a lore counter on target Saga you control.
+Draw three cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV — You may pay {U} or discard a card, if you do put a lore counter on target Saga you control.
+Draw three cards.
+​
+
+MU02
+rules_text:  => SAGA THAT MAKES A LEGENDARY TOKEN CREATURE
+
+MUR01 Rondelli Royalty
+
+MB01 Olgal Demon
+rules_text: Flying
+Whenever another creature you control dies, return it to the battlefield with a finality counter on it, its a Saga enchantment with “{1I},{2I},{3I}— You lose 1 life.” in addition to its other types and abilities. => Flying
+Whenever another creature you control dies, return it to the battlefield with a finality counter on it, its a Saga enchantment with “{1ch},{2ch},{3ch}— You lose 1 life.” in addition to its other types and abilities.
+
+MR01 Crowd Amplification
+
+RR01 Totentanz, Murmur Maginifier
+
+RRW01 Phoenix Siren
+
+MG01 Tacenda Verlasen
+
+MG02 The Murmursong Score
+rules_text: Creatures you control have “{T}: Create a murmur token.” [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Creatures you control have “{T}: Create a murmur token.” [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+MGU01 Tremolos Tutor
+
+RL01 Open Air Theater
+
+RL02 Shoreline Theater
+
+RC01 The Mumur Awakened
+
+RWUBRG01
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+​
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+I — Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+II — Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+​
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+I — Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+II — Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle.
+
+RB01 Gisa, Grave Ringer
+rules_text: [i]Finale — [/i]Whenever an enchantment is put into your graveyard from the battlefield, target opponent discards a card. If a permanent card was discarded this way this way, create a murmur token, otherwise they lose 2 life. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => [i]Finale — [/i]Whenever an enchantment is put into your graveyard from the battlefield, target opponent discards a card. If a permanent card was discarded this way this way, create a murmur token, otherwise they lose 2 life. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+RB02 Rune-Cursed Poet
+
+RBG03 Pledge of Silence
+
+RG02 Murmurskunk
+rules_text: {1}, {T}: Add one mana of any color.
+{CG}, {T}: Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => {1}, {T}: Add one mana of any color.
+{CG}, {T}: Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+RL04 Skylight Theater
+
+RL06 The World Stage
+
+RR02 Salvia, Poetic Outfitter
+
+MRW01 Countros Conductor
+rules_text: Trample => Flying, trample
+Whenever a creature you control dies while attacking, you may put a creature card with mana value less than that creatures mana value from your hand onto the battlefield tapped.
+
+RU01 Song Song
+rules_text: Counter target noncreature spell. Its controller creates a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Counter target noncreature spell. Its controller creates a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+RU05 Song of Blue Yonder
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Untap all creatures you control.
+Draw a card.
+You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+Sirens you control gain flying until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Untap all creatures you control.
+II — Draw a card.
+III — You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+IV — Sirens you control gain flying until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Untap all creatures you control.
+Draw a card.
+You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+Sirens you control gain flying until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Untap all creatures you control.
+II — Draw a card.
+III — You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+IV — Sirens you control gain flying until end of turn.
+
+RUR03 Rondelli Pledge
+
+MUR02 Sing Con Vivace
+rules_text: Sagas you control have “{1I} — This Saga becomes a 3/3 creature with haste in addition to its other types an abilities until end of turn.” => Sagas you control have “{1ch} — This Saga becomes a 3/3 creature with haste in addition to its other types an abilities until end of turn.”
+
+MWB01 Soloist Primo
+
+RWB02 Killian, Lyricist
+
+RB03 Rare Permanent
+type:  => Enchantment Creature — Spirit
+cost: {B} => {2}{B}{B}{B}{B}
+rules_text:  => When this creature enters, exile your graveyard. 
+At the beginning of your end step, you may sacrifice a creature, if you do create a token copy of a creature exiled by this creature.
+pt:  => 6/6
+
+RBG01 Early Echoes
+
+RBG02 Muse of the Ruins
+rules_text: When this creature enters, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+{2C}, Sacrifice another nonland permanent: This creature gets +1/+1 and gains haste until end of turn. => When this creature enters, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+{2C}, Sacrifice another nonland permanent: This creature gets +1/+1 and gains haste until end of turn.
+
+RG01 Spirit of the Composer
+
+RGU04 Tremolos Pledge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn.
+
+RRW03 Countros Pledge
+
+RU03 Siren Titan
+rules_text: Vigilance, Trample
+{1}{U}, {T}: Creatures you opponents control attack this turn if able. Whenever you're dealt damage by a creature this turn, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Vigilance, Trample
+{1}{U}, {T}: Creatures you opponents control attack this turn if able. Whenever you're dealt damage by a creature this turn, create a murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+RU04 Lost in Whispers
+rules_text: Return each creature to its owner's hand. Create a murmur token for each creature returned to your hand this way. [i](It's a colorless Saga Murmur enchantment with “{2I},{3I}— Add {C}.”)[/i] => Return each creature to its owner's hand. Create a murmur token for each creature returned to your hand this way. [i](It's a colorless Saga Murmur enchantment with “{2ch},{3ch}— Add {C}.”)[/i]
+
+RUR01 Claine, Belting Siren
+
+RUR04 Salvia's Showmanship
+
+RC02 Book of Forgotten Songs
+
+RC03 Count Off
+
+RG03 Past Inspiration
+
+RGU01 Yisan
+
+RGU03 [Name's] Compound Duple
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Trigger target {1I} chapter ability of another target Saga.
+Trigger target {2I} chapter ability of another target Saga.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Trigger target {1ch} chapter ability of another target Saga.
+Trigger target {2ch} chapter ability of another target Saga.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Trigger target {1I} chapter ability of another target Saga.
+Trigger target {2I} chapter ability of another target Saga.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Trigger target {1ch} chapter ability of another target Saga.
+Trigger target {2ch} chapter ability of another target Saga.
+​
+
+RL03 Earthbound Theater
+
+RL05 Rooted Theater
+
+RRW04 Crowd Pleaser
+
+RUR02 Siren Seabed
+
+RW04 Wailing Whisps
+
+RWB04 Soloists Pledge
+
+UW10 Blessing Barker
+
+UU10 Olgal Composer
+
+CR11 Sudden Screeching
+
+UG10 Beat Boxer
+
+Ascent of the Worthy
+
+Binding of the Old Gods
+
+Bounty of the Luxa
+
+Frenzied Fugue
+
+Korvold and the Noble Thief
+
+Lilting Refrain
+
+Lorehold Excavation
+
+Love Song of Night and Day
+
+No Rest for the Wicked
+
+Quicksilver Dagger
+
+Second Wind
+
+Serra's Embrace
+
+Song of Freyalise
+
+Song of Serenity
+
+Song of the Dryads
+
+Songbirds' Blessing
+
+The Bath Song
+
+The Eldest Reborn
+
+Torch Song
+
+Vile Requiem
+
+Murmur
+
+
+type: Enchantment Creature — Spirit => 
+cost: {W} => 
+rules_text: Ward {2C} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2C}.)[/i]
+[i]Finale [/i]— Whenever Backup Singer or another enchantment is put into your graveyard from the battlefield, you gain 1 life. => 
+pt: 1/2 => 
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

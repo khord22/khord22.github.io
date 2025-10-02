@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/VGE-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>VGE visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/VGE-files/logo.png" />
+	<img class="preload-hidden" src="/sets/VGE-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="VGE"><img src="/sets/VGE-files/icon.png">Voc-Gal Echoes</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/VGE-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\VGE-files\img\20_MW01 Privledged Performer.png" id="20_MW01 Privledged Performer" data-flag="@X" onclick="openSidebar('20_MW01 Privledged Performer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\50_MU01 Ancestral Tale.png" id="50_MU01 Ancestral Tale" data-flag="@X" onclick="openSidebar('50_MU01 Ancestral Tale',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\78_MB01 Olgal Demon.png" id="78_MB01 Olgal Demon" data-flag="@X" onclick="openSidebar('78_MB01 Olgal Demon',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\107_MR01 Crowd Amplification.png" id="107_MR01 Crowd Amplification" data-flag="@X" onclick="openSidebar('107_MR01 Crowd Amplification',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\136_MG02 The Murmursong Score.png" id="136_MG02 The Murmursong Score" data-flag="@X" onclick="openSidebar('136_MG02 The Murmursong Score',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\21_MW02 Strict Rehearser.png" id="21_MW02 Strict Rehearser" data-flag="@X" onclick="openSidebar('21_MW02 Strict Rehearser',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\51_MU02.png" id="51_MU02" data-flag="@X" onclick="openSidebar('51_MU02',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\79_MB02 Trench Siren.png" id="79_MB02 Trench Siren" data-flag="@X" onclick="openSidebar('79_MB02 Trench Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\108_MR02 Spirit Siren.png" id="108_MR02 Spirit Siren" data-flag="@X" onclick="openSidebar('108_MR02 Spirit Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\137_RG01 Spirit of the Composer.png" id="137_RG01 Spirit of the Composer" data-flag="@X" onclick="openSidebar('137_RG01 Spirit of the Composer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\23_RW01 Untouchable Stardom.png" id="23_RW01 Untouchable Stardom" data-flag="@X" onclick="openSidebar('23_RW01 Untouchable Stardom',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\52_RU01 Song Song.png" id="52_RU01 Song Song" data-flag="@X" onclick="openSidebar('52_RU01 Song Song',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\80_RB01 Gisa, Grave Ringer.png" id="80_RB01 Gisa, Grave Ringer" data-flag="@X" onclick="openSidebar('80_RB01 Gisa, Grave Ringer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\109_RR01 Totentanz, Murmur Maginifier.png" id="109_RR01 Totentanz, Murmur Maginifier" data-flag="@X" onclick="openSidebar('109_RR01 Totentanz, Murmur Maginifier',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\138_RG02 Murmurskunk.png" id="138_RG02 Murmurskunk" data-flag="@X" onclick="openSidebar('138_RG02 Murmurskunk',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\24_RW02 Olgal Valkyrie.png" id="24_RW02 Olgal Valkyrie" data-flag="@X" onclick="openSidebar('24_RW02 Olgal Valkyrie',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\53_RU02 Amplification Construct.png" id="53_RU02 Amplification Construct" data-flag="@X" onclick="openSidebar('53_RU02 Amplification Construct',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\81_RB02 Rune-Cursed Poet.png" id="81_RB02 Rune-Cursed Poet" data-flag="@X" onclick="openSidebar('81_RB02 Rune-Cursed Poet',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\110_RR02 Salvia, Poetic Outfitter.png" id="110_RR02 Salvia, Poetic Outfitter" data-flag="@X" onclick="openSidebar('110_RR02 Salvia, Poetic Outfitter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\139_RG03 Past Inspiration.png" id="139_RG03 Past Inspiration" data-flag="@X" onclick="openSidebar('139_RG03 Past Inspiration',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\25_RW03 Practice Room.png" id="25_RW03 Practice Room" data-flag="@X" onclick="openSidebar('25_RW03 Practice Room',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\54_RU03 Siren Titan.png" id="54_RU03 Siren Titan" data-flag="@X" onclick="openSidebar('54_RU03 Siren Titan',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\82_RB03 Rare Permanent.png" id="82_RB03 Rare Permanent" data-flag="@X" onclick="openSidebar('82_RB03 Rare Permanent',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\111_RR03 Catchy Tune.png" id="111_RR03 Catchy Tune" data-flag="@X" onclick="openSidebar('111_RR03 Catchy Tune',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\140_RG04 Ends of the Earth.png" id="140_RG04 Ends of the Earth" data-flag="@X" onclick="openSidebar('140_RG04 Ends of the Earth',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\26_RW04 Wailing Whisps.png" id="26_RW04 Wailing Whisps" data-flag="@X" onclick="openSidebar('26_RW04 Wailing Whisps',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\55_RU04 Lost in Whispers.png" id="55_RU04 Lost in Whispers" data-flag="@X" onclick="openSidebar('55_RU04 Lost in Whispers',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\83_RB04 Knowledge from Silence.png" id="83_RB04 Knowledge from Silence" data-flag="@X" onclick="openSidebar('83_RB04 Knowledge from Silence',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\112_RR04 Rapid Reading.png" id="112_RR04 Rapid Reading" data-flag="@X" onclick="openSidebar('112_RR04 Rapid Reading',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\141_RG05 The Oldest Story.png" id="141_RG05 The Oldest Story" data-flag="@X" onclick="openSidebar('141_RG05 The Oldest Story',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\27_RW05 Recovered Tale.png" id="27_RW05 Recovered Tale" data-flag="@X" onclick="openSidebar('27_RW05 Recovered Tale',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\56_RU05 Song of Blue Yonder.png" id="56_RU05 Song of Blue Yonder" data-flag="@X" onclick="openSidebar('56_RU05 Song of Blue Yonder',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\84_RB05 Funeral Dirge.png" id="84_RB05 Funeral Dirge" data-flag="@X" onclick="openSidebar('84_RB05 Funeral Dirge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\113_RR05 Murmuring Flames.png" id="113_RR05 Murmuring Flames" data-flag="@X" onclick="openSidebar('113_RR05 Murmuring Flames',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\142_UG01 Ruins Scaler.png" id="142_UG01 Ruins Scaler" data-flag="@X" onclick="openSidebar('142_UG01 Ruins Scaler',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\28_UW01 Whining Whisps.png" id="28_UW01 Whining Whisps" data-flag="@X" onclick="openSidebar('28_UW01 Whining Whisps',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\57_UU01 Drifting Looter.png" id="57_UU01 Drifting Looter" data-flag="@X" onclick="openSidebar('57_UU01 Drifting Looter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\86_UB01 Devout Husher.png" id="86_UB01 Devout Husher" data-flag="@X" onclick="openSidebar('86_UB01 Devout Husher',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\114_UR01 Inspiration Bottler.png" id="114_UR01 Inspiration Bottler" data-flag="@X" onclick="openSidebar('114_UR01 Inspiration Bottler',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\143_UG02 Composed Mercenary.png" id="143_UG02 Composed Mercenary" data-flag="@X" onclick="openSidebar('143_UG02 Composed Mercenary',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\29_UW02 Accoustic Resonator.png" id="29_UW02 Accoustic Resonator" data-flag="@X" onclick="openSidebar('29_UW02 Accoustic Resonator',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\58_UU02 Spellsong Soprano.png" id="58_UU02 Spellsong Soprano" data-flag="@X" onclick="openSidebar('58_UU02 Spellsong Soprano',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\87_UB02 Encore Sibyl.png" id="87_UB02 Encore Sibyl" data-flag="@X" onclick="openSidebar('87_UB02 Encore Sibyl',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\115_UR02 Lonesome Siren.png" id="115_UR02 Lonesome Siren" data-flag="@X" onclick="openSidebar('115_UR02 Lonesome Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\144_UG03 Story Taster.png" id="144_UG03 Story Taster" data-flag="@X" onclick="openSidebar('144_UG03 Story Taster',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\30_UW03 Polyphonist.png" id="30_UW03 Polyphonist" data-flag="@X" onclick="openSidebar('30_UW03 Polyphonist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\59_UU03 Spellshaper Siren.png" id="59_UU03 Spellshaper Siren" data-flag="@X" onclick="openSidebar('59_UU03 Spellshaper Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\88_UB03 Shadow of the Fallen.png" id="88_UB03 Shadow of the Fallen" data-flag="@X" onclick="openSidebar('88_UB03 Shadow of the Fallen',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\116_UR03 Tempting Siren.png" id="116_UR03 Tempting Siren" data-flag="@X" onclick="openSidebar('116_UR03 Tempting Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\145_UG04 Unsung Corpse.png" id="145_UG04 Unsung Corpse" data-flag="@X" onclick="openSidebar('145_UG04 Unsung Corpse',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\31_UW04 Ruin-Delving Quartet.png" id="31_UW04 Ruin-Delving Quartet" data-flag="@X" onclick="openSidebar('31_UW04 Ruin-Delving Quartet',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\60_UU04 Drowner of Ships.png" id="60_UU04 Drowner of Ships" data-flag="@X" onclick="openSidebar('60_UU04 Drowner of Ships',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\89_UB04 Subito Slicer.png" id="89_UB04 Subito Slicer" data-flag="@X" onclick="openSidebar('89_UB04 Subito Slicer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\117_UR04 Motif Igniter.png" id="117_UR04 Motif Igniter" data-flag="@X" onclick="openSidebar('117_UR04 Motif Igniter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\146_UG05 Crowd Instigator.png" id="146_UG05 Crowd Instigator" data-flag="@X" onclick="openSidebar('146_UG05 Crowd Instigator',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\32_UW05 Musicologist.png" id="32_UW05 Musicologist" data-flag="@X" onclick="openSidebar('32_UW05 Musicologist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\61_UU05 Practiced Auditioner.png" id="61_UU05 Practiced Auditioner" data-flag="@X" onclick="openSidebar('61_UU05 Practiced Auditioner',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\90_UB05 Hungering Spite.png" id="90_UB05 Hungering Spite" data-flag="@X" onclick="openSidebar('90_UB05 Hungering Spite',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\118_UR05 Firedancer.png" id="118_UR05 Firedancer" data-flag="@X" onclick="openSidebar('118_UR05 Firedancer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\147_UG06 Reclamation Surge.png" id="147_UG06 Reclamation Surge" data-flag="@X" onclick="openSidebar('147_UG06 Reclamation Surge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\33_UW06 Stable Resolution.png" id="33_UW06 Stable Resolution" data-flag="@X" onclick="openSidebar('33_UW06 Stable Resolution',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\62_UU06 Siren Song.png" id="62_UU06 Siren Song" data-flag="@X" onclick="openSidebar('62_UU06 Siren Song',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\91_UB06 Go for the Throat.png" id="91_UB06 Go for the Throat" data-flag="@X" onclick="openSidebar('91_UB06 Go for the Throat',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\119_UR06 Sirens Temptation.png" id="119_UR06 Sirens Temptation" data-flag="@X" onclick="openSidebar('119_UR06 Sirens Temptation',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\148_UG07 Medley of The Past.png" id="148_UG07 Medley of The Past" data-flag="@X" onclick="openSidebar('148_UG07 Medley of The Past',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\34_UW07 Debut Disapproval.png" id="34_UW07 Debut Disapproval" data-flag="@X" onclick="openSidebar('34_UW07 Debut Disapproval',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\63_UU07 Songbird Swarms.png" id="63_UU07 Songbird Swarms" data-flag="@X" onclick="openSidebar('63_UU07 Songbird Swarms',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\92_UB07 Ascending Bassline.png" id="92_UB07 Ascending Bassline" data-flag="@X" onclick="openSidebar('92_UB07 Ascending Bassline',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\120_UR07 Spoils of Olgal.png" id="120_UR07 Spoils of Olgal" data-flag="@X" onclick="openSidebar('120_UR07 Spoils of Olgal',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\149_UG08 Swelling Force.png" id="149_UG08 Swelling Force" data-flag="@X" onclick="openSidebar('149_UG08 Swelling Force',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\35_UW08 Sudden Savior.png" id="35_UW08 Sudden Savior" data-flag="@X" onclick="openSidebar('35_UW08 Sudden Savior',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\64_UU08 Permanent Temptation.png" id="64_UU08 Permanent Temptation" data-flag="@X" onclick="openSidebar('64_UU08 Permanent Temptation',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\93_UB08 Entombing Chant.png" id="93_UB08 Entombing Chant" data-flag="@X" onclick="openSidebar('93_UB08 Entombing Chant',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\121_UR08 Hymn of Sin.png" id="121_UR08 Hymn of Sin" data-flag="@X" onclick="openSidebar('121_UR08 Hymn of Sin',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\150_UG09 Embrace the Murmur.png" id="150_UG09 Embrace the Murmur" data-flag="@X" onclick="openSidebar('150_UG09 Embrace the Murmur',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\36_UW09 Dynamic Dynamics.png" id="36_UW09 Dynamic Dynamics" data-flag="@X" onclick="openSidebar('36_UW09 Dynamic Dynamics',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\65_UU09 Delayed Performance.png" id="65_UU09 Delayed Performance" data-flag="@X" onclick="openSidebar('65_UU09 Delayed Performance',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\94_UB09 Unending Melody.png" id="94_UB09 Unending Melody" data-flag="@X" onclick="openSidebar('94_UB09 Unending Melody',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\122_UR09 Lonely Whispering.png" id="122_UR09 Lonely Whispering" data-flag="@X" onclick="openSidebar('122_UR09 Lonely Whispering',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\151_UG10 Beat Boxer.png" id="151_UG10 Beat Boxer" data-flag="@X" onclick="openSidebar('151_UG10 Beat Boxer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\37_UW10 Blessing Barker.png" id="37_UW10 Blessing Barker" data-flag="@X" onclick="openSidebar('37_UW10 Blessing Barker',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\66_UU10 Olgal Composer.png" id="66_UU10 Olgal Composer" data-flag="@X" onclick="openSidebar('66_UU10 Olgal Composer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\67_CB01 Decreshh Revenant.png" id="67_CB01 Decreshh Revenant" data-flag="@X" onclick="openSidebar('67_CB01 Decreshh Revenant',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\123_UR10 Lightning Belt.png" id="123_UR10 Lightning Belt" data-flag="@X" onclick="openSidebar('123_UR10 Lightning Belt',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\124_CG01 Hearty Chanter.png" id="124_CG01 Hearty Chanter" data-flag="@X" onclick="openSidebar('124_CG01 Hearty Chanter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\9_CW01 Backup Singer.png" id="9_CW01 Backup Singer" data-flag="@X" onclick="openSidebar('9_CW01 Backup Singer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\38_CU01 Rondelli Recruiter.png" id="38_CU01 Rondelli Recruiter" data-flag="@X" onclick="openSidebar('38_CU01 Rondelli Recruiter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\68_CB02 Subtle Silencer.png" id="68_CB02 Subtle Silencer" data-flag="@X" onclick="openSidebar('68_CB02 Subtle Silencer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\95_CR01 Vivace Vocalist.png" id="95_CR01 Vivace Vocalist" data-flag="@X" onclick="openSidebar('95_CR01 Vivace Vocalist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\125_CG02 Climbing Moss.png" id="125_CG02 Climbing Moss" data-flag="@X" onclick="openSidebar('125_CG02 Climbing Moss',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\10_CW02 Mute Healer.png" id="10_CW02 Mute Healer" data-flag="@X" onclick="openSidebar('10_CW02 Mute Healer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\39_CU02 Olgal Shore Guardian.png" id="39_CU02 Olgal Shore Guardian" data-flag="@X" onclick="openSidebar('39_CU02 Olgal Shore Guardian',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\69_CB03 Mourning Soliliquist.png" id="69_CB03 Mourning Soliliquist" data-flag="@X" onclick="openSidebar('69_CB03 Mourning Soliliquist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\96_CR02 Dwarven Forge-Chanter.png" id="96_CR02 Dwarven Forge-Chanter" data-flag="@X" onclick="openSidebar('96_CR02 Dwarven Forge-Chanter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\126_CG03 Harmony Essence.png" id="126_CG03 Harmony Essence" data-flag="@X" onclick="openSidebar('126_CG03 Harmony Essence',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\11_CW03 Countros Soprano.png" id="11_CW03 Countros Soprano" data-flag="@X" onclick="openSidebar('11_CW03 Countros Soprano',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\40_CU03 Mistral Singer.png" id="40_CU03 Mistral Singer" data-flag="@X" onclick="openSidebar('40_CU03 Mistral Singer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\70_CB04 Caller of Ravens.png" id="70_CB04 Caller of Ravens" data-flag="@X" onclick="openSidebar('70_CB04 Caller of Ravens',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\97_CR03 Scorned Diva.png" id="97_CR03 Scorned Diva" data-flag="@X" onclick="openSidebar('97_CR03 Scorned Diva',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\127_CG04 Storykeeper.png" id="127_CG04 Storykeeper" data-flag="@X" onclick="openSidebar('127_CG04 Storykeeper',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\12_CW04 Amphiteater Listener.png" id="12_CW04 Amphiteater Listener" data-flag="@X" onclick="openSidebar('12_CW04 Amphiteater Listener',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\41_CU04 Phase Inverter.png" id="41_CU04 Phase Inverter" data-flag="@X" onclick="openSidebar('41_CU04 Phase Inverter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\71_CB05 Finale Reveler.png" id="71_CB05 Finale Reveler" data-flag="@X" onclick="openSidebar('71_CB05 Finale Reveler',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\98_CR04 Cadence Contralto.png" id="98_CR04 Cadence Contralto" data-flag="@X" onclick="openSidebar('98_CR04 Cadence Contralto',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\128_CG05 Doubletime Diva.png" id="128_CG05 Doubletime Diva" data-flag="@X" onclick="openSidebar('128_CG05 Doubletime Diva',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\13_CW05 Overeager Audience.png" id="13_CW05 Overeager Audience" data-flag="@X" onclick="openSidebar('13_CW05 Overeager Audience',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\42_CU05 Echo of Complexity.png" id="42_CU05 Echo of Complexity" data-flag="@X" onclick="openSidebar('42_CU05 Echo of Complexity',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\72_CB06 Echo of Silence.png" id="72_CB06 Echo of Silence" data-flag="@X" onclick="openSidebar('72_CB06 Echo of Silence',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\99_CR05 Siren Hunter.png" id="99_CR05 Siren Hunter" data-flag="@X" onclick="openSidebar('99_CR05 Siren Hunter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\129_CG06 Echo of Family.png" id="129_CG06 Echo of Family" data-flag="@X" onclick="openSidebar('129_CG06 Echo of Family',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\14_CW06 Countros Ringer.png" id="14_CW06 Countros Ringer" data-flag="@X" onclick="openSidebar('14_CW06 Countros Ringer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\43_CU06 Auditioning Canon.png" id="43_CU06 Auditioning Canon" data-flag="@X" onclick="openSidebar('43_CU06 Auditioning Canon',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\73_CB07 Call of the Cruel.png" id="73_CB07 Call of the Cruel" data-flag="@X" onclick="openSidebar('73_CB07 Call of the Cruel',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\100_CR06 Echo of Embers.png" id="100_CR06 Echo of Embers" data-flag="@X" onclick="openSidebar('100_CR06 Echo of Embers',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\130_CG07 Nature's Duet.png" id="130_CG07 Natures Duet" data-flag="@X" onclick="openSidebar('130_CG07 Natures Duet',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\15_CW07 Echo of Delight.png" id="15_CW07 Echo of Delight" data-flag="@X" onclick="openSidebar('15_CW07 Echo of Delight',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\44_CU07 Dream Songs.png" id="44_CU07 Dream Songs" data-flag="@X" onclick="openSidebar('44_CU07 Dream Songs',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\74_CB08 Write Your Requiem.png" id="74_CB08 Write Your Requiem" data-flag="@X" onclick="openSidebar('74_CB08 Write Your Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\101_CR07 Flaming Resolution.png" id="101_CR07 Flaming Resolution" data-flag="@X" onclick="openSidebar('101_CR07 Flaming Resolution',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\131_CG08 Follow the Murmur.png" id="131_CG08 Follow the Murmur" data-flag="@X" onclick="openSidebar('131_CG08 Follow the Murmur',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\16_CW08 Resolute Melody.png" id="16_CW08 Resolute Melody" data-flag="@X" onclick="openSidebar('16_CW08 Resolute Melody',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\45_CU08 Reminiscent Tune.png" id="45_CU08 Reminiscent Tune" data-flag="@X" onclick="openSidebar('45_CU08 Reminiscent Tune',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\75_CB09 Discordant Ditty.png" id="75_CB09 Discordant Ditty" data-flag="@X" onclick="openSidebar('75_CB09 Discordant Ditty',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\102_CR08 Crooning Stage.png" id="102_CR08 Crooning Stage" data-flag="@X" onclick="openSidebar('102_CR08 Crooning Stage',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\132_CG09 Echoed Ambush.png" id="132_CG09 Echoed Ambush" data-flag="@X" onclick="openSidebar('132_CG09 Echoed Ambush',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\17_CW09 Imprison Composer.png" id="17_CW09 Imprison Composer" data-flag="@X" onclick="openSidebar('17_CW09 Imprison Composer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\46_CU09 Thirst for Meaning.png" id="46_CU09 Thirst for Meaning" data-flag="@X" onclick="openSidebar('46_CU09 Thirst for Meaning',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\76_CB10 Cut to Silence.png" id="76_CB10 Cut to Silence" data-flag="@X" onclick="openSidebar('76_CB10 Cut to Silence',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\103_CR09 Set the Setlist.png" id="103_CR09 Set the Setlist" data-flag="@X" onclick="openSidebar('103_CR09 Set the Setlist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\133_CG10 Modal Harmonization.png" id="133_CG10 Modal Harmonization" data-flag="@X" onclick="openSidebar('133_CG10 Modal Harmonization',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\18_CW10 Accoustic Reflections.png" id="18_CW10 Accoustic Reflections" data-flag="@X" onclick="openSidebar('18_CW10 Accoustic Reflections',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\47_CU10 Performers Only.png" id="47_CU10 Performers Only" data-flag="@X" onclick="openSidebar('47_CU10 Performers Only',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\77_CB11 Life's Echo.png" id="77_CB11 Lifes Echo" data-flag="@X" onclick="openSidebar('77_CB11 Lifes Echo',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\104_CR10 Accelerando.png" id="104_CR10 Accelerando" data-flag="@X" onclick="openSidebar('104_CR10 Accelerando',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\134_CG11 Step Back.png" id="134_CG11 Step Back" data-flag="@X" onclick="openSidebar('134_CG11 Step Back',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\19_CW11 Even Stars Fall.png" id="19_CW11 Even Stars Fall" data-flag="@X" onclick="openSidebar('19_CW11 Even Stars Fall',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\48_CU11 Tuck within Harmony.png" id="48_CU11 Tuck within Harmony" data-flag="@X" onclick="openSidebar('48_CU11 Tuck within Harmony',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\105_CR11 Sudden Screeching.png" id="105_CR11 Sudden Screeching" data-flag="@X" onclick="openSidebar('105_CR11 Sudden Screeching',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\169_MWB01 Soloist Primo.png" id="169_MWB01 Soloist Primo" data-flag="@X" onclick="openSidebar('169_MWB01 Soloist Primo',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\167_MUR01 Rondelli Royalty.png" id="167_MUR01 Rondelli Royalty" data-flag="@X" onclick="openSidebar('167_MUR01 Rondelli Royalty',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\162_MBG01 Nollik, Decreshh Director.png" id="162_MBG01 Nollik, Decreshh Director" data-flag="@X" onclick="openSidebar('162_MBG01 Nollik, Decreshh Director',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\165_MRW01 Countros Conductor.png" id="165_MRW01 Countros Conductor" data-flag="@X" onclick="openSidebar('165_MRW01 Countros Conductor',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\164_MGU01 Tremolos Tutor.png" id="164_MGU01 Tremolos Tutor" data-flag="@X" onclick="openSidebar('164_MGU01 Tremolos Tutor',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\170_MWB02 Murmuring Mourner.png" id="170_MWB02 Murmuring Mourner" data-flag="@X" onclick="openSidebar('170_MWB02 Murmuring Mourner',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\168_MUR02 Sing Con Vivace.png" id="168_MUR02 Sing Con Vivace" data-flag="@X" onclick="openSidebar('168_MUR02 Sing Con Vivace',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\163_MBG02 Finalesong Clade.png" id="163_MBG02 Finalesong Clade" data-flag="@X" onclick="openSidebar('163_MBG02 Finalesong Clade',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\166_MRW02 Fallen Voices.png" id="166_MRW02 Fallen Voices" data-flag="@X" onclick="openSidebar('166_MRW02 Fallen Voices',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\221_MGU02 Doubling Shanty.png" id="221_MGU02 Doubling Shanty" data-flag="@X" onclick="openSidebar('221_MGU02 Doubling Shanty',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\182_RWB01 Soaring Conductor.png" id="182_RWB01 Soaring Conductor" data-flag="@X" onclick="openSidebar('182_RWB01 Soaring Conductor',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\179_RUR01 Claine, Belting Siren.png" id="179_RUR01 Claine, Belting Siren" data-flag="@X" onclick="openSidebar('179_RUR01 Claine, Belting Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\171_RBG01 Early Echoes.png" id="171_RBG01 Early Echoes" data-flag="@X" onclick="openSidebar('171_RBG01 Early Echoes',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\176_RRW01 Phoenix Siren.png" id="176_RRW01 Phoenix Siren" data-flag="@X" onclick="openSidebar('176_RRW01 Phoenix Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\173_RGU01 Yisan.png" id="173_RGU01 Yisan" data-flag="@X" onclick="openSidebar('173_RGU01 Yisan',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\183_RWB02 Killian, Lyricist.png" id="183_RWB02 Killian, Lyricist" data-flag="@X" onclick="openSidebar('183_RWB02 Killian, Lyricist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\180_RUR02 Siren Seabed.png" id="180_RUR02 Siren Seabed" data-flag="@X" onclick="openSidebar('180_RUR02 Siren Seabed',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\172_RBG02 Muse of the Ruins.png" id="172_RBG02 Muse of the Ruins" data-flag="@X" onclick="openSidebar('172_RBG02 Muse of the Ruins',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\177_RRW02 Aura of Stardom.png" id="177_RRW02 Aura of Stardom" data-flag="@X" onclick="openSidebar('177_RRW02 Aura of Stardom',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\174_RGU02 Whispering Titan.png" id="174_RGU02 Whispering Titan" data-flag="@X" onclick="openSidebar('174_RGU02 Whispering Titan',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\231_RWB03 Mortal Wish.png" id="231_RWB03 Mortal Wish" data-flag="@X" onclick="openSidebar('231_RWB03 Mortal Wish',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\181_RUR04 Salvia's Showmanship.png" id="181_RUR04 Salvias Showmanship" data-flag="@X" onclick="openSidebar('181_RUR04 Salvias Showmanship',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\222_RBG03 Pledge of Silence.png" id="222_RBG03 Pledge of Silence" data-flag="@X" onclick="openSidebar('222_RBG03 Pledge of Silence',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\178_RRW04 Crowd Pleaser.png" id="178_RRW04 Crowd Pleaser" data-flag="@X" onclick="openSidebar('178_RRW04 Crowd Pleaser',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\175_RGU03 [Name's] Compound Duple.png" id="175_RGU03 [Names] Compound Duple" data-flag="@X" onclick="openSidebar('175_RGU03 [Names] Compound Duple',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\232_RWB04 Soloists Pledge.png" id="232_RWB04 Soloists Pledge" data-flag="@X" onclick="openSidebar('232_RWB04 Soloists Pledge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\229_RUR03 Rondelli Pledge.png" id="229_RUR03 Rondelli Pledge" data-flag="@X" onclick="openSidebar('229_RUR03 Rondelli Pledge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\223_RBG04 Swallow the Ruins.png" id="223_RBG04 Swallow the Ruins" data-flag="@X" onclick="openSidebar('223_RBG04 Swallow the Ruins',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\227_RRW03 Countros Pledge.png" id="227_RRW03 Countros Pledge" data-flag="@X" onclick="openSidebar('227_RRW03 Countros Pledge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\225_RGU04 Tremolos Pledge.png" id="225_RGU04 Tremolos Pledge" data-flag="@X" onclick="openSidebar('225_RGU04 Tremolos Pledge',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\233_RWB05 Tolvadan Requiem.png" id="233_RWB05 Tolvadan Requiem" data-flag="@X" onclick="openSidebar('233_RWB05 Tolvadan Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\230_RUR05 Gastal Requiem.png" id="230_RUR05 Gastal Requiem" data-flag="@X" onclick="openSidebar('230_RUR05 Gastal Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\224_RBG05 Skallan Requiem.png" id="224_RBG05 Skallan Requiem" data-flag="@X" onclick="openSidebar('224_RBG05 Skallan Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\228_RRW05 Mirran Requiem.png" id="228_RRW05 Mirran Requiem" data-flag="@X" onclick="openSidebar('228_RRW05 Mirran Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\226_RGU05 Amonkheti Requiem.png" id="226_RGU05 Amonkheti Requiem" data-flag="@X" onclick="openSidebar('226_RGU05 Amonkheti Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\201_UWB01 Harsh Critic.png" id="201_UWB01 Harsh Critic" data-flag="@X" onclick="openSidebar('201_UWB01 Harsh Critic',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\197_UUR01 Copycat Composer.png" id="197_UUR01 Copycat Composer" data-flag="@X" onclick="openSidebar('197_UUR01 Copycat Composer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\185_UBG01 Leaser of Inspiriation.png" id="185_UBG01 Leaser of Inspiriation" data-flag="@X" onclick="openSidebar('185_UBG01 Leaser of Inspiriation',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\193_URW01 Angel of Recovery.png" id="193_URW01 Angel of Recovery" data-flag="@X" onclick="openSidebar('193_URW01 Angel of Recovery',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\189_UGU01 Dowsing Couple.png" id="189_UGU01 Dowsing Couple" data-flag="@X" onclick="openSidebar('189_UGU01 Dowsing Couple',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\202_UWB02 Immortal's Lament.png" id="202_UWB02 Immortals Lament" data-flag="@X" onclick="openSidebar('202_UWB02 Immortals Lament',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\198_UUR02 Downbeat.png" id="198_UUR02 Downbeat" data-flag="@X" onclick="openSidebar('198_UUR02 Downbeat',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\186_UBG02 False Finale.png" id="186_UBG02 False Finale" data-flag="@X" onclick="openSidebar('186_UBG02 False Finale',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\194_URW02 Sustained Belting.png" id="194_URW02 Sustained Belting" data-flag="@X" onclick="openSidebar('194_URW02 Sustained Belting',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\190_UGU02 Call and Response.png" id="190_UGU02 Call and Response" data-flag="@X" onclick="openSidebar('190_UGU02 Call and Response',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\203_UWB03 Belia, Whispersinger.png" id="203_UWB03 Belia, Whispersinger" data-flag="@X" onclick="openSidebar('203_UWB03 Belia, Whispersinger',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\199_UUR03 Leit, Maritime Motif.png" id="199_UUR03 Leit, Maritime Motif" data-flag="@X" onclick="openSidebar('199_UUR03 Leit, Maritime Motif',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\187_UBG03 Obliesse, Tear Queller.png" id="187_UBG03 Obliesse, Tear Queller" data-flag="@X" onclick="openSidebar('187_UBG03 Obliesse, Tear Queller',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\195_URW03 Kitt Kanto, on Tour.png" id="195_URW03 Kitt Kanto, on Tour" data-flag="@X" onclick="openSidebar('195_URW03 Kitt Kanto, on Tour',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\191_UGU03 Sennai, Songclade's Start.png" id="191_UGU03 Sennai, Songclades Start" data-flag="@X" onclick="openSidebar('191_UGU03 Sennai, Songclades Start',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\204_UWB04 Breathless Knight.png" id="204_UWB04 Breathless Knight" data-flag="@X" onclick="openSidebar('204_UWB04 Breathless Knight',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\200_UUR04 Olgal Song-Seer.png" id="200_UUR04 Olgal Song-Seer" data-flag="@X" onclick="openSidebar('200_UUR04 Olgal Song-Seer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\188_UBG04 Murmur Harnesser.png" id="188_UBG04 Murmur Harnesser" data-flag="@X" onclick="openSidebar('188_UBG04 Murmur Harnesser',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\196_URW04 Songwrapped Chanter.png" id="196_URW04 Songwrapped Chanter" data-flag="@X" onclick="openSidebar('196_URW04 Songwrapped Chanter',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\192_UGU04 Center of the Ruins.png" id="192_UGU04 Center of the Ruins" data-flag="@X" onclick="openSidebar('192_UGU04 Center of the Ruins',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\246_UWB04 Maestro of Whims.png" id="246_UWB04 Maestro of Whims" data-flag="@X" onclick="openSidebar('246_UWB04 Maestro of Whims',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\243_UUR04 Scouting Siren.png" id="243_UUR04 Scouting Siren" data-flag="@X" onclick="openSidebar('243_UUR04 Scouting Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\234_UBG04 Olgal Zealot.png" id="234_UBG04 Olgal Zealot" data-flag="@X" onclick="openSidebar('234_UBG04 Olgal Zealot',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\240_URW04 Raging Spirit.png" id="240_URW04 Raging Spirit" data-flag="@X" onclick="openSidebar('240_URW04 Raging Spirit',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\237_UGU04 Crestbreak Hydra.png" id="237_UGU04 Crestbreak Hydra" data-flag="@X" onclick="openSidebar('237_UGU04 Crestbreak Hydra',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\247_UWB05 Worst Critique.png" id="247_UWB05 Worst Critique" data-flag="@X" onclick="openSidebar('247_UWB05 Worst Critique',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\244_UUR05 Siren Choir.png" id="244_UUR05 Siren Choir" data-flag="@X" onclick="openSidebar('244_UUR05 Siren Choir',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\235_UBG05 Call the Chorus.png" id="235_UBG05 Call the Chorus" data-flag="@X" onclick="openSidebar('235_UBG05 Call the Chorus',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\241_URW05 Blessings of the Crowd.png" id="241_URW05 Blessings of the Crowd" data-flag="@X" onclick="openSidebar('241_URW05 Blessings of the Crowd',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\238_UGU05 Rearrange.png" id="238_UGU05 Rearrange" data-flag="@X" onclick="openSidebar('238_UGU05 Rearrange',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\248_UWB06 Lethal Lead.png" id="248_UWB06 Lethal Lead" data-flag="@X" onclick="openSidebar('248_UWB06 Lethal Lead',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\245_UUR06 Clever Serpent.png" id="245_UUR06 Clever Serpent" data-flag="@X" onclick="openSidebar('245_UUR06 Clever Serpent',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\236_UBG06 Mentromone Meister.png" id="236_UBG06 Mentromone Meister" data-flag="@X" onclick="openSidebar('236_UBG06 Mentromone Meister',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\242_URW06 Dynamic Lead.png" id="242_URW06 Dynamic Lead" data-flag="@X" onclick="openSidebar('242_URW06 Dynamic Lead',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\239_UGU06 Swelling Awakener.png" id="239_UGU06 Swelling Awakener" data-flag="@X" onclick="openSidebar('239_UGU06 Swelling Awakener',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\160_CWB01 Grave Requiem.png" id="160_CWB01 Grave Requiem" data-flag="@X" onclick="openSidebar('160_CWB01 Grave Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\158_CUR01 Self-Assuring Siren.png" id="158_CUR01 Self-Assuring Siren" data-flag="@X" onclick="openSidebar('158_CUR01 Self-Assuring Siren',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\152_CBG01 Gathering Whispers.png" id="152_CBG01 Gathering Whispers" data-flag="@X" onclick="openSidebar('152_CBG01 Gathering Whispers',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\156_CRW01 Sparkling Finale.png" id="156_CRW01 Sparkling Finale" data-flag="@X" onclick="openSidebar('156_CRW01 Sparkling Finale',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\154_CGU01 Shoreline Sonicist.png" id="154_CGU01 Shoreline Sonicist" data-flag="@X" onclick="openSidebar('154_CGU01 Shoreline Sonicist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\161_CWB02 Choir of Spirits.png" id="161_CWB02 Choir of Spirits" data-flag="@X" onclick="openSidebar('161_CWB02 Choir of Spirits',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\159_CUR02 Grandstaff Genius.png" id="159_CUR02 Grandstaff Genius" data-flag="@X" onclick="openSidebar('159_CUR02 Grandstaff Genius',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\153_CBG02 Olgal Researcher.png" id="153_CBG02 Olgal Researcher" data-flag="@X" onclick="openSidebar('153_CBG02 Olgal Researcher',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\157_CRW02 Ottava Angel.png" id="157_CRW02 Ottava Angel" data-flag="@X" onclick="openSidebar('157_CRW02 Ottava Angel',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\155_CGU02 Mycosong Dryad.png" id="155_CGU02 Mycosong Dryad" data-flag="@X" onclick="openSidebar('155_CGU02 Mycosong Dryad',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\217_CWB04 Understudied Soloist.png" id="217_CWB04 Understudied Soloist" data-flag="@X" onclick="openSidebar('217_CWB04 Understudied Soloist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\214_CUR04 Snapjaw Serpent.png" id="214_CUR04 Snapjaw Serpent" data-flag="@X" onclick="openSidebar('214_CUR04 Snapjaw Serpent',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\205_CBG04 Song-Calmed Beast.png" id="205_CBG04 Song-Calmed Beast" data-flag="@X" onclick="openSidebar('205_CBG04 Song-Calmed Beast',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\211_CRW04 Countros Assailant.png" id="211_CRW04 Countros Assailant" data-flag="@X" onclick="openSidebar('211_CRW04 Countros Assailant',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\208_CGU04 Murmur Echoer.png" id="208_CGU04 Murmur Echoer" data-flag="@X" onclick="openSidebar('208_CGU04 Murmur Echoer',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\218_CWB05 Short-Lived Soloist.png" id="218_CWB05 Short-Lived Soloist" data-flag="@X" onclick="openSidebar('218_CWB05 Short-Lived Soloist',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\215_CUR05 Rampaging Bellower.png" id="215_CUR05 Rampaging Bellower" data-flag="@X" onclick="openSidebar('215_CUR05 Rampaging Bellower',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\206_CBG05 Reoccuring Terror.png" id="206_CBG05 Reoccuring Terror" data-flag="@X" onclick="openSidebar('206_CBG05 Reoccuring Terror',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\212_CRW05 Countros Figurehead.png" id="212_CRW05 Countros Figurehead" data-flag="@X" onclick="openSidebar('212_CRW05 Countros Figurehead',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\209_CGU05 Olgal Murmur Leader.png" id="209_CGU05 Olgal Murmur Leader" data-flag="@X" onclick="openSidebar('209_CGU05 Olgal Murmur Leader',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\219_CWB06 Permanent Caesura.png" id="219_CWB06 Permanent Caesura" data-flag="@X" onclick="openSidebar('219_CWB06 Permanent Caesura',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\216_CUR06 Da Cappa al Coda.png" id="216_CUR06 Da Cappa al Coda" data-flag="@X" onclick="openSidebar('216_CUR06 Da Cappa al Coda',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\207_CBG06 Descending Line.png" id="207_CBG06 Descending Line" data-flag="@X" onclick="openSidebar('207_CBG06 Descending Line',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\213_CRW06 Shattering Song.png" id="213_CRW06 Shattering Song" data-flag="@X" onclick="openSidebar('213_CRW06 Shattering Song',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\210_CGU06 Suddenstar's Gift.png" id="210_CGU06 Suddenstars Gift" data-flag="@X" onclick="openSidebar('210_CGU06 Suddenstars Gift',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\220_MG01 Tacenda Verlasen.png" id="220_MG01 Tacenda Verlasen" data-flag="@X" onclick="openSidebar('220_MG01 Tacenda Verlasen',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\184_RWUBRG01.png" id="184_RWUBRG01" data-flag="@X" onclick="openSidebar('184_RWUBRG01',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\5_RC01 The Mumur Awakened.png" id="5_RC01 The Mumur Awakened" data-flag="@X" onclick="openSidebar('5_RC01 The Mumur Awakened',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\6_RC03 Count Off.png" id="6_RC03 Count Off" data-flag="@X" onclick="openSidebar('6_RC03 Count Off',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\252_RC02 Book of Forgotten Songs.png" id="252_RC02 Book of Forgotten Songs" data-flag="@X" onclick="openSidebar('252_RC02 Book of Forgotten Songs',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\7_UC06 Olgal's Calling.png" id="7_UC06 Olgals Calling" data-flag="@X" onclick="openSidebar('7_UC06 Olgals Calling',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\8_UC07 Mnemonic Tune.png" id="8_UC07 Mnemonic Tune" data-flag="@X" onclick="openSidebar('8_UC07 Mnemonic Tune',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\253_UC01 Screeching Machine.png" id="253_UC01 Screeching Machine" data-flag="@X" onclick="openSidebar('253_UC01 Screeching Machine',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\254_UC02 Salvager of Ruin.png" id="254_UC02 Salvager of Ruin" data-flag="@X" onclick="openSidebar('254_UC02 Salvager of Ruin',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\255_UC03 Aural-Core Automaton.png" id="255_UC03 Aural-Core Automaton" data-flag="@X" onclick="openSidebar('255_UC03 Aural-Core Automaton',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\256_UC04 Olgal Guardian.png" id="256_UC04 Olgal Guardian" data-flag="@X" onclick="openSidebar('256_UC04 Olgal Guardian',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\257_UC05 Recovered Scores.png" id="257_UC05 Recovered Scores" data-flag="@X" onclick="openSidebar('257_UC05 Recovered Scores',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\258_UC08 Siren's Ship.png" id="258_UC08 Sirens Ship" data-flag="@X" onclick="openSidebar('258_UC08 Sirens Ship',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\0_.png" id="0_" data-flag="@X" onclick="openSidebar('0_',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\1_CC02 Composition Inspector.png" id="1_CC02 Composition Inspector" data-flag="@X" onclick="openSidebar('1_CC02 Composition Inspector',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\2_CC06 Soaring Melody.png" id="2_CC06 Soaring Melody" data-flag="@X" onclick="openSidebar('2_CC06 Soaring Melody',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\3_CC07 Standard Repertoire.png" id="3_CC07 Standard Repertoire" data-flag="@X" onclick="openSidebar('3_CC07 Standard Repertoire',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\249_CC01 Prismite.png" id="249_CC01 Prismite" data-flag="@X" onclick="openSidebar('249_CC01 Prismite',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\250_CC03 Requiem Automata.png" id="250_CC03 Requiem Automata" data-flag="@X" onclick="openSidebar('250_CC03 Requiem Automata',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\251_CC04 Crumbling Ruin.png" id="251_CC04 Crumbling Ruin" data-flag="@X" onclick="openSidebar('251_CC04 Crumbling Ruin',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\264_RL01 Open Air Theater.png" id="264_RL01 Open Air Theater" data-flag="@X" onclick="openSidebar('264_RL01 Open Air Theater',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\265_RL02 Shoreline Theater.png" id="265_RL02 Shoreline Theater" data-flag="@X" onclick="openSidebar('265_RL02 Shoreline Theater',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\266_RL03 Earthbound Theater.png" id="266_RL03 Earthbound Theater" data-flag="@X" onclick="openSidebar('266_RL03 Earthbound Theater',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\267_RL04 Skylight Theater.png" id="267_RL04 Skylight Theater" data-flag="@X" onclick="openSidebar('267_RL04 Skylight Theater',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\268_RL05 Rooted Theater.png" id="268_RL05 Rooted Theater" data-flag="@X" onclick="openSidebar('268_RL05 Rooted Theater',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\259_CL01 Crumbling Stage.png" id="259_CL01 Crumbling Stage" data-flag="@X" onclick="openSidebar('259_CL01 Crumbling Stage',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\262_CL04 Vocalists Round.png" id="262_CL04 Vocalists Round" data-flag="@X" onclick="openSidebar('262_CL04 Vocalists Round',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\260_CL02 Anechoic Chamber.png" id="260_CL02 Anechoic Chamber" data-flag="@X" onclick="openSidebar('260_CL02 Anechoic Chamber',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\263_CL05 Choir Loft.png" id="263_CL05 Choir Loft" data-flag="@X" onclick="openSidebar('263_CL05 Choir Loft',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\261_CL03 Reverberant Shore.png" id="261_CL03 Reverberant Shore" data-flag="@X" onclick="openSidebar('261_CL03 Reverberant Shore',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\269_RL06 The World Stage.png" id="269_RL06 The World Stage" data-flag="@X" onclick="openSidebar('269_RL06 The World Stage',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\270_UL01 Accoustic Hall.png" id="270_UL01 Accoustic Hall" data-flag="@X" onclick="openSidebar('270_UL01 Accoustic Hall',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\271_UL02 Bubbling Ruins.png" id="271_UL02 Bubbling Ruins" data-flag="@X" onclick="openSidebar('271_UL02 Bubbling Ruins',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\272_UL03 Ruins of Olgal.png" id="272_UL03 Ruins of Olgal" data-flag="@X" onclick="openSidebar('272_UL03 Ruins of Olgal',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\135_Forest.png" id="135_Forest" data-flag="@X" onclick="openSidebar('135_Forest',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\49_Island.png" id="49_Island" data-flag="@X" onclick="openSidebar('49_Island',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\106_Mountain.png" id="106_Mountain" data-flag="@X" onclick="openSidebar('106_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\22_Plains.png" id="22_Plains" data-flag="@X" onclick="openSidebar('22_Plains',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\85_Swamp.png" id="85_Swamp" data-flag="@X" onclick="openSidebar('85_Swamp',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\4t_Murmur.png" id="4t_Murmur" data-flag="@X" onclick="openSidebar('4t_Murmur',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\3t_Wall.png" id="3t_Wall" data-flag="@X" onclick="openSidebar('3t_Wall',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\1t_Elemental.png" id="1t_Elemental" data-flag="@X" onclick="openSidebar('1t_Elemental',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\2t_Siren.png" id="2t_Siren" data-flag="@X" onclick="openSidebar('2t_Siren',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="masterpiece" class="anchor"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\1_Love Song of Night and Day.png" id="1_Love Song of Night and Day" data-flag="@X" onclick="openSidebar('1_Love Song of Night and Day',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\2_Serra's Embrace.png" id="2_Serras Embrace" data-flag="@X" onclick="openSidebar('2_Serras Embrace',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\3_Songbirds' Blessing.png" id="3_Songbirds Blessing" data-flag="@X" onclick="openSidebar('3_Songbirds Blessing',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\4_The Bath Song.png" id="4_The Bath Song" data-flag="@X" onclick="openSidebar('4_The Bath Song',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\5_Lilting Refrain.png" id="5_Lilting Refrain" data-flag="@X" onclick="openSidebar('5_Lilting Refrain',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\6_Second Wind.png" id="6_Second Wind" data-flag="@X" onclick="openSidebar('6_Second Wind',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\7_The Eldest Reborn.png" id="7_The Eldest Reborn" data-flag="@X" onclick="openSidebar('7_The Eldest Reborn',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\8_No Rest for the Wicked.png" id="8_No Rest for the Wicked" data-flag="@X" onclick="openSidebar('8_No Rest for the Wicked',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\9_Vile Requiem.png" id="9_Vile Requiem" data-flag="@X" onclick="openSidebar('9_Vile Requiem',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\10_Frenzied Fugue.png" id="10_Frenzied Fugue" data-flag="@X" onclick="openSidebar('10_Frenzied Fugue',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\11_Korvold and the Noble Thief.png" id="11_Korvold and the Noble Thief" data-flag="@X" onclick="openSidebar('11_Korvold and the Noble Thief',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\12_Torch Song.png" id="12_Torch Song" data-flag="@X" onclick="openSidebar('12_Torch Song',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\13_Song of Freyalise.png" id="13_Song of Freyalise" data-flag="@X" onclick="openSidebar('13_Song of Freyalise',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\14_Song of Serenity.png" id="14_Song of Serenity" data-flag="@X" onclick="openSidebar('14_Song of Serenity',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\15_Song of the Dryads.png" id="15_Song of the Dryads" data-flag="@X" onclick="openSidebar('15_Song of the Dryads',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\16_Ascent of the Worthy.png" id="16_Ascent of the Worthy" data-flag="@X" onclick="openSidebar('16_Ascent of the Worthy',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\17_Binding of the Old Gods.png" id="17_Binding of the Old Gods" data-flag="@X" onclick="openSidebar('17_Binding of the Old Gods',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\18_Bounty of the Luxa.png" id="18_Bounty of the Luxa" data-flag="@X" onclick="openSidebar('18_Bounty of the Luxa',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\19_Lorehold Excavation.png" id="19_Lorehold Excavation" data-flag="@X" onclick="openSidebar('19_Lorehold Excavation',false)"></div>
+				<div class="container"><img alt="/sets\VGE-files\img\20_Quicksilver Dagger.png" id="20_Quicksilver Dagger" data-flag="@X" onclick="openSidebar('20_Quicksilver Dagger',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

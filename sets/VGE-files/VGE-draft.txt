@@ -1,4 +1,4 @@
-﻿[CustomCards]
+[CustomCards]
 	[
 		{
 			"name": "CW01 Backup Singer",
@@ -1823,7 +1823,7 @@
 		{
 			"name": "UC04 Olgal Guardian",
 			"rarity": "uncommon",
-			"mana_cost": "{2/C}{2/C}{2/C}{2/C}",
+			"mana_cost": "{2}{2}{2}{2}",
 			"type": "Artifact Creature",
 			"collector_number": "256",
 			"image_uris": {
@@ -2073,7 +2073,7 @@
 		{
 			"name": "RC01 The Mumur Awakened",
 			"rarity": "rare",
-			"mana_cost": "{2/C}{2/C}{2/C}{2/C}{2/C}",
+			"mana_cost": "{2}{2}{2}{2}{2}",
 			"type": "Legendary Enchantment Creature — Bard",
 			"collector_number": "5",
 			"image_uris": {
@@ -2613,7 +2613,7 @@
 		{
 			"name": "RU02 Amplification Construct",
 			"rarity": "rare",
-			"mana_cost": "{2/C}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Construct",
 			"collector_number": "53",
 			"image_uris": {
@@ -2742,7 +2742,7 @@
 		},
 		{
 			"name": "Ascent of the Worthy",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "16",
@@ -2752,7 +2752,7 @@
 		},
 		{
 			"name": "Binding of the Old Gods",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "17",
@@ -2762,7 +2762,7 @@
 		},
 		{
 			"name": "Bounty of the Luxa",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Enchantment",
 			"collector_number": "18",
@@ -2772,7 +2772,7 @@
 		},
 		{
 			"name": "Frenzied Fugue",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment — Aura",
 			"collector_number": "10",
@@ -2782,7 +2782,7 @@
 		},
 		{
 			"name": "Korvold and the Noble Thief",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment — Saga",
 			"collector_number": "11",
@@ -2792,7 +2792,7 @@
 		},
 		{
 			"name": "Lilting Refrain",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
 			"collector_number": "5",
@@ -2802,7 +2802,7 @@
 		},
 		{
 			"name": "Lorehold Excavation",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{R}{W}",
 			"type": "Enchantment",
 			"collector_number": "19",
@@ -2812,7 +2812,7 @@
 		},
 		{
 			"name": "Love Song of Night and Day",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "1",
@@ -2822,7 +2822,7 @@
 		},
 		{
 			"name": "No Rest for the Wicked",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
 			"collector_number": "8",
@@ -2832,7 +2832,7 @@
 		},
 		{
 			"name": "Quicksilver Dagger",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Enchantment — Aura",
 			"collector_number": "20",
@@ -2842,7 +2842,7 @@
 		},
 		{
 			"name": "Second Wind",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
 			"collector_number": "6",
@@ -2852,7 +2852,7 @@
 		},
 		{
 			"name": "Serra's Embrace",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "2",
@@ -2862,7 +2862,7 @@
 		},
 		{
 			"name": "Song of Freyalise",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "13",
@@ -2872,7 +2872,7 @@
 		},
 		{
 			"name": "Song of Serenity",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
 			"collector_number": "14",
@@ -2882,7 +2882,7 @@
 		},
 		{
 			"name": "Song of the Dryads",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Aura",
 			"collector_number": "15",
@@ -2892,7 +2892,7 @@
 		},
 		{
 			"name": "Songbirds' Blessing",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "3",
@@ -2902,7 +2902,7 @@
 		},
 		{
 			"name": "The Bath Song",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment — Saga",
 			"collector_number": "4",
@@ -2912,7 +2912,7 @@
 		},
 		{
 			"name": "The Eldest Reborn",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{4}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "7",
@@ -2922,7 +2922,7 @@
 		},
 		{
 			"name": "Torch Song",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
 			"collector_number": "12",
@@ -2932,7 +2932,7 @@
 		},
 		{
 			"name": "Vile Requiem",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment",
 			"collector_number": "9",
@@ -3179,7 +3179,7 @@
 	4 UW10 Blessing Barker
 	4 UU10 Olgal Composer
 	4 UG10 Beat Boxer
-[common(7)]
+[common(6)]
 	8 CW01 Backup Singer
 	8 CW02 Mute Healer
 	8 CW03 Countros Soprano
@@ -3270,8 +3270,120 @@
 	8 CL02 Anechoic Chamber
 	8 CL01 Crumbling Stage
 	8 CUR01 Self-Assuring Siren
-	8 CR11 Sudden Screeching
-	8 
+	8 CR11 Sudden Screeching 
+[specialcommon(1)]
+	8 CW01 Backup Singer
+	8 CW02 Mute Healer
+	8 CW03 Countros Soprano
+	8 CW04 Amphiteater Listener
+	8 CW05 Overeager Audience
+	8 CW06 Countros Ringer
+	8 CW07 Echo of Delight
+	8 CW08 Resolute Melody
+	8 CW09 Imprison Composer
+	8 CW10 Accoustic Reflections
+	8 CW11 Even Stars Fall
+	8 CU01 Rondelli Recruiter
+	8 CU02 Olgal Shore Guardian
+	8 CU03 Mistral Singer
+	8 CU04 Phase Inverter
+	8 CU05 Echo of Complexity
+	8 CU06 Auditioning Canon
+	8 CU07 Dream Songs
+	8 CU09 Thirst for Meaning
+	8 CU10 Performers Only
+	8 CU11 Tuck within Harmony
+	8 CU08 Reminiscent Tune
+	8 CB01 Decreshh Revenant
+	8 CB02 Subtle Silencer
+	8 CB03 Mourning Soliliquist
+	8 CB04 Caller of Ravens
+	8 CB05 Finale Reveler
+	8 CB06 Echo of Silence
+	8 CB07 Call of the Cruel
+	8 CB08 Write Your Requiem
+	8 CB09 Discordant Ditty
+	8 CB10 Cut to Silence
+	8 CB11 Life's Echo
+	8 CR01 Vivace Vocalist
+	8 CR02 Dwarven Forge-Chanter
+	8 CR03 Scorned Diva
+	8 CR04 Cadence Contralto
+	8 CR05 Siren Tracker
+	8 CR06 Echo of Embers
+	8 CR07 Flaming Resolution
+	8 CR08 Crooning Stage
+	8 CR09 Set the Setlist
+	8 CR10 Accelerando
+	8 CG01 Hearty Chanter
+	8 CG02 Climbing Ivy
+	8 CG03 Harmony Essence
+	8 CG04 Storykeeper
+	8 CG07 Nature's Duet
+	8 CG06 Echo of Family
+	8 CG05 Doubletime Diva
+	8 CG08 Follow the Murmur
+	8 CG09 Echoed Ambush
+	8 CG10 Modal Harmonization
+	8 CG11 Step Back
+	8 CWB01 Grave Requiem
+	8 CWB06 Permanent Caesura
+	8 CWB05 Short-Lived Soloist
+	8 CWB04 Understudied Soloist
+	8 CWB02 Choir of Spirits
+	8 CRW01 Sparkling Finale
+	8 CRW04 Countros Assailant
+	8 CRW05 Countros Figurehead
+	8 CRW06 Shattering Song
+	8 CRW02 Ottava Angel
+	8 CGU01 Shoreline Sonicist
+	8 CGU02 Mycosong Dryad
+	8 CGU04 Murmur Echoer
+	8 CGU05 Olgal Murmur Leader
+	8 CGU06 Suddenstar's Gift
+	8 CBG05 Reoccuring Terror
+	8 CBG04 Song-Calmed Beast
+	8 CBG02 Olgal Researcher
+	8 CBG01 Gathering Whispers
+	8 CUR05 Rampaging Bellower
+	8 CUR04 Snapjaw Serpent
+	8 CUR02 Grandstaff Genius
+	8 CUR06 Da Cappa al Coda
+	8 CBG06 Descending Line
+	8 CC03 Requiem Automata
+	8 CC02 Composition Inspector
+	8 CC06 Soaring Melody
+	8 CC01 Prismite
+	8 CC04 Crumbling Ruin
+	8 CC07 Standard Repertoire
+	8 CL05 Choir Loft
+	8 CL04 Vocalists Round
+	8 CL03 Reverberant Shore
+	8 CL02 Anechoic Chamber
+	8 CL01 Crumbling Stage
+	8 CUR01 Self-Assuring Siren
+	8 CR11 Sudden Screeching 
+	2 Love Song of Night and Day
+	2 Serra's Embrace
+	2 Songbirds' Blessing
+	2 The Bath Song
+	2 Lilting Refrain
+	2 Second Wind
+	2 The Eldest Reborn
+	2 No Rest for the Wicked
+	2 Vile Requiem
+	2 Frenzied Fugue
+	2 Korvold and the Noble Thief
+	2 Torch Song
+	2 Song of Freyalise
+	2 Song of Serenity
+	2 Song of the Dryads
+	2 Ascent of the Worthy
+	2 Binding of the Old Gods
+	2 Bounty of the Luxa
+	2 Lorehold Excavation
+	2 Quicksilver Dagger
+
 [foil(1)]
 	12 CW01 Backup Singer
 	12 CW02 Mute Healer
@@ -3539,7 +3651,7 @@
 	6 UU10 Olgal Composer
 	12 CR11 Sudden Screeching
 	6 UG10 Beat Boxer
-	12 
+ 
 [wildcard(1)]
 	6 CW01 Backup Singer
 	6 CW02 Mute Healer
@@ -3807,4 +3919,15 @@
 	15 UU10 Olgal Composer
 	6 CR11 Sudden Screeching
 	15 UG10 Beat Boxer
-	6 
+
+[land(1)]
+	12 Plains
+	12 Island
+	12 Mountain
+	12 Forest
+	12 Swamp
+	6 CL05 Choir Loft
+	6 CL04 Vocalists Round
+	6 CL03 Reverberant Shore
+	6 CL02 Anechoic Chamber
+	6 CL01 Crumbling Stage

@@ -1823,7 +1823,7 @@
 		{
 			"name": "Olgal Guardian",
 			"rarity": "uncommon",
-			"mana_cost": "{2/C}{2/C}{2/C}{2/C}",
+			"mana_cost": "{C}{C}{C}{C}",
 			"type": "Artifact Creature — Golem",
 			"collector_number": "252",
 			"image_uris": {
@@ -2073,7 +2073,7 @@
 		{
 			"name": "The Mumur Awakened",
 			"rarity": "rare",
-			"mana_cost": "{2/C}{2/C}{2/C}{2/C}{2/C}",
+			"mana_cost": "{C}{C}{C}{C}{C}",
 			"type": "Legendary Enchantment Creature — Bard",
 			"collector_number": "4",
 			"image_uris": {
@@ -2543,7 +2543,7 @@
 		{
 			"name": "The Oldest Story",
 			"rarity": "rare",
-			"mana_cost": "{2/C}{G}",
+			"mana_cost": "{C}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "141",
 			"image_uris": {
@@ -2613,7 +2613,7 @@
 		{
 			"name": "Amplification Construct",
 			"rarity": "rare",
-			"mana_cost": "{2/C}{U}",
+			"mana_cost": "{C}{U}",
 			"type": "Artifact Creature — Construct",
 			"collector_number": "39",
 			"image_uris": {
@@ -2742,7 +2742,7 @@
 		},
 		{
 			"name": "Ascent of the Worthy",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "16",
@@ -2752,7 +2752,7 @@
 		},
 		{
 			"name": "Binding of the Old Gods",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "17",
@@ -2762,7 +2762,7 @@
 		},
 		{
 			"name": "Bounty of the Luxa",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Enchantment",
 			"collector_number": "18",
@@ -2772,7 +2772,7 @@
 		},
 		{
 			"name": "Frenzied Fugue",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment — Aura",
 			"collector_number": "10",
@@ -2782,7 +2782,7 @@
 		},
 		{
 			"name": "Korvold and the Noble Thief",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment — Saga",
 			"collector_number": "11",
@@ -2792,7 +2792,7 @@
 		},
 		{
 			"name": "Lilting Refrain",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
 			"collector_number": "5",
@@ -2802,7 +2802,7 @@
 		},
 		{
 			"name": "Lorehold Excavation",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{R}{W}",
 			"type": "Enchantment",
 			"collector_number": "19",
@@ -2812,7 +2812,7 @@
 		},
 		{
 			"name": "Love Song of Night and Day",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "1",
@@ -2822,7 +2822,7 @@
 		},
 		{
 			"name": "No Rest for the Wicked",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
 			"collector_number": "8",
@@ -2832,7 +2832,7 @@
 		},
 		{
 			"name": "Quicksilver Dagger",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Enchantment — Aura",
 			"collector_number": "20",
@@ -2842,7 +2842,7 @@
 		},
 		{
 			"name": "Second Wind",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
 			"collector_number": "6",
@@ -2852,7 +2852,7 @@
 		},
 		{
 			"name": "Serra's Embrace",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "2",
@@ -2862,7 +2862,7 @@
 		},
 		{
 			"name": "Song of Freyalise",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "13",
@@ -2872,7 +2872,7 @@
 		},
 		{
 			"name": "Song of Serenity",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
 			"collector_number": "14",
@@ -2882,7 +2882,7 @@
 		},
 		{
 			"name": "Song of the Dryads",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Aura",
 			"collector_number": "15",
@@ -2892,7 +2892,7 @@
 		},
 		{
 			"name": "Songbirds' Blessing",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "3",
@@ -2902,7 +2902,7 @@
 		},
 		{
 			"name": "The Bath Song",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment — Saga",
 			"collector_number": "4",
@@ -2912,7 +2912,7 @@
 		},
 		{
 			"name": "The Eldest Reborn",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{4}{B}",
 			"type": "Enchantment — Saga",
 			"collector_number": "7",
@@ -2922,7 +2922,7 @@
 		},
 		{
 			"name": "Torch Song",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
 			"collector_number": "12",
@@ -2932,7 +2932,7 @@
 		},
 		{
 			"name": "Vile Requiem",
-			"rarity": "masterpiece",
+			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment",
 			"collector_number": "9",
@@ -3179,7 +3179,7 @@
 	4 Blessing Barker
 	4 Olgal Composer
 	4 Beat Boxer
-[common(7)]
+[common(6)]
 	8 Backup Singer
 	8 Mute Healer
 	8 Countros Soprano
@@ -3271,7 +3271,119 @@
 	8 Crumbling Stage
 	8 Self-Assuring Siren
 	8 Sudden Screeching
-	8 
+[specialcommon(1)]
+	8 Backup Singer
+	8 Mute Healer
+	8 Countros Soprano
+	8 Amphiteater Listener
+	8 Overeager Audience
+	8 Countros Ringer
+	8 Echo of Delight
+	8 Resolute Melody
+	8 Imprison Composer
+	8 Accoustic Reflections
+	8 Even Stars Fall
+	8 Rondelli Recruiter
+	8 Olgal Shore Guardian
+	8 Mistral Singer
+	8 Phase Inverter
+	8 Echo of Complexity
+	8 Auditioning Canon
+	8 Dream Songs
+	8 Thirst for Meaning
+	8 Performers Only
+	8 Tuck within Harmony
+	8 Reminiscent Tune
+	8 Decreshh Revenant
+	8 Subtle Silencer
+	8 Mourning Soliliquist
+	8 Caller of Ravens
+	8 Finale Reveler
+	8 Echo of Silence
+	8 Call of the Cruel
+	8 Write Your Requiem
+	8 Discordant Ditty
+	8 Cut to Silence
+	8 Life's Echo
+	8 Vivace Vocalist
+	8 Dwarven Forge-Chanter
+	8 Scorned Diva
+	8 Cadence Contralto
+	8 Siren Tracker
+	8 Echo of Embers
+	8 Flaming Resolution
+	8 Crooning Stage
+	8 Set the Setlist
+	8 Accelerando
+	8 Hearty Chanter
+	8 Climbing Ivy
+	8 Harmony Essence
+	8 Storykeeper
+	8 Nature's Duet
+	8 Echo of Family
+	8 Doubletime Diva
+	8 Follow the Murmur
+	8 Echoed Ambush
+	8 Modal Harmonization
+	8 Step Back
+	8 Grave Requiem
+	8 Permanent Caesura
+	8 Short-Lived Soloist
+	8 Understudied Soloist
+	8 Choir of Spirits
+	8 Sparkling Finale
+	8 Countros Assailant
+	8 Countros Figurehead
+	8 Shattering Song
+	8 Ottava Angel
+	8 Shoreline Sonicist
+	8 Mycosong Dryad
+	8 Murmur Echoer
+	8 Olgal Murmur Leader
+	8 Suddenstar's Gift
+	8 Reoccuring Terror
+	8 Song-Calmed Beast
+	8 Olgal Researcher
+	8 Gathering Whispers
+	8 Rampaging Bellower
+	8 Snapjaw Serpent
+	8 Grandstaff Genius
+	8 Da Cappa al Coda
+	8 Descending Line
+	8 Requiem Automata
+	8 Soaring Melody
+	8 Prismite
+	8 Crumbling Ruin
+	8 Olgal's Calling
+	8 Standard Repertoire
+	8 Choir Loft
+	8 Vocalists Round
+	8 Reverberant Shore
+	8 Anechoic Chamber
+	8 Crumbling Stage
+	8 Self-Assuring Siren
+	8 Sudden Screeching
+	4 Love Song of Night and Day
+	4 Serra's Embrace
+	4 Songbirds' Blessing
+	4 The Bath Song
+	4 Lilting Refrain
+	4 Second Wind
+	4 The Eldest Reborn
+	4 No Rest for the Wicked
+	4 Vile Requiem
+	4 Frenzied Fugue
+ 	4 Korvold and the Noble Thief
+	4 Torch Song
+	4 Song of Freyalise
+	4 Song of Serenity
+	4 Song of the Dryads
+	4 Ascent of the Worthy
+	4 Binding of the Old Gods
+	4 Bounty of the Luxa
+	4 Lorehold Excavation
+	4 Quicksilver Dagger
+
 [foil(1)]
 	12 Backup Singer
 	12 Mute Healer
@@ -3539,7 +3651,7 @@
 	6 Olgal Composer
 	12 Sudden Screeching
 	6 Beat Boxer
-	12 
+	
 [wildcard(1)]
 	6 Backup Singer
 	6 Mute Healer
@@ -3807,4 +3919,15 @@
 	15 Olgal Composer
 	6 Sudden Screeching
 	15 Beat Boxer
-	6 
+
+[Land (1)]
+	4 Plains
+	4 Island
+	4 Swamp
+	4 Mountain
+	4 Forest
+	4 Anechoic Chamber
+	4 Choir Loft
+	4 Crumbling Stage
+	4 Reverberant Shore
+	4 Vocalists Round

@@ -1,7 +1,7 @@
 ﻿{
     "name": "Voc-Gal Echoes",
     "formats": "Beacon Standard",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
@@ -9,11 +9,11 @@
     "v_mana": "ch",
     "cards": [
         {
-            "card_name": "CW01 Backup Singer",
+            "card_name": "Backup Singer",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 9,
+            "number": 12,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Ward {2C} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2C}.)[/i]\n[i]Finale [/i]\u2014 Whenever this creature or another enchantment is put into your graveyard from the battlefield, you gain 1 life.",
@@ -29,11 +29,11 @@
             "notes": "Note, Ensorceler: i think aura moving around is not very valuable if you dont have extremely fine control of when it happens, which finale is not"
         },
         {
-            "card_name": "CW02 Mute Healer",
+            "card_name": "Mute Healer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Cleric",
-            "number": 10,
+            "number": 22,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Lifelink\nExalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]",
@@ -49,11 +49,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW03 Countros Soprano",
+            "card_name": "Countros Soprano",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elf Wizard",
-            "number": 11,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "As long as this creature is enchanted, it gets +1/+1 and has flying.",
@@ -69,11 +69,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW04 Amphiteater Listener",
+            "card_name": "Amphiteater Listener",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Noble",
-            "number": 12,
+            "number": 11,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature dies, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -89,11 +89,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW05 Overeager Audience",
+            "card_name": "Overeager Audience",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 13,
+            "number": 24,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\n[i]Finale \u2014[/i] Whenever this creature or another enchantment is put into your graveyard from the battlefield, target creature gets +1/+1 until end of turn.",
@@ -109,7 +109,7 @@
             "notes": "Check trigger frequency, maybe swap out first strike?"
         },
         {
-            "card_name": "CW06 Countros Ringer",
+            "card_name": "Countros Ringer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Bard",
@@ -129,14 +129,14 @@
             "notes": ""
         },
         {
-            "card_name": "CW07 Echo of Delight",
+            "card_name": "Echo of Delight",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 15,
+            "number": 18,
             "color_identity": "WBR",
             "cost": "{3}{W}{W}",
-            "rules_text": "Vigilance\nWhenever this creature attacks, you may pay {1}{BR}. If you do, return target Aura card from your graveyard to the battlefield attached to this creature, sacrifice that Aura at the end of combat.",
+            "rules_text": "Vigilance\nWhenever this creature attacks, you may pay {1}{BR}. If you do, return target Aura card from your graveyard to the battlefield attached to this creature. Sacrifice that Aura at the end of combat.",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -149,11 +149,11 @@
             "notes": "#SpiritCycle"
         },
         {
-            "card_name": "CW08 Resolute Melody",
+            "card_name": "Resolute Melody",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 16,
+            "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This spell costs {1} less to cast if it targets a noncreature permanent.\nTarget permanent you control gains protection from the card type of your choice until end of turn. [i](It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that type.)[/i]",
@@ -169,14 +169,14 @@
             "notes": ""
         },
         {
-            "card_name": "CW09 Imprison Composer",
+            "card_name": "Imprison Composer",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 17,
+            "number": 20,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Enchant creature you control\nWhen this Aura enters, exile target nonland permanent until this Aura leaves the battlefield.\nWhenever enchanted creature attacks, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "rules_text": "Enchant creature you control\nWhen this Aura enters, exile another target nonland permanent until this Aura leaves the battlefield.\nWhenever enchanted creature attacks, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -189,11 +189,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW10 Accoustic Reflections",
+            "card_name": "Accoustic Reflections",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 18,
+            "number": 9,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Create a 0/3 colorless Wall artifact creature token with defender.\nCreatures you control gain exalted until end of turn. [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]",
@@ -209,7 +209,7 @@
             "notes": ""
         },
         {
-            "card_name": "CW11 Even Stars Fall",
+            "card_name": "Even Stars Fall",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
@@ -229,11 +229,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW09 Dynamic Dynamics",
+            "card_name": "Dynamic Dynamics",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 36,
+            "number": 17,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This spell costs {1} less to cast if a creature you control is attacking alone.\nTarget creature gets +2/+2 until end of turn.",
@@ -249,11 +249,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU01 Rondelli Recruiter",
+            "card_name": "Rondelli Recruiter",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Siren Scout",
-            "number": 38,
+            "number": 57,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "As long as you control a token this creature gets +1/+0 and has vigilance.",
@@ -269,11 +269,11 @@
             "notes": "Find the right rate keep the condition"
         },
         {
-            "card_name": "CU02 Olgal Shore Guardian",
+            "card_name": "Olgal Shore Guardian",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Siren Bard",
-            "number": 39,
+            "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]\nWhen this creature enters, you may pay {1}. If you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -289,11 +289,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU03 Mistral Singer",
+            "card_name": "Mistral Singer",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Siren",
-            "number": 40,
+            "number": 49,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying\nProwess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]",
@@ -309,11 +309,11 @@
             "notes": "M21 Reprint"
         },
         {
-            "card_name": "CU04 Phase Inverter",
+            "card_name": "Phase Inverter",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Siren Wizard",
-            "number": 41,
+            "number": 54,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flash\nWhen this creature enters, create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d",
@@ -329,11 +329,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU05 Echo of Complexity",
+            "card_name": "Echo of Complexity",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 42,
+            "number": 46,
             "color_identity": "URG",
             "cost": "{3}{U}{U}",
             "rules_text": "Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]\nWhenever this creature attacks, you may pay {2}{RG}. If you do, copy the next permanent spell you cast this turn.",
@@ -349,17 +349,17 @@
             "notes": "#SpiritCycle"
         },
         {
-            "card_name": "CU06 Auditioning Canon",
+            "card_name": "Auditioning Canon",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 43,
+            "number": 41,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nI, II \u2014 Create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nDraw a card.\n[i]It's a round, just follow me. One, Two, Three...[/i]",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nCreate a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nDraw a card.\n[i]It's a round, just follow me. One, Two, Three...[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nI, II \u2014 Create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nDraw a card.\n[i]It's a round, just follow me. One, Two, Three...[/i]",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nCreate a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nDraw a card.\n[i]It's a round, just follow me. One, Two, Three...[/i]",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -369,11 +369,11 @@
             "notes": "Creates a creature token/becomes a creature"
         },
         {
-            "card_name": "CU07 Dream Songs",
+            "card_name": "Dream Songs",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 44,
+            "number": 43,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Tap or untap target creature, then tap or untap another target creature. \nPut a lore counter on up to one target Saga you control.",
@@ -389,11 +389,11 @@
             "notes": "Freeze"
         },
         {
-            "card_name": "UU09 Delayed Performance",
+            "card_name": "Delayed Performance",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 65,
+            "number": 42,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Return target spell to its owners hand unless they pay {2}. If they do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -409,11 +409,11 @@
             "notes": "Counter (Soft)"
         },
         {
-            "card_name": "CU09 Thirst for Meaning",
+            "card_name": "Thirst for Meaning",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 46,
+            "number": 64,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw three cards. Then discard two cards unless you discard an enchantment card.",
@@ -429,11 +429,11 @@
             "notes": "Reprint"
         },
         {
-            "card_name": "CU10 Performers Only",
+            "card_name": "Performers Only",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 47,
+            "number": 52,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Counter target spell. If {C} was spent to cast this spell exile that spell instead.",
@@ -449,11 +449,11 @@
             "notes": "Counter (Hard)"
         },
         {
-            "card_name": "CU11 Tuck within Harmony",
+            "card_name": "Tuck within Harmony",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 48,
+            "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "The owner of target nonland permanent puts it on the top or bottom of their library. Then they create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -469,17 +469,17 @@
             "notes": "Bounce/Tuck"
         },
         {
-            "card_name": "CU08 Reminiscent Tune",
+            "card_name": "Reminiscent Tune",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 45,
+            "number": 56,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nI \u2014 Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nII \u2014 Return target instant or sorcery card from your graveyard to your hand.\n[i]You do not recognize the melody in the murmur.[/i]",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nReturn target instant or sorcery card from your graveyard to your hand.\n[i]You do not recognize the melody in the murmur.[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nI \u2014 Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nII \u2014 Return target instant or sorcery card from your graveyard to your hand.\n[i]You do not recognize the melody in the murmur.[/i]",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nReturn target instant or sorcery card from your graveyard to your hand.\n[i]You do not recognize the melody in the murmur.[/i]",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -489,15 +489,15 @@
             "notes": "Card Selection/SpellRegrowth"
         },
         {
-            "card_name": "CB01 Decreshh Revenant",
+            "card_name": "Decreshh Revenant",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Siren",
-            "number": 67,
+            "number": 72,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Flying\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, target player mills a card.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -509,14 +509,14 @@
             "notes": ""
         },
         {
-            "card_name": "CB02 Subtle Silencer",
+            "card_name": "Subtle Silencer",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue",
-            "number": 68,
+            "number": 90,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Discard a card: This creature gets +1/+0 and deathtouch until end of turn. Activate only once each turn.",
+            "rules_text": "Discard a card: This creature gets +1/+0 and gains deathtouch until end of turn. Activate only once each turn.",
             "flavor_text": "[i]A song ended early is one less voice in the murmur.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -529,11 +529,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB03 Mourning Soliliquist",
+            "card_name": "Mourning Soliliquist",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Siren Bard",
-            "number": 69,
+            "number": 85,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "{1}{B}, Pay 2 life: Create a Murmur token. Activate only if an enchantment left the battlefield this turn, and only once each turn as a sorcery. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -549,7 +549,7 @@
             "notes": "AA Down to {B}?"
         },
         {
-            "card_name": "CB04 Caller of Ravens",
+            "card_name": "Caller of Ravens",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
@@ -569,15 +569,15 @@
             "notes": ""
         },
         {
-            "card_name": "CB05 Finale Reveler",
+            "card_name": "Finale Reveler",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Shaman",
-            "number": 71,
+            "number": 78,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Menace\n[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, each opponent loses 2 life.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
@@ -589,11 +589,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB06 Echo of Silence",
+            "card_name": "Echo of Silence",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 72,
+            "number": 75,
             "color_identity": "WBG",
             "cost": "{3}{B}{B}",
             "rules_text": "Menace\nWhenever this creature attacks, you may pay {1}{GW}. If you do return target Saga card from your graveyard to your hand.",
@@ -609,17 +609,17 @@
             "notes": "#SpiritCycle"
         },
         {
-            "card_name": "CB07 Call of the Cruel",
+            "card_name": "Call of the Cruel",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 73,
+            "number": 69,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nI, II \u2014 Create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nIII \u2014 You may sacrifice a creature. If you do return a creature card from your graveyard to your hand.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nCreate a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nYou may sacrifice a creature. If you do return a creature card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nI, II \u2014 Create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nIII \u2014 You may sacrifice a creature. If you do return a creature card from your graveyard to your hand.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nCreate a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d\nYou may sacrifice a creature. If you do return a creature card from your graveyard to your hand.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -629,11 +629,11 @@
             "notes": "Creates a Creature"
         },
         {
-            "card_name": "CB08 Write Your Requiem",
+            "card_name": "Write Your Requiem",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 74,
+            "number": 94,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "As an additional cost to cast Write Your Requiem sacrifice a nonland permanent.\nDestroy target nonartifact permanent if it shares a type with the sacrificed permanent.",
@@ -649,11 +649,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB09 Discordant Ditty",
+            "card_name": "Discordant Ditty",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 75,
+            "number": 74,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw two cards.\nEach player loses 1 life.\n\u200b",
@@ -669,11 +669,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB10 Cut to Silence",
+            "card_name": "Cut to Silence",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 76,
+            "number": 71,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Destroy target creature. If it was an enchantment, draw a card.",
@@ -689,11 +689,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB11 Life's Echo",
+            "card_name": "Life's Echo",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 77,
+            "number": 84,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Flash\nEnchant creature\nWhen enchanted creature dies, return it to the battlefield with a finality counter on it, except it's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014Add {C}.\u201d in addition to its other types an abilities.",
@@ -709,15 +709,15 @@
             "notes": ""
         },
         {
-            "card_name": "UB09 Unending Melody",
+            "card_name": "Unending Melody",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 94,
+            "number": 93,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets +1/+1 and gains indestructible until end of turn. Draw a card if it's an enchantment creature.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -729,15 +729,15 @@
             "notes": "TEMP ART"
         },
         {
-            "card_name": "CR01 Vivace Vocalist",
+            "card_name": "Vivace Vocalist",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Siren Wizard",
-            "number": 95,
+            "number": 123,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Haste\nThis creature gets +1/+0 as long as you've cast a noncreature spell this turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -749,11 +749,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR02 Dwarven Forge-Chanter",
+            "card_name": "Dwarven Forge-Chanter",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Wizard",
-            "number": 96,
+            "number": 100,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Ward\u2014Pay 2 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)[/i]\nProwess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]",
@@ -769,14 +769,14 @@
             "notes": "BRO reprint"
         },
         {
-            "card_name": "CR03 Scorned Diva",
+            "card_name": "Scorned Diva",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 97,
+            "number": 114,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "[i]Finale [/i]\u2014 Whenever this creature or another a enchantment is put into your graveyard from the battlefield, this creature deals 1 damage to each opponent.",
+            "rules_text": "[i]Finale [/i]\u2014 Whenever this creature or another a enchantment is put into your graveyard from the battlefield. This creature deals 1 damage to each opponent.",
             "flavor_text": "[i]She was always quite harsh to her critics.[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -789,11 +789,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR04 Cadence Contralto",
+            "card_name": "Cadence Contralto",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Bard",
-            "number": 98,
+            "number": 96,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Trample, exalted, haste [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]",
@@ -809,11 +809,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR05 Siren Tracker",
+            "card_name": "Siren Tracker",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Warrior",
-            "number": 99,
+            "number": 116,
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When this creature enters, create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d",
@@ -829,11 +829,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR06 Echo of Embers",
+            "card_name": "Echo of Embers",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 100,
+            "number": 101,
             "color_identity": "WUR",
             "cost": "{3}{R}{R}",
             "rules_text": "Haste\nWhenever this creature attacks, you may pay {1}{WU}. If you do, tap up to X target creatures, where X is one plus the number of Auras you control.",
@@ -849,11 +849,11 @@
             "notes": "#SpiritCycle"
         },
         {
-            "card_name": "CR07 Flaming Resolution",
+            "card_name": "Flaming Resolution",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 101,
+            "number": 103,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "As an additional cost to cast this spell you may sacrifice an enchantment.\nThis spell deals 4 damage to target creature or planeswalker. If you sacrificed an enchantment as you cast this spell it deals 4 damage to any target instead.",
@@ -869,14 +869,14 @@
             "notes": ""
         },
         {
-            "card_name": "CR08 Crooning Stage",
+            "card_name": "Crooning Stage",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 102,
+            "number": 98,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Enchant land\nEnchanted land has \u201c{T}: Target creature gets +1/-1 and gains trample and haste until end of tun.\u201d",
+            "rules_text": "Enchant land\nEnchanted land has \u201c{T}: Target creature you control gets +1/-1 and gains trample and haste until end of tun.\u201d",
             "flavor_text": "[i]\u201c[/i]Revel of the Fallen God[i], Performed by the Traveling Theran Theater Troupe, 4 stars\u201d \u2014 Gallen Opera Review[/i]",
             "pt": "",
             "special_text": "",
@@ -889,11 +889,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR09 Set the Setlist",
+            "card_name": "Set the Setlist",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 103,
+            "number": 115,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "As an additional cost to cast this spell discard a card or sacrifice an enchantment.\nDraw two cards.",
@@ -909,11 +909,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR09 Lonely Whispering",
+            "card_name": "Lonely Whispering",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 122,
+            "number": 107,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nI, II \u2014 This Saga deals 1 damage to each creature and planeswalker.\nIII \u2014 Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n\u200b",
@@ -929,11 +929,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR10 Lightning Belt",
+            "card_name": "Lightning Belt",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 123,
+            "number": 106,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nChoose one that hasn't been chosen \u2014\n\u2022 This Saga deals 1 damage to target player.\n\u2022 This Saga deals 1 damage to target creature.\n\u2022 This Saga deals 1 damage to any target.\n[i]\u201cIt's not over til lightning strikes thrice\u201d[/i]\n\u200b",
@@ -949,14 +949,14 @@
             "notes": ""
         },
         {
-            "card_name": "CR10 Accelerando",
+            "card_name": "Accelerando",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 104,
+            "number": 95,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Enchant creature\nEnchanted creature gets +2/+0 and haste.",
+            "rules_text": "Enchant creature\nEnchanted creature gets +2/+0 and has haste.",
             "flavor_text": "[i]Tell your story quick... or we both burn.[/i]",
             "pt": "",
             "special_text": "",
@@ -969,11 +969,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG01 Hearty Chanter",
+            "card_name": "Hearty Chanter",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Bard",
-            "number": 124,
+            "number": 136,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Ward {2C} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2C}.)[/i]\n{1}, {T}: Add one mana of any color.",
@@ -989,7 +989,7 @@
             "notes": ""
         },
         {
-            "card_name": "CG02 Climbing Ivy",
+            "card_name": "Climbing Ivy",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elemental",
@@ -1009,11 +1009,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG03 Harmony Essence",
+            "card_name": "Harmony Essence",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 126,
+            "number": 135,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever you put a lore counter on a permanent you control, this creature gets +1/+1 and gains trample until end of turn.",
@@ -1029,11 +1029,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG04 Storykeeper",
+            "card_name": "Storykeeper",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Bard",
-            "number": 127,
+            "number": 148,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When this creature enters, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -1049,11 +1049,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG07 Nature's Duet",
+            "card_name": "Nature's Duet",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 130,
+            "number": 140,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Create a 2/2 green Elemental creature token.\nIII \u2014 Put a +1/+1 counter on target creature you control.\n\u200b",
@@ -1069,7 +1069,7 @@
             "notes": ""
         },
         {
-            "card_name": "CG06 Echo of Family",
+            "card_name": "Echo of Family",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
@@ -1089,7 +1089,7 @@
             "notes": "Watch the murmur clause? Do I want it to be able to recycle the murmurs"
         },
         {
-            "card_name": "CG05 Doubletime Diva",
+            "card_name": "Doubletime Diva",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Shaman",
@@ -1109,11 +1109,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG08 Follow the Murmur",
+            "card_name": "Follow the Murmur",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 131,
+            "number": 133,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a basic land card, put it into your hand, then shuffle.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -1129,11 +1129,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG09 Echoed Ambush",
+            "card_name": "Echoed Ambush",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 132,
+            "number": 130,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature you control gets +2/+2 until end of turn if you've cast another spell this turn. It fights target creature you don't control.",
@@ -1149,11 +1149,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG10 Modal Harmonization",
+            "card_name": "Modal Harmonization",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 133,
+            "number": 138,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Choose one \u2014 \n\u2022 Destroy target artifact or enchantment.\n\u2022 Put a +1/+1 counter on target creature you control.\n\u2022 Put a lore counter on target Saga you control.",
@@ -1169,11 +1169,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG09 Embrace the Murmur",
+            "card_name": "Embrace the Murmur",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 150,
+            "number": 131,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Target creature gets +3/+3 and gains trample until end of turn. If {C} was spent to cast this spell draw a card.",
@@ -1189,11 +1189,11 @@
             "notes": "Combat Trick"
         },
         {
-            "card_name": "CG11 Step Back",
+            "card_name": "Step Back",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 134,
+            "number": 146,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Untap target creature. It gains hexproof and indestructible until end of turn.",
@@ -1209,11 +1209,11 @@
             "notes": "Combat"
         },
         {
-            "card_name": "CWB01 Grave Requiem",
+            "card_name": "Grave Requiem",
             "color": "WB",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 160,
+            "number": 174,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
             "rules_text": "Choose up to two \u2014\n\u2022 Return target creature card from your graveyard to your hand.\n\u2022 Return target enchantment card from your graveyard to your hand.\n\u2022 Return target enchantment creature card from your graveyard to the battlefield.",
@@ -1229,11 +1229,11 @@
             "notes": ""
         },
         {
-            "card_name": "UWB04 Breathless Knight",
+            "card_name": "Breathless Knight",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Knight",
-            "number": 211,
+            "number": 156,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Flying, lifelink\nWhenever this creature or another creature enters under your control, if that creature entered from a graveyard or you cast it from a graveyard, put a +1/+1 counter on this creature.",
@@ -1249,11 +1249,11 @@
             "notes": "Temp Reprint"
         },
         {
-            "card_name": "CWB06 Permanent Caesura",
+            "card_name": "Permanent Caesura",
             "color": "WB",
             "rarity": "common",
             "type": "Instant",
-            "number": 226,
+            "number": 231,
             "color_identity": "WB",
             "cost": "{1}{WB}",
             "rules_text": "Destroy target enchantment or attacking creature. Its controller gains life equal to its mana value.",
@@ -1269,15 +1269,15 @@
             "notes": ""
         },
         {
-            "card_name": "CWB05 Short-Lived Soloist",
+            "card_name": "Short-Lived Soloist",
             "color": "WB",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 225,
+            "number": 239,
             "color_identity": "WB",
             "cost": "{WB}",
             "rules_text": "[i]Finale [/i]\u2014 Whenever another enchantment is put into your graveyard from the battlefield, this creature gets +1/+0 and gains lifelink until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -1289,11 +1289,11 @@
             "notes": ""
         },
         {
-            "card_name": "CWB04 Understudied Soloist",
+            "card_name": "Understudied Soloist",
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Human Bard",
-            "number": 224,
+            "number": 246,
             "color_identity": "WB",
             "cost": "{2}{WB}{WB}",
             "rules_text": "When this creature dies, return another target creature or enchantment card from your graveyard to your hand",
@@ -1309,11 +1309,11 @@
             "notes": ""
         },
         {
-            "card_name": "CWB02 Choir of Spirits",
+            "card_name": "Choir of Spirits",
             "color": "WB",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 161,
+            "number": 159,
             "color_identity": "WB",
             "cost": "{2}{W}{W}{B}{B}",
             "rules_text": "Vigilance\n{CW}{CB}, Discard this creature: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -1329,11 +1329,11 @@
             "notes": ""
         },
         {
-            "card_name": "CRW01 Sparkling Finale",
+            "card_name": "Sparkling Finale",
             "color": "WR",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 156,
+            "number": 204,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "Enchant creature or Saga\nEnchanted permanent has lifelink.\n[i]Finale \u2014 [/i]When this Aura or another enchantment you control is put into your graveyard from the battlefield, enchanted permanent deals 1 damage to target opponent.",
@@ -1349,15 +1349,15 @@
             "notes": ""
         },
         {
-            "card_name": "CRW04 Countros Assailant",
+            "card_name": "Countros Assailant",
             "color": "WR",
             "rarity": "common",
-            "type": "Creature \u2014 Spirit",
-            "number": 218,
+            "type": "Enchantment Creature \u2014 Spirit",
+            "number": 216,
             "color_identity": "WR",
             "cost": "{RW}",
             "rules_text": "{T}, Sacrifice this creature: This creature deals 1 damage to target attacking or blocking creature.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT\nFT[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -1369,7 +1369,7 @@
             "notes": ""
         },
         {
-            "card_name": "URW04 Songwrapped Chanter",
+            "card_name": "Songwrapped Chanter",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dwarf Shaman",
@@ -1389,11 +1389,11 @@
             "notes": ""
         },
         {
-            "card_name": "CRW05 Countros Figurehead",
+            "card_name": "Countros Figurehead",
             "color": "WR",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 219,
+            "number": 217,
             "color_identity": "WR",
             "cost": "{2}{RW}{RW}",
             "rules_text": "First strike, Ward\u2014Pay 3 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]\nSpells that target only this creature cost {2} less to cast.",
@@ -1409,11 +1409,11 @@
             "notes": ""
         },
         {
-            "card_name": "CRW06 Shattering Song",
+            "card_name": "Shattering Song",
             "color": "WR",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 220,
+            "number": 238,
             "color_identity": "WR",
             "cost": "{3}{RW}{RW}",
             "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nDestroy up to one target artifact or tapped creature with toughness 3 or less.\nTarget creature gains double strike until end of turn.\n\u200b",
@@ -1429,15 +1429,15 @@
             "notes": "Noncreature"
         },
         {
-            "card_name": "CRW02 Ottava Angel",
+            "card_name": "Ottava Angel",
             "color": "WR",
             "rarity": "common",
             "type": "Creature \u2014 Angel",
-            "number": 157,
+            "number": 189,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
             "rules_text": "Whenever this creature or another creature you control attacks alone, it gains flying until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
@@ -1449,15 +1449,15 @@
             "notes": ""
         },
         {
-            "card_name": "CGU01 Shoreline Sonicist",
+            "card_name": "Shoreline Sonicist",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Druid",
-            "number": 154,
+            "number": 196,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "When this creature enters the battlefield, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -1469,11 +1469,11 @@
             "notes": ""
         },
         {
-            "card_name": "CGU02 Mycosong Dryad",
+            "card_name": "Mycosong Dryad",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Dryad",
-            "number": 155,
+            "number": 183,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
             "rules_text": "When this creature enters, create a 2/2 green Elemental creature token.",
@@ -1489,11 +1489,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU04 Center of the Ruins",
+            "card_name": "Center of the Ruins",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 199,
+            "number": 158,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
             "rules_text": "When this enchantment enters, look at the top three cards of your library, you may reveal up to two of them. Put the revealed cards into your hand, and the rest on the bottom of your library.\nYou may spend {C} as though it were mana of any color.",
@@ -1509,11 +1509,11 @@
             "notes": ""
         },
         {
-            "card_name": "CGU04 Murmur Echoer",
+            "card_name": "Murmur Echoer",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Siren",
-            "number": 215,
+            "number": 226,
             "color_identity": "UG",
             "cost": "{GU}{GU}",
             "rules_text": "Whenever you cast your second spell each turn, you may tap an untapped creature you control, if you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -1529,11 +1529,11 @@
             "notes": ""
         },
         {
-            "card_name": "CGU05 Olgal Murmur Leader",
+            "card_name": "Olgal Murmur Leader",
             "color": "UG",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 216,
+            "number": 228,
             "color_identity": "UG",
             "cost": "{GU}",
             "rules_text": "Whenever this creature deals combat damage to a player, you may pay {1}, if you do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -1549,17 +1549,17 @@
             "notes": "Mana gate?"
         },
         {
-            "card_name": "CGU06 Suddenstar's Gift",
+            "card_name": "Suddenstar's Gift",
             "color": "UG",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 217,
+            "number": 243,
             "color_identity": "UG",
             "cost": "{5}{GU}{GU}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nFlash\nI \u2014 Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nII \u2014 Create a 5/7 green Leviathan creature token with trample.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nFlash\nDraw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nCreate a 5/7 green Leviathan creature token with trample.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nFlash\nI \u2014 Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nII \u2014 Create a 5/7 green Leviathan creature token with trample.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nFlash\nDraw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nCreate a 5/7 green Leviathan creature token with trample.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -1569,11 +1569,11 @@
             "notes": ""
         },
         {
-            "card_name": "CBG05 Reoccuring Terror",
+            "card_name": "Reoccuring Terror",
             "color": "BG",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 213,
+            "number": 236,
             "color_identity": "BG",
             "cost": "{BG}",
             "rules_text": "This creature can't block.\n[i]Finale [/i]\u2014 Whenever this creature or another enchantment is put into your graveyard from the battlefield, you may exile a creature card from your graveyard. If you do return this creature from your graveyard to your hand.",
@@ -1589,11 +1589,11 @@
             "notes": "Loops with a copy of itself, mana gate? Exile gate?"
         },
         {
-            "card_name": "CBG04 Song-Calmed Beast",
+            "card_name": "Song-Calmed Beast",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Beast",
-            "number": 212,
+            "number": 242,
             "color_identity": "BG",
             "cost": "{2}{BG}{BG}",
             "rules_text": "This creature enters tapped with a stun counter on it.\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, untap this creature.",
@@ -1609,11 +1609,11 @@
             "notes": "-Note strength as a blocker"
         },
         {
-            "card_name": "CBG02 Olgal Researcher",
+            "card_name": "Olgal Researcher",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Dwarf Advisor",
-            "number": 153,
+            "number": 187,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, put a +1/+1 counter on this creature.",
@@ -1629,11 +1629,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG04 Murmur Harnesser",
+            "card_name": "Murmur Harnesser",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
-            "number": 195,
+            "number": 181,
             "color_identity": "BG",
             "cost": "{4}{B}{G}",
             "rules_text": "Lifelink\n{2C}{BG}, Sacrifice a Saga: This creature gains indestructible until end of turn, tap it.",
@@ -1649,17 +1649,17 @@
             "notes": ""
         },
         {
-            "card_name": "CBG01 Gathering Whispers",
+            "card_name": "Gathering Whispers",
             "color": "BG",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 152,
+            "number": 172,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nI, II, III \u2014 Create a 1/1 black and green Elf creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nCreate a 1/1 black and green Elf creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nI, II, III \u2014 Create a 1/1 black and green Elf creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nCreate a 1/1 black and green Elf creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n\u200b",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -1669,11 +1669,11 @@
             "notes": "Remove Lifelink"
         },
         {
-            "card_name": "CUR05 Rampaging Bellower",
+            "card_name": "Rampaging Bellower",
             "color": "UR",
             "rarity": "common",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 222,
+            "number": 234,
             "color_identity": "UR",
             "cost": "{UR}",
             "rules_text": "Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]",
@@ -1689,15 +1689,15 @@
             "notes": ""
         },
         {
-            "card_name": "CUR04 Snapjaw Serpent",
+            "card_name": "Snapjaw Serpent",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Serpent",
-            "number": 221,
+            "number": 241,
             "color_identity": "UR",
             "cost": "{3}{UR}{UR}",
             "rules_text": "Whenever you cast a noncreature spell put a +1/+1 counter on this creature.\nThe second spell you cast each turn costs {1} less to cast.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -1709,11 +1709,11 @@
             "notes": ""
         },
         {
-            "card_name": "UUR04 Olgal Song-Seer",
+            "card_name": "Olgal Song-Seer",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren",
-            "number": 207,
+            "number": 188,
             "color_identity": "UR",
             "cost": "{3}{U}{R}",
             "rules_text": "When this creature enters create a 1/1 blue and red Siren creature token with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d.\nWhenever a Siren you control deals combat damage to a player, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
@@ -1729,11 +1729,11 @@
             "notes": ""
         },
         {
-            "card_name": "CUR02 Grandstaff Genius",
+            "card_name": "Grandstaff Genius",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Human Shaman",
-            "number": 159,
+            "number": 173,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]\nWhen this creature enters, create a 1/1 blue and red Siren creature token with \u201c{T}: Target creature can't block alone until end of turn. Activate only as a sorcery\u201d.",
@@ -1749,15 +1749,15 @@
             "notes": "Rework with Sirens"
         },
         {
-            "card_name": "UUR01 Copycat Composer",
+            "card_name": "Copycat Composer",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
-            "number": 204,
+            "number": 160,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Haste, menace\nWhen this creature enters, it becomes a copy of target creature until end of turn, except it has haste and menace.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -1769,17 +1769,17 @@
             "notes": ""
         },
         {
-            "card_name": "CUR06 Da Cappa al Coda",
+            "card_name": "Da Cappa al Coda",
             "color": "UR",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 223,
+            "number": 219,
             "color_identity": "UR",
             "cost": "{2}{UR}{UR}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nI, II \u2014 Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]\n\u200b\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nExile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]\n\u200b\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nI, II \u2014 Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]\n\u200b\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]\nExile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]\n\u200b\n\u200b",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -1789,11 +1789,11 @@
             "notes": ""
         },
         {
-            "card_name": "CBG06 Descending Line",
+            "card_name": "Descending Line",
             "color": "BG",
             "rarity": "common",
             "type": "Instant",
-            "number": 214,
+            "number": 220,
             "color_identity": "BG",
             "cost": "{1}{BG}{BG}",
             "rules_text": "Choose one \u2014\n\u2022 Target player sacrifices a noncreature enchantment.\n\u2022 Target player sacrifices a creature with flying.\n\u2022 Target player sacrifices a enchantment creature.",
@@ -1809,11 +1809,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC03 Requiem Automata",
+            "card_name": "Requiem Automata",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 250,
+            "number": 255,
             "color_identity": "C",
             "cost": "{5}",
             "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, this creature gets +2/+2 until end of turn.",
@@ -1829,9 +1829,9 @@
             "notes": ""
         },
         {
-            "card_name": "CC02 Composition Inspector",
+            "card_name": "Composition Inspector",
             "color": "",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
             "number": 1,
             "color_identity": "C",
@@ -1849,11 +1849,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC06 Soaring Melody",
+            "card_name": "Soaring Melody",
             "color": "",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 2,
+            "number": 7,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Enchant creature\nEnchanted creature has flying.\nYou may cast this Aura from your graveyard by paying {2C}{2C} and exiling three other cards from your graveyard rather than paying its mana cost.",
@@ -1869,11 +1869,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC01 Prismite",
+            "card_name": "Prismite",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Golem",
-            "number": 249,
+            "number": 253,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "{2}: Add one mana of any color.",
@@ -1889,7 +1889,7 @@
             "notes": "Reprint"
         },
         {
-            "card_name": "CC04 Crumbling Ruin",
+            "card_name": "Crumbling Ruin",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -1897,7 +1897,7 @@
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "{2C}{2C}{2C}, {T}, Sacrifice this artifact: Destroy target nonland permanent.",
-            "flavor_text": "[i]There are more dangers in the ruins than just what drifts within the air.[/i]",
+            "flavor_text": "[i]There are more dangers in the ruins than just what drifts on the air.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -1909,11 +1909,11 @@
             "notes": ""
         },
         {
-            "card_name": "UC05 Recovered Scores",
+            "card_name": "Recovered Scores",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 257,
+            "number": 254,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{T}, Mill a card: Add one mana of any color.\n{2C}, {T}, Sacrifice this artifact: Put target enchantment card in your graveyard on top of your library.",
@@ -1929,11 +1929,11 @@
             "notes": ""
         },
         {
-            "card_name": "UC06 Olgal's Calling",
+            "card_name": "Olgal's Calling",
             "color": "",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Enchantment \u2014 Murmur Saga",
-            "number": 7,
+            "number": 6,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI)[/i]\nAdd {C}.\n\u200b\n\u200b",
@@ -1949,11 +1949,11 @@
             "notes": "\"Mana Rock\""
         },
         {
-            "card_name": "CC07 Standard Repertoire",
+            "card_name": "Standard Repertoire",
             "color": "",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 3,
+            "number": 8,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nPut a +1/+1 counter on up to one target creature.\nTarget creature gains vigilance and trample until end of turn.\n\u200b",
@@ -1969,11 +1969,11 @@
             "notes": "Enchantment Artifacts represent sheet music?"
         },
         {
-            "card_name": "UC07 Mnemonic Tune",
+            "card_name": "Mnemonic Tune",
             "color": "",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 8,
+            "number": 3,
             "color_identity": "C",
             "cost": "{5}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nDraw a card\n[i]Every child learns these kinds of tunes, though different on each plane, you probably know one.[/i]\n\u200b",
@@ -1989,11 +1989,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL03 Ruins of Olgal",
+            "card_name": "Ruins of Olgal",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 272,
+            "number": 268,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{T}, Sacrifice Ruins of Olgals: Exile target player's graveyard.",
@@ -2009,11 +2009,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "CL05 Choir Loft",
+            "card_name": "Choir Loft",
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 263,
+            "number": 262,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "Choir Loft enters tapped unless you pay {C}.\n{T}: Add {R}, or {W}.\n{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2029,11 +2029,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "CL04 Vocalists Round",
+            "card_name": "Vocalists Round",
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 262,
+            "number": 271,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "Vocalists Round enters tapped unless you pay {C}.\n{T}: Add {U}, or {R}.\n{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2049,11 +2049,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "CL03 Reverberant Shore",
+            "card_name": "Reverberant Shore",
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 261,
+            "number": 266,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "Reverberant Shore enters tapped unless you pay {C}.\n{T}: Add {G}, or {U}.\n{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2069,7 +2069,7 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "CL02 Anechoic Chamber",
+            "card_name": "Anechoic Chamber",
             "color": "",
             "rarity": "common",
             "type": "Land",
@@ -2089,11 +2089,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "CL01 Crumbling Stage",
+            "card_name": "Crumbling Stage",
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 259,
+            "number": 263,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "Crumbling Stage enters tapped unless you pay {C}.\n{T}: Add {W}, or {B}.\n{4}, {T}: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2169,11 +2169,11 @@
             "notes": "!token\n!tokenrarity"
         },
         {
-            "card_name": "UW01 Whining Whisps",
+            "card_name": "Whining Whisps",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 28,
+            "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\nWhen this creature enters, you may return another nonland permanent you control to your hand. If you do, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2189,11 +2189,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB02 Encore Sibyl",
+            "card_name": "Encore Sibyl",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
-            "number": 87,
+            "number": 76,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
@@ -2209,11 +2209,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW03 Polyphonist",
+            "card_name": "Polyphonist",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
-            "number": 30,
+            "number": 26,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, look at the top three cards of your library, you may reveal a Saga card from among them and put it into your hand, put the rest into your graveyard.\nYou may spend mana as though it were mana of any color to cast Saga spells.",
@@ -2229,7 +2229,7 @@
             "notes": ""
         },
         {
-            "card_name": "UB04 Subito Slicer",
+            "card_name": "Subito Slicer",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
@@ -2249,14 +2249,14 @@
             "notes": ""
         },
         {
-            "card_name": "UB05 Hungering Spite",
+            "card_name": "Hungering Spite",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 90,
+            "number": 82,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "As an additional cost to cast this creature sacrifice a creature or enchantment.\nWhenever this creature deals combat damage to a player, they mill that many cards.",
+            "rules_text": "As an additional cost to cast this creature, sacrifice a creature or enchantment.\nWhenever this creature deals combat damage to a player, they mill that many cards.",
             "flavor_text": "[i][/i]",
             "pt": "7/7",
             "special_text": "",
@@ -2269,11 +2269,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB06 Go for the Throat",
+            "card_name": "Go for the Throat",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 91,
+            "number": 81,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Destroy target nonartifact creature.",
@@ -2289,11 +2289,11 @@
             "notes": "Reprint"
         },
         {
-            "card_name": "UB07 Ascending Bassline",
+            "card_name": "Ascending Bassline",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 92,
+            "number": 68,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nTarget player discards a card.\nExile target creature card in a graveyard. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.\n\u200b",
@@ -2309,11 +2309,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB08 Entombing Chant",
+            "card_name": "Entombing Chant",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 93,
+            "number": 77,
             "color_identity": "B",
             "cost": "{B}{B}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a card, put that card into your graveyard, the shuffle.\nDraw a card. You lose 2 life.\nShuffle your graveyard into your library.",
@@ -2329,11 +2329,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG01 Leaser of Inspiriation",
+            "card_name": "Leaser of Inspiriation",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Vampire Warlock",
-            "number": 192,
+            "number": 177,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Trample\nWhen this creature enters, surveil 2, then you may pay {C} or 3 life. If you do draw a card.",
@@ -2349,11 +2349,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG02 False Finale",
+            "card_name": "False Finale",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 193,
+            "number": 168,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "When this enchantment enters, return up to one target permanent card from your graveyard to your hand.\n[i]Finale [/i]\u2014 Whenever this enchantment or another enchantment is put into your graveyard from the battlefield, draw a card.",
@@ -2369,11 +2369,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG03 Obliesse, Tear Queller",
+            "card_name": "Obliesse, Tear Queller",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Elf Noble",
-            "number": 194,
+            "number": 186,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "[i]Finale \u2014[/i] Whenever an enchantment is put into your graveyard from the battlefield, each opponent may sacrifice a creature or discard a card. If they don't, you draw a card.",
@@ -2389,14 +2389,14 @@
             "notes": "Flavor: Wishes to stop the murmur"
         },
         {
-            "card_name": "UWB04 Maestro of Whims",
+            "card_name": "Maestro of Whims",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
-            "number": 246,
+            "number": 224,
             "color_identity": "WB",
             "cost": "{WB}{WB}",
-            "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, you may create a 1/1 white Human creature token.\n{3}{CW}{CB}: Destroy target creature with power X or greater, where X is the number of creatures you control.",
+            "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, you may create a 1/1 white Human creature token.\n{3}{CW}{CB}, {T}: Destroy target creature with power X or greater, where X is the number of creatures you control.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2409,11 +2409,11 @@
             "notes": ""
         },
         {
-            "card_name": "UWB05 Worst Critique",
+            "card_name": "Worst Critique",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 247,
+            "number": 248,
             "color_identity": "WB",
             "cost": "{4}{WB}{WB}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile up to one target creature.\nExile the top card of each players library.\nYou may cast a card exiled with this Saga by paying life equal to its mana value rather than paying its mana cost.",
@@ -2429,11 +2429,11 @@
             "notes": ""
         },
         {
-            "card_name": "UWB06 Lethal Lead",
+            "card_name": "Lethal Lead",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature",
-            "number": 248,
+            "number": 223,
             "color_identity": "WB",
             "cost": "{W}{WB}{B}",
             "rules_text": "First strike\n[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, you may have this creature get +1/+0 and gain deathtouch until end of turn.",
@@ -2449,15 +2449,15 @@
             "notes": ""
         },
         {
-            "card_name": "UU01 Drifting Looter",
+            "card_name": "Drifting Looter",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 57,
+            "number": 44,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Vigilance\n{2}{C}: Draw a card, then discard a card.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -2469,11 +2469,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW02 Accoustic Resonator",
+            "card_name": "Accoustic Resonator",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Wall",
-            "number": 29,
+            "number": 10,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Defender\n{2C}, {T}: Copy target triggered ability you control. You may choose new targets for the copy.",
@@ -2489,7 +2489,7 @@
             "notes": ""
         },
         {
-            "card_name": "UB03 Shadow of the Fallen",
+            "card_name": "Shadow of the Fallen",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
@@ -2497,7 +2497,7 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When this creature enters, each player sacrifices a creature or enchantment. Each player who can't loses 3 life.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Sometimes their songs become twisted, and they aren't quite who they were on stage.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
@@ -2509,7 +2509,7 @@
             "notes": ""
         },
         {
-            "card_name": "UW04 Ruin-Delving Quartet",
+            "card_name": "Ruin-Delving Quartet",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
@@ -2529,11 +2529,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW05 Musicologist",
+            "card_name": "Musicologist",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
-            "number": 32,
+            "number": 21,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Vigilance\nWhen this creature enters, return target enchantment card from your graveyard to your hand. You gain life equal to that card's mana value.",
@@ -2549,11 +2549,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW06 Stable Resolution",
+            "card_name": "Stable Resolution",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 33,
+            "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nDestroy target creature with toughness 2 or less.\nCreate a 0/3 white Wall artifact creature token with defender.\nDraw a card.",
@@ -2569,11 +2569,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW07 Debut Disapproval",
+            "card_name": "Debut Disapproval",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 34,
+            "number": 16,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.\n[i]Finale \u2014 [/i]Whenever this enchantment or another enchantment is put into your graveyard from the battlefield, tap up to one target creature.",
@@ -2589,11 +2589,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW08 Sudden Savior",
+            "card_name": "Sudden Savior",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 35,
+            "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flash\nEnchant creature\nWhen this Aura enters, untap enchanted creature.\nEnchanted creature gets +1/+1 and has vigilance.",
@@ -2613,7 +2613,7 @@
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 208,
+            "number": 209,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Flash\nWhen this creature enters, return target permanent that was put into the graveyard this turn to the battlefield under its owner's control.",
@@ -2633,7 +2633,7 @@
             "color": "WB",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 209,
+            "number": 210,
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "When this enchantment enters, surveil 2.\n{CW}{CB}, Exile a card from your graveyard: This enchantment becomes a copy of that card until end of turn, except its an enchantment in addition to its other types.",
@@ -2649,15 +2649,15 @@
             "notes": ""
         },
         {
-            "card_name": "UWB03 Belia, Whispersinger",
+            "card_name": "Belia, Whispersinger",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Legendary Enchantment Creature \u2014 Spirit",
-            "number": 210,
+            "number": 155,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
             "rules_text": "When this creature enters, return target nonlegendary enchantment card from your graveyard to the battlefield.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
@@ -2669,11 +2669,11 @@
             "notes": "Flavor: One of the people who sang the original murmur spell brought back to life as a spirit"
         },
         {
-            "card_name": "URW04 Raging Spirit",
+            "card_name": "Raging Spirit",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 240,
+            "number": 233,
             "color_identity": "WR",
             "cost": "{4}{RW}{RW}",
             "rules_text": "Flying, trample\n[i]Finale[/i] \u2014 Whenever this creature or another enchantment is put into your graveyard from the battlefield, creatures you control get +1/+0 until end of turn.",
@@ -2689,11 +2689,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG05 Call the Chorus",
+            "card_name": "Call the Chorus",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 235,
+            "number": 213,
             "color_identity": "BG",
             "cost": "{2}{BG}{BG}",
             "rules_text": "Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.\n{2}, Exile this card from your graveyard: Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -2709,11 +2709,11 @@
             "notes": ""
         },
         {
-            "card_name": "UBG06 Mentromone Meister",
+            "card_name": "Mentromone Meister",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Satyr Warlock",
-            "number": 236,
+            "number": 225,
             "color_identity": "BG",
             "cost": "{B}{BG}{G}",
             "rules_text": "As an additional cost to cast this creature, remove X counters from among enchantments you control.\nThis creature enters with X +1/+1 counters on it.",
@@ -2729,11 +2729,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB01 Devout Husher",
+            "card_name": "Devout Husher",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
-            "number": 86,
+            "number": 73,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "When this creature attacks, you may pay {CB}, if you do, you may remove a counter from a permanent you control, then target player loses 2 life.",
@@ -2749,14 +2749,14 @@
             "notes": ""
         },
         {
-            "card_name": "UU02 Spellsong Soprano",
+            "card_name": "Spellsong Soprano",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
-            "number": 58,
+            "number": 63,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Flying\nWhen this creature enters, look at the top card of your library. You may reveal it, if it's a noncreature card put it into your hand. If you don't, you put it into your graveyard.",
+            "rules_text": "Flying\nWhen this creature enters, look at the top card of your library. You may reveal it, if it's a noncreature card you may put it into your hand. Otherwise mill one card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2769,11 +2769,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR03 Tempting Siren",
+            "card_name": "Tempting Siren",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren",
-            "number": 116,
+            "number": 121,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Ward\u2014Pay 2 life [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)[/i]\nWhenever an Aura becomes attached to Tempting Siren, create a 1/1 blue and red Siren creature token with \u201c{T}: Target creature can't block alone until end of turn. Activate only as a sorcery.\u201d",
@@ -2789,11 +2789,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG04 Unsung Corpse",
+            "card_name": "Unsung Corpse",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Bard",
-            "number": 145,
+            "number": 150,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "When this creature enters, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n{2}{C}: Put a +1/+1 counter on each creature you control. Activate only as a sorcery.",
@@ -2809,11 +2809,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR05 Firedancer",
+            "card_name": "Firedancer",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
-            "number": 118,
+            "number": 102,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "First strike, reach\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, double the power of target creature you control until end of turn.",
@@ -2829,11 +2829,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR06 Sirens Temptation",
+            "card_name": "Sirens Temptation",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 119,
+            "number": 117,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Gain control of target creature until end of turn. Untap it.\nCreatures you control get +1/+0 and gain haste until end of turn.",
@@ -2849,11 +2849,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR07 Spoils of Olgal",
+            "card_name": "Spoils of Olgal",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 120,
+            "number": 119,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "At the beginning of combat of your turn choose one \u2014\n\u2022 Target creature gains trample until end of turn.\n\u2022 Exile the top card of your library, you may play it this turn.\nSacrifice this enchantment: Add one mana of any color.",
@@ -2869,11 +2869,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR08 Hymn of Sin",
+            "card_name": "Hymn of Sin",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 121,
+            "number": 104,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "This spell deals 5 damage to target creature. Then you surveil X where X amount of excess damage dealt this way. [i](To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
@@ -2889,11 +2889,11 @@
             "notes": ""
         },
         {
-            "card_name": "URW01 Angel of Recovery",
+            "card_name": "Angel of Recovery",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Angel",
-            "number": 200,
+            "number": 153,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Flying, lifelink\nWhenever a creature you control attacks alone, you may cast an Aura or Equipment card from your graveyard. If you do, it enters attached to that creature.",
@@ -2909,11 +2909,11 @@
             "notes": ""
         },
         {
-            "card_name": "URW02 Sustained Belting",
+            "card_name": "Sustained Belting",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 201,
+            "number": 205,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "When this enchantment enters, discard any number of cards, then draw that many cards plus one.\n{2}{C}, Sacrifice this enchantment: Creatures you control gain indestructible until end of turn.",
@@ -2929,11 +2929,11 @@
             "notes": ""
         },
         {
-            "card_name": "URW03 Kitt Kanto, on Tour",
+            "card_name": "Kitt Kanto, on Tour",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Cat Bard Druid",
-            "number": 202,
+            "number": 176,
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "Haste\nThis creature attacks each turn if able.\nTokens you control have exalted. [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]",
@@ -2949,15 +2949,15 @@
             "notes": "Visitor\n(Potentially temp art)\n\nFlavor: Popular performer in the city."
         },
         {
-            "card_name": "UBG04 Olgal Zealot",
+            "card_name": "Olgal Zealot",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
-            "number": 234,
+            "number": 229,
             "color_identity": "BG",
             "cost": "{BG}",
             "rules_text": "Deathtouch\nWhenever a Saga enters under your control, you may put up to one lore counter on that saga.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -2969,11 +2969,11 @@
             "notes": ""
         },
         {
-            "card_name": "URW05 Blessings of the Crowd",
+            "card_name": "Blessings of the Crowd",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 241,
+            "number": 212,
             "color_identity": "WR",
             "cost": "{1}{RW}{RW}",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 for each other creature you control. Whenever enchanted creature attacks, create a 1/1 white Human creature token that's tapped and attacking.",
@@ -2989,11 +2989,11 @@
             "notes": ""
         },
         {
-            "card_name": "URW06 Dynamic Lead",
+            "card_name": "Dynamic Lead",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dwarf Warrior",
-            "number": 242,
+            "number": 222,
             "color_identity": "WR",
             "cost": "{R}{RW}{W}",
             "rules_text": "Double strike\n{CR}{CR}: This creature gains trample until end of turn.\n{CW}{CW}: This creature gains vigilance until end of turn.",
@@ -3009,11 +3009,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR04 Motif Igniter",
+            "card_name": "Motif Igniter",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elf Bard",
-            "number": 117,
+            "number": 109,
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Prowess, prowess\n[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, add {R}. You don't lose this mana as steps and phases end.",
@@ -3029,15 +3029,15 @@
             "notes": ""
         },
         {
-            "card_name": "UR02 Lonesome Siren",
+            "card_name": "Lonesome Siren",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren",
-            "number": 115,
+            "number": 108,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever a creature you control attacks alone, it gains prowess until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT\nFT[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -3049,11 +3049,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU03 Spellshaper Siren",
+            "card_name": "Spellshaper Siren",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren Spellshaper",
-            "number": 59,
+            "number": 62,
             "color_identity": "UR",
             "cost": "{1}{U}",
             "rules_text": "{UR}, {T}, Discard a card: Create a 1/1 blue and red Siren creature token with \u201c{T}: Target creature can't block alone until end of turn. Activate only as a sorcery.\u201d",
@@ -3069,11 +3069,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR01 Inspiration Bottler",
+            "card_name": "Inspiration Bottler",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dwarf Artificer",
-            "number": 114,
+            "number": 105,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Haste\nWhenever a creature you control attacks alone, exile the top card of your library, you may play it this turn.",
@@ -3089,11 +3089,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU05 Practiced Auditioner",
+            "card_name": "Practiced Auditioner",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bard",
-            "number": 61,
+            "number": 55,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Vigilance\nWhen this creature enters, put a +1/+1 counter on it for each enchantment put into your graveyard from the battlefield this turn.",
@@ -3109,11 +3109,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG06 Reclamation Surge",
+            "card_name": "Reclamation Surge",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 147,
+            "number": 143,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 for each enchantment you control.\nWhen this Aura enters, return target non-Aura permanent card from your graveyard to your hand.",
@@ -3129,11 +3129,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG07 Medley of The Past",
+            "card_name": "Medley of The Past",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 148,
+            "number": 137,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nPut a lore counter on target saga you control.\nPut a +1/+1 counter on target creature you control.\nDraw a card for each other permanent you control with a counter on it.",
@@ -3149,7 +3149,7 @@
             "notes": ""
         },
         {
-            "card_name": "UG08 Swelling Force",
+            "card_name": "Swelling Force",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -3169,11 +3169,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU01 Dowsing Couple",
+            "card_name": "Dowsing Couple",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren",
-            "number": 196,
+            "number": 164,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
             "rules_text": "Flash\nWhen this creature enters, counter up to one target creature spell. If you do, its controller creates a 1/1 white Human creature token.",
@@ -3189,17 +3189,17 @@
             "notes": ""
         },
         {
-            "card_name": "UGU02 Call and Response",
+            "card_name": "Call and Response",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Saga",
-            "number": 197,
+            "number": 157,
             "color_identity": "UG",
             "cost": "{3}{G}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 2/2 green Elemental creature token.\nI \u2014 Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nCreate a token copy of each of up to two target tokens.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 2/2 green Elemental creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nCreate a token copy of each of up to two target tokens.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 2/2 green Elemental creature token.\nI \u2014 Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nCreate a token copy of each of up to two target tokens.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 2/2 green Elemental creature token.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nCreate a token copy of each of up to two target tokens.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -3209,11 +3209,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU03 Sennai, Songclade's Start",
+            "card_name": "Sennai, Songclade's Start",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Snake Elf Bard",
-            "number": 198,
+            "number": 195,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Murmurs you control have \u201c{2ch} \u2014 Put a +1/+1 counter on target creature you control.\u201d in addition to its other abilities.",
@@ -3229,11 +3229,11 @@
             "notes": "Flavor: Wishes to harness the murmur"
         },
         {
-            "card_name": "UUR04 Scouting Siren",
+            "card_name": "Scouting Siren",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren Scout",
-            "number": 243,
+            "number": 237,
             "color_identity": "UR",
             "cost": "{UR}",
             "rules_text": "Whenever you cast a noncreature spell, untap this creature.\n{T}: Target creature can't block alone until end of turn. Activate only as a sorcery.",
@@ -3249,11 +3249,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU05 Rearrange",
+            "card_name": "Rearrange",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 238,
+            "number": 235,
             "color_identity": "UG",
             "cost": "{GU}",
             "rules_text": "Move any number of counters from target nonland permanent onto another target permanent with the same controller. \nSurveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
@@ -3269,11 +3269,11 @@
             "notes": ""
         },
         {
-            "card_name": "UUR05 Siren Choir",
+            "card_name": "Siren Choir",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 244,
+            "number": 240,
             "color_identity": "UR",
             "cost": "{X}{U}{UR}{R}",
             "rules_text": "When this creature enters, create X 1/1 blue and red Siren creature tokens with \u201c{T}:Target creature can't block alone until end of turn. Activate only as a sorcery\u201d.\nSirens you control have haste.",
@@ -3289,11 +3289,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG01 Ruins Scaler",
+            "card_name": "Ruins Scaler",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elf Scout",
-            "number": 142,
+            "number": 144,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Reach\n{T}: Add {G}.\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, untap this creature. This ability triggers only once each turn.",
@@ -3309,11 +3309,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG02 Composed Mercenary",
+            "card_name": "Composed Mercenary",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature",
-            "number": 143,
+            "type": "Creature \u2014 Human Warrior",
+            "number": 126,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, you may have this creature fight target creature. [i](Each deals damage equal to its power to the other.)[/i]",
@@ -3329,15 +3329,15 @@
             "notes": ""
         },
         {
-            "card_name": "UG03 Story Taster",
+            "card_name": "Story Taster",
             "color": "G",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Shapeshifter",
-            "number": 144,
+            "number": 147,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "This creature enters, with a number of +1/+1 counters on it equal to the number of lore counters among permanents you control.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -3349,11 +3349,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU04 Drowner of Ships",
+            "card_name": "Drowner of Ships",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Siren",
-            "number": 60,
+            "number": 45,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, target player may mill five cards, if they don't, they return a creature they control to its owner's hand.",
@@ -3369,15 +3369,15 @@
             "notes": ""
         },
         {
-            "card_name": "UG05 Crowd Instigator",
+            "card_name": "Crowd Instigator",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human",
-            "number": 146,
+            "number": 127,
             "color_identity": "G",
             "cost": "{5}{G}",
             "rules_text": "Reach\nAs long as a creature or enchantment has entered or left your graveyard this turn, creatures you control have trample.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]The chant shot through the crowd, drowning out the performers.[/i]",
             "pt": "7/5",
             "special_text": "",
             "shape": "normal",
@@ -3386,14 +3386,14 @@
             "artist": "VincenzoPrattico",
             "alias": "",
             "position": "168",
-            "notes": ""
+            "notes": "Big to be a human"
         },
         {
-            "card_name": "UU06 Siren Song",
+            "card_name": "Siren Song",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 62,
+            "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 1/1 blue and red Siren creature token with \u201c{T}: Target creature can't block alone until end of turn. Activate only as a sorcery.\u201d",
@@ -3409,11 +3409,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU07 Songbird Swarms",
+            "card_name": "Songbird Swarms",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 63,
+            "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Until end of turn, target enchantment or creature becomes a 4/4 Bird enchantment creature and gains flying.\nDraw a card.",
@@ -3429,15 +3429,15 @@
             "notes": ""
         },
         {
-            "card_name": "UU08 Permanent Temptation",
+            "card_name": "Permanent Temptation",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 64,
+            "number": 53,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Enchant creature\nEnchanted creature can't block alone. You control it.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT\nFT[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3449,15 +3449,15 @@
             "notes": ""
         },
         {
-            "card_name": "CUR01 Self-Assuring Siren",
+            "card_name": "Self-Assuring Siren",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Siren Bard",
-            "number": 158,
+            "number": 194,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Vigilance\n{T}:Target creature can't block alone until end of turn. Activate only as a sorcery.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -3469,11 +3469,11 @@
             "notes": ""
         },
         {
-            "card_name": "UUR02 Downbeat",
+            "card_name": "Downbeat",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 205,
+            "number": 163,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Return target creature to its owners hand, each creature blocked by that creature deals damage equal to its power to up to one other target.",
@@ -3489,11 +3489,11 @@
             "notes": ""
         },
         {
-            "card_name": "UUR03 Leit, Maritime Motif",
+            "card_name": "Leit, Maritime Motif",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Devil Bard",
-            "number": 206,
+            "number": 178,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Whenever you cast a noncreature spell, choose one, choose each mode only once each turn.\u2014\n\u2022 Target creature gets +1/+0 until end of turn.\n\u2022 Target creature can't block alone until end of turn.\n\u2022 Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n\u2022 Discard a card, draw a card.",
@@ -3509,11 +3509,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU04 Crestbreak Hydra",
+            "card_name": "Crestbreak Hydra",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Hydra",
-            "number": 237,
+            "number": 218,
             "color_identity": "UG",
             "cost": "{X}{GU}",
             "rules_text": "Defender, vigilance, reach\nThis creature enters with X +1/+1 counters on it.\n[i]Finale \u2014[/i] Whenever an enchantment is put into your graveyard from the battlefield, this creature loses defender until end of turn.",
@@ -3529,11 +3529,11 @@
             "notes": ""
         },
         {
-            "card_name": "UUR06 Clever Serpent",
+            "card_name": "Clever Serpent",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Serpent",
-            "number": 245,
+            "number": 215,
             "color_identity": "UR",
             "cost": "{UR}{UR}{UR}",
             "rules_text": "Whenever you activate an activated ability that isn't a mana ability, if it's the third activated ability you've activated this turn, draw a card.\n{CU}{CR}: This creature gets +1/+1 until end of turn.",
@@ -3549,11 +3549,11 @@
             "notes": ""
         },
         {
-            "card_name": "UGU06 Swelling Awakener",
+            "card_name": "Swelling Awakener",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Merfolk Wizard",
-            "number": 239,
+            "number": 244,
             "color_identity": "UG",
             "cost": "{G}{GU}{U}",
             "rules_text": "Whenever you cast your second spell each turn, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.",
@@ -3569,15 +3569,15 @@
             "notes": "Zendikari"
         },
         {
-            "card_name": "UC01 Screeching Machine",
+            "card_name": "Screeching Machine",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 253,
+            "number": 257,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Whenever this creature attacks, each player mills a card.\n{T}, Sacrifice this creature: Exile target players graveyard.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
@@ -3589,15 +3589,15 @@
             "notes": ""
         },
         {
-            "card_name": "UC03 Aural-Core Automaton",
+            "card_name": "Aural-Core Automaton",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 255,
+            "number": 249,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Trample\nFor each {C} spent to cast this creature, it enters with an additional +1/+1 counter on it.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -3606,18 +3606,18 @@
             "artist": "Fragan Tanguy",
             "alias": "",
             "position": "179",
-            "notes": ""
+            "notes": "#needsflavor"
         },
         {
-            "card_name": "UC02 Salvager of Ruin",
+            "card_name": "Salvager of Ruin",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 254,
+            "number": 256,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Sacrifice this creature: Choose target permanent card in your graveyard that was put there from the battlefield this turn. Return it to your hand.",
-            "flavor_text": "[i]\u201cOlgal is filled with automata digging for relics, I find their whirring quite musical.\u201d \u2014 [NAME], Artificer[/i]",
+            "flavor_text": "[i]\u201cOlgal is filled with automata digging for relics, I find their whirring quite musical.\u201d \u2014 Sennai[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -3629,7 +3629,7 @@
             "notes": "Reprint"
         },
         {
-            "card_name": "UC08 Siren's Ship",
+            "card_name": "Siren's Ship",
             "color": "",
             "rarity": "uncommon",
             "type": "Kindred Artifact \u2014 Siren Vehicle",
@@ -3649,15 +3649,15 @@
             "notes": ""
         },
         {
-            "card_name": "UC04 Olgal Guardian",
+            "card_name": "Olgal Guardian",
             "color": "",
             "rarity": "uncommon",
-            "type": "Artifact Creature",
-            "number": 256,
+            "type": "Artifact Creature \u2014 Golem",
+            "number": 252,
             "color_identity": "C",
             "cost": "{2C}{2C}{2C}{2C}",
             "rules_text": "",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]They say that music moves us, but for the guardians of the ruins, it seems to be literal.[/i]",
             "pt": "8/8",
             "special_text": "",
             "shape": "normal",
@@ -3669,11 +3669,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL01 Accoustic Hall",
+            "card_name": "Accoustic Hall",
             "color": "",
             "rarity": "uncommon",
             "type": "Enchantment Land",
-            "number": 270,
+            "number": 259,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{3}, {T}, Sacrifice Accoustic Hall: Copy target chapter ability.",
@@ -3689,11 +3689,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "UL02 Bubbling Ruins",
+            "card_name": "Bubbling Ruins",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 271,
+            "number": 261,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: Add one mana of any color spend this mana only to cast Siren or Spirit spells.",
@@ -3709,11 +3709,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "MW01 Privledged Performer",
+            "card_name": "Privledged Performer",
             "color": "W",
             "rarity": "mythic",
             "type": "Creature \u2014 Angel Noble",
-            "number": 20,
+            "number": 28,
             "color_identity": "W",
             "cost": "{W}{W}{W}",
             "rules_text": "Vigilance, hexproof\nAs long as you control a permanent with a lore counter on it you can't lose the game and your opponents can't win the game.",
@@ -3729,11 +3729,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW05 Recovered Tale",
+            "card_name": "Recovered Tale",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 27,
+            "number": 29,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nTarget creature you control gets +3/+3 and gains flying until end of turn.\nSearch you library and graveyard for an enchantment card, reveal it, put it into your hand. Then shuffle.\nEnchantment spells you cast cost {W}[i](or {1})[/i] less to cast this turn.",
@@ -3749,14 +3749,14 @@
             "notes": ""
         },
         {
-            "card_name": "RWB03 Wish for Stardom",
+            "card_name": "Wish for Stardom",
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
-            "number": 233,
+            "number": 247,
             "color_identity": "WB",
             "cost": "{WB}{WB}",
-            "rules_text": "Enchant creature\nEach creature you control other than enchanted creature becomes an Enchantment with exalted in addition to its other abilities. [i](They aren't creatures)[/i]",
+            "rules_text": "Enchant creature\nEach creature you control other than enchanted creature is an Enchantment with exalted in addition to its other abilities. [i](They aren't creatures)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3769,11 +3769,11 @@
             "notes": ""
         },
         {
-            "card_name": "MWB02 Murmuring Mourner",
+            "card_name": "Murmuring Mourner",
             "color": "WB",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 170,
+            "number": 182,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
             "rules_text": "Lifelink\nTokens you control have \u201c{CW}{CW}{CB}{CB}, Sacrifice this token: Return target creature or enchantment card from your graveyard to the battlefield.\u201d",
@@ -3789,11 +3789,11 @@
             "notes": ""
         },
         {
-            "card_name": "MU01 Ancestral Tale",
+            "card_name": "Ancestral Tale",
             "color": "U",
             "rarity": "mythic",
             "type": "Enchantment \u2014 Saga",
-            "number": 50,
+            "number": 40,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nYou may pay {CU} or discard a card, if you do put a lore counter on target Saga you control.\nDraw three cards.\n\u200b",
@@ -3809,11 +3809,11 @@
             "notes": ""
         },
         {
-            "card_name": "MU02 Amaia, Coda Composer",
+            "card_name": "Amaia, Coda Composer",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Siren Bard",
-            "number": 51,
+            "number": 38,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "When this creature enters create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nOther Sirens you control get +1/+1.\nSagas you control have \u201c{4ch}\u2014 Create a token that's a copy of target Siren.\u201d",
@@ -3829,15 +3829,15 @@
             "notes": ""
         },
         {
-            "card_name": "MUR01 Rondelli Royalty",
+            "card_name": "Emmsi, Rondelli Royalty",
             "color": "UR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Azra Bard",
-            "number": 167,
+            "number": 166,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Haste\nThis creature gets +2/+0 for each permanent that entered the battlefield under your control this turn.\n{UR}, {T}: Return this card to your hand.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT[/i]",
             "pt": "0/2",
             "special_text": "",
             "shape": "normal",
@@ -3849,11 +3849,11 @@
             "notes": "!tag FactionHeads"
         },
         {
-            "card_name": "RUR05 Gastal Requiem",
+            "card_name": "Gastal Requiem",
             "color": "UR",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 186,
+            "number": 171,
             "color_identity": "UR",
             "cost": "{1}{2U}{2R}",
             "rules_text": "As an additional cost to cast this spell discard X cards.\nGain control of target creature with mana value X until end of turn. It gains haste until end of turn. Then draw X cards.\n[i]Finale \u2014[/i] Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.",
@@ -3869,11 +3869,11 @@
             "notes": "!tag Requiem"
         },
         {
-            "card_name": "MB01 Olgal Demon",
+            "card_name": "Olgal Demon",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Demon",
-            "number": 78,
+            "number": 86,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Flying\nWhenever another creature you control dies, return it to the battlefield with a finality counter on it, its a Saga enchantment with \u201c{1ch},{2ch},{3ch}\u2014 Each player loses 1 life.\u201d",
@@ -3889,11 +3889,11 @@
             "notes": ""
         },
         {
-            "card_name": "MB02 Trench Siren",
+            "card_name": "Trench Siren",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2014 Siren Demon",
-            "number": 79,
+            "number": 92,
             "color_identity": "B",
             "cost": "{3}{B}{B}{B}",
             "rules_text": "Menace, haste\nWhenever this creature attacks, put a lore counter on it.\n{4ch}\u2014Creatures you control get +2/+2 and gain lifelink and can't be blocked until end of turn.",
@@ -3909,11 +3909,11 @@
             "notes": ""
         },
         {
-            "card_name": "MBG01 Nollik, Decreshh Director",
+            "card_name": "Nollik, Decreshh Director",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Elf Bard",
-            "number": 162,
+            "number": 184,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "This creature can't be blocked by enchantments creatures.\nThis creature gets +1/+1 for each enchantment card in each graveyard.\nWhenever a player sacrifices a permanent, they lose life equal to the number of tapped creatures you control.\n{T}, Tap two untapped creatures you control: Surveil 3.",
@@ -3929,11 +3929,11 @@
             "notes": "!tag FactionHeads"
         },
         {
-            "card_name": "MBG02 Finalesong Clade",
+            "card_name": "Finalesong Clade",
             "color": "BG",
             "rarity": "mythic",
             "type": "Creature \u2014 Elf",
-            "number": 163,
+            "number": 169,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Menace\nWhenever this creature attacks, target player sacrifices an enchantment. If you sacrifice an enchantment this way Elves you control gain lifelink until end of turn.\n[i]Finale \u2014 [/i]Whenever an enchantment you control is put into the graveyard from the battlefield, create a 1/1 black and green Elf creature token.",
@@ -3949,15 +3949,15 @@
             "notes": ""
         },
         {
-            "card_name": "MR01 Crowd Amplification",
+            "card_name": "Crowd Amplification",
             "color": "R",
             "rarity": "mythic",
             "type": "Instant",
-            "number": 107,
+            "number": 99,
             "color_identity": "R",
             "cost": "{X}{R}{R}",
             "rules_text": "Copy target activated or triggered ability you control X times. You may choose new targets for the copies. If X is five or more add {R}{R}{R}{R}{R}.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3969,11 +3969,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR01 Totentanz, Murmur Maginifier",
+            "card_name": "Totentanz, Murmur Maginifier",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Warlock Bard",
-            "number": 109,
+            "number": 122,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "{T}, Sacrifice a Saga with X lore counters on it: Create X 1/1 black Rat creature tokens with \u201cThis creature can't block.\u201d\n{2}{C}: Creatures you control gain haste and menace until end of turn.",
@@ -3989,11 +3989,11 @@
             "notes": "Visitor"
         },
         {
-            "card_name": "RRW01 Phoenix Siren",
+            "card_name": "Phoenix Siren",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Siren",
-            "number": 231,
+            "number": 232,
             "color_identity": "WR",
             "cost": "{3}{RW}",
             "rules_text": "Prowess, flying, haste\nWhenever a chapter ability of a saga you control triggers, return this creature from your graveyard to the battlefield, it gains flying until end of turn.",
@@ -4009,11 +4009,11 @@
             "notes": ""
         },
         {
-            "card_name": "RRW02 Aura of Stardom",
+            "card_name": "Aura of Stardom",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Aura",
-            "number": 179,
+            "number": 154,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Enchant Creature\nWhenever enchanted creature deals combat damage to a player, create a token copy of target nonlegendary creature or enchantment you control.\nWhenever a creature you control attacks alone, you may cast this card from your graveyard targeting that creature.",
@@ -4029,11 +4029,11 @@
             "notes": ""
         },
         {
-            "card_name": "MG01 Tacenda Verlasen",
+            "card_name": "Tacenda Verlasen",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Tacenda",
-            "number": 227,
+            "number": 245,
             "color_identity": "WRG",
             "cost": "{2}{RG}{GW}",
             "rules_text": "[+1]: Untap target creature you control, put two +1/+1 counters on it.\n[-2]: Target creature you control deals damage equal to its power to another target creature.\n[-6]: You get an emblem with \u201cYou may cast Saga and Aura cards from your graveyard.\u201d",
@@ -4049,15 +4049,15 @@
             "notes": "Visitor"
         },
         {
-            "card_name": "MG02 The Murmursong Score",
+            "card_name": "The Murmursong Score",
             "color": "G",
             "rarity": "mythic",
             "type": "Legendary Artifact",
-            "number": 136,
+            "number": 139,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Creatures you control have \u201c{T}: Create a Murmur token.\u201d [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Deep within the ruins, lie the arrangements that formed the murmur.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4069,14 +4069,14 @@
             "notes": ""
         },
         {
-            "card_name": "MGU01 Pel, Tremolos Tutor",
+            "card_name": "Pel, Tremolos Tutor",
             "color": "UG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Plant Bard",
-            "number": 164,
+            "number": 190,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "Reach\nWhen MGU01 Pel, Tremolos Tutor enters, search your library for a card that could create a Murmur token, reveal it. Put it into your hand, then shuffle. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nYou don't lose unspent mana as steps and phases end.",
+            "rules_text": "Reach\nWhen Pel, Tremolos Tutor enters, search your library for a card that could create a Murmur token, reveal it. Put it into your hand, then shuffle. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nYou don't lose unspent mana as steps and phases end.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -4089,11 +4089,11 @@
             "notes": "!tag FactionHeads"
         },
         {
-            "card_name": "RGU05 Amonkheti Requiem",
+            "card_name": "Amonkheti Requiem",
             "color": "UG",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 178,
+            "number": 152,
             "color_identity": "UG",
             "cost": "{1}{2G}{2U}",
             "rules_text": "Create a Murmur token. Put a lore counter on target Saga or a +1/+1 counter on target creature. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.",
@@ -4109,11 +4109,11 @@
             "notes": "!tag Requiem"
         },
         {
-            "card_name": "RL01 Open Air Theater",
+            "card_name": "Open Air Theater",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 264,
+            "number": 265,
             "color_identity": "W",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]\nAdd {W}.\nAdd one mana of any color.\n\u200b",
@@ -4129,11 +4129,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "RL02 Shoreline Theater",
+            "card_name": "Shoreline Theater",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 265,
+            "number": 269,
             "color_identity": "U",
             "cost": "",
             "rules_text": "{T}: Add {C}.[i]\n[/i]{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it.[i] [i](Sacrifice after III.)[/i][/i]\nAdd {U}.\nAdd one mana of any color.\n\u200b",
@@ -4149,11 +4149,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "RC01 The Mumur Awakened",
+            "card_name": "The Mumur Awakened",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Enchantment Creature \u2014 Bard",
-            "number": 5,
+            "number": 4,
             "color_identity": "C",
             "cost": "{2C}{2C}{2C}{2C}{2C}",
             "rules_text": "Whenever a chapter ability of a Saga you control triggers add {C}.\n{C}{C}{C}: Put a +1/+1 counter on this creature. Then remove a counter from up to one target permanent.",
@@ -4169,11 +4169,11 @@
             "notes": ""
         },
         {
-            "card_name": "RWUBRG01 Song of Songs",
+            "card_name": "Song of Songs",
             "color": "WUBRG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 191,
+            "number": 202,
             "color_identity": "WUBRG",
             "cost": "{W}{U}{B}{R}{G}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.\nSearch your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.\nSearch your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle.",
@@ -4189,7 +4189,7 @@
             "notes": ""
         },
         {
-            "card_name": "RB01 Gisa, Grave Ringer",
+            "card_name": "Gisa, Grave Ringer",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Warlock",
@@ -4209,11 +4209,11 @@
             "notes": "Visitor\n!tokens Murmur"
         },
         {
-            "card_name": "RB02 Rune-Cursed Poet",
+            "card_name": "Rune-Cursed Poet",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Zombie",
-            "number": 81,
+            "number": 87,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Deathtouch \nWard\u2014Pay 2 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)[/i]\n[i]Finale \u2014 [/i]Whenever an enchantment is put into your graveyard from the battlefield, this card deals 2 damage to you and you draw a card.",
@@ -4229,11 +4229,11 @@
             "notes": ""
         },
         {
-            "card_name": "RBG03 Pledge of Silence",
+            "card_name": "Pledge of Silence",
             "color": "BG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 172,
+            "number": 191,
             "color_identity": "BG",
             "cost": "{1}{2B}{B}{2G}{G}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDestroy target enchantment, token, or nonbasic land.\nCreate a 1/1 black and green Elf creature token for each enchantment card in your graveyard.\nPut a +1/+1 counter on each Elf you control.\nProliferate [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
@@ -4249,11 +4249,11 @@
             "notes": "!tag pledge"
         },
         {
-            "card_name": "RBG04 Swallow the Ruins",
+            "card_name": "Swallow the Ruins",
             "color": "BG",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 173,
+            "number": 206,
             "color_identity": "BG",
             "cost": "{1}{B}{B}{G}{G}",
             "rules_text": "Destroy target nonland permanent. Search your library for a permanent card with mana value equal to the number of counters on that permanent, put it onto the battlefield tapped, then shuffle.",
@@ -4269,11 +4269,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG02 Well-Traveled Skald",
+            "card_name": "Well-Traveled Skald",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Dwarf Warrior Bard",
-            "number": 138,
+            "number": 151,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Vigilance \n{T}: Put a lore counter on target Saga you control.\nWhenever this creature attacks, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -4289,11 +4289,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG04 Ends of the Earth",
+            "card_name": "Ends of the Earth",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 140,
+            "number": 132,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "[i]Finale [/i]\u2014 Whenever this or another enchantment is put into your graveyard from the battlefield, you may mill two cards, then put a land card from your graveyard onto the battlefield tapped.\n{4}{G}{G}, Sacrifice this Enchantment: Untap each land you control, they become 3/3 elemental creatures with haste until end of turn.",
@@ -4309,11 +4309,11 @@
             "notes": ""
         },
         {
-            "card_name": "MGU02 Doubletime Shanty",
+            "card_name": "Doubletime Shanty",
             "color": "UG",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 228,
+            "number": 221,
             "color_identity": "UG",
             "cost": "{G}{GU}{U}",
             "rules_text": "Remove all counters from target permanent. For each counter removed this way, put two counters of that type on that permanent.\nOverload {G}{G}{G}{U}{U}{U} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
@@ -4329,11 +4329,11 @@
             "notes": "Temporary?"
         },
         {
-            "card_name": "RL04 Skylight Theater",
+            "card_name": "Skylight Theater",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 267,
+            "number": 270,
             "color_identity": "R",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]\nAdd {R}.\nAdd one mana of any color.\n\u200b",
@@ -4349,11 +4349,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "RL06 The World Stage",
+            "card_name": "The World Stage",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 269,
+            "number": 272,
             "color_identity": "C",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {C}.\n{T}: Add one mana of any color among Sagas you control.",
@@ -4369,11 +4369,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "MR02 Spirit Siren",
+            "card_name": "Spirit Siren",
             "color": "R",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Spirit Siren",
-            "number": 108,
+            "number": 118,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Haste\nWhenever this creature dies, return it to the battlefield, except it's a Saga without this ability.\nWhenever a creature attacks alone, put a lore counter on this enchantment \n{3ch}\u2014 After this phase there is an additional combat phase.",
@@ -4389,11 +4389,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR02 Salvia, Poetic Outfitter",
+            "card_name": "Salvia, Poetic Outfitter",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Plant Elemental",
-            "number": 110,
+            "number": 113,
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Whenever a creature you control attacks alone, reveal the top X cards of your library, where X is the number of permanents attached to it. You may cast any number of Aura and Equipment spells revealed this way, then put the rest on the bottom of your library in any order.",
@@ -4409,11 +4409,11 @@
             "notes": "#Salvia"
         },
         {
-            "card_name": "MRW01 Countros Conductor",
+            "card_name": "Fortiss, Countros Conductor",
             "color": "WR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Angel Bard",
-            "number": 165,
+            "number": 170,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
             "rules_text": "Flying, trample\nWhenever a creature you control dies while attacking, you may put a creature card with mana value less than that creatures mana value from your hand onto the battlefield tapped.",
@@ -4429,11 +4429,11 @@
             "notes": "!tag FactionHeads"
         },
         {
-            "card_name": "MRW02 Fallen Voices",
+            "card_name": "Fallen Voices",
             "color": "WR",
             "rarity": "mythic",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 166,
+            "number": 167,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "This creature and enchanted creature have flying and first strike during your turn.\nThis creature and enchanted creature get +1/+1 for each enchantment you control.\n{RW}{RW}: Attach this creature to target creature you control. It becomes an Aura with Enchant creature for as long as it is attached.",
@@ -4449,11 +4449,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU01 Unsung Song",
+            "card_name": "Unsung Song",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
-            "number": 52,
+            "number": 66,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Counter target multicolored spell. Its controller creates a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -4469,11 +4469,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU05 Song of Blue Yonder",
+            "card_name": "Song of Blue Yonder",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 56,
+            "number": 60,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nUntap all creatures you control.\nDraw a card.\nYou may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.\nSirens you control gain flying until end of turn.",
@@ -4489,11 +4489,11 @@
             "notes": ""
         },
         {
-            "card_name": "RUR03 Rondelli Pledge",
+            "card_name": "Rondelli Pledge",
             "color": "UR",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 184,
+            "number": 192,
             "color_identity": "UR",
             "cost": "{1}{2U}{U}{2R}{R}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw three cards, then discard a card.\nNoncreature spells you cast this turn cost {2} less to cast.\nWhenever you cast a noncreature spell this turn, Siren and enchantment creatures you control get +1/+1 until end of turn.\nCreatures you control gain trample until end of turn.",
@@ -4509,11 +4509,11 @@
             "notes": "!tag Pledge"
         },
         {
-            "card_name": "MUR02 Sing Con Vivace",
+            "card_name": "Sing Con Vivace",
             "color": "UR",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 168,
+            "number": 197,
             "color_identity": "UR",
             "cost": "{3}{U}{R}",
             "rules_text": "Sagas you control have \u201c{1ch} \u2014 This Saga becomes a 3/3 creature with haste in addition to its other types an abilities until end of turn.\u201d\nWhenever a Saga you control deals combat damage to a player, put a lore counter on it.",
@@ -4529,11 +4529,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW03 Practice Room",
+            "card_name": "Practice Room",
             "color": "W",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 25,
+            "number": 27,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "{T}: Put a lore counter on this artifact. Activate only as a sorcery.\nAt the beginning of your end step you gain 1 life for each lore counter on this artifact, if it's untapped draw a card.",
@@ -4549,17 +4549,17 @@
             "notes": ""
         },
         {
-            "card_name": "MW02 Strict Rehearsal",
+            "card_name": "Strict Rehearsal",
             "color": "W",
             "rarity": "mythic",
             "type": "Enchantment \u2014 Saga",
-            "number": 21,
+            "number": 33,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nI \u2014 Create a 2/2 green Elemental creature token.\nII \u2014 Put two +1/+1 counters on target creature you control.\nIII \u2014 Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.\nIV \u2014 Draw a card.",
+            "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nCreate a 2/2 green Elemental creature token.\nPut two +1/+1 counters on target creature you control.\nWhenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.\nDraw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nI \u2014 Create a 2/2 green Elemental creature token.\nII \u2014 Put two +1/+1 counters on target creature you control.\nIII \u2014 Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.\nIV \u2014 Draw a card.",
+            "special_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nCreate a 2/2 green Elemental creature token.\nPut two +1/+1 counters on target creature you control.\nWhenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.\nDraw a card.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -4569,11 +4569,11 @@
             "notes": ""
         },
         {
-            "card_name": "MWB01 Mielle, Soloist Primo",
+            "card_name": "Mielle, Soloist Primo",
             "color": "WB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Bard",
-            "number": 169,
+            "number": 179,
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "As long as you control no other creatures, this creature has indestructible.\nSacrifice a nontoken creature: Target opponent creates a 1/1 black and green Elf creature token. Any player may activate this ability.",
@@ -4589,15 +4589,15 @@
             "notes": "!tag FactionHeads"
         },
         {
-            "card_name": "RWB02 Killian, Lyricist",
+            "card_name": "Killian, Lyricist",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Warlock",
-            "number": 188,
+            "number": 175,
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "Lifelink, menace\nAs long as you control no other creatures, noncreature spells you cast cost {2} less to cast.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Words have power. Ergo, your vocabulary is your arsenal.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -4609,11 +4609,11 @@
             "notes": "Visitor"
         },
         {
-            "card_name": "RB03 Above the Chaff",
+            "card_name": "Above the Chaff",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 82,
+            "number": 67,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "{2C}, Sacrifice a creature or enchantment: Target creature you control gets +2/+0 and gains lifelink and deathtouch until end of turn.\nSagas you control have \u201c{2ch}\u2014Each player that controls two or more creatures sacrifices a creature.\u201d",
@@ -4629,11 +4629,11 @@
             "notes": ""
         },
         {
-            "card_name": "RB05 Funeral Dirge",
+            "card_name": "Funeral Dirge",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 84,
+            "number": 79,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile all graveyards.\nYou may cast a creature card exiled by this Saga by paying life equal to its mana value instead of its mana cost.\nEach player loses life equal to the number of cards in their hand.",
@@ -4649,15 +4649,15 @@
             "notes": ""
         },
         {
-            "card_name": "RBG01 Early Echoes",
+            "card_name": "Early Echoes",
             "color": "BG",
             "rarity": "rare",
-            "type": "Legendary Creature",
-            "number": 171,
+            "type": "Legendary Enchantment",
+            "number": 165,
             "color_identity": "BG",
             "cost": "{B}{G}",
-            "rules_text": "Whenever a chapter ability of a Saga you control triggers, if it isn't the final chapter ability of that Saga, you may sacrifice it, if you do copy that ability.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Whenever a chapter ability of a Saga you control triggers, if it isn't the final chapter ability of that Saga, you may sacrifice it. If you do copy that ability.",
+            "flavor_text": "[i]FT[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4669,11 +4669,11 @@
             "notes": ""
         },
         {
-            "card_name": "RBG02 Muse of the Ruins",
+            "card_name": "Muse of the Ruins",
             "color": "BG",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 229,
+            "number": 227,
             "color_identity": "BG",
             "cost": "{2}{BG}",
             "rules_text": "When this creature enters, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\n{2C}, Sacrifice a nonartifact permanent: This creature gets +1/+1 and gains haste until end of turn.",
@@ -4689,11 +4689,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG01 Spirit of the Composer",
+            "card_name": "Spirit of the Composer",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 137,
+            "number": 145,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample, haste\nWhenever an enchantment creature enters under your control, draw a card.\nSagas you control are 3/3 Spirit creatures with trample in addition to their other types.",
@@ -4709,11 +4709,11 @@
             "notes": ""
         },
         {
-            "card_name": "RGU04 Tremolos Pledge",
+            "card_name": "Tremolos Pledge",
             "color": "UG",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 177,
+            "number": 208,
             "color_identity": "UG",
             "cost": "{1}{2G}{G}{2U}{U}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nReturn target nonland permanent to its owner's hand.\nCreate a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nWhenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.\nYou may pay {X}. If you do creatures you control have size X/X until end of turn.",
@@ -4729,11 +4729,11 @@
             "notes": "!tag Pledge"
         },
         {
-            "card_name": "RGU02 Whispering Titan",
+            "card_name": "Whispering Titan",
             "color": "UG",
             "rarity": "rare",
             "type": "Creature \u2014 Giant Bard",
-            "number": 176,
+            "number": 211,
             "color_identity": "UG",
             "cost": "{5}{G}{U}",
             "rules_text": "When this creature enters, create three Murmur tokens. [i](They're colorless Saga Murmur enchantments with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i] [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nThis creature gets +1/+1 for each chapter ability among sagas you control. [i](Murmurs have two chapter abilities)[/i]",
@@ -4749,11 +4749,11 @@
             "notes": "Simic Big Beater"
         },
         {
-            "card_name": "RR03 Catchy Tune",
+            "card_name": "Catchy Tune",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
-            "number": 111,
+            "number": 97,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Enchant creature\nWhenever enchanted creature deals combat damage to a player you may sacrifice this aura. If you do, untap enchanted creature and you gain an additional combat step after this one.\nAt the beginning of your end step if you control no untapped creatures, you may return this aura from your graveyard to the battlefield.",
@@ -4769,11 +4769,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR05 Murmuring Flames",
+            "card_name": "Murmuring Flames",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga Murmur",
-            "number": 113,
+            "number": 111,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nThis Saga gains \u201cWhenever you exile one or more cards from anywhere, put a lore counter on this Saga.\u201d\nThis Saga deals 1 damage to each opponent. Then add {C}.\nThis Saga deals 1 damage to each opponent.",
@@ -4789,11 +4789,11 @@
             "notes": ""
         },
         {
-            "card_name": "RRW03 Countros Pledge",
+            "card_name": "Countros Pledge",
             "color": "WR",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 180,
+            "number": 161,
             "color_identity": "WR",
             "cost": "{1}{2R}{R}{2W}{W}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nEach creature you control deals 1 damage to any target.\nCreatures you control gain lifelink until end of turn.\nCreatures you control gain exalted, exalted until end of turn.\nCreatures you control gain indestructible and trample until end of turn.",
@@ -4809,11 +4809,11 @@
             "notes": "!tag Pledge"
         },
         {
-            "card_name": "RRW05 Mirran Requiem",
+            "card_name": "Mirran Requiem",
             "color": "WR",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 182,
+            "number": 180,
             "color_identity": "WR",
             "cost": "{1}{2R}{2W}",
             "rules_text": "Target creature gets first strike until end of turn, put a +1/+1 counter on it for each color of mana spent to cast this spell.\n[i]Finale \u2014[/i] Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.",
@@ -4829,11 +4829,11 @@
             "notes": "!tag Requiem"
         },
         {
-            "card_name": "RU03 Siren Titan",
+            "card_name": "Siren Titan",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Siren Giant",
-            "number": 54,
+            "number": 59,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Vigilance, trample\n{1}{U}, {T}: Creatures you opponents control attack this turn if able. Whenever you're dealt damage by a creature this turn, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -4849,11 +4849,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU04 Lost in Whispers",
+            "card_name": "Lost in Whispers",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
-            "number": 55,
+            "number": 48,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "Return each creature to its owner's hand. Create a Murmur token for each creature returned to your hand this way. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]",
@@ -4869,11 +4869,11 @@
             "notes": ""
         },
         {
-            "card_name": "RUR01 Claine, Belting Siren",
+            "card_name": "Claine, Belting Siren",
             "color": "UR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Siren Warrior",
-            "number": 232,
+            "number": 214,
             "color_identity": "UR",
             "cost": "{3}{UR}{UR}",
             "rules_text": "Prowess\nSirens you control have \u201c{T}: Add {C}. This mana can't be spent to cast creature spells.\u201d\n{C}{C}{C}{C}: Draw a card.",
@@ -4889,15 +4889,15 @@
             "notes": "BE BETTER"
         },
         {
-            "card_name": "RUR04 Salvia's Showmanship",
+            "card_name": "Salvia's Showmanship",
             "color": "UR",
             "rarity": "rare",
             "type": "Instant",
-            "number": 185,
+            "number": 193,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Copy target spell. You may choose new targets for the copy. If you copy a permanent this way sacrifice it at the beginning of your next end step.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]FT\nFT[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4909,11 +4909,11 @@
             "notes": "#Salvia"
         },
         {
-            "card_name": "RW01 Untouchable Stardom",
+            "card_name": "Untouchable Stardom",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
-            "number": 23,
+            "number": 35,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Flash\nThis spell costs {1} less to cast for each aura attached to its target.\nEnchant creature\nEnchanted creature gets +2/+0 and has indestructible.",
@@ -4929,11 +4929,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW02 Olgal Valkyrie",
+            "card_name": "Olgal Valkyrie",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Angel",
-            "number": 24,
+            "number": 23,
             "color_identity": "W",
             "cost": "{3}{W}{W}{W}",
             "rules_text": "Flying, vigilance\nWhenever a creature you control attacks alone, return target creature card from your graveyard to the battlefield, except it's an enchantment Saga Murmur with \u201c{ch}, {3ch} \u2014 Add {C}.\u201d in addition to its other types and abilities.",
@@ -4949,11 +4949,11 @@
             "notes": ""
         },
         {
-            "card_name": "RWB01 Soaring Conductor",
+            "card_name": "Soaring Conductor",
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Angel Advisor",
-            "number": 187,
+            "number": 200,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Flying\nAs long as you control another creature, this enchantment is a Saga.\n{1ch}\u2014 Put three +1/+1 counters on target creature you control.\n{2ch}\u2014 Destroy target creature.\n{3ch}\u2014 Each player chooses a creature they control, and then sacrifices the rest.",
@@ -4969,11 +4969,11 @@
             "notes": ""
         },
         {
-            "card_name": "RWB05 Tolvadan Requiem",
+            "card_name": "Tolvadan Requiem",
             "color": "WB",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 190,
+            "number": 207,
             "color_identity": "WB",
             "cost": "{1}{2W}{2B}",
             "rules_text": "Whenever a creature you control dies this turn, return to the battlefield tapped with a finality counter on it.\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.",
@@ -4989,7 +4989,7 @@
             "notes": "!tag Requiem"
         },
         {
-            "card_name": "RB04 Knowledge from Silence",
+            "card_name": "Knowledge from Silence",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
@@ -5009,11 +5009,11 @@
             "notes": ""
         },
         {
-            "card_name": "RBG05 Skallan Requiem",
+            "card_name": "Skallan Requiem",
             "color": "BG",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 174,
+            "number": 199,
             "color_identity": "BG",
             "cost": "{1}{2B}{2G}",
             "rules_text": "Mill three cards. Then return a creature card and an enchantment card from your graveyard to your hand.\n[i]Finale \u2014[/i] Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.",
@@ -5029,11 +5029,11 @@
             "notes": "!tag Requiem"
         },
         {
-            "card_name": "RC02 Book of Forgotten Songs",
+            "card_name": "Book of Forgotten Songs",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Artifact",
-            "number": 252,
+            "number": 250,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "This artifact has all chapter abilities of each differently named Saga in your graveyard.\n{3}, {T}: Put a Lore counter on this Artifact.",
@@ -5049,11 +5049,11 @@
             "notes": ""
         },
         {
-            "card_name": "RC03 Count Off",
+            "card_name": "Count Off",
             "color": "",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga Murmur",
-            "number": 6,
+            "number": 2,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw a card.\nTarget creature gets +2/+2 until end of turn.\nYou gain 3 life.\nAdd {C}{C}{C}{C}.",
@@ -5069,11 +5069,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG03 Past Inspiration",
+            "card_name": "Past Inspiration",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 139,
+            "number": 142,
             "color_identity": "G",
             "cost": "{X}{G}{G}",
             "rules_text": "Choose X. You may choose the same mode more than once.\n\u2022 Put a lore counter on target Saga you control.\n\u2022 Put a +1/+1 counter on target creature you control.\n\u2022 Put target card in your graveyard on top of your library.\n\u2022 Target creature gains, \u201cWhen this creature deals combat damage to a player, draw a card.\u201d until end of turn.",
@@ -5089,17 +5089,17 @@
             "notes": ""
         },
         {
-            "card_name": "RG05 The Oldest Story",
+            "card_name": "The Oldest Story",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
             "number": 141,
             "color_identity": "G",
-            "cost": "{G}",
-            "rules_text": "Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)[/i]\nI \u2014 Create a 1/1 black and green Elf creature token.\nII, III \u2014 Put two +1/+1 counters on target creature you control it gains trample until end of turn.\nIV \u2014 Target creature you control deals damage equal to its power to Target creature or planeswalker.",
+            "cost": "{2C}{G}",
+            "rules_text": "Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]\nCreate a 1/1 black and green Elf creature token.\nPut a +1/+1 counter on target creature you control it gains trample until end of turn.\nTarget creature you control deals damage equal to its power to target creature or planeswalker.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)[/i]\nI \u2014 Create a 1/1 black and green Elf creature token.\nII, III \u2014 Put two +1/+1 counters on target creature you control it gains trample until end of turn.\nIV \u2014 Target creature you control deals damage equal to its power to Target creature or planeswalker.",
+            "special_text": "Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]\nCreate a 1/1 black and green Elf creature token.\nPut a +1/+1 counter on target creature you control it gains trample until end of turn.\nTarget creature you control deals damage equal to its power to target creature or planeswalker.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -5109,11 +5109,11 @@
             "notes": ""
         },
         {
-            "card_name": "RGU01 Notyis, Grown from Tales",
+            "card_name": "Notyis, Grown from Tales",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Elemental Plant Bard",
-            "number": 175,
+            "number": 185,
             "color_identity": "UG",
             "cost": "{X}{G}{U}",
             "rules_text": "When this creature enters, mill X cards, if X is 4 or more, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with \u201c{2ch},{3ch}\u2014 Add {C}.\u201d)[/i]\nSagas you control have \u201c{4ch}\u2014Return target non-saga card from your graveyard to your hand.\u201d",
@@ -5129,7 +5129,7 @@
             "notes": "Visitor"
         },
         {
-            "card_name": "RGU03 Pel's Compound Duple",
+            "card_name": "Pel's Compound Duple",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Enchantment \u2014 Saga",
@@ -5149,11 +5149,11 @@
             "notes": ""
         },
         {
-            "card_name": "RL03 Earthbound Theater",
+            "card_name": "Earthbound Theater",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 266,
+            "number": 264,
             "color_identity": "B",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]\nAdd {B}.\nAdd one mana of any color.\n\u200b",
@@ -5169,11 +5169,11 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "RL05 Rooted Theater",
+            "card_name": "Rooted Theater",
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 268,
+            "number": 267,
             "color_identity": "G",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]\nAdd {G}.\nAdd one mana of any color.\n\u200b",
@@ -5189,7 +5189,7 @@
             "notes": "!landslot"
         },
         {
-            "card_name": "RR04 Rapid Reading",
+            "card_name": "Rapid Reading",
             "color": "R",
             "rarity": "rare",
             "type": "Instant",
@@ -5209,11 +5209,11 @@
             "notes": ""
         },
         {
-            "card_name": "RRW04 Crowd Pleaser",
+            "card_name": "Crowd Pleaser",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Noble Bard",
-            "number": 181,
+            "number": 162,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nWhenever an exalted ability of a creature you control triggers choose from among first strike, lifelink, trample, or menace. Each attacking creature gains that ability.",
@@ -5229,11 +5229,11 @@
             "notes": "Needs Art"
         },
         {
-            "card_name": "RU02 Amplification Construct",
+            "card_name": "Amplification Construct",
             "color": "U",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 53,
+            "number": 39,
             "color_identity": "U",
             "cost": "{2C}{U}",
             "rules_text": "Vigilance\nWhenever you put a lore counter on a permanent you control, target player mills two cards, then you may cast a card milled this way by tapping this creature in addition to its other costs.",
@@ -5249,11 +5249,11 @@
             "notes": "!reart"
         },
         {
-            "card_name": "RUR02 Siren Seabed",
+            "card_name": "Siren Seabed",
             "color": "UR",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 183,
+            "number": 198,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Whenever one or more Sirens you control becomes untapped, noncreature spells you cast cost {1} less to cast until end of turn.\n{UR}{UR}{UR}, Discard this card: Create two 1/1 blue and red Siren creature tokens with \u201c{T}: Target creature can't block alone until end of turn.\u201d",
@@ -5269,11 +5269,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW04 Wailing Whisps",
+            "card_name": "Wailing Whisps",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 26,
+            "number": 36,
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]\nCounters can't be removed to pay costs.",
@@ -5289,11 +5289,11 @@
             "notes": "Needs Art"
         },
         {
-            "card_name": "RWB04 Soloists Pledge",
+            "card_name": "Soloists Pledge",
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment \u2014 Saga",
-            "number": 189,
+            "number": 201,
             "color_identity": "WB",
             "cost": "{1}{2W}{W}{2B}{B}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDestroy all creatures.\nCreature spells cost {2} more to cast until your next turn.\nReturn target creature card from your graveyard to the battlefield.\nTarget creature gets +1/+1 for each creature card in all graveyards.",
@@ -5309,11 +5309,11 @@
             "notes": "!tag Pledge"
         },
         {
-            "card_name": "UW10 Blessing Barker",
+            "card_name": "Blessing Barker",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Angel",
-            "number": 37,
+            "number": 13,
             "color_identity": "W",
             "cost": "{5}{W}",
             "rules_text": "Flying\n[i]Finale [/i]\u2014 Whenever an enchantment is put into your graveyard from the battlefield, put a +1/+1 counter on each untapped creature you control.",
@@ -5329,11 +5329,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU10 Olgal Composer",
+            "card_name": "Olgal Composer",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment Creature \u2014 Spirit",
-            "number": 66,
+            "number": 50,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "When this creature enters, you may search your graveyard, hand and/or library for a card named Standard Repertoire and/or a card named Olgal's Calling and put them onto the battlefield. If you search your library this way, shuffle.",
@@ -5349,11 +5349,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR11 Sudden Screeching",
+            "card_name": "Sudden Screeching",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Saga",
-            "number": 105,
+            "number": 120,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nFlash\nThis Saga deals 2 damage to target creature or planeswalker.\nTarget creature can't block alone until end of turn.",
@@ -5369,11 +5369,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG10 Beat Boxer",
+            "card_name": "Beat Boxer",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warrior",
-            "number": 151,
+            "number": 124,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "This creature has hexproof as long as its untapped.\n{2}{CG}, Discard this creature: Target creature gets +2/+2 and gains hexproof until end of turn.",
@@ -5393,7 +5393,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
-            "number": 135,
+            "number": 134,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -5413,7 +5413,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Island",
-            "number": 49,
+            "number": 47,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -5433,7 +5433,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Mountain",
-            "number": 106,
+            "number": 110,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -5453,7 +5453,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
-            "number": 22,
+            "number": 25,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -5473,7 +5473,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Swamp",
-            "number": 85,
+            "number": 91,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -5576,10 +5576,10 @@
             "number": 11,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\nIII \u2014 Exile the top three cards of target opponent's library. You may play those cards this turn.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\nExile the top three cards of target opponent's library. You may play those cards this turn.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\nIII \u2014 Exile the top three cards of target opponent's library. You may play those cards this turn.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\nExile the top three cards of target opponent's library. You may play those cards this turn.\n\u200b",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -5893,13 +5893,13 @@
             "color": "",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Saga Murmur",
-            "number": 4,
+            "number": 5,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nI \u2014 [i]\u201cTheir song echos on and on.\u201d[/i]\nII, III \u2014 Add {C}. \n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\n[i]\u201cTheir song echos on and on.\u201d[/i]\nAdd {C}. \n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\nI \u2014 [i]\u201cTheir song echos on and on.\u201d[/i]\nII, III \u2014 Add {C}. \n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]\n[i]\u201cTheir song echos on and on.\u201d[/i]\nAdd {C}. \n\u200b",
             "shape": "token",
             "set": "VGE",
             "loyalty": "",
@@ -5946,7 +5946,7 @@
             "artist": "C. A. Gutierrez",
             "alias": "",
             "position": "296",
-            "notes": "!token"
+            "notes": "!token\n!related"
         },
         {
             "card_name": "Leviathan",
@@ -6008,6 +6008,5 @@
             "position": "299",
             "notes": "!token"
         }
-    ],
-    "version": 3
+    ]
 }

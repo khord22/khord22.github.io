@@ -1,7 +1,7 @@
 ﻿{
     "name": "Voc-Gal Echoes",
     "formats": "Beacon Standard",
-    "trimmed": "n",
+    "trimmed": "y",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
@@ -6008,5 +6008,6 @@
             "position": "299",
             "notes": "!token"
         }
-    ]
+    ],
+    "version": 4
 }

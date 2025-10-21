@@ -1,4 +1,577 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Backup Singer added.
+Mute Healer added.
+Countros Soprano added.
+Amphiteater Listener added.
+Overeager Audience added.
+Countros Ringer added.
+Echo of Delight added.
+Resolute Melody added.
+Imprison Composer added.
+Accoustic Reflections added.
+Even Stars Fall added.
+Dynamic Dynamics added.
+Rondelli Recruiter added.
+Olgal Shore Guardian added.
+Mistral Singer added.
+Phase Inverter added.
+Echo of Complexity added.
+Auditioning Canon added.
+Dream Songs added.
+Delayed Performance added.
+Thirst for Meaning added.
+Performers Only added.
+Tuck within Harmony added.
+Reminiscent Tune added.
+Decreshh Revenant added.
+Subtle Silencer added.
+Mourning Soliliquist added.
+Caller of Ravens added.
+Finale Reveler added.
+Echo of Silence added.
+Call of the Cruel added.
+Write Your Requiem added.
+Discordant Ditty added.
+Cut to Silence added.
+Life's Echo added.
+Unending Melody added.
+Vivace Vocalist added.
+Dwarven Forge-Chanter added.
+Scorned Diva added.
+Cadence Contralto added.
+Siren Tracker added.
+Echo of Embers added.
+Flaming Resolution added.
+Crooning Stage added.
+Set the Setlist added.
+Lonely Whispering added.
+Lightning Belt added.
+Accelerando added.
+Hearty Chanter added.
+Climbing Ivy added.
+Harmony Essence added.
+Storykeeper added.
+Nature's Duet added.
+Echo of Family added.
+Doubletime Diva added.
+Follow the Murmur added.
+Echoed Ambush added.
+Modal Harmonization added.
+Embrace the Murmur added.
+Step Back added.
+Grave Requiem added.
+Breathless Knight added.
+Permanent Caesura added.
+Short-Lived Soloist added.
+Understudied Soloist added.
+Choir of Spirits added.
+Sparkling Finale added.
+Countros Assailant added.
+Songwrapped Chanter added.
+Countros Figurehead added.
+Shattering Song added.
+Ottava Angel added.
+Shoreline Sonicist added.
+Mycosong Dryad added.
+Center of the Ruins added.
+Murmur Echoer added.
+Olgal Murmur Leader added.
+Suddenstar's Gift added.
+Reoccuring Terror added.
+Song-Calmed Beast added.
+Olgal Researcher added.
+Murmur Harnesser added.
+Gathering Whispers added.
+Rampaging Bellower added.
+Snapjaw Serpent added.
+Olgal Song-Seer added.
+Grandstaff Genius added.
+Copycat Composer added.
+Da Cappa al Coda added.
+Descending Line added.
+Requiem Automata added.
+Composition Inspector added.
+Soaring Melody added.
+Prismite added.
+Crumbling Ruin added.
+Recovered Scores added.
+Olgal's Calling added.
+Standard Repertoire added.
+Mnemonic Tune added.
+Ruins of Olgal added.
+Choir Loft added.
+Vocalists Round added.
+Reverberant Shore added.
+Anechoic Chamber added.
+Crumbling Stage added.
+Whining Whisps added.
+Encore Sibyl added.
+Polyphonist added.
+Subito Slicer added.
+Hungering Spite added.
+Go for the Throat added.
+Ascending Bassline added.
+Entombing Chant added.
+Leaser of Inspiriation added.
+False Finale added.
+Obliesse, Tear Queller added.
+Maestro of Whims added.
+Worst Critique added.
+Lethal Lead added.
+Drifting Looter added.
+Accoustic Resonator added.
+Shadow of the Fallen added.
+Ruin-Delving Quartet added.
+Musicologist added.
+Stable Resolution added.
+Debut Disapproval added.
+Sudden Savior added.
+Belia, Whispersinger added.
+Raging Spirit added.
+Call the Chorus added.
+Mentromone Meister added.
+Devout Husher added.
+Spellsong Soprano added.
+Tempting Siren added.
+Unsung Corpse added.
+Firedancer added.
+Sirens Temptation added.
+Spoils of Olgal added.
+Hymn of Sin added.
+Angel of Recovery added.
+Sustained Belting added.
+Kitt Kanto, on Tour added.
+Olgal Zealot added.
+Blessings of the Crowd added.
+Dynamic Lead added.
+Motif Igniter added.
+Lonesome Siren added.
+Spellshaper Siren added.
+Inspiration Bottler added.
+Practiced Auditioner added.
+Reclamation Surge added.
+Medley of The Past added.
+Swelling Force added.
+Dowsing Couple added.
+Call and Response added.
+Sennai, Songclade's Start added.
+Scouting Siren added.
+Rearrange added.
+Siren Choir added.
+Ruins Scaler added.
+Composed Mercenary added.
+Story Taster added.
+Drowner of Ships added.
+Crowd Instigator added.
+Siren Song added.
+Songbird Swarms added.
+Permanent Temptation added.
+Self-Assuring Siren added.
+Downbeat added.
+Leit, Maritime Motif added.
+Crestbreak Hydra added.
+Clever Serpent added.
+Swelling Awakener added.
+Screeching Machine added.
+Aural-Core Automaton added.
+Salvager of Ruin added.
+Siren's Ship added.
+Olgal Guardian added.
+Accoustic Hall added.
+Bubbling Ruins added.
+Privledged Performer added.
+Recovered Tale added.
+Wish for Stardom added.
+Murmuring Mourner added.
+Ancestral Tale added.
+Amaia, Coda Composer added.
+Emmsi, Rondelli Royalty added.
+Gastal Requiem added.
+Olgal Demon added.
+Trench Siren added.
+Nollik, Decreshh Director added.
+Finalesong Clade added.
+Crowd Amplification added.
+Totentanz, Murmur Maginifier added.
+Phoenix Siren added.
+Aura of Stardom added.
+Tacenda Verlasen added.
+The Murmursong Score added.
+Pel, Tremolos Tutor added.
+Amonkheti Requiem added.
+Open Air Theater added.
+Shoreline Theater added.
+The Mumur Awakened added.
+Song of Songs added.
+Gisa, Grave Ringer added.
+Rune-Cursed Poet added.
+Pledge of Silence added.
+Swallow the Ruins added.
+Well-Traveled Skald added.
+Ends of the Earth added.
+Doubletime Shanty added.
+Skylight Theater added.
+The World Stage added.
+Spirit Siren added.
+Salvia, Poetic Outfitter added.
+Fortiss, Countros Conductor added.
+Fallen Voices added.
+Unsung Song added.
+Song of Blue Yonder added.
+Rondelli Pledge added.
+Sing Con Vivace added.
+Practice Room added.
+Strict Rehearsal added.
+Mielle, Soloist Primo added.
+Killian, Lyricist added.
+Above the Chaff added.
+Funeral Dirge added.
+Early Echoes added.
+Muse of the Ruins added.
+Spirit of the Composer added.
+Tremolos Pledge added.
+Whispering Titan added.
+Catchy Tune added.
+Murmuring Flames added.
+Countros Pledge added.
+Mirran Requiem added.
+Siren Titan added.
+Lost in Whispers added.
+Claine, Belting Siren added.
+Salvia's Showmanship added.
+Untouchable Stardom added.
+Olgal Valkyrie added.
+Soaring Conductor added.
+Tolvadan Requiem added.
+Knowledge from Silence added.
+Skallan Requiem added.
+Book of Forgotten Songs added.
+Count Off added.
+Past Inspiration added.
+The Oldest Story added.
+Notyis, Grown from Tales added.
+Pel's Compound Duple added.
+Earthbound Theater added.
+Rooted Theater added.
+Rapid Reading added.
+Crowd Pleaser added.
+Amplification Construct added.
+Siren Seabed added.
+Wailing Whisps added.
+Soloists Pledge added.
+Blessing Barker added.
+Olgal Composer added.
+Sudden Screeching added.
+Beat Boxer added.
+
+CW01 Backup Singer removed.
+CW02 Mute Healer removed.
+CW03 Countros Soprano removed.
+CW04 Amphiteater Listener removed.
+CW05 Overeager Audience removed.
+CW06 Countros Ringer removed.
+CW07 Echo of Delight removed.
+CW08 Resolute Melody removed.
+CW09 Imprison Composer removed.
+CW10 Accoustic Reflections removed.
+CW11 Even Stars Fall removed.
+UW09 Dynamic Dynamics removed.
+CU01 Rondelli Recruiter removed.
+CU02 Olgal Shore Guardian removed.
+CU03 Mistral Singer removed.
+CU04 Phase Inverter removed.
+CU05 Echo of Complexity removed.
+CU06 Auditioning Canon removed.
+CU07 Dream Songs removed.
+UU09 Delayed Performance removed.
+CU09 Thirst for Meaning removed.
+CU10 Performers Only removed.
+CU11 Tuck within Harmony removed.
+CU08 Reminiscent Tune removed.
+CB01 Decreshh Revenant removed.
+CB02 Subtle Silencer removed.
+CB03 Mourning Soliliquist removed.
+CB04 Caller of Ravens removed.
+CB05 Finale Reveler removed.
+CB06 Echo of Silence removed.
+CB07 Call of the Cruel removed.
+CB08 Write Your Requiem removed.
+CB09 Discordant Ditty removed.
+CB10 Cut to Silence removed.
+CB11 Life's Echo removed.
+UB09 Unending Melody removed.
+CR01 Vivace Vocalist removed.
+CR02 Dwarven Forge-Chanter removed.
+CR03 Scorned Diva removed.
+CR04 Cadence Contralto removed.
+CR05 Siren Tracker removed.
+CR06 Echo of Embers removed.
+CR07 Flaming Resolution removed.
+CR08 Crooning Stage removed.
+CR09 Set the Setlist removed.
+UR09 Lonely Whispering removed.
+UR10 Lightning Belt removed.
+CR10 Accelerando removed.
+CG01 Hearty Chanter removed.
+CG02 Climbing Ivy removed.
+CG03 Harmony Essence removed.
+CG04 Storykeeper removed.
+CG07 Nature's Duet removed.
+CG06 Echo of Family removed.
+CG05 Doubletime Diva removed.
+CG08 Follow the Murmur removed.
+CG09 Echoed Ambush removed.
+CG10 Modal Harmonization removed.
+UG09 Embrace the Murmur removed.
+CG11 Step Back removed.
+CWB01 Grave Requiem removed.
+UWB04 Breathless Knight removed.
+CWB06 Permanent Caesura removed.
+CWB05 Short-Lived Soloist removed.
+CWB04 Understudied Soloist removed.
+CWB02 Choir of Spirits removed.
+CRW01 Sparkling Finale removed.
+CRW04 Countros Assailant removed.
+URW04 Songwrapped Chanter removed.
+CRW05 Countros Figurehead removed.
+CRW06 Shattering Song removed.
+CRW02 Ottava Angel removed.
+CGU01 Shoreline Sonicist removed.
+CGU02 Mycosong Dryad removed.
+UGU04 Center of the Ruins removed.
+CGU04 Murmur Echoer removed.
+CGU05 Olgal Murmur Leader removed.
+CGU06 Suddenstar's Gift removed.
+CBG05 Reoccuring Terror removed.
+CBG04 Song-Calmed Beast removed.
+CBG02 Olgal Researcher removed.
+UBG04 Murmur Harnesser removed.
+CBG01 Gathering Whispers removed.
+CUR05 Rampaging Bellower removed.
+CUR04 Snapjaw Serpent removed.
+UUR04 Olgal Song-Seer removed.
+CUR02 Grandstaff Genius removed.
+UUR01 Copycat Composer removed.
+CUR06 Da Cappa al Coda removed.
+CBG06 Descending Line removed.
+CC03 Requiem Automata removed.
+CC02 Composition Inspector removed.
+CC06 Soaring Melody removed.
+CC01 Prismite removed.
+CC04 Crumbling Ruin removed.
+UC05 Recovered Scores removed.
+UC06 Olgal's Calling removed.
+CC07 Standard Repertoire removed.
+UC07 Mnemonic Tune removed.
+UL03 Ruins of Olgal removed.
+CL05 Choir Loft removed.
+CL04 Vocalists Round removed.
+CL03 Reverberant Shore removed.
+CL02 Anechoic Chamber removed.
+CL01 Crumbling Stage removed.
+UW01 Whining Whisps removed.
+UB02 Encore Sibyl removed.
+UW03 Polyphonist removed.
+UB04 Subito Slicer removed.
+UB05 Hungering Spite removed.
+UB06 Go for the Throat removed.
+UB07 Ascending Bassline removed.
+UB08 Entombing Chant removed.
+UBG01 Leaser of Inspiriation removed.
+UBG02 False Finale removed.
+UBG03 Obliesse, Tear Queller removed.
+UWB04 Maestro of Whims removed.
+UWB05 Worst Critique removed.
+UWB06 Lethal Lead removed.
+UU01 Drifting Looter removed.
+UW02 Accoustic Resonator removed.
+UB03 Shadow of the Fallen removed.
+UW04 Ruin-Delving Quartet removed.
+UW05 Musicologist removed.
+UW06 Stable Resolution removed.
+UW07 Debut Disapproval removed.
+UW08 Sudden Savior removed.
+UWB03 Belia, Whispersinger removed.
+URW04 Raging Spirit removed.
+UBG05 Call the Chorus removed.
+UBG06 Mentromone Meister removed.
+UB01 Devout Husher removed.
+UU02 Spellsong Soprano removed.
+UR03 Tempting Siren removed.
+UG04 Unsung Corpse removed.
+UR05 Firedancer removed.
+UR06 Sirens Temptation removed.
+UR07 Spoils of Olgal removed.
+UR08 Hymn of Sin removed.
+URW01 Angel of Recovery removed.
+URW02 Sustained Belting removed.
+URW03 Kitt Kanto, on Tour removed.
+UBG04 Olgal Zealot removed.
+URW05 Blessings of the Crowd removed.
+URW06 Dynamic Lead removed.
+UR04 Motif Igniter removed.
+UR02 Lonesome Siren removed.
+UU03 Spellshaper Siren removed.
+UR01 Inspiration Bottler removed.
+UU05 Practiced Auditioner removed.
+UG06 Reclamation Surge removed.
+UG07 Medley of The Past removed.
+UG08 Swelling Force removed.
+UGU01 Dowsing Couple removed.
+UGU02 Call and Response removed.
+UGU03 Sennai, Songclade's Start removed.
+UUR04 Scouting Siren removed.
+UGU05 Rearrange removed.
+UUR05 Siren Choir removed.
+UG01 Ruins Scaler removed.
+UG02 Composed Mercenary removed.
+UG03 Story Taster removed.
+UU04 Drowner of Ships removed.
+UG05 Crowd Instigator removed.
+UU06 Siren Song removed.
+UU07 Songbird Swarms removed.
+UU08 Permanent Temptation removed.
+CUR01 Self-Assuring Siren removed.
+UUR02 Downbeat removed.
+UUR03 Leit, Maritime Motif removed.
+UGU04 Crestbreak Hydra removed.
+UUR06 Clever Serpent removed.
+UGU06 Swelling Awakener removed.
+UC01 Screeching Machine removed.
+UC03 Aural-Core Automaton removed.
+UC02 Salvager of Ruin removed.
+UC08 Siren's Ship removed.
+UC04 Olgal Guardian removed.
+UL01 Accoustic Hall removed.
+UL02 Bubbling Ruins removed.
+MW01 Privledged Performer removed.
+RW05 Recovered Tale removed.
+RWB03 Wish for Stardom removed.
+MWB02 Murmuring Mourner removed.
+MU01 Ancestral Tale removed.
+MU02 Amaia, Coda Composer removed.
+MUR01 Rondelli Royalty removed.
+RUR05 Gastal Requiem removed.
+MB01 Olgal Demon removed.
+MB02 Trench Siren removed.
+MBG01 Nollik, Decreshh Director removed.
+MBG02 Finalesong Clade removed.
+MR01 Crowd Amplification removed.
+RR01 Totentanz, Murmur Maginifier removed.
+RRW01 Phoenix Siren removed.
+RRW02 Aura of Stardom removed.
+MG01 Tacenda Verlasen removed.
+MG02 The Murmursong Score removed.
+MGU01 Pel, Tremolos Tutor removed.
+RGU05 Amonkheti Requiem removed.
+RL01 Open Air Theater removed.
+RL02 Shoreline Theater removed.
+RC01 The Mumur Awakened removed.
+RWUBRG01 Song of Songs removed.
+RB01 Gisa, Grave Ringer removed.
+RB02 Rune-Cursed Poet removed.
+RBG03 Pledge of Silence removed.
+RBG04 Swallow the Ruins removed.
+RG02 Well-Traveled Skald removed.
+RG04 Ends of the Earth removed.
+MGU02 Doubletime Shanty removed.
+RL04 Skylight Theater removed.
+RL06 The World Stage removed.
+MR02 Spirit Siren removed.
+RR02 Salvia, Poetic Outfitter removed.
+MRW01 Countros Conductor removed.
+MRW02 Fallen Voices removed.
+RU01 Unsung Song removed.
+RU05 Song of Blue Yonder removed.
+RUR03 Rondelli Pledge removed.
+MUR02 Sing Con Vivace removed.
+RW03 Practice Room removed.
+MW02 Strict Rehearsal removed.
+MWB01 Mielle, Soloist Primo removed.
+RWB02 Killian, Lyricist removed.
+RB03 Above the Chaff removed.
+RB05 Funeral Dirge removed.
+RBG01 Early Echoes removed.
+RBG02 Muse of the Ruins removed.
+RG01 Spirit of the Composer removed.
+RGU04 Tremolos Pledge removed.
+RGU02 Whispering Titan removed.
+RR03 Catchy Tune removed.
+RR05 Murmuring Flames removed.
+RRW03 Countros Pledge removed.
+RRW05 Mirran Requiem removed.
+RU03 Siren Titan removed.
+RU04 Lost in Whispers removed.
+RUR01 Claine, Belting Siren removed.
+RUR04 Salvia's Showmanship removed.
+RW01 Untouchable Stardom removed.
+RW02 Olgal Valkyrie removed.
+RWB01 Soaring Conductor removed.
+RWB05 Tolvadan Requiem removed.
+RB04 Knowledge from Silence removed.
+RBG05 Skallan Requiem removed.
+RC02 Book of Forgotten Songs removed.
+RC03 Count Off removed.
+RG03 Past Inspiration removed.
+RG05 The Oldest Story removed.
+RGU01 Notyis, Grown from Tales removed.
+RGU03 Pel's Compound Duple removed.
+RL03 Earthbound Theater removed.
+RL05 Rooted Theater removed.
+RR04 Rapid Reading removed.
+RRW04 Crowd Pleaser removed.
+RU02 Amplification Construct removed.
+RUR02 Siren Seabed removed.
+RW04 Wailing Whisps removed.
+RWB04 Soloists Pledge removed.
+UW10 Blessing Barker removed.
+UU10 Olgal Composer removed.
+CR11 Sudden Screeching removed.
+UG10 Beat Boxer removed.
+
+Korvold and the Noble Thief
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+III — Exile the top three cards of target opponent's library. You may play those cards this turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+III — Exile the top three cards of target opponent's library. You may play those cards this turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​
+
+Murmur
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — [i]“Their song echos on and on.”[/i]
+II, III — Add {C}. 
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+[i]“Their song echos on and on.”[/i]
+Add {C}. 
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — [i]“Their song echos on and on.”[/i]
+II, III — Add {C}. 
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+[i]“Their song echos on and on.”[/i]
+Add {C}. 
+​
+
+
+type: Token Creature — Siren => 
+rules_text: {T}:Target creature can't block alone until end of turn. Activate only as a sorcery => 
+pt: 1/1 => 
+
+Elf
+
+
+VERSION 3 CHANGELOG
 ====================
 
 CR05 Siren Tracker added.

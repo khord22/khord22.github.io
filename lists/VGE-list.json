@@ -1,959 +1,959 @@
 ﻿[
     {
-        "card_name": "MW01 Privledged Performer",
-        "number": 20,
+        "card_name": "Privledged Performer",
+        "number": 28,
         "shape": "normal",
         "set": "VGE",
         "position": "185"
     },
     {
-        "card_name": "MU01 Ancestral Tale",
-        "number": 50,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "189"
-    },
-    {
-        "card_name": "MB01 Olgal Demon",
-        "number": 78,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "193"
-    },
-    {
-        "card_name": "MR01 Crowd Amplification",
-        "number": 107,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "197"
-    },
-    {
-        "card_name": "MG02 The Murmursong Score",
-        "number": 136,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "202"
-    },
-    {
-        "card_name": "MW02 Strict Rehearsal",
-        "number": 21,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "227"
-    },
-    {
-        "card_name": "MU02 Amaia, Coda Composer",
-        "number": 51,
+        "card_name": "Amaia, Coda Composer",
+        "number": 38,
         "shape": "normal",
         "set": "VGE",
         "position": "190"
     },
     {
-        "card_name": "MB02 Trench Siren",
-        "number": 79,
+        "card_name": "Olgal Demon",
+        "number": 86,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "193"
+    },
+    {
+        "card_name": "Crowd Amplification",
+        "number": 99,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "197"
+    },
+    {
+        "card_name": "The Murmursong Score",
+        "number": 139,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "202"
+    },
+    {
+        "card_name": "Strict Rehearsal",
+        "number": 33,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "227"
+    },
+    {
+        "card_name": "Ancestral Tale",
+        "number": 40,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "189"
+    },
+    {
+        "card_name": "Trench Siren",
+        "number": 92,
         "shape": "normal",
         "set": "VGE",
         "position": "194"
     },
     {
-        "card_name": "MR02 Spirit Siren",
-        "number": 108,
+        "card_name": "Spirit Siren",
+        "number": 118,
         "shape": "normal",
         "set": "VGE",
         "position": "218"
     },
     {
-        "card_name": "RG01 Spirit of the Composer",
-        "number": 137,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "234"
-    },
-    {
-        "card_name": "RW01 Untouchable Stardom",
-        "number": 23,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "245"
-    },
-    {
-        "card_name": "RU01 Unsung Song",
-        "number": 52,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "222"
-    },
-    {
-        "card_name": "RB01 Gisa, Grave Ringer",
-        "number": 80,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "209"
-    },
-    {
-        "card_name": "RR01 Totentanz, Murmur Maginifier",
-        "number": 109,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "198"
-    },
-    {
-        "card_name": "RG02 Well-Traveled Skald",
-        "number": 138,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "213"
-    },
-    {
-        "card_name": "RW02 Olgal Valkyrie",
-        "number": 24,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "246"
-    },
-    {
-        "card_name": "RU02 Amplification Construct",
-        "number": 53,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "261"
-    },
-    {
-        "card_name": "RB02 Rune-Cursed Poet",
-        "number": 81,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "210"
-    },
-    {
-        "card_name": "RR02 Salvia, Poetic Outfitter",
-        "number": 110,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "219"
-    },
-    {
-        "card_name": "RG03 Past Inspiration",
-        "number": 139,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "253"
-    },
-    {
-        "card_name": "RW03 Practice Room",
-        "number": 25,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "226"
-    },
-    {
-        "card_name": "RU03 Siren Titan",
-        "number": 54,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "241"
-    },
-    {
-        "card_name": "RB03 Above the Chaff",
-        "number": 82,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "230"
-    },
-    {
-        "card_name": "RR03 Catchy Tune",
-        "number": 111,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "237"
-    },
-    {
-        "card_name": "RG04 Ends of the Earth",
-        "number": 140,
+        "card_name": "Ends of the Earth",
+        "number": 132,
         "shape": "normal",
         "set": "VGE",
         "position": "214"
     },
     {
-        "card_name": "RW04 Wailing Whisps",
-        "number": 26,
+        "card_name": "Olgal Valkyrie",
+        "number": 23,
         "shape": "normal",
         "set": "VGE",
-        "position": "263"
+        "position": "246"
     },
     {
-        "card_name": "RU04 Lost in Whispers",
-        "number": 55,
+        "card_name": "Amplification Construct",
+        "number": 39,
         "shape": "normal",
         "set": "VGE",
-        "position": "242"
+        "position": "261"
     },
     {
-        "card_name": "RB04 Knowledge from Silence",
-        "number": 83,
+        "card_name": "Above the Chaff",
+        "number": 67,
         "shape": "normal",
         "set": "VGE",
-        "position": "249"
+        "position": "230"
     },
     {
-        "card_name": "RR04 Rapid Reading",
-        "number": 112,
+        "card_name": "Catchy Tune",
+        "number": 97,
         "shape": "normal",
         "set": "VGE",
-        "position": "259"
+        "position": "237"
     },
     {
-        "card_name": "RG05 The Oldest Story",
+        "card_name": "The Oldest Story",
         "number": 141,
         "shape": "saga",
         "set": "VGE",
         "position": "254"
     },
     {
-        "card_name": "RW05 Recovered Tale",
+        "card_name": "Practice Room",
         "number": 27,
-        "shape": "saga",
+        "shape": "normal",
         "set": "VGE",
-        "position": "186"
+        "position": "226"
     },
     {
-        "card_name": "RU05 Song of Blue Yonder",
-        "number": 56,
-        "shape": "saga",
+        "card_name": "Lost in Whispers",
+        "number": 48,
+        "shape": "normal",
         "set": "VGE",
-        "position": "223"
+        "position": "242"
     },
     {
-        "card_name": "RB05 Funeral Dirge",
-        "number": 84,
+        "card_name": "Funeral Dirge",
+        "number": 79,
         "shape": "saga",
         "set": "VGE",
         "position": "231"
     },
     {
-        "card_name": "RR05 Murmuring Flames",
-        "number": 113,
+        "card_name": "Murmuring Flames",
+        "number": 111,
         "shape": "saga",
         "set": "VGE",
         "position": "238"
     },
     {
-        "card_name": "UG01 Ruins Scaler",
+        "card_name": "Past Inspiration",
         "number": 142,
         "shape": "normal",
         "set": "VGE",
-        "position": "164"
+        "position": "253"
     },
     {
-        "card_name": "UW01 Whining Whisps",
-        "number": 28,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "108"
-    },
-    {
-        "card_name": "UU01 Drifting Looter",
-        "number": 57,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "122"
-    },
-    {
-        "card_name": "UB01 Devout Husher",
-        "number": 86,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "136"
-    },
-    {
-        "card_name": "UR01 Inspiration Bottler",
-        "number": 114,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "153"
-    },
-    {
-        "card_name": "UG02 Composed Mercenary",
-        "number": 143,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "165"
-    },
-    {
-        "card_name": "UW02 Accoustic Resonator",
+        "card_name": "Recovered Tale",
         "number": 29,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "186"
+    },
+    {
+        "card_name": "Siren Titan",
+        "number": 59,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "241"
+    },
+    {
+        "card_name": "Gisa, Grave Ringer",
+        "number": 80,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "209"
+    },
+    {
+        "card_name": "Rapid Reading",
+        "number": 112,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "259"
+    },
+    {
+        "card_name": "Spirit of the Composer",
+        "number": 145,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "234"
+    },
+    {
+        "card_name": "Untouchable Stardom",
+        "number": 35,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "245"
+    },
+    {
+        "card_name": "Song of Blue Yonder",
+        "number": 60,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "223"
+    },
+    {
+        "card_name": "Knowledge from Silence",
+        "number": 83,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "249"
+    },
+    {
+        "card_name": "Salvia, Poetic Outfitter",
+        "number": 113,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "219"
+    },
+    {
+        "card_name": "Well-Traveled Skald",
+        "number": 151,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "213"
+    },
+    {
+        "card_name": "Wailing Whisps",
+        "number": 36,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "263"
+    },
+    {
+        "card_name": "Unsung Song",
+        "number": 66,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "222"
+    },
+    {
+        "card_name": "Rune-Cursed Poet",
+        "number": 87,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "210"
+    },
+    {
+        "card_name": "Totentanz, Murmur Maginifier",
+        "number": 122,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "198"
+    },
+    {
+        "card_name": "Beat Boxer",
+        "number": 124,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "268"
+    },
+    {
+        "card_name": "Accoustic Resonator",
+        "number": 10,
         "shape": "normal",
         "set": "VGE",
         "position": "123"
     },
     {
-        "card_name": "UU02 Spellsong Soprano",
-        "number": 58,
+        "card_name": "Delayed Performance",
+        "number": 42,
         "shape": "normal",
         "set": "VGE",
-        "position": "137"
+        "position": "19"
     },
     {
-        "card_name": "UB02 Encore Sibyl",
-        "number": 87,
+        "card_name": "Ascending Bassline",
+        "number": 68,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "114"
+    },
+    {
+        "card_name": "Firedancer",
+        "number": 102,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "140"
+    },
+    {
+        "card_name": "Composed Mercenary",
+        "number": 126,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "165"
+    },
+    {
+        "card_name": "Blessing Barker",
+        "number": 13,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "265"
+    },
+    {
+        "card_name": "Drifting Looter",
+        "number": 44,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "122"
+    },
+    {
+        "card_name": "Devout Husher",
+        "number": 73,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "136"
+    },
+    {
+        "card_name": "Hymn of Sin",
+        "number": 104,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "143"
+    },
+    {
+        "card_name": "Crowd Instigator",
+        "number": 127,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "168"
+    },
+    {
+        "card_name": "Debut Disapproval",
+        "number": 16,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "128"
+    },
+    {
+        "card_name": "Drowner of Ships",
+        "number": 45,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "167"
+    },
+    {
+        "card_name": "Encore Sibyl",
+        "number": 76,
         "shape": "normal",
         "set": "VGE",
         "position": "109"
     },
     {
-        "card_name": "UR02 Lonesome Siren",
-        "number": 115,
+        "card_name": "Inspiration Bottler",
+        "number": 105,
         "shape": "normal",
         "set": "VGE",
-        "position": "151"
+        "position": "153"
     },
     {
-        "card_name": "UG03 Story Taster",
-        "number": 144,
+        "card_name": "Embrace the Murmur",
+        "number": 131,
         "shape": "normal",
         "set": "VGE",
-        "position": "166"
+        "position": "58"
     },
     {
-        "card_name": "UW03 Polyphonist",
-        "number": 30,
+        "card_name": "Dynamic Dynamics",
+        "number": 17,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "11"
+    },
+    {
+        "card_name": "Olgal Composer",
+        "number": 50,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "266"
+    },
+    {
+        "card_name": "Entombing Chant",
+        "number": 77,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "115"
+    },
+    {
+        "card_name": "Lightning Belt",
+        "number": 106,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "46"
+    },
+    {
+        "card_name": "Medley of The Past",
+        "number": 137,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "156"
+    },
+    {
+        "card_name": "Musicologist",
+        "number": 21,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "126"
+    },
+    {
+        "card_name": "Permanent Temptation",
+        "number": 53,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "171"
+    },
+    {
+        "card_name": "Go for the Throat",
+        "number": 81,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "113"
+    },
+    {
+        "card_name": "Lonely Whispering",
+        "number": 107,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "45"
+    },
+    {
+        "card_name": "Reclamation Surge",
+        "number": 143,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "155"
+    },
+    {
+        "card_name": "Polyphonist",
+        "number": 26,
         "shape": "normal",
         "set": "VGE",
         "position": "110"
     },
     {
-        "card_name": "UU03 Spellshaper Siren",
-        "number": 59,
+        "card_name": "Practiced Auditioner",
+        "number": 55,
         "shape": "normal",
         "set": "VGE",
-        "position": "152"
+        "position": "154"
     },
     {
-        "card_name": "UB03 Shadow of the Fallen",
-        "number": 88,
+        "card_name": "Hungering Spite",
+        "number": 82,
         "shape": "normal",
         "set": "VGE",
-        "position": "124"
+        "position": "112"
     },
     {
-        "card_name": "UR03 Tempting Siren",
-        "number": 116,
+        "card_name": "Lonesome Siren",
+        "number": 108,
         "shape": "normal",
         "set": "VGE",
-        "position": "138"
+        "position": "151"
     },
     {
-        "card_name": "UG04 Unsung Corpse",
-        "number": 145,
+        "card_name": "Ruins Scaler",
+        "number": 144,
         "shape": "normal",
         "set": "VGE",
-        "position": "139"
+        "position": "164"
     },
     {
-        "card_name": "UW04 Ruin-Delving Quartet",
+        "card_name": "Ruin-Delving Quartet",
         "number": 31,
         "shape": "normal",
         "set": "VGE",
         "position": "125"
     },
     {
-        "card_name": "UU04 Drowner of Ships",
-        "number": 60,
+        "card_name": "Siren Song",
+        "number": 58,
         "shape": "normal",
         "set": "VGE",
-        "position": "167"
+        "position": "169"
     },
     {
-        "card_name": "UB04 Subito Slicer",
+        "card_name": "Shadow of the Fallen",
+        "number": 88,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "124"
+    },
+    {
+        "card_name": "Motif Igniter",
+        "number": 109,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "150"
+    },
+    {
+        "card_name": "Story Taster",
+        "number": 147,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "166"
+    },
+    {
+        "card_name": "Stable Resolution",
+        "number": 32,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "127"
+    },
+    {
+        "card_name": "Songbird Swarms",
+        "number": 61,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "170"
+    },
+    {
+        "card_name": "Subito Slicer",
         "number": 89,
         "shape": "normal",
         "set": "VGE",
         "position": "111"
     },
     {
-        "card_name": "UR04 Motif Igniter",
+        "card_name": "Sirens Temptation",
         "number": 117,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "150"
-    },
-    {
-        "card_name": "UG05 Crowd Instigator",
-        "number": 146,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "168"
-    },
-    {
-        "card_name": "UW05 Musicologist",
-        "number": 32,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "126"
-    },
-    {
-        "card_name": "UU05 Practiced Auditioner",
-        "number": 61,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "154"
-    },
-    {
-        "card_name": "UB05 Hungering Spite",
-        "number": 90,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "112"
-    },
-    {
-        "card_name": "UR05 Firedancer",
-        "number": 118,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "140"
-    },
-    {
-        "card_name": "UG06 Reclamation Surge",
-        "number": 147,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "155"
-    },
-    {
-        "card_name": "UW06 Stable Resolution",
-        "number": 33,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "127"
-    },
-    {
-        "card_name": "UU06 Siren Song",
-        "number": 62,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "169"
-    },
-    {
-        "card_name": "UB06 Go for the Throat",
-        "number": 91,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "113"
-    },
-    {
-        "card_name": "UR06 Sirens Temptation",
-        "number": 119,
         "shape": "normal",
         "set": "VGE",
         "position": "141"
     },
     {
-        "card_name": "UG07 Medley of The Past",
-        "number": 148,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "156"
-    },
-    {
-        "card_name": "UW07 Debut Disapproval",
-        "number": 34,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "128"
-    },
-    {
-        "card_name": "UU07 Songbird Swarms",
-        "number": 63,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "170"
-    },
-    {
-        "card_name": "UB07 Ascending Bassline",
-        "number": 92,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "114"
-    },
-    {
-        "card_name": "UR07 Spoils of Olgal",
-        "number": 120,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "142"
-    },
-    {
-        "card_name": "UG08 Swelling Force",
+        "card_name": "Swelling Force",
         "number": 149,
         "shape": "normal",
         "set": "VGE",
         "position": "157"
     },
     {
-        "card_name": "UW08 Sudden Savior",
-        "number": 35,
+        "card_name": "Sudden Savior",
+        "number": 34,
         "shape": "normal",
         "set": "VGE",
         "position": "129"
     },
     {
-        "card_name": "UU08 Permanent Temptation",
-        "number": 64,
+        "card_name": "Spellshaper Siren",
+        "number": 62,
         "shape": "normal",
         "set": "VGE",
-        "position": "171"
+        "position": "152"
     },
     {
-        "card_name": "UB08 Entombing Chant",
+        "card_name": "Unending Melody",
         "number": 93,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "115"
-    },
-    {
-        "card_name": "UR08 Hymn of Sin",
-        "number": 121,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "143"
-    },
-    {
-        "card_name": "UG09 Embrace the Murmur",
-        "number": 150,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "58"
-    },
-    {
-        "card_name": "UW09 Dynamic Dynamics",
-        "number": 36,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "11"
-    },
-    {
-        "card_name": "UU09 Delayed Performance",
-        "number": 65,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "19"
-    },
-    {
-        "card_name": "UB09 Unending Melody",
-        "number": 94,
         "shape": "normal",
         "set": "VGE",
         "position": "35"
     },
     {
-        "card_name": "UR09 Lonely Whispering",
-        "number": 122,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "45"
-    },
-    {
-        "card_name": "UG10 Beat Boxer",
-        "number": 151,
+        "card_name": "Spoils of Olgal",
+        "number": 119,
         "shape": "normal",
         "set": "VGE",
-        "position": "268"
+        "position": "142"
     },
     {
-        "card_name": "UW10 Blessing Barker",
+        "card_name": "Unsung Corpse",
+        "number": 150,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "139"
+    },
+    {
+        "card_name": "Whining Whisps",
         "number": 37,
         "shape": "normal",
         "set": "VGE",
-        "position": "265"
+        "position": "108"
     },
     {
-        "card_name": "UU10 Olgal Composer",
-        "number": 66,
+        "card_name": "Spellsong Soprano",
+        "number": 63,
         "shape": "normal",
         "set": "VGE",
-        "position": "266"
+        "position": "137"
     },
     {
-        "card_name": "CB01 Decreshh Revenant",
-        "number": 67,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "24"
-    },
-    {
-        "card_name": "UR10 Lightning Belt",
-        "number": 123,
+        "card_name": "Call of the Cruel",
+        "number": 69,
         "shape": "saga",
         "set": "VGE",
-        "position": "46"
+        "position": "30"
     },
     {
-        "card_name": "CG01 Hearty Chanter",
-        "number": 124,
+        "card_name": "Tempting Siren",
+        "number": 121,
         "shape": "normal",
         "set": "VGE",
-        "position": "48"
+        "position": "138"
     },
     {
-        "card_name": "CW01 Backup Singer",
-        "number": 9,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "0"
-    },
-    {
-        "card_name": "CU01 Rondelli Recruiter",
-        "number": 38,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "12"
-    },
-    {
-        "card_name": "CB02 Subtle Silencer",
-        "number": 68,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "25"
-    },
-    {
-        "card_name": "CR01 Vivace Vocalist",
-        "number": 95,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "36"
-    },
-    {
-        "card_name": "CG02 Climbing Ivy",
+        "card_name": "Climbing Ivy",
         "number": 125,
         "shape": "normal",
         "set": "VGE",
         "position": "49"
     },
     {
-        "card_name": "CW02 Mute Healer",
-        "number": 10,
+        "card_name": "Accoustic Reflections",
+        "number": 9,
         "shape": "normal",
         "set": "VGE",
-        "position": "1"
+        "position": "9"
     },
     {
-        "card_name": "CU02 Olgal Shore Guardian",
-        "number": 39,
-        "shape": "normal",
+        "card_name": "Auditioning Canon",
+        "number": 41,
+        "shape": "saga",
         "set": "VGE",
-        "position": "13"
+        "position": "17"
     },
     {
-        "card_name": "CB03 Mourning Soliliquist",
-        "number": 69,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "26"
-    },
-    {
-        "card_name": "CR02 Dwarven Forge-Chanter",
-        "number": 96,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "37"
-    },
-    {
-        "card_name": "CG03 Harmony Essence",
-        "number": 126,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "50"
-    },
-    {
-        "card_name": "CW03 Countros Soprano",
-        "number": 11,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "2"
-    },
-    {
-        "card_name": "CU03 Mistral Singer",
-        "number": 40,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "14"
-    },
-    {
-        "card_name": "CB04 Caller of Ravens",
+        "card_name": "Caller of Ravens",
         "number": 70,
         "shape": "normal",
         "set": "VGE",
         "position": "27"
     },
     {
-        "card_name": "CR03 Scorned Diva",
-        "number": 97,
+        "card_name": "Accelerando",
+        "number": 95,
         "shape": "normal",
         "set": "VGE",
-        "position": "38"
+        "position": "47"
     },
     {
-        "card_name": "CG04 Storykeeper",
-        "number": 127,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "51"
-    },
-    {
-        "card_name": "CW04 Amphiteater Listener",
-        "number": 12,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "3"
-    },
-    {
-        "card_name": "CU04 Phase Inverter",
-        "number": 41,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "15"
-    },
-    {
-        "card_name": "CB05 Finale Reveler",
-        "number": 71,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "28"
-    },
-    {
-        "card_name": "CR04 Cadence Contralto",
-        "number": 98,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "39"
-    },
-    {
-        "card_name": "CG05 Doubletime Diva",
+        "card_name": "Doubletime Diva",
         "number": 128,
         "shape": "normal",
         "set": "VGE",
         "position": "54"
     },
     {
-        "card_name": "CW05 Overeager Audience",
-        "number": 13,
+        "card_name": "Amphiteater Listener",
+        "number": 11,
         "shape": "normal",
         "set": "VGE",
-        "position": "4"
+        "position": "3"
     },
     {
-        "card_name": "CU05 Echo of Complexity",
-        "number": 42,
+        "card_name": "Dream Songs",
+        "number": 43,
         "shape": "normal",
         "set": "VGE",
-        "position": "16"
+        "position": "18"
     },
     {
-        "card_name": "CB06 Echo of Silence",
-        "number": 72,
+        "card_name": "Cut to Silence",
+        "number": 71,
         "shape": "normal",
         "set": "VGE",
-        "position": "29"
+        "position": "33"
     },
     {
-        "card_name": "CR05 Siren Tracker",
-        "number": 99,
+        "card_name": "Cadence Contralto",
+        "number": 96,
         "shape": "normal",
         "set": "VGE",
-        "position": "40"
+        "position": "39"
     },
     {
-        "card_name": "CG06 Echo of Family",
+        "card_name": "Echo of Family",
         "number": 129,
         "shape": "normal",
         "set": "VGE",
         "position": "53"
     },
     {
-        "card_name": "CW06 Countros Ringer",
+        "card_name": "Backup Singer",
+        "number": 12,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "0"
+    },
+    {
+        "card_name": "Echo of Complexity",
+        "number": 46,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "16"
+    },
+    {
+        "card_name": "Decreshh Revenant",
+        "number": 72,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "24"
+    },
+    {
+        "card_name": "Crooning Stage",
+        "number": 98,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "43"
+    },
+    {
+        "card_name": "Echoed Ambush",
+        "number": 130,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "56"
+    },
+    {
+        "card_name": "Countros Ringer",
         "number": 14,
         "shape": "normal",
         "set": "VGE",
         "position": "5"
     },
     {
-        "card_name": "CU06 Auditioning Canon",
-        "number": 43,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "17"
-    },
-    {
-        "card_name": "CB07 Call of the Cruel",
-        "number": 73,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "30"
-    },
-    {
-        "card_name": "CR06 Echo of Embers",
-        "number": 100,
+        "card_name": "Mistral Singer",
+        "number": 49,
         "shape": "normal",
         "set": "VGE",
-        "position": "41"
+        "position": "14"
     },
     {
-        "card_name": "CG07 Nature's Duet",
-        "number": 130,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "52"
-    },
-    {
-        "card_name": "CW07 Echo of Delight",
-        "number": 15,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "6"
-    },
-    {
-        "card_name": "CU07 Dream Songs",
-        "number": 44,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "18"
-    },
-    {
-        "card_name": "CB08 Write Your Requiem",
+        "card_name": "Discordant Ditty",
         "number": 74,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "31"
-    },
-    {
-        "card_name": "CR07 Flaming Resolution",
-        "number": 101,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "42"
-    },
-    {
-        "card_name": "CG08 Follow the Murmur",
-        "number": 131,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "55"
-    },
-    {
-        "card_name": "CW08 Resolute Melody",
-        "number": 16,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "7"
-    },
-    {
-        "card_name": "CU08 Reminiscent Tune",
-        "number": 45,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "23"
-    },
-    {
-        "card_name": "CB09 Discordant Ditty",
-        "number": 75,
         "shape": "saga",
         "set": "VGE",
         "position": "32"
     },
     {
-        "card_name": "CR08 Crooning Stage",
-        "number": 102,
+        "card_name": "Dwarven Forge-Chanter",
+        "number": 100,
         "shape": "normal",
         "set": "VGE",
-        "position": "43"
+        "position": "37"
     },
     {
-        "card_name": "CG09 Echoed Ambush",
-        "number": 132,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "56"
-    },
-    {
-        "card_name": "CW09 Imprison Composer",
-        "number": 17,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "8"
-    },
-    {
-        "card_name": "CU09 Thirst for Meaning",
-        "number": 46,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "20"
-    },
-    {
-        "card_name": "CB10 Cut to Silence",
-        "number": 76,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "33"
-    },
-    {
-        "card_name": "CR09 Set the Setlist",
-        "number": 103,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "44"
-    },
-    {
-        "card_name": "CG10 Modal Harmonization",
+        "card_name": "Follow the Murmur",
         "number": 133,
         "shape": "normal",
         "set": "VGE",
-        "position": "57"
+        "position": "55"
     },
     {
-        "card_name": "CW10 Accoustic Reflections",
+        "card_name": "Countros Soprano",
+        "number": 15,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "2"
+    },
+    {
+        "card_name": "Olgal Shore Guardian",
+        "number": 51,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "13"
+    },
+    {
+        "card_name": "Echo of Silence",
+        "number": 75,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "29"
+    },
+    {
+        "card_name": "Echo of Embers",
+        "number": 101,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "41"
+    },
+    {
+        "card_name": "Harmony Essence",
+        "number": 135,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "50"
+    },
+    {
+        "card_name": "Echo of Delight",
         "number": 18,
         "shape": "normal",
         "set": "VGE",
-        "position": "9"
+        "position": "6"
     },
     {
-        "card_name": "CU10 Performers Only",
-        "number": 47,
+        "card_name": "Performers Only",
+        "number": 52,
         "shape": "normal",
         "set": "VGE",
         "position": "21"
     },
     {
-        "card_name": "CB11 Life's Echo",
-        "number": 77,
+        "card_name": "Finale Reveler",
+        "number": 78,
         "shape": "normal",
         "set": "VGE",
-        "position": "34"
+        "position": "28"
     },
     {
-        "card_name": "CR10 Accelerando",
-        "number": 104,
+        "card_name": "Flaming Resolution",
+        "number": 103,
         "shape": "normal",
         "set": "VGE",
-        "position": "47"
+        "position": "42"
     },
     {
-        "card_name": "CG11 Step Back",
-        "number": 134,
+        "card_name": "Hearty Chanter",
+        "number": 136,
         "shape": "normal",
         "set": "VGE",
-        "position": "59"
+        "position": "48"
     },
     {
-        "card_name": "CW11 Even Stars Fall",
+        "card_name": "Even Stars Fall",
         "number": 19,
         "shape": "saga",
         "set": "VGE",
         "position": "10"
     },
     {
-        "card_name": "CU11 Tuck within Harmony",
-        "number": 48,
+        "card_name": "Phase Inverter",
+        "number": 54,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "15"
+    },
+    {
+        "card_name": "Life's Echo",
+        "number": 84,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "34"
+    },
+    {
+        "card_name": "Scorned Diva",
+        "number": 114,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "38"
+    },
+    {
+        "card_name": "Modal Harmonization",
+        "number": 138,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "57"
+    },
+    {
+        "card_name": "Imprison Composer",
+        "number": 20,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "8"
+    },
+    {
+        "card_name": "Reminiscent Tune",
+        "number": 56,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "23"
+    },
+    {
+        "card_name": "Mourning Soliliquist",
+        "number": 85,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "26"
+    },
+    {
+        "card_name": "Set the Setlist",
+        "number": 115,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "44"
+    },
+    {
+        "card_name": "Nature's Duet",
+        "number": 140,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "52"
+    },
+    {
+        "card_name": "Mute Healer",
+        "number": 22,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "1"
+    },
+    {
+        "card_name": "Rondelli Recruiter",
+        "number": 57,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "12"
+    },
+    {
+        "card_name": "Subtle Silencer",
+        "number": 90,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "25"
+    },
+    {
+        "card_name": "Siren Tracker",
+        "number": 116,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "40"
+    },
+    {
+        "card_name": "Step Back",
+        "number": 146,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "59"
+    },
+    {
+        "card_name": "Overeager Audience",
+        "number": 24,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "4"
+    },
+    {
+        "card_name": "Thirst for Meaning",
+        "number": 64,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "20"
+    },
+    {
+        "card_name": "Write Your Requiem",
+        "number": 94,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "31"
+    },
+    {
+        "card_name": "Sudden Screeching",
+        "number": 120,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "267"
+    },
+    {
+        "card_name": "Storykeeper",
+        "number": 148,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "51"
+    },
+    {
+        "card_name": "Resolute Melody",
+        "number": 30,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "7"
+    },
+    {
+        "card_name": "Tuck within Harmony",
+        "number": 65,
         "shape": "normal",
         "set": "VGE",
         "position": "22"
@@ -962,11 +962,11 @@
         "card_name": "e"
     },
     {
-        "card_name": "CR11 Sudden Screeching",
-        "number": 105,
-        "shape": "saga",
+        "card_name": "Vivace Vocalist",
+        "number": 123,
+        "shape": "normal",
         "set": "VGE",
-        "position": "267"
+        "position": "36"
     },
     {
         "card_name": "e"
@@ -987,666 +987,666 @@
         "card_name": "er"
     },
     {
-        "card_name": "MWB01 Mielle, Soloist Primo",
-        "number": 169,
+        "card_name": "Mielle, Soloist Primo",
+        "number": 179,
         "shape": "normal",
         "set": "VGE",
         "position": "228"
     },
     {
-        "card_name": "MUR01 Rondelli Royalty",
-        "number": 167,
+        "card_name": "Emmsi, Rondelli Royalty",
+        "number": 166,
         "shape": "normal",
         "set": "VGE",
         "position": "191"
     },
     {
-        "card_name": "MBG01 Nollik, Decreshh Director",
-        "number": 162,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "195"
-    },
-    {
-        "card_name": "MRW01 Countros Conductor",
-        "number": 165,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "220"
-    },
-    {
-        "card_name": "MGU01 Pel, Tremolos Tutor",
-        "number": 164,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "203"
-    },
-    {
-        "card_name": "MWB02 Murmuring Mourner",
-        "number": 170,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "188"
-    },
-    {
-        "card_name": "MUR02 Sing Con Vivace",
-        "number": 168,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "225"
-    },
-    {
-        "card_name": "MBG02 Finalesong Clade",
-        "number": 163,
+        "card_name": "Finalesong Clade",
+        "number": 169,
         "shape": "normal",
         "set": "VGE",
         "position": "196"
     },
     {
-        "card_name": "MRW02 Fallen Voices",
-        "number": 166,
+        "card_name": "Fallen Voices",
+        "number": 167,
         "shape": "normal",
         "set": "VGE",
         "position": "221"
     },
     {
-        "card_name": "MGU02 Doubletime Shanty",
-        "number": 228,
+        "card_name": "Pel, Tremolos Tutor",
+        "number": 190,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "203"
+    },
+    {
+        "card_name": "Murmuring Mourner",
+        "number": 182,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "188"
+    },
+    {
+        "card_name": "Sing Con Vivace",
+        "number": 197,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "225"
+    },
+    {
+        "card_name": "Nollik, Decreshh Director",
+        "number": 184,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "195"
+    },
+    {
+        "card_name": "Fortiss, Countros Conductor",
+        "number": 170,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "220"
+    },
+    {
+        "card_name": "Doubletime Shanty",
+        "number": 221,
         "shape": "normal",
         "set": "VGE",
         "position": "215"
     },
     {
-        "card_name": "RWB01 Soaring Conductor",
-        "number": 187,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "247"
-    },
-    {
-        "card_name": "RUR02 Siren Seabed",
-        "number": 183,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "262"
-    },
-    {
-        "card_name": "RBG01 Early Echoes",
-        "number": 171,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "232"
-    },
-    {
-        "card_name": "RRW02 Aura of Stardom",
-        "number": 179,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "200"
-    },
-    {
-        "card_name": "RGU01 Notyis, Grown from Tales",
+        "card_name": "Killian, Lyricist",
         "number": 175,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "255"
-    },
-    {
-        "card_name": "RWB02 Killian, Lyricist",
-        "number": 188,
         "shape": "normal",
         "set": "VGE",
         "position": "229"
     },
     {
-        "card_name": "RUR03 Rondelli Pledge",
-        "number": 184,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "224"
-    },
-    {
-        "card_name": "RBG03 Pledge of Silence",
-        "number": 172,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "211"
-    },
-    {
-        "card_name": "RRW03 Countros Pledge",
-        "number": 180,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "239"
-    },
-    {
-        "card_name": "RGU02 Whispering Titan",
-        "number": 176,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "236"
-    },
-    {
-        "card_name": "RWB04 Soloists Pledge",
-        "number": 189,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "264"
-    },
-    {
-        "card_name": "RUR04 Salvia's Showmanship",
-        "number": 185,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "244"
-    },
-    {
-        "card_name": "RBG04 Swallow the Ruins",
-        "number": 173,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "212"
-    },
-    {
-        "card_name": "RRW04 Crowd Pleaser",
-        "number": 181,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "260"
-    },
-    {
-        "card_name": "RGU04 Tremolos Pledge",
-        "number": 177,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "235"
-    },
-    {
-        "card_name": "RWB05 Tolvadan Requiem",
-        "number": 190,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "248"
-    },
-    {
-        "card_name": "RUR05 Gastal Requiem",
-        "number": 186,
+        "card_name": "Gastal Requiem",
+        "number": 171,
         "shape": "normal",
         "set": "VGE",
         "position": "192"
     },
     {
-        "card_name": "RBG05 Skallan Requiem",
-        "number": 174,
+        "card_name": "Early Echoes",
+        "number": 165,
         "shape": "normal",
         "set": "VGE",
-        "position": "250"
+        "position": "232"
     },
     {
-        "card_name": "RRW05 Mirran Requiem",
-        "number": 182,
+        "card_name": "Aura of Stardom",
+        "number": 154,
         "shape": "normal",
         "set": "VGE",
-        "position": "240"
+        "position": "200"
     },
     {
-        "card_name": "RGU05 Amonkheti Requiem",
-        "number": 178,
+        "card_name": "Amonkheti Requiem",
+        "number": 152,
         "shape": "normal",
         "set": "VGE",
         "position": "204"
     },
     {
-        "card_name": "RWB03 Wish for Stardom",
-        "number": 233,
+        "card_name": "Soaring Conductor",
+        "number": 200,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "247"
+    },
+    {
+        "card_name": "Rondelli Pledge",
+        "number": 192,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "224"
+    },
+    {
+        "card_name": "Pledge of Silence",
+        "number": 191,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "211"
+    },
+    {
+        "card_name": "Countros Pledge",
+        "number": 161,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "239"
+    },
+    {
+        "card_name": "Notyis, Grown from Tales",
+        "number": 185,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "255"
+    },
+    {
+        "card_name": "Soloists Pledge",
+        "number": 201,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "264"
+    },
+    {
+        "card_name": "Salvia's Showmanship",
+        "number": 193,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "244"
+    },
+    {
+        "card_name": "Skallan Requiem",
+        "number": 199,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "250"
+    },
+    {
+        "card_name": "Crowd Pleaser",
+        "number": 162,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "260"
+    },
+    {
+        "card_name": "Tremolos Pledge",
+        "number": 208,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "235"
+    },
+    {
+        "card_name": "Tolvadan Requiem",
+        "number": 207,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "248"
+    },
+    {
+        "card_name": "Siren Seabed",
+        "number": 198,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "262"
+    },
+    {
+        "card_name": "Swallow the Ruins",
+        "number": 206,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "212"
+    },
+    {
+        "card_name": "Mirran Requiem",
+        "number": 180,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "240"
+    },
+    {
+        "card_name": "Whispering Titan",
+        "number": 211,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "236"
+    },
+    {
+        "card_name": "Wish for Stardom",
+        "number": 247,
         "shape": "normal",
         "set": "VGE",
         "position": "187"
     },
     {
-        "card_name": "RUR01 Claine, Belting Siren",
-        "number": 232,
+        "card_name": "Claine, Belting Siren",
+        "number": 214,
         "shape": "normal",
         "set": "VGE",
         "position": "243"
     },
     {
-        "card_name": "RBG02 Muse of the Ruins",
-        "number": 229,
+        "card_name": "Muse of the Ruins",
+        "number": 227,
         "shape": "normal",
         "set": "VGE",
         "position": "233"
     },
     {
-        "card_name": "RRW01 Phoenix Siren",
-        "number": 231,
+        "card_name": "Phoenix Siren",
+        "number": 232,
         "shape": "normal",
         "set": "VGE",
         "position": "199"
     },
     {
-        "card_name": "RGU03 Pel's Compound Duple",
+        "card_name": "Pel's Compound Duple",
         "number": 230,
         "shape": "saga",
         "set": "VGE",
         "position": "256"
     },
     {
-        "card_name": "UWB01 Harsh Critic",
-        "number": 208,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "130"
-    },
-    {
-        "card_name": "UUR01 Copycat Composer",
-        "number": 204,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "87"
-    },
-    {
-        "card_name": "UBG01 Leaser of Inspiriation",
-        "number": 192,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "116"
-    },
-    {
-        "card_name": "URW01 Angel of Recovery",
-        "number": 200,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "144"
-    },
-    {
-        "card_name": "UGU01 Dowsing Couple",
-        "number": 196,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "158"
-    },
-    {
-        "card_name": "UWB02 Immortal's Lament",
-        "number": 209,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "131"
-    },
-    {
-        "card_name": "UUR02 Downbeat",
-        "number": 205,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "173"
-    },
-    {
-        "card_name": "UBG02 False Finale",
-        "number": 193,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "117"
-    },
-    {
-        "card_name": "URW02 Sustained Belting",
-        "number": 201,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "145"
-    },
-    {
-        "card_name": "UGU02 Call and Response",
-        "number": 197,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "159"
-    },
-    {
-        "card_name": "UWB03 Belia, Whispersinger",
-        "number": 210,
+        "card_name": "Belia, Whispersinger",
+        "number": 155,
         "shape": "normal",
         "set": "VGE",
         "position": "132"
     },
     {
-        "card_name": "UUR03 Leit, Maritime Motif",
-        "number": 206,
+        "card_name": "Copycat Composer",
+        "number": 160,
         "shape": "normal",
         "set": "VGE",
-        "position": "174"
+        "position": "87"
     },
     {
-        "card_name": "UBG03 Obliesse, Tear Queller",
-        "number": 194,
+        "card_name": "False Finale",
+        "number": 168,
         "shape": "normal",
         "set": "VGE",
-        "position": "118"
+        "position": "117"
     },
     {
-        "card_name": "URW03 Kitt Kanto, on Tour",
-        "number": 202,
+        "card_name": "Angel of Recovery",
+        "number": 153,
         "shape": "normal",
         "set": "VGE",
-        "position": "146"
+        "position": "144"
     },
     {
-        "card_name": "UGU03 Sennai, Songclade's Start",
-        "number": 198,
-        "shape": "normal",
+        "card_name": "Call and Response",
+        "number": 157,
+        "shape": "saga",
         "set": "VGE",
-        "position": "160"
+        "position": "159"
     },
     {
-        "card_name": "UWB04 Breathless Knight",
-        "number": 211,
+        "card_name": "Breathless Knight",
+        "number": 156,
         "shape": "normal",
         "set": "VGE",
         "position": "61"
     },
     {
-        "card_name": "UUR04 Olgal Song-Seer",
-        "number": 207,
+        "card_name": "Downbeat",
+        "number": 163,
         "shape": "normal",
         "set": "VGE",
-        "position": "85"
+        "position": "173"
     },
     {
-        "card_name": "UBG04 Murmur Harnesser",
-        "number": 195,
+        "card_name": "Leaser of Inspiriation",
+        "number": 177,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "116"
+    },
+    {
+        "card_name": "Kitt Kanto, on Tour",
+        "number": 176,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "146"
+    },
+    {
+        "card_name": "Center of the Ruins",
+        "number": 158,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "74"
+    },
+    {
+        "card_name": "UWB01 Harsh Critic",
+        "number": 209,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "130"
+    },
+    {
+        "card_name": "Leit, Maritime Motif",
+        "number": 178,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "174"
+    },
+    {
+        "card_name": "Murmur Harnesser",
+        "number": 181,
         "shape": "normal",
         "set": "VGE",
         "position": "81"
     },
     {
-        "card_name": "URW04 Songwrapped Chanter",
+        "card_name": "Songwrapped Chanter",
         "number": 203,
         "shape": "normal",
         "set": "VGE",
         "position": "68"
     },
     {
-        "card_name": "UGU04 Center of the Ruins",
-        "number": 199,
+        "card_name": "Dowsing Couple",
+        "number": 164,
         "shape": "normal",
         "set": "VGE",
-        "position": "74"
+        "position": "158"
     },
     {
-        "card_name": "UWB04 Maestro of Whims",
-        "number": 246,
+        "card_name": "UWB02 Immortal's Lament",
+        "number": 210,
         "shape": "normal",
         "set": "VGE",
-        "position": "119"
+        "position": "131"
     },
     {
-        "card_name": "UUR04 Scouting Siren",
-        "number": 243,
+        "card_name": "Olgal Song-Seer",
+        "number": 188,
         "shape": "normal",
         "set": "VGE",
-        "position": "161"
+        "position": "85"
     },
     {
-        "card_name": "UBG04 Olgal Zealot",
-        "number": 234,
+        "card_name": "Obliesse, Tear Queller",
+        "number": 186,
         "shape": "normal",
         "set": "VGE",
-        "position": "147"
+        "position": "118"
     },
     {
-        "card_name": "URW04 Raging Spirit",
-        "number": 240,
+        "card_name": "Sustained Belting",
+        "number": 205,
         "shape": "normal",
         "set": "VGE",
-        "position": "133"
+        "position": "145"
     },
     {
-        "card_name": "UGU04 Crestbreak Hydra",
-        "number": 237,
+        "card_name": "Sennai, Songclade's Start",
+        "number": 195,
         "shape": "normal",
         "set": "VGE",
-        "position": "175"
+        "position": "160"
     },
     {
-        "card_name": "UWB05 Worst Critique",
-        "number": 247,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "120"
-    },
-    {
-        "card_name": "UUR05 Siren Choir",
-        "number": 244,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "163"
-    },
-    {
-        "card_name": "UBG05 Call the Chorus",
-        "number": 235,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "134"
-    },
-    {
-        "card_name": "URW05 Blessings of the Crowd",
-        "number": 241,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "148"
-    },
-    {
-        "card_name": "UGU05 Rearrange",
-        "number": 238,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "162"
-    },
-    {
-        "card_name": "UWB06 Lethal Lead",
-        "number": 248,
+        "card_name": "Lethal Lead",
+        "number": 223,
         "shape": "normal",
         "set": "VGE",
         "position": "121"
     },
     {
-        "card_name": "UUR06 Clever Serpent",
-        "number": 245,
+        "card_name": "Clever Serpent",
+        "number": 215,
         "shape": "normal",
         "set": "VGE",
         "position": "176"
     },
     {
-        "card_name": "UBG06 Mentromone Meister",
-        "number": 236,
+        "card_name": "Call the Chorus",
+        "number": 213,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "134"
+    },
+    {
+        "card_name": "Blessings of the Crowd",
+        "number": 212,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "148"
+    },
+    {
+        "card_name": "Crestbreak Hydra",
+        "number": 218,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "175"
+    },
+    {
+        "card_name": "Maestro of Whims",
+        "number": 224,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "119"
+    },
+    {
+        "card_name": "Scouting Siren",
+        "number": 237,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "161"
+    },
+    {
+        "card_name": "Mentromone Meister",
+        "number": 225,
         "shape": "normal",
         "set": "VGE",
         "position": "135"
     },
     {
-        "card_name": "URW06 Dynamic Lead",
-        "number": 242,
+        "card_name": "Dynamic Lead",
+        "number": 222,
         "shape": "normal",
         "set": "VGE",
         "position": "149"
     },
     {
-        "card_name": "UGU06 Swelling Awakener",
-        "number": 239,
+        "card_name": "Rearrange",
+        "number": 235,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "162"
+    },
+    {
+        "card_name": "Worst Critique",
+        "number": 248,
+        "shape": "saga",
+        "set": "VGE",
+        "position": "120"
+    },
+    {
+        "card_name": "Siren Choir",
+        "number": 240,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "163"
+    },
+    {
+        "card_name": "Olgal Zealot",
+        "number": 229,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "147"
+    },
+    {
+        "card_name": "Raging Spirit",
+        "number": 233,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "133"
+    },
+    {
+        "card_name": "Swelling Awakener",
+        "number": 244,
         "shape": "normal",
         "set": "VGE",
         "position": "177"
     },
     {
-        "card_name": "CWB01 Grave Requiem",
-        "number": 160,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "60"
-    },
-    {
-        "card_name": "CUR01 Self-Assuring Siren",
-        "number": 158,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "172"
-    },
-    {
-        "card_name": "CBG01 Gathering Whispers",
-        "number": 152,
-        "shape": "saga",
-        "set": "VGE",
-        "position": "82"
-    },
-    {
-        "card_name": "CRW01 Sparkling Finale",
-        "number": 156,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "66"
-    },
-    {
-        "card_name": "CGU01 Shoreline Sonicist",
-        "number": 154,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "72"
-    },
-    {
-        "card_name": "CWB02 Choir of Spirits",
-        "number": 161,
+        "card_name": "Choir of Spirits",
+        "number": 159,
         "shape": "normal",
         "set": "VGE",
         "position": "65"
     },
     {
-        "card_name": "CUR02 Grandstaff Genius",
-        "number": 159,
+        "card_name": "Grandstaff Genius",
+        "number": 173,
         "shape": "normal",
         "set": "VGE",
         "position": "86"
     },
     {
-        "card_name": "CBG02 Olgal Researcher",
-        "number": 153,
-        "shape": "normal",
+        "card_name": "Gathering Whispers",
+        "number": 172,
+        "shape": "saga",
         "set": "VGE",
-        "position": "80"
+        "position": "82"
     },
     {
-        "card_name": "CRW02 Ottava Angel",
-        "number": 157,
+        "card_name": "Ottava Angel",
+        "number": 189,
         "shape": "normal",
         "set": "VGE",
         "position": "71"
     },
     {
-        "card_name": "CGU02 Mycosong Dryad",
-        "number": 155,
+        "card_name": "Mycosong Dryad",
+        "number": 183,
         "shape": "normal",
         "set": "VGE",
         "position": "73"
     },
     {
-        "card_name": "CWB04 Understudied Soloist",
-        "number": 224,
+        "card_name": "Grave Requiem",
+        "number": 174,
         "shape": "normal",
         "set": "VGE",
-        "position": "64"
+        "position": "60"
     },
     {
-        "card_name": "CUR04 Snapjaw Serpent",
-        "number": 221,
+        "card_name": "Self-Assuring Siren",
+        "number": 194,
         "shape": "normal",
         "set": "VGE",
-        "position": "84"
+        "position": "172"
     },
     {
-        "card_name": "CBG04 Song-Calmed Beast",
-        "number": 212,
+        "card_name": "Olgal Researcher",
+        "number": 187,
         "shape": "normal",
         "set": "VGE",
-        "position": "79"
+        "position": "80"
     },
     {
-        "card_name": "CRW04 Countros Assailant",
-        "number": 218,
+        "card_name": "Sparkling Finale",
+        "number": 204,
         "shape": "normal",
         "set": "VGE",
-        "position": "67"
+        "position": "66"
     },
     {
-        "card_name": "CGU04 Murmur Echoer",
-        "number": 215,
+        "card_name": "Shoreline Sonicist",
+        "number": 196,
         "shape": "normal",
         "set": "VGE",
-        "position": "75"
+        "position": "72"
     },
     {
-        "card_name": "CWB05 Short-Lived Soloist",
-        "number": 225,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "63"
-    },
-    {
-        "card_name": "CUR05 Rampaging Bellower",
-        "number": 222,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "83"
-    },
-    {
-        "card_name": "CBG05 Reoccuring Terror",
-        "number": 213,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "78"
-    },
-    {
-        "card_name": "CRW05 Countros Figurehead",
-        "number": 219,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "69"
-    },
-    {
-        "card_name": "CGU05 Olgal Murmur Leader",
-        "number": 216,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "76"
-    },
-    {
-        "card_name": "CWB06 Permanent Caesura",
-        "number": 226,
+        "card_name": "Permanent Caesura",
+        "number": 231,
         "shape": "normal",
         "set": "VGE",
         "position": "62"
     },
     {
-        "card_name": "CUR06 Da Cappa al Coda",
-        "number": 223,
+        "card_name": "Da Cappa al Coda",
+        "number": 219,
         "shape": "saga",
         "set": "VGE",
         "position": "88"
     },
     {
-        "card_name": "CBG06 Descending Line",
-        "number": 214,
+        "card_name": "Descending Line",
+        "number": 220,
         "shape": "normal",
         "set": "VGE",
         "position": "89"
     },
     {
-        "card_name": "CRW06 Shattering Song",
-        "number": 220,
+        "card_name": "Countros Assailant",
+        "number": 216,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "67"
+    },
+    {
+        "card_name": "Murmur Echoer",
+        "number": 226,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "75"
+    },
+    {
+        "card_name": "Short-Lived Soloist",
+        "number": 239,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "63"
+    },
+    {
+        "card_name": "Rampaging Bellower",
+        "number": 234,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "83"
+    },
+    {
+        "card_name": "Reoccuring Terror",
+        "number": 236,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "78"
+    },
+    {
+        "card_name": "Countros Figurehead",
+        "number": 217,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "69"
+    },
+    {
+        "card_name": "Olgal Murmur Leader",
+        "number": 228,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "76"
+    },
+    {
+        "card_name": "Understudied Soloist",
+        "number": 246,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "64"
+    },
+    {
+        "card_name": "Snapjaw Serpent",
+        "number": 241,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "84"
+    },
+    {
+        "card_name": "Song-Calmed Beast",
+        "number": 242,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "79"
+    },
+    {
+        "card_name": "Shattering Song",
+        "number": 238,
         "shape": "saga",
         "set": "VGE",
         "position": "70"
     },
     {
-        "card_name": "CGU06 Suddenstar's Gift",
-        "number": 217,
+        "card_name": "Suddenstar's Gift",
+        "number": 243,
         "shape": "saga",
         "set": "VGE",
         "position": "77"
@@ -1667,15 +1667,15 @@
         "card_name": "er"
     },
     {
-        "card_name": "MG01 Tacenda Verlasen",
-        "number": 227,
+        "card_name": "Tacenda Verlasen",
+        "number": 245,
         "shape": "planeswalker",
         "set": "VGE",
         "position": "201"
     },
     {
-        "card_name": "RWUBRG01 Song of Songs",
-        "number": 191,
+        "card_name": "Song of Songs",
+        "number": 202,
         "shape": "saga",
         "set": "VGE",
         "position": "208"
@@ -1703,77 +1703,77 @@
     },
     "a->colorless",
     {
-        "card_name": "RC01 The Mumur Awakened",
-        "number": 5,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "207"
-    },
-    {
-        "card_name": "RC03 Count Off",
-        "number": 6,
+        "card_name": "Count Off",
+        "number": 2,
         "shape": "saga",
         "set": "VGE",
         "position": "252"
     },
     {
-        "card_name": "RC02 Book of Forgotten Songs",
-        "number": 252,
+        "card_name": "The Mumur Awakened",
+        "number": 4,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "207"
+    },
+    {
+        "card_name": "Book of Forgotten Songs",
+        "number": 250,
         "shape": "normal",
         "set": "VGE",
         "position": "251"
     },
     {
-        "card_name": "UC06 Olgal's Calling",
-        "number": 7,
-        "shape": "saga",
+        "card_name": "Composition Inspector",
+        "number": 1,
+        "shape": "normal",
         "set": "VGE",
-        "position": "96"
+        "position": "91"
     },
     {
-        "card_name": "UC07 Mnemonic Tune",
-        "number": 8,
+        "card_name": "Mnemonic Tune",
+        "number": 3,
         "shape": "saga",
         "set": "VGE",
         "position": "98"
     },
     {
-        "card_name": "UC01 Screeching Machine",
-        "number": 253,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "178"
-    },
-    {
-        "card_name": "UC02 Salvager of Ruin",
-        "number": 254,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "180"
-    },
-    {
-        "card_name": "UC03 Aural-Core Automaton",
-        "number": 255,
+        "card_name": "Aural-Core Automaton",
+        "number": 249,
         "shape": "normal",
         "set": "VGE",
         "position": "179"
     },
     {
-        "card_name": "UC04 Olgal Guardian",
-        "number": 256,
+        "card_name": "Olgal Guardian",
+        "number": 252,
         "shape": "normal",
         "set": "VGE",
         "position": "182"
     },
     {
-        "card_name": "UC05 Recovered Scores",
-        "number": 257,
+        "card_name": "Recovered Scores",
+        "number": 254,
         "shape": "normal",
         "set": "VGE",
         "position": "95"
     },
     {
-        "card_name": "UC08 Siren's Ship",
+        "card_name": "Salvager of Ruin",
+        "number": 256,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "180"
+    },
+    {
+        "card_name": "Screeching Machine",
+        "number": 257,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "178"
+    },
+    {
+        "card_name": "Siren's Ship",
         "number": 258,
         "shape": "normal",
         "set": "VGE",
@@ -1787,46 +1787,46 @@
         "position": "295"
     },
     {
-        "card_name": "CC02 Composition Inspector",
-        "number": 1,
-        "shape": "normal",
+        "card_name": "Olgal's Calling",
+        "number": 6,
+        "shape": "saga",
         "set": "VGE",
-        "position": "91"
+        "position": "96"
     },
     {
-        "card_name": "CC06 Soaring Melody",
-        "number": 2,
+        "card_name": "Soaring Melody",
+        "number": 7,
         "shape": "normal",
         "set": "VGE",
         "position": "92"
     },
     {
-        "card_name": "CC07 Standard Repertoire",
-        "number": 3,
+        "card_name": "Standard Repertoire",
+        "number": 8,
         "shape": "saga",
         "set": "VGE",
         "position": "97"
     },
     {
-        "card_name": "CC01 Prismite",
-        "number": 249,
+        "card_name": "Crumbling Ruin",
+        "number": 251,
+        "shape": "normal",
+        "set": "VGE",
+        "position": "94"
+    },
+    {
+        "card_name": "Prismite",
+        "number": 253,
         "shape": "normal",
         "set": "VGE",
         "position": "93"
     },
     {
-        "card_name": "CC03 Requiem Automata",
-        "number": 250,
+        "card_name": "Requiem Automata",
+        "number": 255,
         "shape": "normal",
         "set": "VGE",
         "position": "90"
-    },
-    {
-        "card_name": "CC04 Crumbling Ruin",
-        "number": 251,
-        "shape": "normal",
-        "set": "VGE",
-        "position": "94"
     },
     {
         "card_name": "e"
@@ -1848,36 +1848,36 @@
     },
     "a->land",
     {
-        "card_name": "RL01 Open Air Theater",
-        "number": 264,
+        "card_name": "Open Air Theater",
+        "number": 265,
         "shape": "saga",
         "set": "VGE",
         "position": "205"
     },
     {
-        "card_name": "RL02 Shoreline Theater",
-        "number": 265,
+        "card_name": "Shoreline Theater",
+        "number": 269,
         "shape": "saga",
         "set": "VGE",
         "position": "206"
     },
     {
-        "card_name": "RL03 Earthbound Theater",
-        "number": 266,
+        "card_name": "Earthbound Theater",
+        "number": 264,
         "shape": "saga",
         "set": "VGE",
         "position": "257"
     },
     {
-        "card_name": "RL04 Skylight Theater",
-        "number": 267,
+        "card_name": "Skylight Theater",
+        "number": 270,
         "shape": "saga",
         "set": "VGE",
         "position": "216"
     },
     {
-        "card_name": "RL05 Rooted Theater",
-        "number": 268,
+        "card_name": "Rooted Theater",
+        "number": 267,
         "shape": "saga",
         "set": "VGE",
         "position": "258"
@@ -1898,36 +1898,36 @@
         "card_name": "er"
     },
     {
-        "card_name": "CL01 Crumbling Stage",
-        "number": 259,
+        "card_name": "Crumbling Stage",
+        "number": 263,
         "shape": "normal",
         "set": "VGE",
         "position": "104"
     },
     {
-        "card_name": "CL04 Vocalists Round",
-        "number": 262,
+        "card_name": "Vocalists Round",
+        "number": 271,
         "shape": "normal",
         "set": "VGE",
         "position": "101"
     },
     {
-        "card_name": "CL02 Anechoic Chamber",
+        "card_name": "Anechoic Chamber",
         "number": 260,
         "shape": "normal",
         "set": "VGE",
         "position": "103"
     },
     {
-        "card_name": "CL05 Choir Loft",
-        "number": 263,
+        "card_name": "Choir Loft",
+        "number": 262,
         "shape": "normal",
         "set": "VGE",
         "position": "100"
     },
     {
-        "card_name": "CL03 Reverberant Shore",
-        "number": 261,
+        "card_name": "Reverberant Shore",
+        "number": 266,
         "shape": "normal",
         "set": "VGE",
         "position": "102"
@@ -1948,29 +1948,29 @@
         "card_name": "er"
     },
     {
-        "card_name": "RL06 The World Stage",
-        "number": 269,
+        "card_name": "The World Stage",
+        "number": 272,
         "shape": "normal",
         "set": "VGE",
         "position": "217"
     },
     {
-        "card_name": "UL01 Accoustic Hall",
-        "number": 270,
+        "card_name": "Accoustic Hall",
+        "number": 259,
         "shape": "normal",
         "set": "VGE",
         "position": "183"
     },
     {
-        "card_name": "UL02 Bubbling Ruins",
-        "number": 271,
+        "card_name": "Bubbling Ruins",
+        "number": 261,
         "shape": "normal",
         "set": "VGE",
         "position": "184"
     },
     {
-        "card_name": "UL03 Ruins of Olgal",
-        "number": 272,
+        "card_name": "Ruins of Olgal",
+        "number": 268,
         "shape": "normal",
         "set": "VGE",
         "position": "99"
@@ -1995,35 +1995,35 @@
     },
     {
         "card_name": "Forest",
-        "number": 135,
+        "number": 134,
         "shape": "normal",
         "set": "VGE",
         "position": "269"
     },
     {
         "card_name": "Island",
-        "number": 49,
+        "number": 47,
         "shape": "normal",
         "set": "VGE",
         "position": "270"
     },
     {
         "card_name": "Mountain",
-        "number": 106,
+        "number": 110,
         "shape": "normal",
         "set": "VGE",
         "position": "271"
     },
     {
         "card_name": "Plains",
-        "number": 22,
+        "number": 25,
         "shape": "normal",
         "set": "VGE",
         "position": "272"
     },
     {
         "card_name": "Swamp",
-        "number": 85,
+        "number": 91,
         "shape": "normal",
         "set": "VGE",
         "position": "273"
@@ -2043,7 +2043,7 @@
     "a->token",
     {
         "card_name": "Murmur",
-        "number": 4,
+        "number": 5,
         "shape": "token",
         "set": "VGE",
         "position": "294"

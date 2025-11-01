@@ -221,7 +221,7 @@
 			}
 		},
 		{
-			"name": "Tuck within Harmony",
+			"name": "Tuck Within Harmony",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
@@ -284,7 +284,7 @@
 			"name": "Finale Reveler",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Vampire Shaman",
+			"type": "Creature — Vampire Rogue",
 			"collector_number": "78",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/28.png"
@@ -611,10 +611,10 @@
 			}
 		},
 		{
-			"name": "Breathless Knight",
+			"name": "Bereaved Perfectionist",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
-			"type": "Creature — Spirit Knight",
+			"type": "Creature — Human Soldier",
 			"collector_number": "156",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/61.png"
@@ -665,13 +665,13 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "204",
+			"collector_number": "206",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/66.png"
 			}
 		},
 		{
-			"name": "Countros Assailant",
+			"name": "Countros Assailants",
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Enchantment Creature — Spirit",
@@ -685,7 +685,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Dwarf Shaman",
-			"collector_number": "203",
+			"collector_number": "205",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/68.png"
 			}
@@ -715,7 +715,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "189",
+			"collector_number": "191",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/71.png"
 			}
@@ -725,7 +725,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}{U}",
 			"type": "Creature — Dwarf Druid",
-			"collector_number": "196",
+			"collector_number": "198",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/72.png"
 			}
@@ -735,7 +735,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Creature — Dryad",
-			"collector_number": "183",
+			"collector_number": "185",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/73.png"
 			}
@@ -805,7 +805,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Dwarf Advisor",
-			"collector_number": "187",
+			"collector_number": "189",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/80.png"
 			}
@@ -815,7 +815,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "181",
+			"collector_number": "183",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/81.png"
 			}
@@ -855,7 +855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{R}",
 			"type": "Creature — Siren",
-			"collector_number": "188",
+			"collector_number": "190",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/85.png"
 			}
@@ -1165,7 +1165,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Vampire Warlock",
-			"collector_number": "177",
+			"collector_number": "179",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/116.png"
 			}
@@ -1185,7 +1185,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Noble",
-			"collector_number": "186",
+			"collector_number": "188",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/118.png"
 			}
@@ -1273,7 +1273,7 @@
 		{
 			"name": "Stable Resolution",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Saga",
 			"collector_number": "32",
 			"image_uris": {
@@ -1301,21 +1301,21 @@
 			}
 		},
 		{
-			"name": "UWB01 Harsh Critic",
+			"name": "Harsh Critic",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "209",
+			"collector_number": "175",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/130.png"
 			}
 		},
 		{
-			"name": "UWB02 Immortal's Lament",
+			"name": "Immortal's Lament",
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "210",
+			"collector_number": "176",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/131.png"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "205",
+			"collector_number": "207",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/145.png"
 			}
@@ -1465,7 +1465,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Cat Bard Druid",
-			"collector_number": "176",
+			"collector_number": "178",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/146.png"
 			}
@@ -1605,7 +1605,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Snake Elf Bard",
-			"collector_number": "195",
+			"collector_number": "197",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/160.png"
 			}
@@ -1725,7 +1725,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"type": "Creature — Siren Bard",
-			"collector_number": "194",
+			"collector_number": "196",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/172.png"
 			}
@@ -1745,7 +1745,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Devil Bard",
-			"collector_number": "178",
+			"collector_number": "180",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/174.png"
 			}
@@ -1885,7 +1885,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "182",
+			"collector_number": "184",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/188.png"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Bard",
-			"collector_number": "184",
+			"collector_number": "186",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/195.png"
 			}
@@ -1984,7 +1984,7 @@
 			"name": "Totentanz, Murmur Maginifier",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Human Warlock Bard",
+			"type": "Legendary Creature — Zombie Warlock Bard",
 			"collector_number": "122",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/198.png"
@@ -2035,7 +2035,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Creature — Plant Bard",
-			"collector_number": "190",
+			"collector_number": "192",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/203.png"
 			}
@@ -2085,7 +2085,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "202",
+			"collector_number": "204",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/208.png"
 			}
@@ -2115,7 +2115,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/B}{B}{2/G}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "191",
+			"collector_number": "193",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/211.png"
 			}
@@ -2125,7 +2125,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "206",
+			"collector_number": "208",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/212.png"
 			}
@@ -2245,7 +2245,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/U}{U}{2/R}{R}",
 			"type": "Enchantment — Saga",
-			"collector_number": "192",
+			"collector_number": "194",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/224.png"
 			}
@@ -2255,7 +2255,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "197",
+			"collector_number": "199",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/225.png"
 			}
@@ -2285,7 +2285,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Human Bard",
-			"collector_number": "179",
+			"collector_number": "181",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/228.png"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Human Warlock",
-			"collector_number": "175",
+			"collector_number": "177",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/229.png"
 			}
@@ -2355,7 +2355,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/G}{G}{2/U}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "208",
+			"collector_number": "210",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/235.png"
 			}
@@ -2405,7 +2405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/R}{2/W}",
 			"type": "Sorcery",
-			"collector_number": "180",
+			"collector_number": "182",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/240.png"
 			}
@@ -2445,7 +2445,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Instant",
-			"collector_number": "193",
+			"collector_number": "195",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/244.png"
 			}
@@ -2475,7 +2475,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Enchantment Creature — Angel Advisor",
-			"collector_number": "200",
+			"collector_number": "202",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/247.png"
 			}
@@ -2485,7 +2485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/W}{2/B}",
 			"type": "Sorcery",
-			"collector_number": "207",
+			"collector_number": "209",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/248.png"
 			}
@@ -2505,7 +2505,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/B}{2/G}",
 			"type": "Sorcery",
-			"collector_number": "199",
+			"collector_number": "201",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/250.png"
 			}
@@ -2555,7 +2555,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{G}{U}",
 			"type": "Legendary Creature — Elemental Plant Bard",
-			"collector_number": "185",
+			"collector_number": "187",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/255.png"
 			}
@@ -2625,7 +2625,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "Artifact",
-			"collector_number": "198",
+			"collector_number": "200",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/262.png"
 			}
@@ -2645,7 +2645,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/W}{W}{2/B}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "201",
+			"collector_number": "203",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/264.png"
 			}
@@ -2951,23 +2951,13 @@
 			}
 		},
 		{
-			"name": "",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/295.png"
-			}
-		},
-		{
 			"name": "Elf",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Elf",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/296.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/295.png"
 			}
 		},
 		{
@@ -2977,7 +2967,7 @@
 			"type": "Token Creature — Leviathan",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/297.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/296.png"
 			}
 		},
 		{
@@ -2987,7 +2977,7 @@
 			"type": "Token Creature — Human",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/298.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/297.png"
 			}
 		},
 		{
@@ -2997,7 +2987,7 @@
 			"type": "Token Creature — Rat",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://khord22.github.io/sets/VGE-files/img/299.png"
+				"en": "https://khord22.github.io/sets/VGE-files/img/298.png"
 			}
 		}
 	]
@@ -3090,7 +3080,7 @@
 	4 Lonely Whispering
 	4 Lightning Belt
 	4 Embrace the Murmur
-	4 Breathless Knight
+	4 Bereaved Perfectionist
 	4 Songwrapped Chanter
 	4 Center of the Ruins
 	4 Murmur Harnesser
@@ -3122,8 +3112,8 @@
 	4 Stable Resolution
 	4 Debut Disapproval
 	4 Sudden Savior
-	4 UWB01 Harsh Critic
-	4 UWB02 Immortal's Lament
+	4 Harsh Critic
+	4 Immortal's Lament
 	4 Belia, Whispersinger
 	4 Raging Spirit
 	4 Call the Chorus
@@ -3179,7 +3169,7 @@
 	4 Blessing Barker
 	4 Olgal Composer
 	4 Beat Boxer
-[common(6)]
+[common(7)]
 	8 Backup Singer
 	8 Mute Healer
 	8 Countros Soprano
@@ -3200,7 +3190,7 @@
 	8 Dream Songs
 	8 Thirst for Meaning
 	8 Performers Only
-	8 Tuck within Harmony
+	8 Tuck Within Harmony
 	8 Reminiscent Tune
 	8 Decreshh Revenant
 	8 Subtle Silencer
@@ -3240,7 +3230,7 @@
 	8 Understudied Soloist
 	8 Choir of Spirits
 	8 Sparkling Finale
-	8 Countros Assailant
+	8 Countros Assailants
 	8 Countros Figurehead
 	8 Shattering Song
 	8 Ottava Angel
@@ -3264,126 +3254,8 @@
 	8 Crumbling Ruin
 	8 Olgal's Calling
 	8 Standard Repertoire
-	8 Choir Loft
-	8 Vocalists Round
-	8 Reverberant Shore
-	8 Anechoic Chamber
-	8 Crumbling Stage
 	8 Self-Assuring Siren
 	8 Sudden Screeching
-[specialcommon(1)]
-	8 Backup Singer
-	8 Mute Healer
-	8 Countros Soprano
-	8 Amphiteater Listener
-	8 Overeager Audience
-	8 Countros Ringer
-	8 Echo of Delight
-	8 Resolute Melody
-	8 Imprison Composer
-	8 Accoustic Reflections
-	8 Even Stars Fall
-	8 Rondelli Recruiter
-	8 Olgal Shore Guardian
-	8 Mistral Singer
-	8 Phase Inverter
-	8 Echo of Complexity
-	8 Auditioning Canon
-	8 Dream Songs
-	8 Thirst for Meaning
-	8 Performers Only
-	8 Tuck within Harmony
-	8 Reminiscent Tune
-	8 Decreshh Revenant
-	8 Subtle Silencer
-	8 Mourning Soliliquist
-	8 Caller of Ravens
-	8 Finale Reveler
-	8 Echo of Silence
-	8 Call of the Cruel
-	8 Write Your Requiem
-	8 Discordant Ditty
-	8 Cut to Silence
-	8 Life's Echo
-	8 Vivace Vocalist
-	8 Dwarven Forge-Chanter
-	8 Scorned Diva
-	8 Cadence Contralto
-	8 Siren Tracker
-	8 Echo of Embers
-	8 Flaming Resolution
-	8 Crooning Stage
-	8 Set the Setlist
-	8 Accelerando
-	8 Hearty Chanter
-	8 Climbing Ivy
-	8 Harmony Essence
-	8 Storykeeper
-	8 Nature's Duet
-	8 Echo of Family
-	8 Doubletime Diva
-	8 Follow the Murmur
-	8 Echoed Ambush
-	8 Modal Harmonization
-	8 Step Back
-	8 Grave Requiem
-	8 Permanent Caesura
-	8 Short-Lived Soloist
-	8 Understudied Soloist
-	8 Choir of Spirits
-	8 Sparkling Finale
-	8 Countros Assailant
-	8 Countros Figurehead
-	8 Shattering Song
-	8 Ottava Angel
-	8 Shoreline Sonicist
-	8 Mycosong Dryad
-	8 Murmur Echoer
-	8 Olgal Murmur Leader
-	8 Suddenstar's Gift
-	8 Reoccuring Terror
-	8 Song-Calmed Beast
-	8 Olgal Researcher
-	8 Gathering Whispers
-	8 Rampaging Bellower
-	8 Snapjaw Serpent
-	8 Grandstaff Genius
-	8 Da Cappa al Coda
-	8 Descending Line
-	8 Requiem Automata
-	8 Soaring Melody
-	8 Prismite
-	8 Crumbling Ruin
-	8 Olgal's Calling
-	8 Standard Repertoire
-	8 Choir Loft
-	8 Vocalists Round
-	8 Reverberant Shore
-	8 Anechoic Chamber
-	8 Crumbling Stage
-	8 Self-Assuring Siren
-	8 Sudden Screeching
-	4 Love Song of Night and Day
-	4 Serra's Embrace
-	4 Songbirds' Blessing
-	4 The Bath Song
-	4 Lilting Refrain
-	4 Second Wind
-	4 The Eldest Reborn
-	4 No Rest for the Wicked
-	4 Vile Requiem
-	4 Frenzied Fugue
- 	4 Korvold and the Noble Thief
-	4 Torch Song
-	4 Song of Freyalise
-	4 Song of Serenity
-	4 Song of the Dryads
-	4 Ascent of the Worthy
-	4 Binding of the Old Gods
-	4 Bounty of the Luxa
-	4 Lorehold Excavation
-	4 Quicksilver Dagger
-
 [foil(1)]
 	12 Backup Singer
 	12 Mute Healer
@@ -3407,7 +3279,7 @@
 	6 Delayed Performance
 	12 Thirst for Meaning
 	12 Performers Only
-	12 Tuck within Harmony
+	12 Tuck Within Harmony
 	12 Reminiscent Tune
 	12 Decreshh Revenant
 	12 Subtle Silencer
@@ -3446,13 +3318,13 @@
 	6 Embrace the Murmur
 	12 Step Back
 	12 Grave Requiem
-	6 Breathless Knight
+	6 Bereaved Perfectionist
 	12 Permanent Caesura
 	12 Short-Lived Soloist
 	12 Understudied Soloist
 	12 Choir of Spirits
 	12 Sparkling Finale
-	12 Countros Assailant
+	12 Countros Assailants
 	6 Songwrapped Chanter
 	12 Countros Figurehead
 	12 Shattering Song
@@ -3485,11 +3357,6 @@
 	12 Standard Repertoire
 	6 Mnemonic Tune
 	6 Ruins of Olgal
-	12 Choir Loft
-	12 Vocalists Round
-	12 Reverberant Shore
-	12 Anechoic Chamber
-	12 Crumbling Stage
 	6 Whining Whisps
 	6 Encore Sibyl
 	6 Polyphonist
@@ -3512,8 +3379,8 @@
 	6 Stable Resolution
 	6 Debut Disapproval
 	6 Sudden Savior
-	6 UWB01 Harsh Critic
-	6 UWB02 Immortal's Lament
+	6 Harsh Critic
+	6 Immortal's Lament
 	6 Belia, Whispersinger
 	6 Raging Spirit
 	6 Call the Chorus
@@ -3651,7 +3518,6 @@
 	6 Olgal Composer
 	12 Sudden Screeching
 	6 Beat Boxer
-	
 [wildcard(1)]
 	6 Backup Singer
 	6 Mute Healer
@@ -3675,7 +3541,7 @@
 	15 Delayed Performance
 	6 Thirst for Meaning
 	6 Performers Only
-	6 Tuck within Harmony
+	6 Tuck Within Harmony
 	6 Reminiscent Tune
 	6 Decreshh Revenant
 	6 Subtle Silencer
@@ -3714,13 +3580,13 @@
 	15 Embrace the Murmur
 	6 Step Back
 	6 Grave Requiem
-	15 Breathless Knight
+	15 Bereaved Perfectionist
 	6 Permanent Caesura
 	6 Short-Lived Soloist
 	6 Understudied Soloist
 	6 Choir of Spirits
 	6 Sparkling Finale
-	6 Countros Assailant
+	6 Countros Assailants
 	15 Songwrapped Chanter
 	6 Countros Figurehead
 	6 Shattering Song
@@ -3753,11 +3619,6 @@
 	6 Standard Repertoire
 	15 Mnemonic Tune
 	15 Ruins of Olgal
-	6 Choir Loft
-	6 Vocalists Round
-	6 Reverberant Shore
-	6 Anechoic Chamber
-	6 Crumbling Stage
 	15 Whining Whisps
 	15 Encore Sibyl
 	15 Polyphonist
@@ -3780,8 +3641,8 @@
 	15 Stable Resolution
 	15 Debut Disapproval
 	15 Sudden Savior
-	15 UWB01 Harsh Critic
-	15 UWB02 Immortal's Lament
+	15 Harsh Critic
+	15 Immortal's Lament
 	15 Belia, Whispersinger
 	15 Raging Spirit
 	15 Call the Chorus
@@ -3919,7 +3780,113 @@
 	15 Olgal Composer
 	6 Sudden Screeching
 	15 Beat Boxer
-
+[specialcommon(1)]
+	8 Backup Singer
+	8 Mute Healer
+	8 Countros Soprano
+	8 Amphiteater Listener
+	8 Overeager Audience
+	8 Countros Ringer
+	8 Echo of Delight
+	8 Resolute Melody
+	8 Imprison Composer
+	8 Accoustic Reflections
+	8 Even Stars Fall
+	8 Rondelli Recruiter
+	8 Olgal Shore Guardian
+	8 Mistral Singer
+	8 Phase Inverter
+	8 Echo of Complexity
+	8 Auditioning Canon
+	8 Dream Songs
+	8 Thirst for Meaning
+	8 Performers Only
+	8 Tuck Within Harmony
+	8 Reminiscent Tune
+	8 Decreshh Revenant
+	8 Subtle Silencer
+	8 Mourning Soliliquist
+	8 Caller of Ravens
+	8 Finale Reveler
+	8 Echo of Silence
+	8 Call of the Cruel
+	8 Write Your Requiem
+	8 Discordant Ditty
+	8 Cut to Silence
+	8 Life's Echo
+	8 Vivace Vocalist
+	8 Dwarven Forge-Chanter
+	8 Scorned Diva
+	8 Cadence Contralto
+	8 Siren Tracker
+	8 Echo of Embers
+	8 Flaming Resolution
+	8 Crooning Stage
+	8 Set the Setlist
+	8 Accelerando
+	8 Hearty Chanter
+	8 Climbing Ivy
+	8 Harmony Essence
+	8 Storykeeper
+	8 Nature's Duet
+	8 Echo of Family
+	8 Doubletime Diva
+	8 Follow the Murmur
+	8 Echoed Ambush
+	8 Modal Harmonization
+	8 Step Back
+	8 Grave Requiem
+	8 Permanent Caesura
+	8 Short-Lived Soloist
+	8 Understudied Soloist
+	8 Choir of Spirits
+	8 Sparkling Finale
+	8 Countros Assailants
+	8 Countros Figurehead
+	8 Shattering Song
+	8 Ottava Angel
+	8 Shoreline Sonicist
+	8 Mycosong Dryad
+	8 Murmur Echoer
+	8 Olgal Murmur Leader
+	8 Suddenstar's Gift
+	8 Reoccuring Terror
+	8 Song-Calmed Beast
+	8 Olgal Researcher
+	8 Gathering Whispers
+	8 Rampaging Bellower
+	8 Snapjaw Serpent
+	8 Grandstaff Genius
+	8 Da Cappa al Coda
+	8 Descending Line
+	8 Requiem Automata
+	8 Soaring Melody
+	8 Prismite
+	8 Crumbling Ruin
+	8 Olgal's Calling
+	8 Standard Repertoire
+	8 Self-Assuring Siren
+	8 Sudden Screeching
+	6 Love Song of Night and Day
+	6 Serra's Embrace
+	6 Songbirds' Blessing
+	6 The Bath Song
+	6 Lilting Refrain
+	6 Second Wind
+	6 The Eldest Reborn
+	6 No Rest for the Wicked
+	6 Vile Requiem
+	6 Frenzied Fugue
+ 	6 Korvold and the Noble Thief
+	6 Torch Song
+	6 Song of Freyalise
+	6 Song of Serenity
+	6 Song of the Dryads
+	6 Ascent of the Worthy
+	6 Binding of the Old Gods
+	6 Bounty of the Luxa
+	6 Lorehold Excavation
+	6 Quicksilver Dagger
 [Land (1)]
 	4 Plains
 	4 Island

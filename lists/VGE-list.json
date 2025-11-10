@@ -988,7 +988,7 @@
     },
     {
         "card_name": "Mielle, Soloist Primo",
-        "number": 181,
+        "number": 180,
         "shape": "normal",
         "set": "VGE",
         "position": "228"
@@ -1016,28 +1016,28 @@
     },
     {
         "card_name": "Pel, Tremolos Tutor",
-        "number": 192,
+        "number": 191,
         "shape": "normal",
         "set": "VGE",
         "position": "203"
     },
     {
         "card_name": "Murmuring Mourner",
-        "number": 184,
+        "number": 183,
         "shape": "normal",
         "set": "VGE",
         "position": "188"
     },
     {
         "card_name": "Sing Con Vivace",
-        "number": 199,
+        "number": 198,
         "shape": "normal",
         "set": "VGE",
         "position": "225"
     },
     {
         "card_name": "Nollik, Decreshh Director",
-        "number": 186,
+        "number": 185,
         "shape": "normal",
         "set": "VGE",
         "position": "195"
@@ -1051,14 +1051,14 @@
     },
     {
         "card_name": "Doubletime Shanty",
-        "number": 221,
+        "number": 220,
         "shape": "normal",
         "set": "VGE",
         "position": "215"
     },
     {
         "card_name": "Killian, Lyricist",
-        "number": 177,
+        "number": 176,
         "shape": "normal",
         "set": "VGE",
         "position": "229"
@@ -1093,21 +1093,21 @@
     },
     {
         "card_name": "Soaring Conductor",
-        "number": 202,
+        "number": 201,
         "shape": "normal",
         "set": "VGE",
         "position": "247"
     },
     {
         "card_name": "Rondelli Pledge",
-        "number": 194,
+        "number": 193,
         "shape": "saga",
         "set": "VGE",
         "position": "224"
     },
     {
         "card_name": "Pledge of Silence",
-        "number": 193,
+        "number": 192,
         "shape": "saga",
         "set": "VGE",
         "position": "211"
@@ -1121,28 +1121,28 @@
     },
     {
         "card_name": "Notyis, Grown from Tales",
-        "number": 187,
+        "number": 186,
         "shape": "normal",
         "set": "VGE",
         "position": "255"
     },
     {
         "card_name": "Soloists Pledge",
-        "number": 203,
+        "number": 202,
         "shape": "saga",
         "set": "VGE",
         "position": "264"
     },
     {
         "card_name": "Salvia's Showmanship",
-        "number": 195,
+        "number": 194,
         "shape": "normal",
         "set": "VGE",
         "position": "244"
     },
     {
         "card_name": "Skallan Requiem",
-        "number": 201,
+        "number": 200,
         "shape": "normal",
         "set": "VGE",
         "position": "250"
@@ -1156,42 +1156,42 @@
     },
     {
         "card_name": "Tremolos Pledge",
-        "number": 210,
+        "number": 209,
         "shape": "saga",
         "set": "VGE",
         "position": "235"
     },
     {
         "card_name": "Tolvadan Requiem",
-        "number": 209,
+        "number": 208,
         "shape": "normal",
         "set": "VGE",
         "position": "248"
     },
     {
         "card_name": "Siren Seabed",
-        "number": 200,
+        "number": 199,
         "shape": "normal",
         "set": "VGE",
         "position": "262"
     },
     {
         "card_name": "Swallow the Ruins",
-        "number": 208,
+        "number": 207,
         "shape": "normal",
         "set": "VGE",
         "position": "212"
     },
     {
         "card_name": "Mirran Requiem",
-        "number": 182,
+        "number": 181,
         "shape": "normal",
         "set": "VGE",
         "position": "240"
     },
     {
         "card_name": "Whispering Titan",
-        "number": 211,
+        "number": 210,
         "shape": "normal",
         "set": "VGE",
         "position": "236"
@@ -1205,7 +1205,7 @@
     },
     {
         "card_name": "Claine, Belting Siren",
-        "number": 214,
+        "number": 213,
         "shape": "normal",
         "set": "VGE",
         "position": "243"
@@ -1282,14 +1282,14 @@
     },
     {
         "card_name": "Leaser of Inspiriation",
-        "number": 179,
+        "number": 178,
         "shape": "normal",
         "set": "VGE",
         "position": "116"
     },
     {
         "card_name": "Kitt Kanto, on Tour",
-        "number": 178,
+        "number": 177,
         "shape": "normal",
         "set": "VGE",
         "position": "146"
@@ -1303,28 +1303,28 @@
     },
     {
         "card_name": "Harsh Critic",
-        "number": 175,
+        "number": 174,
         "shape": "normal",
         "set": "VGE",
         "position": "130"
     },
     {
         "card_name": "Leit, Maritime Motif",
-        "number": 180,
+        "number": 179,
         "shape": "normal",
         "set": "VGE",
         "position": "174"
     },
     {
         "card_name": "Murmur Harnesser",
-        "number": 183,
+        "number": 182,
         "shape": "normal",
         "set": "VGE",
         "position": "81"
     },
     {
         "card_name": "Songwrapped Chanter",
-        "number": 205,
+        "number": 204,
         "shape": "normal",
         "set": "VGE",
         "position": "68"
@@ -1338,35 +1338,35 @@
     },
     {
         "card_name": "Immortal's Lament",
-        "number": 176,
+        "number": 175,
         "shape": "normal",
         "set": "VGE",
         "position": "131"
     },
     {
         "card_name": "Olgal Song-Seer",
-        "number": 190,
+        "number": 189,
         "shape": "normal",
         "set": "VGE",
         "position": "85"
     },
     {
         "card_name": "Obliesse, Tear Queller",
-        "number": 188,
+        "number": 187,
         "shape": "normal",
         "set": "VGE",
         "position": "118"
     },
     {
         "card_name": "Sustained Belting",
-        "number": 207,
+        "number": 206,
         "shape": "normal",
         "set": "VGE",
         "position": "145"
     },
     {
         "card_name": "Sennai, Songclade's Start",
-        "number": 197,
+        "number": 196,
         "shape": "normal",
         "set": "VGE",
         "position": "160"
@@ -1380,28 +1380,28 @@
     },
     {
         "card_name": "Clever Serpent",
-        "number": 215,
+        "number": 214,
         "shape": "normal",
         "set": "VGE",
         "position": "176"
     },
     {
         "card_name": "Call the Chorus",
-        "number": 213,
+        "number": 212,
         "shape": "normal",
         "set": "VGE",
         "position": "134"
     },
     {
         "card_name": "Blessings of the Crowd",
-        "number": 212,
+        "number": 211,
         "shape": "normal",
         "set": "VGE",
         "position": "148"
     },
     {
         "card_name": "Crestbreak Hydra",
-        "number": 218,
+        "number": 217,
         "shape": "normal",
         "set": "VGE",
         "position": "175"
@@ -1429,7 +1429,7 @@
     },
     {
         "card_name": "Dynamic Lead",
-        "number": 222,
+        "number": 221,
         "shape": "normal",
         "set": "VGE",
         "position": "149"
@@ -1485,63 +1485,63 @@
     },
     {
         "card_name": "Grandstaff Genius",
-        "number": 173,
+        "number": 172,
         "shape": "normal",
         "set": "VGE",
         "position": "86"
     },
     {
-        "card_name": "Gathering Whispers",
-        "number": 172,
-        "shape": "saga",
+        "card_name": "Olgal Researcher",
+        "number": 188,
+        "shape": "normal",
         "set": "VGE",
-        "position": "82"
+        "position": "80"
     },
     {
         "card_name": "Ottava Angel",
-        "number": 191,
+        "number": 190,
         "shape": "normal",
         "set": "VGE",
         "position": "71"
     },
     {
         "card_name": "Mycosong Dryad",
-        "number": 185,
+        "number": 184,
         "shape": "normal",
         "set": "VGE",
         "position": "73"
     },
     {
         "card_name": "Grave Requiem",
-        "number": 174,
+        "number": 173,
         "shape": "normal",
         "set": "VGE",
         "position": "60"
     },
     {
         "card_name": "Self-Assuring Siren",
-        "number": 196,
+        "number": 195,
         "shape": "normal",
         "set": "VGE",
         "position": "172"
     },
     {
-        "card_name": "Olgal Researcher",
-        "number": 189,
+        "card_name": "Descending Line",
+        "number": 219,
         "shape": "normal",
         "set": "VGE",
-        "position": "80"
+        "position": "89"
     },
     {
         "card_name": "Sparkling Finale",
-        "number": 206,
+        "number": 205,
         "shape": "normal",
         "set": "VGE",
         "position": "66"
     },
     {
         "card_name": "Shoreline Sonicist",
-        "number": 198,
+        "number": 197,
         "shape": "normal",
         "set": "VGE",
         "position": "72"
@@ -1555,21 +1555,21 @@
     },
     {
         "card_name": "Da Cappa al Coda",
-        "number": 219,
+        "number": 218,
         "shape": "saga",
         "set": "VGE",
         "position": "88"
     },
     {
-        "card_name": "Descending Line",
-        "number": 220,
-        "shape": "normal",
+        "card_name": "Gathering Whispers",
+        "number": 222,
+        "shape": "saga",
         "set": "VGE",
-        "position": "89"
+        "position": "82"
     },
     {
         "card_name": "Countros Assailants",
-        "number": 216,
+        "number": 215,
         "shape": "normal",
         "set": "VGE",
         "position": "67"
@@ -1604,7 +1604,7 @@
     },
     {
         "card_name": "Countros Figurehead",
-        "number": 217,
+        "number": 216,
         "shape": "normal",
         "set": "VGE",
         "position": "69"
@@ -1675,7 +1675,7 @@
     },
     {
         "card_name": "Song of Songs",
-        "number": 204,
+        "number": 203,
         "shape": "saga",
         "set": "VGE",
         "position": "208"

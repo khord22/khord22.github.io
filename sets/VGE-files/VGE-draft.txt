@@ -605,7 +605,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "174",
+			"collector_number": "173",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/60.png"
 			}
@@ -665,7 +665,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "206",
+			"collector_number": "205",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/66.png"
 			}
@@ -675,7 +675,7 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "216",
+			"collector_number": "215",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/67.png"
 			}
@@ -685,7 +685,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Dwarf Shaman",
-			"collector_number": "205",
+			"collector_number": "204",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/68.png"
 			}
@@ -695,7 +695,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}{R/W}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "217",
+			"collector_number": "216",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/69.png"
 			}
@@ -715,7 +715,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "191",
+			"collector_number": "190",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/71.png"
 			}
@@ -725,7 +725,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}{U}",
 			"type": "Creature — Dwarf Druid",
-			"collector_number": "198",
+			"collector_number": "197",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/72.png"
 			}
@@ -735,7 +735,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Creature — Dryad",
-			"collector_number": "185",
+			"collector_number": "184",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/73.png"
 			}
@@ -805,7 +805,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Dwarf Advisor",
-			"collector_number": "189",
+			"collector_number": "188",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/80.png"
 			}
@@ -815,7 +815,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "183",
+			"collector_number": "182",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/81.png"
 			}
@@ -823,9 +823,9 @@
 		{
 			"name": "Gathering Whispers",
 			"rarity": "common",
-			"mana_cost": "{2}{B}{G}",
+			"mana_cost": "{2}{B/G}{B/G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "172",
+			"collector_number": "222",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/82.png"
 			}
@@ -855,7 +855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{R}",
 			"type": "Creature — Siren",
-			"collector_number": "190",
+			"collector_number": "189",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/85.png"
 			}
@@ -865,7 +865,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Human Shaman",
-			"collector_number": "173",
+			"collector_number": "172",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/86.png"
 			}
@@ -885,7 +885,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/R}{U/R}",
 			"type": "Enchantment — Saga",
-			"collector_number": "219",
+			"collector_number": "218",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/88.png"
 			}
@@ -895,7 +895,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}{B/G}",
 			"type": "Instant",
-			"collector_number": "220",
+			"collector_number": "219",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/89.png"
 			}
@@ -1165,7 +1165,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Vampire Warlock",
-			"collector_number": "179",
+			"collector_number": "178",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/116.png"
 			}
@@ -1185,7 +1185,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Noble",
-			"collector_number": "188",
+			"collector_number": "187",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/118.png"
 			}
@@ -1214,7 +1214,7 @@
 			"name": "Lethal Lead",
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W/B}{B}",
-			"type": "Creature",
+			"type": "Creature — Human Bard",
 			"collector_number": "223",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/121.png"
@@ -1305,7 +1305,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "175",
+			"collector_number": "174",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/130.png"
 			}
@@ -1315,7 +1315,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "176",
+			"collector_number": "175",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/131.png"
 			}
@@ -1345,7 +1345,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/G}{B/G}",
 			"type": "Instant",
-			"collector_number": "213",
+			"collector_number": "212",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/134.png"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "207",
+			"collector_number": "206",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/145.png"
 			}
@@ -1465,7 +1465,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Cat Bard Druid",
-			"collector_number": "178",
+			"collector_number": "177",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/146.png"
 			}
@@ -1485,7 +1485,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/W}{R/W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "212",
+			"collector_number": "211",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/148.png"
 			}
@@ -1495,7 +1495,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{R/W}{W}",
 			"type": "Creature — Dwarf Warrior",
-			"collector_number": "222",
+			"collector_number": "221",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/149.png"
 			}
@@ -1605,7 +1605,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Snake Elf Bard",
-			"collector_number": "197",
+			"collector_number": "196",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/160.png"
 			}
@@ -1725,7 +1725,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"type": "Creature — Siren Bard",
-			"collector_number": "196",
+			"collector_number": "195",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/172.png"
 			}
@@ -1745,7 +1745,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Devil Bard",
-			"collector_number": "180",
+			"collector_number": "179",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/174.png"
 			}
@@ -1755,7 +1755,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G/U}",
 			"type": "Creature — Hydra",
-			"collector_number": "218",
+			"collector_number": "217",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/175.png"
 			}
@@ -1765,7 +1765,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U/R}{U/R}{U/R}",
 			"type": "Creature — Serpent",
-			"collector_number": "215",
+			"collector_number": "214",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/176.png"
 			}
@@ -1823,7 +1823,7 @@
 		{
 			"name": "Olgal Guardian",
 			"rarity": "uncommon",
-			"mana_cost": "{C}{C}{C}{C}",
+			"mana_cost": "{2}{2}{2}{2}",
 			"type": "Artifact Creature — Golem",
 			"collector_number": "252",
 			"image_uris": {
@@ -1885,7 +1885,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Enchantment Creature — Spirit",
-			"collector_number": "184",
+			"collector_number": "183",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/188.png"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Elf Bard",
-			"collector_number": "186",
+			"collector_number": "185",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/195.png"
 			}
@@ -2035,7 +2035,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Creature — Plant Bard",
-			"collector_number": "192",
+			"collector_number": "191",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/203.png"
 			}
@@ -2073,7 +2073,7 @@
 		{
 			"name": "The Mumur Awakened",
 			"rarity": "rare",
-			"mana_cost": "{C}{C}{C}{C}{C}",
+			"mana_cost": "{2}{2}{2}{2}{2}",
 			"type": "Legendary Enchantment Creature — Bard",
 			"collector_number": "4",
 			"image_uris": {
@@ -2085,7 +2085,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "204",
+			"collector_number": "203",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/208.png"
 			}
@@ -2115,7 +2115,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/B}{B}{2/G}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "193",
+			"collector_number": "192",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/211.png"
 			}
@@ -2125,7 +2125,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "208",
+			"collector_number": "207",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/212.png"
 			}
@@ -2155,7 +2155,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{G}{G/U}{U}",
 			"type": "Sorcery",
-			"collector_number": "221",
+			"collector_number": "220",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/215.png"
 			}
@@ -2245,7 +2245,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/U}{U}{2/R}{R}",
 			"type": "Enchantment — Saga",
-			"collector_number": "194",
+			"collector_number": "193",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/224.png"
 			}
@@ -2253,9 +2253,9 @@
 		{
 			"name": "Sing Con Vivace",
 			"rarity": "mythic",
-			"mana_cost": "{3}{U}{R}",
+			"mana_cost": "{2}{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "199",
+			"collector_number": "198",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/225.png"
 			}
@@ -2285,7 +2285,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Human Bard",
-			"collector_number": "181",
+			"collector_number": "180",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/228.png"
 			}
@@ -2295,7 +2295,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Human Warlock",
-			"collector_number": "177",
+			"collector_number": "176",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/229.png"
 			}
@@ -2355,7 +2355,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/G}{G}{2/U}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "210",
+			"collector_number": "209",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/235.png"
 			}
@@ -2365,7 +2365,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{U}",
 			"type": "Creature — Giant Bard",
-			"collector_number": "211",
+			"collector_number": "210",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/236.png"
 			}
@@ -2405,7 +2405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/R}{2/W}",
 			"type": "Sorcery",
-			"collector_number": "182",
+			"collector_number": "181",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/240.png"
 			}
@@ -2435,7 +2435,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U/R}{U/R}",
 			"type": "Legendary Creature — Siren Warrior",
-			"collector_number": "214",
+			"collector_number": "213",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/243.png"
 			}
@@ -2445,7 +2445,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Instant",
-			"collector_number": "195",
+			"collector_number": "194",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/244.png"
 			}
@@ -2475,7 +2475,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Enchantment Creature — Angel Advisor",
-			"collector_number": "202",
+			"collector_number": "201",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/247.png"
 			}
@@ -2485,7 +2485,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/W}{2/B}",
 			"type": "Sorcery",
-			"collector_number": "209",
+			"collector_number": "208",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/248.png"
 			}
@@ -2505,7 +2505,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/B}{2/G}",
 			"type": "Sorcery",
-			"collector_number": "201",
+			"collector_number": "200",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/250.png"
 			}
@@ -2543,7 +2543,7 @@
 		{
 			"name": "The Oldest Story",
 			"rarity": "rare",
-			"mana_cost": "{C}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Saga",
 			"collector_number": "141",
 			"image_uris": {
@@ -2555,7 +2555,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{G}{U}",
 			"type": "Legendary Creature — Elemental Plant Bard",
-			"collector_number": "187",
+			"collector_number": "186",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/255.png"
 			}
@@ -2613,7 +2613,7 @@
 		{
 			"name": "Amplification Construct",
 			"rarity": "rare",
-			"mana_cost": "{C}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Construct",
 			"collector_number": "39",
 			"image_uris": {
@@ -2625,7 +2625,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "Artifact",
-			"collector_number": "200",
+			"collector_number": "199",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/262.png"
 			}
@@ -2645,7 +2645,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{2/W}{W}{2/B}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "203",
+			"collector_number": "202",
 			"image_uris": {
 				"en": "https://khord22.github.io/sets/VGE-files/img/264.png"
 			}

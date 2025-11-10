@@ -1,4 +1,895 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Imprison Composer
+
+Even Stars Fall
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — Destroy up to one target enchantment or creature with power 4 or greater.
+II, III — Surveil 1 [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+[i]One bad performance sent her career tumbling to the gutter.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Destroy up to one target enchantment or creature with power 4 or greater.
+Surveil 1 [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+[i]One bad performance sent her career tumbling to the gutter.[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — Destroy up to one target enchantment or creature with power 4 or greater.
+II, III — Surveil 1 [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+[i]One bad performance sent her career tumbling to the gutter.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Destroy up to one target enchantment or creature with power 4 or greater.
+Surveil 1 [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+[i]One bad performance sent her career tumbling to the gutter.[/i]
+
+Auditioning Canon
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+I — Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+II — Draw a card.
+[i]It's a round, just follow me. One, Two, Three...[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+Draw a card.
+[i]It's a round, just follow me. One, Two, Three...[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+I — Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+II — Draw a card.
+[i]It's a round, just follow me. One, Two, Three...[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+Draw a card.
+[i]It's a round, just follow me. One, Two, Three...[/i]
+
+Reminiscent Tune
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+I — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+II — Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+I — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+II — Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II)[/i]
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+[i]You do not recognize the melody in the murmur.[/i]
+
+Subtle Silencer
+rules_text: Discard a card: This creature gets +1/+0 and gains deathtouch until end of turn. Activate only once each turn. => Whenever a lore counter is put on a permanent you control, surveil 1. If a nonland card is put into your graveyard this way this creature gets +1/+0 and gains deathtouch until end of turn. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]
+
+Mourning Soliliquist
+rules_text: {1}{B}, Pay 2 life: Create a Murmur token. Activate only if an enchantment left the battlefield this turn, and only once each turn as a sorcery. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i] => Whenever a creature card is put into a graveyard from anywhere for the first time each turn you may pay {B} and 2 life, if you do create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+
+Call of the Cruel
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Mill three cards.
+II — Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+III — You may sacrifice a creature. If you do return a creature card from your graveyard to your hand. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill three cards.
+Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+You may sacrifice a creature. If you do return a creature card from your graveyard to your hand.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Mill three cards.
+II — Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+III — You may sacrifice a creature. If you do return a creature card from your graveyard to your hand. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill three cards.
+Create a 1/1 blue and red Siren creature token with “{T}:Target creature can't block alone until end of turn. Activate only as a sorcery”
+You may sacrifice a creature. If you do return a creature card from your graveyard to your hand.
+
+Discordant Ditty
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards.
+I, II, III — Each player loses 1 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards.
+Each player loses 1 life.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards.
+I, II, III — Each player loses 1 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards.
+Each player loses 1 life.
+​
+
+Lightning Belt
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Choose one that hasn't been chosen —
+• This Saga deals 1 damage to target player.
+• This Saga deals 1 damage to target creature.
+• This Saga deals 1 damage to any target.
+[i]“It's not over til lightning strikes thrice”[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Choose one that hasn't been chosen —
+• This Saga deals 1 damage to target player.
+• This Saga deals 1 damage to target creature.
+• This Saga deals 1 damage to any target.
+[i]“It's not over til lightning strikes thrice”[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Choose one that hasn't been chosen —
+• This Saga deals 1 damage to target player.
+• This Saga deals 1 damage to target creature.
+• This Saga deals 1 damage to any target.
+[i]“It's not over til lightning strikes thrice”[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Choose one that hasn't been chosen —
+• This Saga deals 1 damage to target player.
+• This Saga deals 1 damage to target creature.
+• This Saga deals 1 damage to any target.
+[i]“It's not over til lightning strikes thrice”[/i]
+​
+
+Nature's Duet
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 2/2 green Elemental creature token.
+III — Put a +1/+1 counter on target creature you control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Put a +1/+1 counter on target creature you control.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 2/2 green Elemental creature token.
+III — Put a +1/+1 counter on target creature you control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Put a +1/+1 counter on target creature you control.
+​
+
+Short-Lived Soloist
+
+Countros Assailants
+
+Countros Figurehead
+rules_text: First strike, ward—Pay 3 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]
+Spells that target only this creature cost {2} less to cast. => First strike, ward—Pay 3 life [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]
+Spells that target only this creature cost {2} less to cast.
+
+Shattering Song
+rules_text: Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+I — Destroy up to one target artifact or tapped creature with toughness 3 or less.
+II, III — Target creature you control gains double strike until end of turn.
+​ => Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+Destroy up to one target artifact or tapped creature with toughness 3 or less.
+Target creature you control gains double strike until end of turn.
+​
+special_text: Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+I — Destroy up to one target artifact or tapped creature with toughness 3 or less.
+II, III — Target creature you control gains double strike until end of turn.
+​ => Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+Destroy up to one target artifact or tapped creature with toughness 3 or less.
+Target creature you control gains double strike until end of turn.
+​
+
+Olgal Murmur Leader
+
+Suddenstar's Gift
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Flash
+I — Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+II — Create a 5/7 green Leviathan creature token with trample. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Flash
+Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Create a 5/7 green Leviathan creature token with trample.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Flash
+I — Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+II — Create a 5/7 green Leviathan creature token with trample. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Flash
+Draw a card, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Create a 5/7 green Leviathan creature token with trample.
+
+Reoccuring Terror
+
+Gathering Whispers
+cost: {2}{B}{G} => {2}{BG}{BG}
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Create a 1/1 black and green Elf creature token.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+You lose 1 life, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Create a 1/1 black and green Elf creature token.
+III — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Create a 1/1 black and green Elf creature token.
+You lose 1 life, create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+​
+
+Rampaging Bellower
+
+Da Cappa al Coda
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I, II — Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]
+​
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I, II — Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Exile target instant, sorcery, or Saga card from your graveyard. You may cast a copy of that card. [i](Copies of permanents enter as tokens.)[/i]
+​
+​
+
+Olgal's Calling
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI)[/i]
+I, II, III, IV, V, VI — Add {C}.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI)[/i]
+Add {C}.
+​
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI)[/i]
+I, II, III, IV, V, VI — Add {C}.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI)[/i]
+Add {C}.
+​
+​
+
+Standard Repertoire
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Put a +1/+1 counter on up to one target creature.
+III — Target creature gains vigilance and trample until end of turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Put a +1/+1 counter on up to one target creature.
+Target creature gains vigilance and trample until end of turn.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II — Put a +1/+1 counter on up to one target creature.
+III — Target creature gains vigilance and trample until end of turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Put a +1/+1 counter on up to one target creature.
+Target creature gains vigilance and trample until end of turn.
+​
+
+Mnemonic Tune
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II, III — Draw a card
+[i]Every child learns these kinds of tunes, though different on each plane, you probably know one.[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Draw a card
+[i]Every child learns these kinds of tunes, though different on each plane, you probably know one.[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I, II, III — Draw a card
+[i]Every child learns these kinds of tunes, though different on each plane, you probably know one.[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Draw a card
+[i]Every child learns these kinds of tunes, though different on each plane, you probably know one.[/i]
+​
+
+Choir Loft
+
+Vocalists Round
+
+Reverberant Shore
+
+Anechoic Chamber
+
+Crumbling Stage
+
+Siren
+
+Wall
+
+Elemental
+
+Ascending Bassline
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target player discards a card.
+I, II, III — Exile target creature card in a graveyard. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target player discards a card.
+Exile target creature card in a graveyard. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target player discards a card.
+I, II, III — Exile target creature card in a graveyard. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target player discards a card.
+Exile target creature card in a graveyard. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+​
+
+Entombing Chant
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Search your library for a card, put that card into your graveyard, the shuffle.
+II — Draw a card. You lose 2 life.
+III — Shuffle your graveyard into your library. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, the shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Search your library for a card, put that card into your graveyard, the shuffle.
+II — Draw a card. You lose 2 life.
+III — Shuffle your graveyard into your library. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, the shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library.
+
+Obliesse, Tear Queller
+
+Worst Critique
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile up to one target creature.
+II — Exile the top card of each players library.
+III — You may cast a card exiled with this Saga by paying life equal to its mana value rather than paying its mana cost. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Exile up to one target creature.
+Exile the top card of each players library.
+You may cast a card exiled with this Saga by paying life equal to its mana value rather than paying its mana cost.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile up to one target creature.
+II — Exile the top card of each players library.
+III — You may cast a card exiled with this Saga by paying life equal to its mana value rather than paying its mana cost. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Exile up to one target creature.
+Exile the top card of each players library.
+You may cast a card exiled with this Saga by paying life equal to its mana value rather than paying its mana cost.
+
+Lethal Lead
+type: Creature => Creature — Human Bard
+
+Drifting Looter
+
+Stable Resolution
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — Exile target creature with mana value 2 or less until this Saga leaves the battlefield.
+II — Create a 0/3 white Wall artifact creature token with defender.
+III — Draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Exile target creature with mana value 2 or less until this Saga leaves the battlefield.
+Create a 0/3 white Wall artifact creature token with defender.
+Draw a card.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — Exile target creature with mana value 2 or less until this Saga leaves the battlefield.
+II — Create a 0/3 white Wall artifact creature token with defender.
+III — Draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+Exile target creature with mana value 2 or less until this Saga leaves the battlefield.
+Create a 0/3 white Wall artifact creature token with defender.
+Draw a card.
+
+Belia, Whispersinger
+
+Mentromone Meister
+
+Kitt Kanto, on Tour
+
+Dynamic Lead
+
+Medley of The Past
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Put a lore counter on target permanent you control.
+II, III — Put a +1/+1 counter on target creature you control.
+IV — Draw a card for each other permanent you control with a counter on it. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Put a lore counter on target permanent you control.
+Put a +1/+1 counter on target creature you control.
+Draw a card for each other permanent you control with a counter on it.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Put a lore counter on target permanent you control.
+II, III — Put a +1/+1 counter on target creature you control.
+IV — Draw a card for each other permanent you control with a counter on it. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Put a lore counter on target permanent you control.
+Put a +1/+1 counter on target creature you control.
+Draw a card for each other permanent you control with a counter on it.
+
+Call and Response
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 2/2 green Elemental creature token.
+II — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+III — Create a token copy of each of up to two target tokens. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 2/2 green Elemental creature token.
+II — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+III — Create a token copy of each of up to two target tokens. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 2/2 green Elemental creature token.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Create a token copy of each of up to two target tokens.
+
+Sennai, Songclade's Start
+
+Rearrange
+rules_text: Move any number of counters from target nonland permanent onto another target permanent with the same controller. 
+Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i] => Move any number of counters from target permanent you control to another target permanent you control. Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+
+Siren Choir
+
+Leit, Maritime Motif
+
+Swelling Awakener
+
+Recovered Tale
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Target creature you control gets +3/+3 and gains flying until end of turn.
+II, III — Search you library and graveyard for an enchantment card, reveal it, put it into your hand. Then shuffle.
+Enchantment spells you cast cost {W}[i](or {1})[/i] less to cast this turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target creature you control gets +3/+3 and gains flying until end of turn.
+Search you library and graveyard for an enchantment card, reveal it, put it into your hand. Then shuffle.
+Enchantment spells you cast cost {W}[i](or {1})[/i] less to cast this turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Target creature you control gets +3/+3 and gains flying until end of turn.
+II, III — Search you library and graveyard for an enchantment card, reveal it, put it into your hand. Then shuffle.
+Enchantment spells you cast cost {W}[i](or {1})[/i] less to cast this turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Target creature you control gets +3/+3 and gains flying until end of turn.
+Search you library and graveyard for an enchantment card, reveal it, put it into your hand. Then shuffle.
+Enchantment spells you cast cost {W}[i](or {1})[/i] less to cast this turn.
+
+Ancestral Tale
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I, II, III — You may pay {CU} or discard a card, if you do put a lore counter on target permanent you control.
+IV — Draw three cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+You may pay {CU} or discard a card, if you do put a lore counter on target permanent you control.
+Draw three cards.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I, II, III — You may pay {CU} or discard a card, if you do put a lore counter on target permanent you control.
+IV — Draw three cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+You may pay {CU} or discard a card, if you do put a lore counter on target permanent you control.
+Draw three cards.
+​
+
+Gastal Requiem
+rules_text: As an additional cost to cast this spell discard X cards.
+Gain control of target creature with mana value X until end of turn. It gains haste until end of turn. Then draw X cards.
+[i]Finale —[/i] Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it. => As an additional cost to cast this spell discard X cards.
+Gain control of target creature with mana value X until end of turn. Untap it. It gains haste until end of turn. Then draw X cards.
+[i]Finale —[/i] Whenever an enchantment is put into your graveyard from the battlefield, you may cast this card from your graveyard, then exile it.
+
+Open Air Theater
+rules_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {W}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {W}.
+Add one mana of any color.
+​
+special_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {W}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {W}.
+Add one mana of any color.
+​
+
+Shoreline Theater
+rules_text: {T}: Add {C}.[i]
+[/i]{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it.[i] [i](Sacrifice after III.)[/i][/i]
+I, II — Add {U}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.[i]
+[/i]{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it.[i] [i](Sacrifice after III.)[/i][/i]
+Add {U}.
+Add one mana of any color.
+​
+special_text: {T}: Add {C}.[i]
+[/i]{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it.[i] [i](Sacrifice after III.)[/i][/i]
+I, II — Add {U}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.[i]
+[/i]{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it.[i] [i](Sacrifice after III.)[/i][/i]
+Add {U}.
+Add one mana of any color.
+​
+
+Song of Songs
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+III — Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+III — Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a Saga card that doesn't share a name with a Saga you control, put it onto the battlefield, then shuffle.
+Search your library for a legendary creature card that doesn't share a name with a legendary creature you control, put it onto the battlefield, then shuffle.
+Search your library for a Planeswalker card that doesn't share a planeswalker type with a Planeswalker you control, put it onto the battlefield, then shuffle.
+
+Pledge of Silence
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Destroy target enchantment, token, or nonbasic land.
+II — Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+III — Put a +1/+1 counter on each Elf you control.
+IV — Proliferate [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Destroy target enchantment, token, or nonbasic land.
+Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+Put a +1/+1 counter on each Elf you control.
+Proliferate [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Destroy target enchantment, token, or nonbasic land.
+II — Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+III — Put a +1/+1 counter on each Elf you control.
+IV — Proliferate [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Destroy target enchantment, token, or nonbasic land.
+Create a 1/1 black and green Elf creature token for each enchantment card in your graveyard.
+Put a +1/+1 counter on each Elf you control.
+Proliferate [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+
+Skylight Theater
+rules_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {R}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {R}.
+Add one mana of any color.
+​
+special_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {R}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {R}.
+Add one mana of any color.
+​
+
+Spirit Siren
+rules_text: Haste
+Whenever this creature dies, return it to the battlefield, except it's a Saga without this ability.
+Whenever a creature attacks alone, put a lore counter on this enchantment.
+{3ch.png}— After this phase there is an additional combat phase. => Haste
+Whenever this creature dies, return it to the battlefield, except it's a Saga enchantment without this ability. [i](It's no longer a creature)[/i]
+Whenever a creature attacks alone, put a lore counter on this enchantment.
+{3ch.png}— After this phase there is an additional combat phase.
+
+Song of Blue Yonder
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Untap all creatures you control.
+II — Draw a card.
+III — You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+IV — Sirens you control gain flying until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Untap all creatures you control.
+Draw a card.
+You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+Sirens you control gain flying until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Untap all creatures you control.
+II — Draw a card.
+III — You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+IV — Sirens you control gain flying until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Untap all creatures you control.
+Draw a card.
+You may cast Saga, Siren, and sorcery spells as though they had flash until your next turn.
+Sirens you control gain flying until end of turn.
+
+Rondelli Pledge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw three cards, then discard a card.
+I — Noncreature spells you cast this turn cost {2} less to cast.
+II — Whenever you cast a noncreature spell this turn, Siren and enchantment creatures you control get +1/+1 until end of turn.
+III — Creatures you control gain trample until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw three cards, then discard a card.
+Noncreature spells you cast this turn cost {2} less to cast.
+Whenever you cast a noncreature spell this turn, Siren and enchantment creatures you control get +1/+1 until end of turn.
+Creatures you control gain trample until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw three cards, then discard a card.
+I — Noncreature spells you cast this turn cost {2} less to cast.
+II — Whenever you cast a noncreature spell this turn, Siren and enchantment creatures you control get +1/+1 until end of turn.
+III — Creatures you control gain trample until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw three cards, then discard a card.
+Noncreature spells you cast this turn cost {2} less to cast.
+Whenever you cast a noncreature spell this turn, Siren and enchantment creatures you control get +1/+1 until end of turn.
+Creatures you control gain trample until end of turn.
+
+Sing Con Vivace
+cost: {3}{U}{R} => {2}{U}{R}
+
+Funeral Dirge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Exile all graveyards.
+II, III, IV — You may cast a creature card exiled by this Saga by paying life equal to its mana value instead of its mana cost.
+Each player loses life equal to the number of cards in their hand. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Exile all graveyards.
+You may cast a creature card exiled by this Saga by paying life equal to its mana value instead of its mana cost.
+Each player loses life equal to the number of cards in their hand.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Exile all graveyards.
+II, III, IV — You may cast a creature card exiled by this Saga by paying life equal to its mana value instead of its mana cost.
+Each player loses life equal to the number of cards in their hand. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Exile all graveyards.
+You may cast a creature card exiled by this Saga by paying life equal to its mana value instead of its mana cost.
+Each player loses life equal to the number of cards in their hand.
+
+Tremolos Pledge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Return target nonland permanent to its owner's hand.
+II — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+III — You may pay {X}. If you do creatures you control have size X/X until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Return target nonland permanent to its owner's hand.
+II — Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+III — You may pay {X}. If you do creatures you control have size X/X until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Return target nonland permanent to its owner's hand.
+Create a Murmur token. [i](It's a colorless Saga Murmur enchantment with “{2ch.png},{3ch.png}— Add {C}.”)[/i]
+Whenever an ability of a permanent you control would add {U}, {G}, or {C} this turn it add an additional {C}.
+You may pay {X}. If you do creatures you control have size X/X until end of turn.
+
+Murmuring Flames
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)[/i]
+I, II — This Saga gains “Whenever you exile one or more cards from anywhere, put a lore counter on this Saga.”
+III, IV — This Saga deals 1 damage to each opponent. Then add {C}.
+V — This Saga deals 1 damage to each opponent. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)[/i]
+This Saga gains “Whenever you exile one or more cards from anywhere, put a lore counter on this Saga.”
+This Saga deals 1 damage to each opponent. Then add {C}.
+This Saga deals 1 damage to each opponent.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)[/i]
+I, II — This Saga gains “Whenever you exile one or more cards from anywhere, put a lore counter on this Saga.”
+III, IV — This Saga deals 1 damage to each opponent. Then add {C}.
+V — This Saga deals 1 damage to each opponent. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)[/i]
+This Saga gains “Whenever you exile one or more cards from anywhere, put a lore counter on this Saga.”
+This Saga deals 1 damage to each opponent. Then add {C}.
+This Saga deals 1 damage to each opponent.
+
+Countros Pledge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Each creature you control deals 1 damage to any target.
+II — Creatures you control gain lifelink until end of turn.
+Creatures you control gain exalted, exalted until end of turn.
+III — Creatures you control gain indestructible and trample until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Each creature you control deals 1 damage to any target.
+Creatures you control gain lifelink until end of turn.
+Creatures you control gain exalted, exalted until end of turn.
+Creatures you control gain indestructible and trample until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Each creature you control deals 1 damage to any target.
+II — Creatures you control gain lifelink until end of turn.
+Creatures you control gain exalted, exalted until end of turn.
+III — Creatures you control gain indestructible and trample until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Each creature you control deals 1 damage to any target.
+Creatures you control gain lifelink until end of turn.
+Creatures you control gain exalted, exalted until end of turn.
+Creatures you control gain indestructible and trample until end of turn.
+
+Soaring Conductor
+rules_text: Flying
+As long as you control another creature, this enchantment is a Saga.
+{1ch.png}— Put three +1/+1 counters on target creature you control.
+{2ch.png}— Destroy target creature.
+{3ch.png}— Each player chooses a creature they control, and then sacrifices the rest. => Flying
+As long as you control another creature, this enchantment is a Saga enchantment. [i](It's not a creature)[/i]
+{1ch.png}— Put three +1/+1 counters on target creature you control.
+{2ch.png}— Destroy target creature.
+{3ch.png}— Each player chooses a creature they control, and then sacrifices the rest.
+
+Count Off
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Draw a card.
+II — Target creature gets +2/+2 until end of turn.
+III — You gain 3 life.
+IV — Add {C}{C}{C}{C}. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw a card.
+Target creature gets +2/+2 until end of turn.
+You gain 3 life.
+Add {C}{C}{C}{C}.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Draw a card.
+II — Target creature gets +2/+2 until end of turn.
+III — You gain 3 life.
+IV — Add {C}{C}{C}{C}. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Draw a card.
+Target creature gets +2/+2 until end of turn.
+You gain 3 life.
+Add {C}{C}{C}{C}.
+
+The Oldest Story
+rules_text: Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]
+I — Create a 1/1 black and green Elf creature token.
+II, III — Put a +1/+1 counter on target creature you control it gains trample until end of turn.
+IV — Target creature you control deals damage equal to its power to target creature or planeswalker. => Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]
+Create a 1/1 black and green Elf creature token.
+Put a +1/+1 counter on target creature you control it gains trample until end of turn.
+Target creature you control deals damage equal to its power to target creature or planeswalker.
+special_text: Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]
+I — Create a 1/1 black and green Elf creature token.
+II, III — Put a +1/+1 counter on target creature you control it gains trample until end of turn.
+IV — Target creature you control deals damage equal to its power to target creature or planeswalker. => Read Ahead [i](Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after IV.)[/i]
+Create a 1/1 black and green Elf creature token.
+Put a +1/+1 counter on target creature you control it gains trample until end of turn.
+Target creature you control deals damage equal to its power to target creature or planeswalker.
+
+Pel's Compound Duple
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI.)[/i]
+I, II, III — Trigger target {1ch.png} chapter ability of another target Saga.
+IV, V, VI — Trigger target {2ch.png} chapter ability of another target Saga.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI.)[/i]
+Trigger target {1ch.png} chapter ability of another target Saga.
+Trigger target {2ch.png} chapter ability of another target Saga.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI.)[/i]
+I, II, III — Trigger target {1ch.png} chapter ability of another target Saga.
+IV, V, VI — Trigger target {2ch.png} chapter ability of another target Saga.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI.)[/i]
+Trigger target {1ch.png} chapter ability of another target Saga.
+Trigger target {2ch.png} chapter ability of another target Saga.
+​
+
+Earthbound Theater
+rules_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {B}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {B}.
+Add one mana of any color.
+​
+special_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {B}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {B}.
+Add one mana of any color.
+​
+
+Rooted Theater
+rules_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {G}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {G}.
+Add one mana of any color.
+​
+special_text: {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+I, II — Add {G}.
+III — Add one mana of any color.
+​ => {T}: Add {C}.
+{T}: This land becomes a Saga enchantment until end of turn. Put a lore counter on it. [i](Sacrifice after III.)[/i]
+Add {G}.
+Add one mana of any color.
+​
+
+Soloists Pledge
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Destroy all creatures.
+II — Creature spells cost {2} more to cast until your next turn.
+III — Return target creature card from your graveyard to the battlefield.
+IV — Target creature gets +1/+1 for each creature card in all graveyards. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Destroy all creatures.
+Creature spells cost {2} more to cast until your next turn.
+Return target creature card from your graveyard to the battlefield.
+Target creature gets +1/+1 for each creature card in all graveyards.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Destroy all creatures.
+II — Creature spells cost {2} more to cast until your next turn.
+III — Return target creature card from your graveyard to the battlefield.
+IV — Target creature gets +1/+1 for each creature card in all graveyards. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Destroy all creatures.
+Creature spells cost {2} more to cast until your next turn.
+Return target creature card from your graveyard to the battlefield.
+Target creature gets +1/+1 for each creature card in all graveyards.
+
+Sudden Screeching
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+I — This Saga deals 2 damage to target creature or planeswalker.
+II, III — Target creature can't block alone until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+This Saga deals 2 damage to target creature or planeswalker.
+Target creature can't block alone until end of turn.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+I — This Saga deals 2 damage to target creature or planeswalker.
+II, III — Target creature can't block alone until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+This Saga deals 2 damage to target creature or planeswalker.
+Target creature can't block alone until end of turn.
+
+Ascent of the Worthy
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Choose a creature you control. Until your next turn, all damage that would be dealt to creatures you control is dealt to that creature instead.
+III — Return target creature card from your graveyard to the battlefield with a flying counter on it. That creature is an Angel Warrior in addition to its other types.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Choose a creature you control. Until your next turn, all damage that would be dealt to creatures you control is dealt to that creature instead.
+Return target creature card from your graveyard to the battlefield with a flying counter on it. That creature is an Angel Warrior in addition to its other types.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Choose a creature you control. Until your next turn, all damage that would be dealt to creatures you control is dealt to that creature instead.
+III — Return target creature card from your graveyard to the battlefield with a flying counter on it. That creature is an Angel Warrior in addition to its other types.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Choose a creature you control. Until your next turn, all damage that would be dealt to creatures you control is dealt to that creature instead.
+Return target creature card from your graveyard to the battlefield with a flying counter on it. That creature is an Angel Warrior in addition to its other types.
+​
+
+Korvold and the Noble Thief
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Exile the top three cards of target opponent's library. You may play those cards this turn.
+​
+
+Song of Freyalise
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Until your next turn, creatures you control gain “{T}: Add one mana of any color.”
+III — Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Until your next turn, creatures you control gain “{T}: Add one mana of any color.”
+Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Until your next turn, creatures you control gain “{T}: Add one mana of any color.”
+III — Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Until your next turn, creatures you control gain “{T}: Add one mana of any color.”
+Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.
+​
+
+The Bath Song
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Draw two cards, then discard a card.
+III — Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards, then discard a card.
+Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Draw two cards, then discard a card.
+III — Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw two cards, then discard a card.
+Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.
+​
+
+The Eldest Reborn
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Each opponent sacrifices a creature or planeswalker.
+Each opponent discards a card.
+II — Put target creature or planeswalker card from a graveyard onto the battlefield under your control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Each opponent sacrifices a creature or planeswalker.
+Each opponent discards a card.
+Put target creature or planeswalker card from a graveyard onto the battlefield under your control.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Each opponent sacrifices a creature or planeswalker.
+Each opponent discards a card.
+II — Put target creature or planeswalker card from a graveyard onto the battlefield under your control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Each opponent sacrifices a creature or planeswalker.
+Each opponent discards a card.
+Put target creature or planeswalker card from a graveyard onto the battlefield under your control.
+
+Murmur
+
+Elf
+
+Leviathan
+
+Human
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Tuck Within Harmony added.

@@ -1,4 +1,53 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+
+
+Mistral Singer
+
+Privledged Performer
+rules_text: Vigilance, hexproof
+As long as you control a permanent with a lore counter on it you can't lose the game and your opponents can't win the game. => Vigilance, ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+As long as you control a nonland permanent with a lore counter on it you can't lose the game and your opponents can't win the game.
+
+Strict Rehearsal
+rules_text: Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+I — Create a 2/2 green Elemental creature token.
+II — Put two +1/+1 counters on target creature you control.
+III — Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.
+IV — Draw a card. => Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+Create a 2/2 green Elemental creature token.
+Put two +1/+1 counters on target creature you control.
+Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.
+Draw a card.
+special_text: Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+I — Create a 2/2 green Elemental creature token.
+II — Put two +1/+1 counters on target creature you control.
+III — Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.
+IV — Draw a card. => Exalted [i](Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)[/i]
+Create a 2/2 green Elemental creature token.
+Put two +1/+1 counters on target creature you control.
+Whenever a creature you control attacks alone this turn, exile this saga, then return it to the battlefield.
+Draw a card.
+
+Murmur
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — [i]“Their song echos on and on.”[/i]
+II, III — Add {C}. 
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+[i]“Their song echos on and on.”[/i]
+Add {C}. 
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+I — [i]“Their song echos on and on.”[/i]
+II, III — Add {C}. 
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III)[/i]
+[i]“Their song echos on and on.”[/i]
+Add {C}. 
+​
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

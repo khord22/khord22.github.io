@@ -3169,7 +3169,7 @@
 	4 Blessing Barker
 	4 Olgal Composer
 	4 Beat Boxer
-[common(7)]
+[common(6)]
 	8 Backup Singer
 	8 Mute Healer
 	8 Countros Soprano

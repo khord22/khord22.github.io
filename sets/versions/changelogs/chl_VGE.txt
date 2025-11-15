@@ -1,4 +1,26 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Entombing Chant
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, the shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, then shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, the shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Search your library for a card, put that card into your graveyard, then shuffle.
+Draw a card. You lose 2 life.
+Shuffle your graveyard into your library.
+
+
+VERSION 7 CHANGELOG
 ====================
 
 

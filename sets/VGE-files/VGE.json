@@ -3,7 +3,7 @@
     "formats": "Standard",
     "trimmed": "y",
     "image_type": "png",
-    "draft_structure": "none",
+    "draft_structure": "play booster",
     "unpreviewed": "card back",
     "image_name": "position",
     "v_mana": "ch.png",
@@ -2316,10 +2316,10 @@
             "number": 77,
             "color_identity": "B",
             "cost": "{B}{B}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a card, put that card into your graveyard, the shuffle.\nDraw a card. You lose 2 life.\nShuffle your graveyard into your library.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a card, put that card into your graveyard, then shuffle.\nDraw a card. You lose 2 life.\nShuffle your graveyard into your library.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a card, put that card into your graveyard, the shuffle.\nDraw a card. You lose 2 life.\nShuffle your graveyard into your library.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSearch your library for a card, put that card into your graveyard, then shuffle.\nDraw a card. You lose 2 life.\nShuffle your graveyard into your library.",
             "shape": "saga",
             "set": "VGE",
             "loyalty": "",
@@ -5989,5 +5989,5 @@
             "notes": "!token\n!related Totentanz, Murmur Maginifier <x>;"
         }
     ],
-    "version": 7
+    "version": 8
 }
